@@ -1,0 +1,14 @@
+{
+  "header": {
+    "aboutUs": "About Us",
+    "tours": "Tours",
+    "partners": "Partners",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "From Rio to the World: Travel with Kerotur",
+    "subtitle": "Your trusted agency for unforgettable trips. Tours, accommodation and tickets at the best prices.",
+    "whatsappButton": "Contact Us on WhatsApp",
+    "toursButton": "View Tours"
+  }
+}

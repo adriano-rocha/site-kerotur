@@ -1,0 +1,14 @@
+{
+  "header": {
+    "aboutUs": "Sobre nós",
+    "tours": "Passeios",
+    "partners": "Parceiros",
+    "contact": "Contato"
+  },
+  "hero": {
+    "title": "Do Rio para o Mundo: Viaje com a Kerotur",
+    "subtitle": "Sua agência de confiança para viagens inesquecíveis. Passeios, hospedagem e passagens com os melhores preços.",
+    "whatsappButton": "Fale Conosco no WhatsApp",
+    "toursButton": "Ver Passeios"
+  }
+}
