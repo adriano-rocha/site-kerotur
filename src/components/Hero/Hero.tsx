@@ -4,28 +4,32 @@ function Hero() {
   const { t } = useTranslation()
 
   return (
-    <section className="relative bg-gradient-to-r from-blue-600 to-blue-800 text-white py-20">
+    <section className="relative bg-linear-to-r from-blue-600 to-blue-800 text-white py-12 md:py-20 overflow-hidden">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl">
-          <h2 className="text-5xl font-bold mb-4">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
             {t('hero.title')}
           </h2>
-          <p className="text-xl mb-8 text-blue-100">
+          <p className="text-base md:text-lg lg:text-xl mb-6 md:mb-8 text-blue-100">
             {t('hero.subtitle')}
           </p>
-          <div className="flex gap-4">
+          <div className="flex flex-col sm:flex-row gap-3 md:gap-4">
             <a 
               href="https://wa.me/5521982251450" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-8 rounded-lg transition duration-300 flex items-center gap-2"
+              className="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 md:px-8 rounded-lg transition duration-300 flex items-center justify-center gap-2 text-sm md:text-base"
             >
-              <span>💬</span>
+              <img 
+                src="/images/whats.png" 
+                alt="WhatsApp" 
+                className="w-6 h-6 rounded"
+              />
               {t('hero.whatsappButton')}
             </a>
             <a 
               href="#passeios"
-              className="bg-white text-blue-600 hover:bg-blue-50 font-bold py-3 px-8 rounded-lg transition duration-300"
+              className="bg-white text-blue-600 hover:bg-blue-50 font-bold py-3 px-6 md:px-8 rounded-lg transition duration-300 text-center text-sm md:text-base"
             >
               {t('hero.toursButton')}
             </a>
@@ -33,11 +37,13 @@ function Hero() {
         </div>
       </div>
       
-      {/* Elemento decorativo */}
-      <div className="absolute bottom-0 right-0 opacity-10">
-        <svg width="400" height="400" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-          <path fill="#FFFFFF" d="M45.3,-57.6C58.3,-49.1,68.5,-34.7,72.4,-18.8C76.3,-3,73.9,14.3,66.4,28.4C58.9,42.5,46.3,53.4,32.1,59.7C17.9,66,-7.9,67.7,-29.4,62.1C-50.9,56.5,-68.1,43.6,-75.7,26.4C-83.3,9.2,-81.3,-12.3,-73.1,-30.1C-64.9,-47.9,-50.5,-62,-34.7,-70.1C-18.9,-78.2,-1.7,-80.3,13.8,-76.8C29.3,-73.3,32.3,-66.1,45.3,-57.6Z" transform="translate(100 100)" />
-        </svg>
+      {/* Imagem da família no canto direito - oculta em mobile */}
+      <div className="hidden md:block absolute bottom-0 right-0 w-80 h-80 lg:w-96 lg:h-96">
+        <img 
+          src="/images/familia.png" 
+          alt="Família viajando"
+          className="w-full h-full object-cover rounded-full opacity-80 shadow-2xl"
+        />
       </div>
     </section>
   )

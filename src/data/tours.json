@@ -1,0 +1,116 @@
+[
+  {
+    "id": "angra",
+    "name": {
+      "pt-BR": "Angra dos Reis",
+      "en": "Angra dos Reis",
+      "es": "Angra dos Reis"
+    },
+    "shortDescription": {
+      "pt-BR": "Paraíso tropical com 365 ilhas paradisíacas",
+      "en": "Tropical paradise with 365 paradisiacal islands",
+      "es": "Paraíso tropical con 365 islas paradisíacas"
+    },
+    "fullDescription": {
+      "pt-BR": "Angra dos Reis é um dos destinos mais procurados do litoral do Rio de Janeiro. Com suas águas cristalinas e paisagens de tirar o fôlego, oferece a experiência perfeita para quem busca contato com a natureza e relaxamento. O passeio inclui paradas nas principais ilhas e praias da região.",
+      "en": "Angra dos Reis is one of the most sought-after destinations on the coast of Rio de Janeiro. With its crystal-clear waters and breathtaking landscapes, it offers the perfect experience for those seeking contact with nature and relaxation. The tour includes stops at the main islands and beaches in the region.",
+      "es": "Angra dos Reis es uno de los destinos más buscados de la costa de Río de Janeiro. Con sus aguas cristalinas y paisajes impresionantes, ofrece la experiencia perfecta para quienes buscan contacto con la naturaleza y relajación. El paseo incluye paradas en las principales islas y playas de la región."
+    },
+    "image": "/images/angra.png",
+    "attractions": {
+      "pt-BR": ["Ilha Grande", "Lagoa Azul", "Praia do Dentista", "Ilha de Cataguases"],
+      "en": ["Ilha Grande", "Blue Lagoon", "Dentist Beach", "Cataguases Island"],
+      "es": ["Ilha Grande", "Laguna Azul", "Playa del Dentista", "Isla de Cataguases"]
+    },
+    "duration": {
+      "pt-BR": "1 dia (8h às 17h)",
+      "en": "1 day (8am to 5pm)",
+      "es": "1 día (8h a 17h)"
+    },
+    "price": {
+      "individual": "R$ 180,00",
+      "group": "R$ 150,00"
+    },
+    "included": {
+      "pt-BR": ["Transporte de lancha", "Guia turístico", "Colete salva-vidas", "Água e frutas"],
+      "en": ["Speedboat transportation", "Tour guide", "Life jacket", "Water and fruits"],
+      "es": ["Transporte en lancha", "Guía turístico", "Chaleco salvavidas", "Agua y frutas"]
+    }
+  },
+  {
+    "id": "paraty",
+    "name": {
+      "pt-BR": "Paraty",
+      "en": "Paraty",
+      "es": "Paraty"
+    },
+    "shortDescription": {
+      "pt-BR": "Cidade histórica cercada por praias paradisíacas",
+      "en": "Historic city surrounded by paradisiacal beaches",
+      "es": "Ciudad histórica rodeada de playas paradisíacas"
+    },
+    "fullDescription": {
+      "pt-BR": "Paraty é uma charmosa cidade colonial cercada por belezas naturais incríveis. O passeio combina história, cultura e natureza, passando pelo centro histórico preservado e pelas praias mais bonitas da região. Uma experiência única que une o melhor de dois mundos.",
+      "en": "Paraty is a charming colonial town surrounded by incredible natural beauty. The tour combines history, culture and nature, passing through the preserved historic center and the most beautiful beaches in the region. A unique experience that brings together the best of both worlds.",
+      "es": "Paraty es una encantadora ciudad colonial rodeada de increíbles bellezas naturales. El paseo combina historia, cultura y naturaleza, pasando por el centro histórico preservado y las playas más hermosas de la región. Una experiencia única que une lo mejor de dos mundos."
+    },
+    "image": "/images/paraty.avif",
+    "attractions": {
+      "pt-BR": ["Centro Histórico", "Praia do Sono", "Saco do Mamanguá", "Ilha do Pelado"],
+      "en": ["Historic Center", "Sono Beach", "Mamanguá Bay", "Pelado Island"],
+      "es": ["Centro Histórico", "Playa do Sono", "Saco do Mamanguá", "Isla do Pelado"]
+    },
+    "duration": {
+      "pt-BR": "1 dia (7h às 18h)",
+      "en": "1 day (7am to 6pm)",
+      "es": "1 día (7h a 18h)"
+    },
+    "price": {
+      "individual": "R$ 200,00",
+      "group": "R$ 170,00"
+    },
+    "included": {
+      "pt-BR": ["Transporte completo", "Guia bilíngue", "Almoço típico", "Visita ao centro histórico"],
+      "en": ["Complete transportation", "Bilingual guide", "Typical lunch", "Historic center visit"],
+      "es": ["Transporte completo", "Guía bilingüe", "Almuerzo típico", "Visita al centro histórico"]
+    }
+  },
+  {
+    "id": "buzios",
+    "name": {
+      "pt-BR": "Búzios",
+      "en": "Búzios",
+      "es": "Búzios"
+    },
+    "shortDescription": {
+      "pt-BR": "A Saint-Tropez brasileira, maravilhosa!",
+      "en": "The Brazilian Saint-Tropez with stunning beaches",
+      "es": "La Saint-Tropez brasileña con playas deslumbrantes"
+    },
+    "fullDescription": {
+      "pt-BR": "Búzios é conhecida internacionalmente por suas praias paradisíacas e vida noturna agitada. O passeio percorre as principais praias da península, incluindo paradas para banho de mar e fotos incríveis. Perfeito para quem busca sofisticação e belezas naturais em um só lugar.",
+      "en": "Búzios is internationally known for its paradisiacal beaches and vibrant nightlife. The tour covers the main beaches of the peninsula, including stops for swimming and incredible photos. Perfect for those seeking sophistication and natural beauty in one place.",
+      "es": "Búzios es conocida internacionalmente por sus playas paradisíacas y vida nocturna animada. El paseo recorre las principales playas de la península, incluyendo paradas para baño de mar y fotos increíbles. Perfecto para quienes buscan sofisticación y bellezas naturales en un solo lugar."
+    },
+    "image": "/images/buzios.png",
+    "attractions": {
+      "pt-BR": ["Praia da Ferradura", "João Fernandes", "Tartaruga", "Azeda e Azedinha", "Orla Bardot"],
+      "en": ["Ferradura Beach", "João Fernandes", "Tartaruga", "Azeda and Azedinha", "Bardot Boardwalk"],
+      "es": ["Playa da Ferradura", "João Fernandes", "Tartaruga", "Azeda y Azedinha", "Paseo Bardot"]
+    },
+    "duration": {
+      "pt-BR": "1 dia (8h às 19h)",
+      "en": "1 day (8am to 7pm)",
+      "es": "1 día (8h a 19h)"
+    },
+    "price": {
+      "individual": "R$ 220,00",
+      "group": "R$ 190,00"
+    },
+    "included": {
+      "pt-BR": ["Transporte executivo", "Guia especializado", "City tour", "Tempo livre para compras"],
+      "en": ["Executive transportation", "Specialized guide", "City tour", "Free time for shopping"],
+      "es": ["Transporte ejecutivo", "Guía especializado", "City tour", "Tiempo libre para compras"]
+    }
+  }
+]

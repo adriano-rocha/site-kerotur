@@ -10,5 +10,17 @@
     "subtitle": "Your trusted agency for unforgettable trips. Tours, accommodation and tickets at the best prices.",
     "whatsappButton": "Contact Us on WhatsApp",
     "toursButton": "View Tours"
+  },
+  "about": {
+    "title": "About Us",
+    "paragraph1": "Founded over 15 years ago in Niterói, Kerotur was born from the dream of turning travels into unforgettable experiences. We started our journey as a small family agency and, with dedication and passion for tourism, became a reference in Rio de Janeiro.",
+    "paragraph2": "Our mission is to provide unique moments to our clients, offering personalized packages, humanized service, and the best national and international destinations. We believe that every trip is a story waiting to be lived.",
+    "paragraph3": "With an experienced team passionate about travel, Kerotur is proud to have taken thousands of families to their dream destinations. Whether it's an international adventure or a regional tour, we're here to make your trip perfect from start to finish.",
+    "stats": {
+      "years": "Years of Experience",
+      "clients": "Satisfied Clients",
+      "destinations": "Destinations Offered",
+      "satisfaction": "Satisfaction"
+    }
   }
 }
