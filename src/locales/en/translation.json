@@ -22,5 +22,84 @@
       "destinations": "Destinations Offered",
       "satisfaction": "Satisfaction"
     }
+  },
+  "tours": {
+    "title": "Our Tours",
+    "subtitle": "Discover the most incredible destinations on the coast of Rio de Janeiro with all comfort and safety",
+    "card": {
+      "from": "From",
+      "group": "Group (per person)",
+      "details": "Learn more"
+    },
+    "modal": {
+      "about": "About the Tour",
+      "attractions": "Included Attractions",
+      "included": "What's included",
+      "duration": "Duration",
+      "priceIndividual": "Individual Price",
+      "priceGroup": "Group Price",
+      "reserve": "Reserve via WhatsApp"
+    }
+  },  "partners": {
+    "title": "Partners Around the World",
+    "subtitle": "Connecting you to the best national and international destinations",
+    "description": "Kerotur has a network of strategic partners that allows us to offer trips to various Brazilian states and countries around the world. Our experience and trust enable us to provide unique and unforgettable experiences.",
+    "feature1": {
+      "title": "Global Destinations",
+      "description": "Access to national and international destinations through certified partners"
+    },
+    "feature2": {
+      "title": "Trusted Partners",
+      "description": "We only work with recognized agencies and tour operators"
+    },
+    "feature3": {
+      "title": "Personalized Service",
+      "description": "We plan your trip according to your needs and budget"
+    },
+    "videoPlaceholder": "Meet our partners",
+    "badge": "Worldwide Travel",
+    "cta": "Discover Our Partner Destinations",
+    "ctaSubtext": "Talk to our specialists and discover the world"
+  },
+  "contact": {
+  "title": "Ready for your next adventure?",
+  "subtitle": "Get in touch and plan your dream trip with us",
+  "whatsapp": {
+    "title": "WhatsApp - Quick Service",
+    "description": "Instant response!"
+  },
+  "email": {
+    "title": "Email"
+  },
+  "phone": {
+    "title": "Phone"
+  },
+  "address": {
+    "title": "Our Address"
+  },
+  "hours": {
+    "title": "Business Hours",
+    "weekdays": "Monday to Friday: 9am to 6pm",
+    "saturday": "Saturday: 9am to 1pm",
+    "sunday": "Sunday: Closed"
+  },
+  "cta": {
+    "title": "Don't waste time!",
+    "description": "Our team is ready to create the perfect trip for you",
+    "button": "Talk to Specialist"
+  }
+}, 
+"footer": {
+    "description": "Your trusted agency for unforgettable trips. Tours, accommodation and tickets at the best prices.",
+    "quickLinks": "Quick Links",
+    "contact": "Contact",
+    "businessHours": "Business Hours",
+    "weekdays": "Monday - Friday",
+    "saturday": "Saturday",
+    "sunday": "Sunday",
+    "closed": "Closed",
+    "ctaWhatsapp": "Contact Us",
+    "rights": "All rights reserved",
+    "developedBy": "Developed by"
   }
 }

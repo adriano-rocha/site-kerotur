@@ -1,8 +1,8 @@
-import toursDataRaw from '../../data/tours.json'
-import { useState } from 'react'
+import { useState, useImperativeHandle, forwardRef } from 'react'
 import { useTranslation } from 'react-i18next'
 import TourCard from './TourCard'
 import TourModal from './TourModal'
+import toursData from '../../data/tours.json'
 
 interface Tour {
   id: string
@@ -19,12 +19,30 @@ interface Tour {
   included: { [key: string]: string[] }
 }
 
-// Fazendo o cast seguro do JSON
-const toursData: Tour[] = toursDataRaw as Tour[];
+export interface TourSectionRef {
+  openTourById: (tourId: string) => void
+}
 
-function ToursSection() {
+const TourSection = forwardRef<TourSectionRef>((props, ref) => {
   const { t } = useTranslation()
   const [selectedTour, setSelectedTour] = useState<Tour | null>(null)
+
+  useImperativeHandle(ref, () => ({
+    openTourById: (tourId: string) => {
+      const tour = toursData.find(t => t.id === tourId)
+      if (tour) {
+        setSelectedTour(tour as Tour)
+        
+        // Scroll suave até a seção
+        setTimeout(() => {
+          document.getElementById('passeios')?.scrollIntoView({ 
+            behavior: 'smooth',
+            block: 'start'
+          })
+        }, 100)
+      }
+    }
+  }))
 
   return (
     <section id="passeios" className="py-16 md:py-24 bg-gray-50">
@@ -41,7 +59,7 @@ function ToursSection() {
             <TourCard
               key={tour.id}
               tour={tour}
-              onClick={() => setSelectedTour(tour)}
+              onClick={() => setSelectedTour(tour as Tour)}
             />
           ))}
         </div>
@@ -55,6 +73,8 @@ function ToursSection() {
       )}
     </section>
   )
-}
+})
 
-export default ToursSection
+TourSection.displayName = 'TourSection'
+
+export default TourSection

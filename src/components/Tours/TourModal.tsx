@@ -34,19 +34,38 @@ function TourModal({ tour, onClose }: TourModalProps) {
   // Fechar modal ao pressionar ESC
   useEffect(() => {
     const handleEsc = (e: KeyboardEvent) => {
-      if (e.key === 'Escape') onClose()
+      if (e.key === 'Escape') {
+        console.log('⌨️ ESC pressionado - fechando modal')
+        onClose()
+      }
     }
     window.addEventListener('keydown', handleEsc)
     return () => window.removeEventListener('keydown', handleEsc)
   }, [onClose])
 
+  // Handler para fechar ao clicar no overlay
+  const handleOverlayClick = (e: React.MouseEvent<HTMLDivElement>) => {
+    if (e.target === e.currentTarget) {
+      console.log('🖱️ Clicou no overlay - fechando modal')
+      onClose()
+    }
+  }
+
+  // Handler para o botão X
+  const handleCloseClick = (e: React.MouseEvent<HTMLButtonElement>) => {
+    e.preventDefault()
+    e.stopPropagation()
+    console.log('❌ Clicou no botão X - fechando modal')
+    onClose()
+  }
+
   return (
     <div 
       className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/70 backdrop-blur-sm"
-      onClick={onClose}
+      onClick={handleOverlayClick}
     >
       <div 
-        className="bg-white rounded-2xl max-w-4xl w-full max-h-[90vh] overflow-y-auto shadow-2xl"
+        className="bg-white rounded-2xl max-w-4xl w-full max-h-[90vh] overflow-y-auto shadow-2xl relative"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Header com imagem */}
@@ -55,18 +74,22 @@ function TourModal({ tour, onClose }: TourModalProps) {
             src={tour.image}
             alt={tour.name[currentLang] || tour.name["pt"]}
             loading="lazy"
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover rounded-t-2xl"
           />
+          
+          {/* Botão X - CORRIGIDO */}
           <button
-            onClick={onClose}
-            className="absolute top-4 right-4 bg-white/90 hover:bg-white text-gray-800 rounded-full p-2 transition duration-300"
-            aria-label="Fechar"
+            onClick={handleCloseClick}
+            type="button"
+            className="absolute top-4 right-4 bg-white/90 hover:bg-white text-gray-800 rounded-full p-2 transition duration-300 shadow-lg z-10 cursor-pointer"
+            aria-label="Fechar modal"
           >
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
             </svg>
           </button>
-          <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+          
+          <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent rounded-t-2xl"></div>
           <h2 className="absolute bottom-6 left-6 text-3xl md:text-4xl font-bold text-white">
             {tour.name[currentLang] || tour.name["pt"]}
           </h2>

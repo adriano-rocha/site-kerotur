@@ -22,5 +22,87 @@
       "destinations": "Destinos Oferecidos",
       "satisfaction": "Satisfação"
     }
+  },
+  "tours": {
+    "title": "Nossos Passeios",
+    "subtitle": "Conheça os destinos mais incríveis do litoral do Rio de Janeiro com todo conforto e segurança",
+    "card": {
+      "from": "A partir de",
+      "group": "Grupo (por pessoa)",
+      "details": "Saiba mais"
+    },
+    "modal": {
+      "about": "Sobre o Passeio",
+      "attractions": "Atrações Incluídas",
+      "included": "O que está incluso",
+      "duration": "Duração",
+      "priceIndividual": "Preço Individual",
+      "priceGroup": "Preço Grupo",
+      "reserve": "Reservar pelo WhatsApp"
+    }
+  },
+   "partners": {
+    "title": "Parceiros ao Redor do Mundo",
+    "subtitle": "Conectando você aos melhores destinos nacionais e internacionais",
+    "description": "A Kerotur possui uma rede de parceiros estratégicos que permite oferecer viagens para diversos estados brasileiros e países ao redor do mundo. Nossa experiência e confiança nos permitem proporcionar experiências únicas e inesquecíveis.",
+    "feature1": {
+      "title": "Destinos Globais",
+      "description": "Acesso a destinos nacionais e internacionais através de parceiros certificados"
+    },
+    "feature2": {
+      "title": "Parceiros Confiáveis",
+      "description": "Trabalhamos apenas com agências e operadoras reconhecidas no mercado"
+    },
+    "feature3": {
+      "title": "Atendimento Personalizado",
+      "description": "Planejamos sua viagem de acordo com suas necessidades e orçamento"
+    },
+    "videoPlaceholder": "Conheça nossos parceiros",
+    "badge": "Viagens Mundiais",
+    "cta": "Conheça Nossos Destinos Parceiros",
+    "ctaSubtext": "Fale com nossos especialistas e descubra o mundo"
+  },
+  "contact": {
+  "title": "Pronto para sua próxima aventura?",
+  "subtitle": "Entre em contato e planeje sua viagem dos sonhos conosco",
+  "whatsapp": {
+    "title": "WhatsApp - Atendimento Rápido",
+    "description": "Resposta imediata!"
+  },
+  "email": {
+    "title": "E-mail"
+  },
+  "phone": {
+    "title": "Telefone"
+  },
+  "address": {
+    "title": "Nosso Endereço"
+  },
+  "hours": {
+    "title": "Horário de Atendimento",
+    "weekdays": "Segunda a Sexta: 9h às 18h",
+    "saturday": "Sábado: 9h às 13h",
+    "sunday": "Domingo: Fechado"
+  },
+  "cta": {
+    "title": "Não perca tempo!",
+    "description": "Nossa equipe está pronta para criar a viagem perfeita para você",
+    "button": "Falar com Especialista"
   }
+},
+
+  "footer": {
+    "description": "Sua agência de confiança para viagens inesquecíveis. Passeios, hospedagem e passagens com os melhores preços.",
+    "quickLinks": "Links Rápidos",
+    "contactInfo": "Informações de Contato",
+    "businessHours": "Horário de Atendimento",
+    "weekdays": "Segunda - Sexta",
+    "saturday": "Sábado",
+    "sunday": "Domingo",
+    "closed": "Fechado",
+    "ctaWhatsapp": "Fale Conosco",
+    "rights": "Todos os direitos reservados",
+    "developedBy": "Desenvolvido por"
+  }
+
 }
