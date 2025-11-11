@@ -25,7 +25,7 @@ export interface TourSectionRef {
   openTourById: (tourId: string) => void
 }
 
-const TourSection = forwardRef<TourSectionRef>((props, ref) => {
+const TourSection = forwardRef<TourSectionRef>((_, ref) => {
   const { t } = useTranslation()
   const [selectedTour, setSelectedTour] = useState<Tour | null>(null)
 
