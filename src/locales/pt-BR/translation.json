@@ -104,6 +104,10 @@
     "rights": "Todos os direitos reservados",
     "developedBy": "Desenvolvido por"
   },
+  "testimonials": {
+  "title": "O Que Nossos Clientes Dizem",
+  "subtitle": "Milhares de viajantes satisfeitos compartilham suas experiências conosco"
+},
   "whatsapp": {
     "message": "Olá! Gostaria de mais informações sobre os passeios.",
     "tooltip": "Fale conosco agora!"

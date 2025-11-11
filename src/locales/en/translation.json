@@ -103,6 +103,10 @@
     "rights": "All rights reserved",
     "developedBy": "Developed by"
   },
+  "testimonials": {
+  "title": "What Our Clients Say",
+  "subtitle": "Thousands of satisfied travelers share their experiences with us"
+},
   "whatsapp": {
     "message": "Hello! I would like more information about the tours.",
     "tooltip": "Talk to us now!"

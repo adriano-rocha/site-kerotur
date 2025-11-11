@@ -9,6 +9,7 @@ import Partners from "./components/Partners/Partners";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import WhatsAppButton from "./components/WhatsAppButton/WhatsAppButton";
+import Testimonials from "./components/Testimonials/Testimonials";
 
 function App() {
   const [selectedTourId, setSelectedTourId] = useState<string | null>(null);
@@ -35,6 +36,7 @@ function App() {
       <About />
       <ToursSection />
       <Partners />
+      <Testimonials />
       <Contact />
       <Footer />
       <WhatsAppButton />
