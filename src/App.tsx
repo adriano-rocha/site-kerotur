@@ -8,6 +8,7 @@ import toursData from "./data/tours.json";
 import Partners from "./components/Partners/Partners";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
+import WhatsAppButton from "./components/WhatsAppButton/WhatsAppButton";
 
 function App() {
   const [selectedTourId, setSelectedTourId] = useState<string | null>(null);
@@ -35,7 +36,8 @@ function App() {
       <ToursSection />
       <Partners />
       <Contact />
-      <Footer /> 
+      <Footer />
+      <WhatsAppButton />
 
       {/* Modal de Tour */}
       {selectedTour && (

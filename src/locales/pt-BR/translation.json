@@ -41,7 +41,7 @@
       "reserve": "Reservar pelo WhatsApp"
     }
   },
-   "partners": {
+  "partners": {
     "title": "Parceiros ao Redor do Mundo",
     "subtitle": "Conectando você aos melhores destinos nacionais e internacionais",
     "description": "A Kerotur possui uma rede de parceiros estratégicos que permite oferecer viagens para diversos estados brasileiros e países ao redor do mundo. Nossa experiência e confiança nos permitem proporcionar experiências únicas e inesquecíveis.",
@@ -63,38 +63,38 @@
     "ctaSubtext": "Fale com nossos especialistas e descubra o mundo"
   },
   "contact": {
-  "title": "Pronto para sua próxima aventura?",
-  "subtitle": "Entre em contato e planeje sua viagem dos sonhos conosco",
-  "whatsapp": {
-    "title": "WhatsApp - Atendimento Rápido",
-    "description": "Resposta imediata!"
+    "title": "Pronto para sua próxima aventura?",
+    "subtitle": "Entre em contato e planeje sua viagem dos sonhos conosco",
+    "whatsapp": {
+      "title": "WhatsApp - Atendimento Rápido",
+      "description": "Resposta imediata!"
+    },
+    "email": {
+      "title": "E-mail"
+    },
+    "phone": {
+      "title": "Telefone"
+    },
+    "address": {
+      "title": "Nosso Endereço"
+    },
+    "hours": {
+      "title": "Horário de Atendimento",
+      "weekdays": "Segunda a Sexta: 9h às 18h",
+      "saturday": "Sábado: 9h às 13h",
+      "sunday": "Domingo: Fechado"
+    },
+    "cta": {
+      "title": "Não perca tempo!",
+      "description": "Nossa equipe está pronta para criar a viagem perfeita para você",
+      "button": "Falar com Especialista"
+    }
   },
-  "email": {
-    "title": "E-mail"
-  },
-  "phone": {
-    "title": "Telefone"
-  },
-  "address": {
-    "title": "Nosso Endereço"
-  },
-  "hours": {
-    "title": "Horário de Atendimento",
-    "weekdays": "Segunda a Sexta: 9h às 18h",
-    "saturday": "Sábado: 9h às 13h",
-    "sunday": "Domingo: Fechado"
-  },
-  "cta": {
-    "title": "Não perca tempo!",
-    "description": "Nossa equipe está pronta para criar a viagem perfeita para você",
-    "button": "Falar com Especialista"
-  }
-},
 
   "footer": {
     "description": "Sua agência de confiança para viagens inesquecíveis. Passeios, hospedagem e passagens com os melhores preços.",
     "quickLinks": "Links Rápidos",
-    "contactInfo": "Informações de Contato",
+    "contact": "Informações de Contato",
     "businessHours": "Horário de Atendimento",
     "weekdays": "Segunda - Sexta",
     "saturday": "Sábado",
@@ -103,6 +103,9 @@
     "ctaWhatsapp": "Fale Conosco",
     "rights": "Todos os direitos reservados",
     "developedBy": "Desenvolvido por"
+  },
+  "whatsapp": {
+    "message": "Olá! Gostaria de mais informações sobre os passeios.",
+    "tooltip": "Fale conosco agora!"
   }
-
 }

@@ -41,7 +41,7 @@
       "reserve": "Reservar por WhatsApp"
     }
   },
-   "partners": {
+  "partners": {
     "title": "Socios Alrededor del Mundo",
     "subtitle": "Conectándote con los mejores destinos nacionales e internacionales",
     "description": "Kerotur cuenta con una red de socios estratégicos que nos permite ofrecer viajes a varios estados brasileños y países alrededor del mundo. Nuestra experiencia y confianza nos permiten proporcionar experiencias únicas e inolvidables.",
@@ -63,34 +63,34 @@
     "ctaSubtext": "Habla con nuestros especialistas y descubre el mundo"
   },
   "contact": {
-  "title": "¿Listo para tu próxima aventura?",
-  "subtitle": "Contáctenos y planifique el viaje de sus sueños con nosotros",
-  "whatsapp": {
-    "title": "WhatsApp - Servicio Rápido",
-    "description": "¡Respuesta inmediata!"
+    "title": "¿Listo para tu próxima aventura?",
+    "subtitle": "Contáctenos y planifique el viaje de sus sueños con nosotros",
+    "whatsapp": {
+      "title": "WhatsApp - Servicio Rápido",
+      "description": "¡Respuesta inmediata!"
+    },
+    "email": {
+      "title": "Correo"
+    },
+    "phone": {
+      "title": "Teléfono"
+    },
+    "address": {
+      "title": "Nuestra Dirección"
+    },
+    "hours": {
+      "title": "Horario de Atención",
+      "weekdays": "Lunes a Viernes: 9h a 18h",
+      "saturday": "Sábado: 9h a 13h",
+      "sunday": "Domingo: Cerrado"
+    },
+    "cta": {
+      "title": "¡No pierda tiempo!",
+      "description": "Nuestro equipo está listo para crear el viaje perfecto para usted",
+      "button": "Hablar con Especialista"
+    }
   },
-  "email": {
-    "title": "Correo"
-  },
-  "phone": {
-    "title": "Teléfono"
-  },
-  "address": {
-    "title": "Nuestra Dirección"
-  },
-  "hours": {
-    "title": "Horario de Atención",
-    "weekdays": "Lunes a Viernes: 9h a 18h",
-    "saturday": "Sábado: 9h a 13h",
-    "sunday": "Domingo: Cerrado"
-  },
-  "cta": {
-    "title": "¡No pierda tiempo!",
-    "description": "Nuestro equipo está listo para crear el viaje perfecto para usted",
-    "button": "Hablar con Especialista"
-  }
-},
-"footer": {
+  "footer": {
     "description": "Tu agencia de confianza para viajes inolvidables. Tours, alojamiento y pasajes a los mejores precios.",
     "quickLinks": "Enlaces Rápidos",
     "contact": "Contacto",
@@ -102,5 +102,9 @@
     "ctaWhatsapp": "Contáctanos",
     "rights": "Todos los derechos reservados",
     "developedBy": "Desarrollado por"
+  },
+  "whatsapp": {
+    "message": "¡Hola! Me gustaría más información sobre los paseos.",
+    "tooltip": "¡Hable con nosotros ahora!"
   }
 }
