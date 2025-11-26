@@ -1,73 +1,49 @@
 {
   "header": {
-    "aboutUs": "Sobre nós",
+    "aboutUs": "Sobre Nós",
     "tours": "Passeios",
     "partners": "Parceiros",
     "contact": "Contato"
   },
   "hero": {
-    "title": "Do Rio para o Mundo: Viaje com a Kerotur",
-    "subtitle": "Sua agência de confiança para viagens inesquecíveis. Passeios, hospedagem e passagens com os melhores preços.",
-    "whatsappButton": "Fale Conosco no WhatsApp",
-    "toursButton": "Ver Passeios"
+    "title": "Do Rio para o Mundo",
+    "subtitle": "A Kerotur nasceu do desejo de levar alegria, diversão, cultura, entretenimento e aventura para quem quer descobrir as belezas e os encantos dos nossos destinos, de forma leve, segura e divertida.",
+    "whatsappButton": "Fale Conosco",
+    "learnMoreButton": "Saiba mais"
   },
   "about": {
     "title": "Sobre Nós",
-    "paragraph1": "Fundada há mais de 15 anos em Niterói, a Kerotur nasceu do sonho de transformar viagens em experiências inesquecíveis. Iniciamos nossa jornada como uma pequena agência familiar e, com dedicação e paixão pelo turismo, nos tornamos referência no Rio de Janeiro.",
-    "paragraph2": "Nossa missão é proporcionar momentos únicos aos nossos clientes, oferecendo pacotes personalizados, atendimento humanizado e os melhores destinos nacionais e internacionais. Acreditamos que cada viagem é uma história esperando para ser vivida.",
-    "paragraph3": "Com uma equipe experiente e apaixonada por viagens, a Kerotur se orgulha de ter levado milhares de famílias aos seus destinos dos sonhos. Seja uma aventura internacional ou um passeio regional, estamos aqui para tornar sua viagem perfeita do início ao fim.",
-    "stats": {
-      "years": "Anos de Experiência",
-      "clients": "Clientes Satisfeitos",
-      "destinations": "Destinos Oferecidos",
-      "satisfaction": "Satisfação"
-    }
+    "paragraph1": "A Kerotur nasceu do desejo de levar alegria, diversão, cultura, entretenimento e aventura para quem quer descobrir as belezas e os encantos dos nossos destinos, de forma leve, segura e divertida. Somos uma agência apaixonada por criar experiências únicas em nossos passeios!",
+    "paragraph2": "Aqui, cada roteiro é único e planejado com carinho. Cada parada tem história, causos e curiosidades que geram conhecimento. E já que conhecimento não ocupa espaço, encha sua bagagem com novas memórias!",
+    "paragraph3": "Seja para turistas brasileiros ou estrangeiros, a Kerotur é mais que uma agência: somos aquela ponte que faltava pra você sair da rotina, fazer novas amizades e colecionar momentos incríveis, inesquecíveis e formidáveis."
   },
   "tours": {
     "title": "Nossos Passeios",
-    "subtitle": "Conheça os destinos mais incríveis do litoral do Rio de Janeiro com todo conforto e segurança",
+    "subtitle": "Explore as belezas naturais, a cultura e os segredos mais incríveis do Rio de Janeiro com a Kerotur!",
     "card": {
       "from": "A partir de",
-      "group": "Grupo (por pessoa)",
-      "details": "Saiba mais"
+      "group": "Grupo",
+      "reserve": "Faça sua reserva"
     },
     "modal": {
       "about": "Sobre o Passeio",
-      "attractions": "Atrações Incluídas",
-      "included": "O que está incluso",
+      "attractions": "Atrações",
+      "included": "Inclusos",
       "duration": "Duração",
       "priceIndividual": "Preço Individual",
       "priceGroup": "Preço Grupo",
-      "reserve": "Reservar pelo WhatsApp"
+      "reserve": "Faça sua reserva"
     }
   },
-  "partners": {
-    "title": "Parceiros ao Redor do Mundo",
-    "subtitle": "Conectando você aos melhores destinos nacionais e internacionais",
-    "description": "A Kerotur possui uma rede de parceiros estratégicos que permite oferecer viagens para diversos estados brasileiros e países ao redor do mundo. Nossa experiência e confiança nos permitem proporcionar experiências únicas e inesquecíveis.",
-    "feature1": {
-      "title": "Destinos Globais",
-      "description": "Acesso a destinos nacionais e internacionais através de parceiros certificados"
-    },
-    "feature2": {
-      "title": "Parceiros Confiáveis",
-      "description": "Trabalhamos apenas com agências e operadoras reconhecidas no mercado"
-    },
-    "feature3": {
-      "title": "Atendimento Personalizado",
-      "description": "Planejamos sua viagem de acordo com suas necessidades e orçamento"
-    },
-    "videoPlaceholder": "Conheça nossos parceiros",
-    "badge": "Viagens Mundiais",
-    "cta": "Conheça Nossos Destinos Parceiros",
-    "ctaSubtext": "Fale com nossos especialistas e descubra o mundo"
+  "testimonials": {
+    "title": "O Que Nossos Clientes Dizem",
+    "subtitle": "Experiências reais de quem viajou com a Kerotur"
   },
   "contact": {
-    "title": "Pronto para sua próxima aventura?",
-    "subtitle": "Entre em contato e planeje sua viagem dos sonhos conosco",
+    "title": "Entre em Contato",
+    "subtitle": "Estamos prontos para tornar sua viagem inesquecível!",
     "whatsapp": {
-      "title": "WhatsApp - Atendimento Rápido",
-      "description": "Resposta imediata!"
+      "title": "WhatsApp"
     },
     "email": {
       "title": "E-mail"
@@ -76,40 +52,48 @@
       "title": "Telefone"
     },
     "address": {
-      "title": "Nosso Endereço"
+      "title": "Endereço"
     },
     "hours": {
-      "title": "Horário de Atendimento",
-      "weekdays": "Segunda a Sexta: 9h às 18h",
-      "saturday": "Sábado: 9h às 13h",
-      "sunday": "Domingo: Fechado"
+      "title": "Horário de Atendimento"
     },
-    "cta": {
-      "title": "Não perca tempo!",
-      "description": "Nossa equipe está pronta para criar a viagem perfeita para você",
-      "button": "Falar com Especialista"
+    "review": {
+      "title": "Deixe sua Avaliação",
+      "subtitle": "Sua opinião é muito importante para nós!",
+      "namePlaceholder": "Seu nome",
+      "commentPlaceholder": "Conte-nos sobre sua experiência...",
+      "submitButton": "Enviar Avaliação"
+    },
+    "payment": {
+      "title": "Formas de Pagamento"
+    },
+    "qrcode": {
+    "title": "Avalie-nos no Google",
+    "instruction": "Escaneie e deixe sua avaliação",
+    "button": "Avaliar Agora"
+  },
+    "social": {
+      "title": "Siga-nos nas Redes Sociais"
     }
   },
-
   "footer": {
-    "description": "Sua agência de confiança para viagens inesquecíveis. Passeios, hospedagem e passagens com os melhores preços.",
+    "companyName": "Kerotur",
+    "description": "A Kerotur nasceu do desejo de levar alegria, diversão, cultura, entretenimento e aventura para quem quer descobrir as belezas e os encantos dos nossos destinos.",
     "quickLinks": "Links Rápidos",
-    "contact": "Informações de Contato",
+    "aboutUs": "Sobre Nós",
+    "tours": "Passeios",
+    "partners": "Parceiros",
+    "contact": "Contato",
+    "address": "Rua Noronha Torrezão, 282/1002B",
+    "postalCode": "CEP 24240-182, Niterói – RJ",
+    "phone": "+55 21 98225-1450",
     "businessHours": "Horário de Atendimento",
-    "weekdays": "Segunda - Sexta",
-    "saturday": "Sábado",
-    "sunday": "Domingo",
-    "closed": "Fechado",
-    "ctaWhatsapp": "Fale Conosco",
-    "rights": "Todos os direitos reservados",
+    "allDays": "Todos os dias",
+    "hours": "8h às 22h",
+    "paymentMethods": "Formas de Pagamento",
+    "paymentNote": "* Cartões e links de pagamento possuem taxas administrativas",
+    "copyright": "Todos os direitos reservados.",
+    "cnpj": "CNPJ: 48.285.913/0001-28",
     "developedBy": "Desenvolvido por"
-  },
-  "testimonials": {
-  "title": "O Que Nossos Clientes Dizem",
-  "subtitle": "Milhares de viajantes satisfeitos compartilham suas experiências conosco"
-},
-  "whatsapp": {
-    "message": "Olá! Gostaria de mais informações sobre os passeios.",
-    "tooltip": "Fale conosco agora!"
   }
 }

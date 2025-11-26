@@ -1,0 +1,119 @@
+{
+  "header": {
+    "aboutUs": "关于我们",
+    "tours": "旅游",
+    "partners": "合作伙伴",
+    "contact": "联系方式"
+  },
+  "hero": {
+    "title": "从里约到世界",
+    "subtitle": "Kerotur诞生于为那些想要以轻松、安全和有趣的方式发现我们目的地的美丽和魅力的人带来欢乐、乐趣、文化、娱乐和冒险的愿望。",
+    "whatsappButton": "联系我们",
+    "learnMoreButton": "了解更多"
+  },
+  "about": {
+    "title": "关于我们",
+    "paragraph1": "Kerotur诞生于为那些想要以轻松、安全和有趣的方式发现我们目的地的美丽和魅力的人带来欢乐、乐趣、文化、娱乐和冒险的愿望。我们是一家热衷于在我们的旅行中创造独特体验的旅行社!",
+    "paragraph2": "在这里,每条路线都是独一无二的,经过精心规划。每一站都有历史、故事和好奇心,产生知识。既然知识不占空间,就用新的回忆填满你的行李吧!",
+    "paragraph3": "无论是对巴西游客还是外国游客,Kerotur不仅仅是一家旅行社:我们是您摆脱日常生活、结交新朋友和收集令人难以置信、难忘和非凡时刻所缺少的桥梁。"
+  },
+  "tours": {
+    "title": "我们的旅游",
+    "subtitle": "与Kerotur一起探索里约热内卢的自然美景、文化和最令人难以置信的秘密!",
+    "card": {
+      "from": "起价",
+      "group": "团体",
+      "reserve": "立即预订"
+    },
+    "modal": {
+      "about": "关于旅游",
+      "attractions": "景点",
+      "included": "包含",
+      "duration": "持续时间",
+      "priceIndividual": "个人价格",
+      "priceGroup": "团体价格",
+      "reserve": "立即预订"
+    }
+  },
+  "partners": {
+    "title": "我们的合作伙伴",
+    "subtitle": "我们与最好的合作，以保证您的完美体验",
+    "description": "Kerotur与提供住宿服务、旅游和国内外目的地机票、旅游保险等的公司建立了合作关系。",
+    "feature1": {
+      "title": "优质住宿",
+      "description": "与最好的酒店和旅馆合作，确保您在住宿期间的舒适和安全"
+    },
+    "feature2": {
+      "title": "国内和国际航班",
+      "description": "以最优惠的价格销售前往巴西和世界各地所有目的地的机票"
+    },
+    "feature3": {
+      "title": "安全与安心",
+      "description": "旅游保险、接送和汽车租赁，让您的旅行完整无忧"
+    },
+    "badge": "可靠的合作伙伴",
+    "cta": "了解更多",
+    "ctaSubtext": "联系我们，了解我们所有的合作关系和独家优势"
+  },
+  "testimonials": {
+    "title": "我们的客户怎么说",
+    "subtitle": "与Kerotur一起旅行的人的真实体验"
+  },
+  "contact": {
+    "title": "联系我们",
+    "subtitle": "我们准备让您的旅行难忘！",
+    "whatsapp": {
+      "title": "WhatsApp"
+    },
+    "email": {
+      "title": "电子邮件"
+    },
+    "phone": {
+      "title": "电话"
+    },
+    "address": {
+      "title": "地址"
+    },
+    "hours": {
+      "title": "营业时间"
+    },
+    "review": {
+      "title": "留下您的评论",
+      "subtitle": "您的意见对我们非常重要！",
+      "namePlaceholder": "您的名字",
+      "commentPlaceholder": "告诉我们您的体验...",
+      "submitButton": "提交评论"
+    },
+    "payment": {
+      "title": "付款方式"
+    },
+    "qrcode": {
+      "title": "在 Google 上评价我们",
+      "instruction": "扫描并留下您的评价",
+      "button": "立即评价"
+    },
+    "social": {
+      "title": "在社交媒体上关注我们"
+    }
+  },
+  "footer": {
+    "companyName": "Kerotur",
+    "description": "Kerotur诞生于为那些想要发现我们目的地之美和魅力的人们带来欢乐、乐趣、文化、娱乐和冒险的愿望。",
+    "quickLinks": "快速链接",
+    "aboutUs": "关于我们",
+    "tours": "旅游",
+    "partners": "合作伙伴",
+    "contact": "联系方式",
+    "address": "诺罗尼亚·托雷扎奥街，282/1002B",
+    "postalCode": "邮编 24240-182，尼泰罗伊 – RJ",
+    "phone": "+55 21 98225-1450",
+    "businessHours": "营业时间",
+    "allDays": "每天",
+    "hours": "上午8点至晚上10点",
+    "paymentMethods": "付款方式",
+    "paymentNote": "* 卡和付款链接有管理费",
+    "copyright": "版权所有。",
+    "cnpj": "税号: 48.285.913/0001-28",
+    "developedBy": "开发者"
+  }
+}

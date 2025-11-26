@@ -6,68 +6,66 @@
     "contact": "Contact"
   },
   "hero": {
-    "title": "From Rio to the World: Travel with Kerotur",
-    "subtitle": "Your trusted agency for unforgettable trips. Tours, accommodation and tickets at the best prices.",
-    "whatsappButton": "Contact Us on WhatsApp",
-    "toursButton": "View Tours"
+    "title": "From Rio to the World",
+    "subtitle": "Kerotur was born from the desire to bring joy, fun, culture, entertainment and adventure to those who want to discover the beauty and charms of our destinations in a light, safe and fun way.",
+    "whatsappButton": "Contact Us",
+    "learnMoreButton": "Learn More"
   },
   "about": {
     "title": "About Us",
-    "paragraph1": "Founded over 15 years ago in Niterói, Kerotur was born from the dream of turning travels into unforgettable experiences. We started our journey as a small family agency and, with dedication and passion for tourism, became a reference in Rio de Janeiro.",
-    "paragraph2": "Our mission is to provide unique moments to our clients, offering personalized packages, humanized service, and the best national and international destinations. We believe that every trip is a story waiting to be lived.",
-    "paragraph3": "With an experienced team passionate about travel, Kerotur is proud to have taken thousands of families to their dream destinations. Whether it's an international adventure or a regional tour, we're here to make your trip perfect from start to finish.",
-    "stats": {
-      "years": "Years of Experience",
-      "clients": "Satisfied Clients",
-      "destinations": "Destinations Offered",
-      "satisfaction": "Satisfaction"
-    }
+    "paragraph1": "Kerotur was born from the desire to bring joy, fun, culture, entertainment and adventure to those who want to discover the beauty and charms of our destinations in a light, safe and fun way. We are an agency passionate about creating unique experiences on our tours!",
+    "paragraph2": "Here, each itinerary is unique and carefully planned. Each stop has history, stories and curiosities that generate knowledge. And since knowledge takes up no space, fill your luggage with new memories!",
+    "paragraph3": "Whether for Brazilian or foreign tourists, Kerotur is more than an agency: we are that missing bridge for you to break out of your routine, make new friends and collect incredible, unforgettable and formidable moments."
   },
   "tours": {
     "title": "Our Tours",
-    "subtitle": "Discover the most incredible destinations on the coast of Rio de Janeiro with all comfort and safety",
+    "subtitle": "Explore the natural beauties, culture and the most incredible secrets of Rio de Janeiro with Kerotur!",
     "card": {
       "from": "From",
-      "group": "Group (per person)",
-      "details": "Learn more"
+      "group": "Group",
+      "reserve": "Book Now"
     },
     "modal": {
       "about": "About the Tour",
-      "attractions": "Included Attractions",
-      "included": "What's included",
+      "attractions": "Attractions",
+      "included": "Included",
       "duration": "Duration",
       "priceIndividual": "Individual Price",
       "priceGroup": "Group Price",
-      "reserve": "Reserve via WhatsApp"
+      "reserve": "Book Now"
     }
   },
   "partners": {
-    "title": "Partners Around the World",
-    "subtitle": "Connecting you to the best national and international destinations",
-    "description": "Kerotur has a network of strategic partners that allows us to offer trips to various Brazilian states and countries around the world. Our experience and trust enable us to provide unique and unforgettable experiences.",
+    "title": "Our Partners",
+    "subtitle": "We work with the best to guarantee your perfect experience",
+    "description": "Kerotur has partnerships with companies that offer accommodation services, tours and airline tickets to national and international destinations, travel insurance, among others.",
     "feature1": {
-      "title": "Global Destinations",
-      "description": "Access to national and international destinations through certified partners"
+      "title": "Quality Accommodations",
+      "description": "Partnership with the best hotels and inns to ensure comfort and safety during your stay"
     },
     "feature2": {
-      "title": "Trusted Partners",
-      "description": "We only work with recognized agencies and tour operators"
+      "title": "National and International Flights",
+      "description": "Sale of airline tickets to all destinations in Brazil and the world with the best rates"
     },
     "feature3": {
-      "title": "Personalized Service",
-      "description": "We plan your trip according to your needs and budget"
+      "title": "Safety and Peace of Mind",
+      "description": "Travel insurance, transfer and car rental for your trip to be complete and worry-free"
     },
-    "videoPlaceholder": "Meet our partners",
-    "badge": "Worldwide Travel",
-    "cta": "Discover Our Partner Destinations",
-    "ctaSubtext": "Talk to our specialists and discover the world"
+    "badge": "Reliable Partners",
+    "videoPlaceholder": "Get to know our partners",
+    "videoSoon": "Video coming soon",
+    "cta": "Learn More",
+    "ctaSubtext": "Get in touch and discover all our partnerships and exclusive benefits"
+  },
+  "testimonials": {
+    "title": "What Our Customers Say",
+    "subtitle": "Real experiences from those who traveled with Kerotur"
   },
   "contact": {
-    "title": "Ready for your next adventure?",
-    "subtitle": "Get in touch and plan your dream trip with us",
+    "title": "Get in Touch",
+    "subtitle": "We're ready to make your trip unforgettable!",
     "whatsapp": {
-      "title": "WhatsApp - Quick Service",
-      "description": "Instant response!"
+      "title": "WhatsApp"
     },
     "email": {
       "title": "Email"
@@ -76,39 +74,48 @@
       "title": "Phone"
     },
     "address": {
-      "title": "Our Address"
+      "title": "Address"
     },
     "hours": {
-      "title": "Business Hours",
-      "weekdays": "Monday to Friday: 9am to 6pm",
-      "saturday": "Saturday: 9am to 1pm",
-      "sunday": "Sunday: Closed"
+      "title": "Business Hours"
     },
-    "cta": {
-      "title": "Don't waste time!",
-      "description": "Our team is ready to create the perfect trip for you",
-      "button": "Talk to Specialist"
+    "review": {
+      "title": "Leave Your Review",
+      "subtitle": "Your opinion is very important to us!",
+      "namePlaceholder": "Your name",
+      "commentPlaceholder": "Tell us about your experience...",
+      "submitButton": "Submit Review"
+    },
+    "payment": {
+      "title": "Payment Methods"
+    },
+    "qrcode": {
+      "title": "Review us on Google",
+      "instruction": "Scan and leave your review",
+      "button": "Review Now"
+    },
+    "social": {
+      "title": "Follow Us on Social Media"
     }
   },
   "footer": {
-    "description": "Your trusted agency for unforgettable trips. Tours, accommodation and tickets at the best prices.",
+    "companyName": "Kerotur",
+    "description": "Kerotur was born from the desire to bring joy, fun, culture, entertainment and adventure to those who want to discover the beauties and charms of our destinations.",
     "quickLinks": "Quick Links",
+    "aboutUs": "About Us",
+    "tours": "Tours",
+    "partners": "Partners",
     "contact": "Contact",
+    "address": "Noronha Torrezão Street, 282/1002B",
+    "postalCode": "ZIP 24240-182, Niterói – RJ",
+    "phone": "+55 21 98225-1450",
     "businessHours": "Business Hours",
-    "weekdays": "Monday - Friday",
-    "saturday": "Saturday",
-    "sunday": "Sunday",
-    "closed": "Closed",
-    "ctaWhatsapp": "Contact Us",
-    "rights": "All rights reserved",
+    "allDays": "Every day",
+    "hours": "8am to 10pm",
+    "paymentMethods": "Payment Methods",
+    "paymentNote": "* Cards and payment links have administrative fees",
+    "copyright": "All rights reserved.",
+    "cnpj": "Tax ID: 48.285.913/0001-28",
     "developedBy": "Developed by"
-  },
-  "testimonials": {
-  "title": "What Our Clients Say",
-  "subtitle": "Thousands of satisfied travelers share their experiences with us"
-},
-  "whatsapp": {
-    "message": "Hello! I would like more information about the tours.",
-    "tooltip": "Talk to us now!"
   }
 }

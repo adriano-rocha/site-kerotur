@@ -4,6 +4,19 @@ function Footer() {
   const { t } = useTranslation();
   const currentYear = new Date().getFullYear();
   const WHATSAPP_LINK = "https://wa.me/5521982251450";
+  const INSTAGRAM_LINK = "https://www.instagram.com/kerotur_/";
+  const FACEBOOK_LINK = "#";
+  const LINKTREE_LINK = "#";
+  const TRIPADVISOR_LINK = "#";
+
+  const paymentMethods = [
+    { name: "PIX", image: "/images/payment/pix.svg" },
+    { name: "Visa", image: "/images/payment/visa.png" },
+    { name: "Mastercard", image: "/images/payment/mastercard.svg" },
+    { name: "Elo", image: "/images/payment/elo.svg" },
+    { name: "Amex", image: "/images/payment/amex.jpg" },
+    /*{ name: "Link de Pagamento", image: "/images/payment/link.svg" }*/
+  ];
 
   return (
     <footer
@@ -14,42 +27,20 @@ function Footer() {
       {/* Seção Principal */}
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {/* Coluna 1: Logo e Descrição */}
+
+          {/* Coluna 1: Logo, descrição e redes sociais */}
           <div className="space-y-4">
-            <h3 className="text-2xl font-bold text-yellow-300">Kerotur</h3>
-            <p className="text-sm leading-relaxed">{t("footer.description")}</p>
-            {/* Redes Sociais */}
-            <div className="flex gap-3 pt-2">
-              <a
-                href="#"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-10 h-10 bg-gray-700 hover:bg-blue-600 rounded-full flex items-center justify-center transition duration-300"
-                aria-label="Facebook"
-              >
-                <svg
-                  className="w-5 h-5"
-                  fill="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
-                </svg>
-              </a>
-              <a
-                href="#"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-10 h-10 bg-gray-700 hover:bg-pink-600 rounded-full flex items-center justify-center transition duration-300"
-                aria-label="Instagram"
-              >
-                <svg
-                  className="w-5 h-5"
-                  fill="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
-                </svg>
-              </a>
+            <h3 className="text-2xl font-bold text-[#00ffff]">
+              {t('footer.companyName')}
+            </h3>
+            <p className="text-sm leading-relaxed">
+              {t('footer.description')}
+            </p>
+
+            {/* Redes sociais - Ordem: WhatsApp, Instagram, Facebook, Linktree, TripAdvisor */}
+            <div className="flex gap-3 pt-2 flex-wrap">
+
+              {/* WhatsApp */}
               <a
                 href={WHATSAPP_LINK}
                 target="_blank"
@@ -57,175 +48,155 @@ function Footer() {
                 className="w-10 h-10 bg-gray-700 hover:bg-green-600 rounded-full flex items-center justify-center transition duration-300"
                 aria-label="WhatsApp"
               >
-                <svg
-                  className="w-5 h-5"
-                  fill="currentColor"
-                  viewBox="0 0 24 24"
-                >
+                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                </svg>
+              </a>
+
+              {/* Instagram */}
+              <a
+                href={INSTAGRAM_LINK}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 bg-gray-700 hover:bg-pink-600 rounded-full flex items-center justify-center transition duration-300"
+                aria-label="Instagram"
+              >
+                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                </svg>
+              </a>
+
+              {/* Facebook */}
+              <a
+                href={FACEBOOK_LINK}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 bg-gray-700 hover:bg-blue-600 rounded-full flex items-center justify-center transition duration-300"
+                aria-label="Facebook"
+              >
+                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+                </svg>
+              </a>
+
+              {/* Linktree */}
+              <a
+                href={LINKTREE_LINK}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 bg-gray-700 hover:bg-green-500 rounded-full flex items-center justify-center transition duration-300"
+                aria-label="Linktree"
+              >
+                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M13.73 4.82l1.55-1.55 4.35 4.35-1.55 1.55-2.8-2.8-2.8 2.8-1.55-1.55 2.8-2.8zm-.93 9.8l1.55 1.55-4.35 4.35-1.55-1.55 2.8-2.8-2.8-2.8 1.55-1.55 2.8 2.8zm-5.6-5.6l1.55-1.55 4.35 4.35-1.55 1.55-2.8-2.8-2.8 2.8-1.55-1.55 2.8-2.8z" />
+                </svg>
+              </a>
+
+              {/* TripAdvisor */}
+              <a
+                href={TRIPADVISOR_LINK}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 bg-gray-700 hover:bg-green-700 rounded-full flex items-center justify-center transition duration-300"
+                aria-label="TripAdvisor"
+              >
+                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M12.006 4.295c-2.67 0-5.338.784-7.645 2.353H1.058l1.506 1.506A8.367 8.367 0 0 0 .751 12c0 4.625 3.749 8.373 8.373 8.373 2.36 0 4.494-.976 6.012-2.547l1.499 1.499 1.499-1.499c1.518 1.571 3.652 2.547 6.012 2.547 4.625 0 8.373-3.748 8.373-8.373 0-1.566-.437-3.03-1.187-4.287l1.506-1.506h-3.304c-2.307-1.569-4.975-2.353-7.645-2.353-2.304 0-4.572.636-6.564 1.835-1.992-1.199-4.26-1.835-6.564-1.835zm-2.883 4.706c2.393 0 4.332 1.94 4.332 4.332s-1.94 4.332-4.332 4.332-4.332-1.94-4.332-4.332 1.94-4.332 4.332-4.332zm11.754 0c2.393 0 4.332 1.94 4.332 4.332s-1.94 4.332-4.332 4.332-4.332-1.94-4.332-4.332 1.94-4.332 4.332-4.332zM9.123 11.5c-.913 0-1.653.74-1.653 1.653s.74 1.653 1.653 1.653 1.653-.74 1.653-1.653-.74-1.653-1.653-1.653zm11.754 0c-.913 0-1.653.74-1.653 1.653s.74 1.653 1.653 1.653 1.653-.74 1.653-1.653-.74-1.653-1.653-1.653z" />
                 </svg>
               </a>
             </div>
           </div>
 
-          {/* Coluna 2: Links Rápidos */}
+          {/* Coluna 2: Links rápidos */}
           <div>
-            <h4 className="text-lg font-bold text-white mb-4">
-              {t("footer.quickLinks")}
+            <h4 className="text-lg font-bold text-[#00ffff] mb-4">
+              {t('footer.quickLinks')}
             </h4>
             <ul className="space-y-2 text-sm">
-              <li>
-                <a
-                  href="#sobre"
-                  className="hover:text-yellow-300 transition duration-300"
-                >
-                  {t("header.aboutUs")}
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#passeios"
-                  className="hover:text-yellow-300 transition duration-300"
-                >
-                  {t("header.tours")}
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#parceiros"
-                  className="hover:text-yellow-300 transition duration-300"
-                >
-                  {t("header.partners")}
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#contato"
-                  className="hover:text-yellow-300 transition duration-300"
-                >
-                  {t("header.contact")}
-                </a>
-              </li>
+              <li><a href="#sobre" className="hover:text-[#00ffff] transition duration-300">{t('footer.aboutUs')}</a></li>
+              <li><a href="#passeios" className="hover:text-[#00ffff] transition duration-300">{t('footer.tours')}</a></li>
+              <li><a href="#parceiros" className="hover:text-[#00ffff] transition duration-300">{t('footer.partners')}</a></li>
+              <li><a href="#contato" className="hover:text-[#00ffff] transition duration-300">{t('footer.contact')}</a></li>
             </ul>
           </div>
 
           {/* Coluna 3: Contato */}
           <div>
-            <h4 className="text-lg font-bold text-white mb-4">
-              {t("footer.contact")}
+            <h4 className="text-lg font-bold text-[#00ffff] mb-4">
+              {t('footer.contact')}
             </h4>
             <ul className="space-y-3 text-sm">
               <li className="flex items-start gap-2">
-                <svg
-                  className="w-5 h-5 text-yellow-300 flex-shrink-0 mt-0.5"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
-                  />
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
-                  />
+                <svg className="w-5 h-5 text-[#00ffff] flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                 </svg>
                 <span>
-                  Rua Noronha Torrezão, 282/1002B
-                  <br />
-                  CEP 24240-182, Niterói – RJ
+                  {t('footer.address')}<br />
+                  {t('footer.postalCode')}
                 </span>
               </li>
+
               <li className="flex items-center gap-2">
-                <svg
-                  className="w-5 h-5 text-yellow-300 flex-shrink-0"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
-                  />
+                <svg className="w-5 h-5 text-[#00ffff] flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                 </svg>
-                <a
-                  href="tel:+5521982251450"
-                  className="hover:text-yellow-300 transition duration-300"
-                >
-                  +55 21 98225-1450
+                <a href="tel:+5521982251450" className="hover:text-[#00ffff] transition duration-300">
+                  {t('footer.phone')}
                 </a>
               </li>
+
               <li className="flex items-center gap-2">
-                <svg
-                  className="w-5 h-5 text-yellow-300 flex-shrink-0"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-                  />
+                <svg className="w-5 h-5 text-[#00ffff] flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
                 <div className="flex flex-col">
-                  <a
-                    href="mailto:kerotur@kerotur.com"
-                    className="hover:text-yellow-300 transition duration-300"
-                  >
-                    kerotur@kerotur.com
-                  </a>
-                  <a
-                    href="mailto:kerotur@yahoo.com"
-                    className="hover:text-yellow-300 transition duration-300"
-                  >
-                    kerotur@yahoo.com
-                  </a>
+                  <a href="mailto:kerotur@kerotur.com" className="hover:text-[#00ffff] transition duration-300">kerotur@kerotur.com</a>
+                  <a href="mailto:kerotur@yahoo.com" className="hover:text-[#00ffff] transition duration-300">kerotur@yahoo.com</a>
                 </div>
               </li>
             </ul>
           </div>
 
-          {/* Coluna 4: Horário de Atendimento */}
+          {/* Coluna 4: Horário + Pagamentos */}
           <div>
-            <h4 className="text-lg font-bold text-white mb-4">
-              {t("footer.businessHours")}
+            <h4 className="text-lg font-bold text-[#00ffff] mb-4">
+              {t('footer.businessHours')}
             </h4>
-            <ul className="space-y-2 text-sm">
-              <li className="flex justify-between">
-                <span>{t("footer.weekdays")}</span>
-                <span className="text-yellow-300">9h - 18h</span>
-              </li>
-              <li className="flex justify-between">
-                <span>{t("footer.saturday")}</span>
-                <span className="text-yellow-300">9h - 13h</span>
-              </li>
-              <li className="flex justify-between">
-                <span>{t("footer.sunday")}</span>
-                <span className="text-gray-500">{t("footer.closed")}</span>
-              </li>
-            </ul>
 
-            {/* CTA WhatsApp */}
-            <a
-              href={WHATSAPP_LINK}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-6 w-full bg-green-500 hover:bg-green-600 text-white font-semibold py-3 px-4 rounded-lg transition duration-300 flex items-center justify-center gap-2 text-sm"
-            >
-              <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
-              </svg>
-              {t("footer.ctaWhatsapp")}
-            </a>
+            <div className="bg-gray-800 rounded-lg p-3 mb-4 text-center">
+              <p className="text-sm">
+                <span className="text-[#00ffff] font-semibold">{t('footer.allDays')}</span><br />
+                <span className="text-white text-lg">{t('footer.hours')}</span>
+              </p>
+            </div>
+
+            <h4 className="text-lg font-bold text-[#00ffff] mb-3">{t('footer.paymentMethods')}</h4>
+
+            <div className="space-y-3">
+              <div className="flex gap-2 flex-wrap">
+                {paymentMethods.map((method, index) => (
+                  <div 
+                    key={index}
+                    className="bg-white p-2 rounded-lg flex items-center justify-center hover:shadow-lg transition-shadow duration-300"
+                    title={method.name}
+                  >
+                    <img 
+                      src={method.image}
+                      alt={method.name}
+                      className="h-8 w-auto object-contain"
+                      onError={(e) => {
+                        e.currentTarget.style.display = 'none';
+                      }}
+                    />
+                  </div>
+                ))}
+              </div>
+
+              <p className="text-xs text-gray-400 italic">
+                {t('footer.paymentNote')}
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -234,25 +205,37 @@ function Footer() {
       <div className="border-t border-gray-700">
         <div className="container mx-auto px-4 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm">
+
             <p className="text-gray-400">
               © {currentYear}{" "}
-              <span className="text-yellow-300 font-semibold">
-                Kerotur Turismo e Eventos
-              </span>
-              . {t("footer.rights")}
+              <span className="text-[#00ffff] font-semibold">{t('footer.companyName')} Turismo e Eventos</span>.
+              {" "}{t('footer.copyright')}
             </p>
-            <p className="text-gray-400">CNPJ: 48.285.913/0001-28</p>
+
+            <p className="text-gray-400">{t('footer.cnpj')}</p>
+
+            <div className="flex items-center gap-2">
+              <img
+                src="/images/cadastur-logo.png"
+                alt="Cadastur"
+                className="h-10"
+                onError={(e) => (e.currentTarget.style.display = "none")}
+              />
+              <span className="text-gray-500 text-xs">Cadastur</span>
+            </div>
+
             <p className="text-gray-500 text-xs">
-              {t("footer.developedBy")}{" "}
+              {t('footer.developedBy')}{" "}
               <a
-                href="https://i9criacaodesites.com"
+                href="https://i9criacaodesite.com.br"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-yellow-300 hover:text-yellow-400 transition"
+                className="text-[#00ffff] hover:text-[#FF8C00] transition"
               >
                 I9 Criação de Sites
               </a>
             </p>
+
           </div>
         </div>
       </div>

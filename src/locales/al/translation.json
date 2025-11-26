@@ -1,0 +1,103 @@
+{
+  "header": {
+    "aboutUs": "Über Uns",
+    "tours": "Touren",
+    "partners": "Partner",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "title": "Von Rio in die Welt",
+    "subtitle": "Kerotur entstand aus dem Wunsch, Freude, Spaß, Kultur, Unterhaltung und Abenteuer zu denjenigen zu bringen, die die Schönheiten und den Charme unserer Reiseziele auf leichte, sichere und unterhaltsame Weise entdecken möchten.",
+    "whatsappButton": "Kontaktieren Sie uns",
+    "learnMoreButton": "Mehr erfahren"
+  },
+  "about": {
+    "title": "Über Uns",
+    "paragraph1": "Kerotur entstand aus dem Wunsch, Freude, Spaß, Kultur, Unterhaltung und Abenteuer zu denjenigen zu bringen, die die Schönheiten und den Charme unserer Reiseziele auf leichte, sichere und unterhaltsame Weise entdecken möchten. Wir sind eine Agentur, die leidenschaftlich daran arbeitet, einzigartige Erlebnisse auf unseren Touren zu schaffen!",
+    "paragraph2": "Hier ist jede Route einzigartig und mit Sorgfalt geplant. Jeder Halt hat Geschichte, Geschichten und Kuriositäten, die Wissen schaffen. Und da Wissen keinen Platz einnimmt, füllen Sie Ihr Gepäck mit neuen Erinnerungen!",
+    "paragraph3": "Ob für brasilianische oder ausländische Touristen, Kerotur ist mehr als eine Agentur: Wir sind die fehlende Brücke, um aus Ihrer Routine auszubrechen, neue Freunde zu finden und unglaubliche, unvergessliche und großartige Momente zu sammeln."
+  },
+  "partners": {
+    "title": "Unsere Partner",
+    "subtitle": "Wir arbeiten mit den Besten zusammen, um Ihr perfektes Erlebnis zu garantieren",
+    "description": "Kerotur hat Partnerschaften mit Unternehmen, die Unterkunftsdienstleistungen, Touren und Flugtickets zu nationalen und internationalen Zielen, Reiseversicherungen und mehr anbieten.",
+    "feature1": {
+      "title": "Qualitätsunterkünfte",
+      "description": "Partnerschaft mit den besten Hotels und Pensionen, um Komfort und Sicherheit während Ihres Aufenthalts zu gewährleisten"
+    },
+    "feature2": {
+      "title": "Nationale und Internationale Flüge",
+      "description": "Verkauf von Flugtickets zu allen Zielen in Brasilien und der Welt mit den besten Tarifen"
+    },
+    "feature3": {
+      "title": "Sicherheit und Ruhe",
+      "description": "Reiseversicherung, Transfer und Autovermietung für eine vollständige und sorgenfreie Reise"
+    },
+    "badge": "Zuverlässige Partner",
+    "videoPlaceholder": "Lernen Sie unsere Partner kennen",
+    "videoSoon": "Video kommt bald",
+    "cta": "Mehr erfahren",
+    "ctaSubtext": "Kontaktieren Sie uns und entdecken Sie alle unsere Partnerschaften und exklusiven Vorteile"
+  },
+  "testimonials": {
+    "title": "Was Unsere Kunden Sagen",
+    "subtitle": "Echte Erfahrungen von denen, die mit Kerotur gereist sind"
+  },
+  "contact": {
+    "title": "Kontaktieren Sie Uns",
+    "subtitle": "Wir sind bereit, Ihre Reise unvergesslich zu machen!",
+    "whatsapp": {
+      "title": "WhatsApp"
+    },
+    "email": {
+      "title": "E-Mail"
+    },
+    "phone": {
+      "title": "Telefon"
+    },
+    "address": {
+      "title": "Adresse"
+    },
+    "hours": {
+      "title": "Öffnungszeiten"
+    },
+    "review": {
+      "title": "Hinterlassen Sie Ihre Bewertung",
+      "subtitle": "Ihre Meinung ist uns sehr wichtig!",
+      "namePlaceholder": "Ihr Name",
+      "commentPlaceholder": "Erzählen Sie uns von Ihrer Erfahrung...",
+      "submitButton": "Bewertung Absenden"
+    },
+    "payment": {
+      "title": "Zahlungsmethoden"
+    },
+    "qrcode": {
+      "title": "Bewerten Sie uns auf Google",
+      "instruction": "Scannen und hinterlassen Sie Ihre Bewertung",
+      "button": "Jetzt bewerten"
+    },
+    "social": {
+      "title": "Folgen Sie uns in den Sozialen Medien"
+    }
+  },
+  "footer": {
+    "companyName": "Kerotur",
+    "description": "Kerotur entstand aus dem Wunsch, Freude, Spaß, Kultur, Unterhaltung und Abenteuer zu denen zu bringen, die die Schönheiten und Reize unserer Reiseziele entdecken möchten.",
+    "quickLinks": "Schnellzugriff",
+    "aboutUs": "Über Uns",
+    "tours": "Touren",
+    "partners": "Partner",
+    "contact": "Kontakt",
+    "address": "Noronha Torrezão Straße, 282/1002B",
+    "postalCode": "PLZ 24240-182, Niterói – RJ",
+    "phone": "+55 21 98225-1450",
+    "businessHours": "Öffnungszeiten",
+    "allDays": "Jeden Tag",
+    "hours": "8 bis 22 Uhr",
+    "paymentMethods": "Zahlungsmethoden",
+    "paymentNote": "* Karten und Zahlungslinks haben Verwaltungsgebühren",
+    "copyright": "Alle Rechte vorbehalten.",
+    "cnpj": "Steuernummer: 48.285.913/0001-28",
+    "developedBy": "Entwickelt von"
+  }
+}

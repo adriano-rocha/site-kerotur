@@ -1,52 +1,32 @@
-import { useState } from "react";
-import Header from "./components/Header/Header";
-import Hero from "./components/Hero/Hero";
-import About from "./components/About/About";
-import ToursSection from "./components/Tours/ToursSection";
-import TourModal from "./components/Tours/TourModal";
-import toursData from "./data/tours.json";
-import Partners from "./components/Partners/Partners";
-import Contact from "./components/Contact/Contact";
-import Footer from "./components/Footer/Footer";
-import WhatsAppButton from "./components/WhatsAppButton/WhatsAppButton";
-import Testimonials from "./components/Testimonials/Testimonials";
+import { useRef } from 'react'
+import Header from './components/Header/Header'
+import Hero from './components/Hero/Hero'
+import About from './components/About/About'
+import TourSection from './components/Tours/TourSection'
+import Testimonials from './components/Testimonials/Testimonials'
+import Contact from './components/Contact/Contact'
+import Footer from './components/Footer/Footer'
+import Partners from './components/Partners/Partners'
 
 function App() {
-  const [selectedTourId, setSelectedTourId] = useState<string | null>(null);
-
-  // Encontra o tour selecionado
-  const selectedTour = selectedTourId
-    ? toursData.find((tour) => tour.id === selectedTourId)
-    : null;
+  const toursRef = useRef<any>(null)
 
   const handleTourSelect = (tourId: string) => {
-    console.log("🎯 Tour selecionado no App:", tourId);
-    setSelectedTourId(tourId);
-  };
-
-  const handleCloseModal = () => {
-    console.log("❌ Fechando modal");
-    setSelectedTourId(null);
-  };
+    toursRef.current?.openTourById(tourId)
+  }
 
   return (
     <>
       <Header onTourSelect={handleTourSelect} />
       <Hero />
       <About />
-      <ToursSection />
-      <Partners />
+      <TourSection ref={toursRef} />
+      <Partners/>
       <Testimonials />
       <Contact />
       <Footer />
-      <WhatsAppButton />
-
-      {/* Modal de Tour */}
-      {selectedTour && (
-        <TourModal tour={selectedTour} onClose={handleCloseModal} />
-      )}
     </>
-  );
+  )
 }
 
-export default App;
+export default App

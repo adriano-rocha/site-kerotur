@@ -1,0 +1,119 @@
+{
+  "header": {
+    "aboutUs": "Chi Siamo",
+    "tours": "Tour",
+    "partners": "Partner",
+    "contact": "Contatti"
+  },
+  "hero": {
+    "title": "Da Rio al Mondo",
+    "subtitle": "Kerotur è nato dal desiderio di portare gioia, divertimento, cultura, intrattenimento e avventura a chi vuole scoprire le bellezze e i fascini delle nostre destinazioni in modo leggero, sicuro e divertente.",
+    "whatsappButton": "Contattaci",
+    "learnMoreButton": "Scopri di più"
+  },
+  "about": {
+    "title": "Chi Siamo",
+    "paragraph1": "Kerotur è nato dal desiderio di portare gioia, divertimento, cultura, intrattenimento e avventura a chi vuole scoprire le bellezze e i fascini delle nostre destinazioni in modo leggero, sicuro e divertente. Siamo un'agenzia appassionata nel creare esperienze uniche nei nostri tour!",
+    "paragraph2": "Qui, ogni itinerario è unico e pianificato con cura. Ogni tappa ha storia, racconti e curiosità che generano conoscenza. E poiché la conoscenza non occupa spazio, riempi il tuo bagaglio di nuovi ricordi!",
+    "paragraph3": "Che si tratti di turisti brasiliani o stranieri, Kerotur è più di un'agenzia: siamo quel ponte mancante per uscire dalla routine, fare nuove amicizie e collezionare momenti incredibili, indimenticabili e formidabili."
+  },
+  "tours": {
+    "title": "I Nostri Tour",
+    "subtitle": "Esplora le bellezze naturali, la cultura e i segreti più incredibili di Rio de Janeiro con Kerotur!",
+    "card": {
+      "from": "Da",
+      "group": "Gruppo",
+      "reserve": "Prenota Ora"
+    },
+    "modal": {
+      "about": "Sul Tour",
+      "attractions": "Attrazioni",
+      "included": "Incluso",
+      "duration": "Durata",
+      "priceIndividual": "Prezzo Individuale",
+      "priceGroup": "Prezzo Gruppo",
+      "reserve": "Prenota Ora"
+    }
+  },
+  "partners": {
+    "title": "I Nostri Partner",
+    "subtitle": "Lavoriamo con i migliori per garantire la tua esperienza perfetta",
+    "description": "Kerotur ha partnership con aziende che offrono servizi di alloggio, tour e biglietti aerei per destinazioni nazionali e internazionali, assicurazione di viaggio, tra gli altri.",
+    "feature1": {
+      "title": "Alloggi di Qualità",
+      "description": "Partnership con i migliori hotel e pensioni per garantire comfort e sicurezza durante il tuo soggiorno"
+    },
+    "feature2": {
+      "title": "Voli Nazionali e Internazionali",
+      "description": "Vendita di biglietti aerei per tutte le destinazioni in Brasile e nel mondo con le migliori tariffe"
+    },
+    "feature3": {
+      "title": "Sicurezza e Tranquillità",
+      "description": "Assicurazione di viaggio, transfer e noleggio auto per un viaggio completo e senza preoccupazioni"
+    },
+    "badge": "Partner Affidabili",
+    "cta": "Scopri di più",
+    "ctaSubtext": "Contattaci e scopri tutte le nostre partnership e vantaggi esclusivi"
+  },
+  "testimonials": {
+    "title": "Cosa Dicono i Nostri Clienti",
+    "subtitle": "Esperienze reali di chi ha viaggiato con Kerotur"
+  },
+  "contact": {
+    "title": "Contattaci",
+    "subtitle": "Siamo pronti a rendere il tuo viaggio indimenticabile!",
+    "whatsapp": {
+      "title": "WhatsApp"
+    },
+    "email": {
+      "title": "Email"
+    },
+    "phone": {
+      "title": "Telefono"
+    },
+    "address": {
+      "title": "Indirizzo"
+    },
+    "hours": {
+      "title": "Orari di Apertura"
+    },
+    "review": {
+      "title": "Lascia la Tua Recensione",
+      "subtitle": "La tua opinione è molto importante per noi!",
+      "namePlaceholder": "Il tuo nome",
+      "commentPlaceholder": "Raccontaci della tua esperienza...",
+      "submitButton": "Invia Recensione"
+    },
+    "payment": {
+      "title": "Metodi di Pagamento"
+    },
+    "qrcode": {
+  "title": "Recensiscici su Google",
+  "instruction": "Scansiona e lascia la tua recensione",
+  "button": "Recensisci ora"
+},
+    "social": {
+      "title": "Seguici sui Social Media"
+    }
+  },
+   "footer": {
+    "companyName": "Kerotur",
+    "description": "Kerotur è nata dal desiderio di portare gioia, divertimento, cultura, intrattenimento e avventura a coloro che vogliono scoprire le bellezze e gli incanti delle nostre destinazioni.",
+    "quickLinks": "Link Rapidi",
+    "aboutUs": "Chi Siamo",
+    "tours": "Escursioni",
+    "partners": "Partner",
+    "contact": "Contatto",
+    "address": "Via Noronha Torrezão, 282/1002B",
+    "postalCode": "CAP 24240-182, Niterói – RJ",
+    "phone": "+55 21 98225-1450",
+    "businessHours": "Orari di Apertura",
+    "allDays": "Tutti i giorni",
+    "hours": "Dalle 8 alle 22",
+    "paymentMethods": "Metodi di Pagamento",
+    "paymentNote": "* Carte e link di pagamento hanno commissioni amministrative",
+    "copyright": "Tutti i diritti riservati.",
+    "cnpj": "P.IVA: 48.285.913/0001-28",
+    "developedBy": "Sviluppato da"
+  }
+}
