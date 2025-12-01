@@ -34,10 +34,10 @@
       "description": "Reiseversicherung, Transfer und Autovermietung für eine vollständige und sorgenfreie Reise"
     },
     "badge": "Zuverlässige Partner",
-    "videoPlaceholder": "Lernen Sie unsere Partner kennen",
-    "videoSoon": "Video kommt bald",
     "cta": "Mehr erfahren",
-    "ctaSubtext": "Kontaktieren Sie uns und entdecken Sie alle unsere Partnerschaften und exklusiven Vorteile"
+    "ctaSubtext": "Kontaktieren Sie uns und entdecken Sie alle unsere Partnerschaften und exklusiven Vorteile",
+    "videoPlaceholder": "Lernen Sie unsere Partner kennen",
+    "videoSoon": "Video demnächst verfügbar"
   },
   "testimonials": {
     "title": "Was Unsere Kunden Sagen",

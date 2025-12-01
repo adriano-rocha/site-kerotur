@@ -52,68 +52,70 @@
       },
       "badge": "Partenaires Fiables",
       "cta": "En savoir plus",
-      "ctaSubtext": "Contactez-nous et découvrez tous nos partenariats et avantages exclusifs"
+      "ctaSubtext": "Contactez-nous et découvrez tous nos partenariats et avantages exclusifs",
+      "videoPlaceholder": "Découvrez nos partenaires",
+      "videoSoon": "Vidéo à venir"
     },
-  "testimonials": {
-    "title": "Ce Que Disent Nos Clients",
-    "subtitle": "Expériences réelles de ceux qui ont voyagé avec Kerotur"
-  },
-  "contact": {
-    "title": "Contactez-nous",
-    "subtitle": "Nous sommes prêts à rendre votre voyage inoubliable!",
-    "whatsapp": {
-      "title": "WhatsApp"
+    "testimonials": {
+      "title": "Ce Que Disent Nos Clients",
+      "subtitle": "Expériences réelles de ceux qui ont voyagé avec Kerotur"
     },
-    "email": {
-      "title": "Email"
+    "contact": {
+      "title": "Contactez-nous",
+      "subtitle": "Nous sommes prêts à rendre votre voyage inoubliable!",
+      "whatsapp": {
+        "title": "WhatsApp"
+      },
+      "email": {
+        "title": "Email"
+      },
+      "phone": {
+        "title": "Téléphone"
+      },
+      "address": {
+        "title": "Adresse"
+      },
+      "hours": {
+        "title": "Heures d'Ouverture"
+      },
+      "review": {
+        "title": "Laissez Votre Avis",
+        "subtitle": "Votre opinion est très importante pour nous!",
+        "namePlaceholder": "Votre nom",
+        "commentPlaceholder": "Parlez-nous de votre expérience...",
+        "submitButton": "Soumettre l'Avis"
+      },
+      "payment": {
+        "title": "Méthodes de Paiement"
+      },
+      "qrcode": {
+        "title": "Évaluez-nous sur Google",
+        "instruction": "Scannez et laissez votre avis",
+        "button": "Évaluer maintenant"
+      },
+      "social": {
+        "title": "Suivez-nous sur les Réseaux Sociaux"
+      }
     },
-    "phone": {
-      "title": "Téléphone"
-    },
-    "address": {
-      "title": "Adresse"
-    },
-    "hours": {
-      "title": "Heures d'Ouverture"
-    },
-    "review": {
-      "title": "Laissez Votre Avis",
-      "subtitle": "Votre opinion est très importante pour nous!",
-      "namePlaceholder": "Votre nom",
-      "commentPlaceholder": "Parlez-nous de votre expérience...",
-      "submitButton": "Soumettre l'Avis"
-    },
-    "payment": {
-      "title": "Méthodes de Paiement"
-    },
-    "qrcode": {
-  "title": "Évaluez-nous sur Google",
-  "instruction": "Scannez et laissez votre avis",
-  "button": "Évaluer maintenant"
-},
-    "social": {
-      "title": "Suivez-nous sur les Réseaux Sociaux"
+    "footer": {
+      "companyName": "Kerotur",
+      "description": "Kerotur est né du désir d'apporter joie, plaisir, culture, divertissement et aventure à ceux qui veulent découvrir les beautés et les charmes de nos destinations.",
+      "quickLinks": "Liens Rapides",
+      "aboutUs": "À Propos",
+      "tours": "Excursions",
+      "partners": "Partenaires",
+      "contact": "Contact",
+      "address": "Rue Noronha Torrezão, 282/1002B",
+      "postalCode": "CP 24240-182, Niterói – RJ",
+      "phone": "+55 21 98225-1450",
+      "businessHours": "Horaires d'Ouverture",
+      "allDays": "Tous les jours",
+      "hours": "8h à 22h",
+      "paymentMethods": "Moyens de Paiement",
+      "paymentNote": "* Les cartes et liens de paiement ont des frais administratifs",
+      "copyright": "Tous droits réservés.",
+      "cnpj": "SIRET: 48.285.913/0001-28",
+      "developedBy": "Développé par"
     }
-  },
-  "footer": {
-    "companyName": "Kerotur",
-    "description": "Kerotur est né du désir d'apporter joie, plaisir, culture, divertissement et aventure à ceux qui veulent découvrir les beautés et les charmes de nos destinations.",
-    "quickLinks": "Liens Rapides",
-    "aboutUs": "À Propos",
-    "tours": "Excursions",
-    "partners": "Partenaires",
-    "contact": "Contact",
-    "address": "Rue Noronha Torrezão, 282/1002B",
-    "postalCode": "CP 24240-182, Niterói – RJ",
-    "phone": "+55 21 98225-1450",
-    "businessHours": "Horaires d'Ouverture",
-    "allDays": "Tous les jours",
-    "hours": "8h à 22h",
-    "paymentMethods": "Moyens de Paiement",
-    "paymentNote": "* Les cartes et liens de paiement ont des frais administratifs",
-    "copyright": "Tous droits réservés.",
-    "cnpj": "SIRET: 48.285.913/0001-28",
-    "developedBy": "Développé par"
   }
-}
 }

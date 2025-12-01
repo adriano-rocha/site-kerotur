@@ -34,8 +34,7 @@
       "priceGroup": "Precio Grupo",
       "reserve": "Reservar Ahora"
     }
-  }
-  ,
+  },
   "partners": {
     "title": "Nuestros Socios",
     "subtitle": "Trabajamos con los mejores para garantizar tu experiencia perfecta",
@@ -54,7 +53,9 @@
     },
     "badge": "Socios Confiables",
     "cta": "Saber más",
-    "ctaSubtext": "Ponte en contacto y descubre todas nuestras asociaciones y ventajas exclusivas"
+    "ctaSubtext": "Ponte en contacto y descubre todas nuestras asociaciones y ventajas exclusivas",
+    "videoPlaceholder": "Conozca nuestros socios",
+    "videoSoon": "Video próximamente"
   },
   "testimonials": {
     "title": "Lo Que Dicen Nuestros Clientes",
@@ -89,10 +90,10 @@
       "title": "Formas de Pago"
     },
     "qrcode": {
-    "title": "Evalúanos en Google",
-    "instruction": "Escanea y deja tu evaluación",
-    "button": "Evaluar Ahora"
-  },
+      "title": "Evalúanos en Google",
+      "instruction": "Escanea y deja tu evaluación",
+      "button": "Evaluar Ahora"
+    },
     "social": {
       "title": "Síguenos en Redes Sociales"
     }

@@ -91,7 +91,7 @@ function Header({ onTourSelect }: HeaderProps) {
         {/* Logo */}
         <div className="flex items-center">
           <img
-            src="/public/images/logo.jpg"
+            src="/images/logo.jpg"
             alt="Kerotur Logo"
             className="h-12 md:h-16 w-auto"
             onError={(e) => {
@@ -165,7 +165,7 @@ function Header({ onTourSelect }: HeaderProps) {
               className="flex items-center gap-2 hover:opacity-80 transition px-2 py-2"
             >
               <img
-                src={`/public/flags/${currentLanguage.flag}`}
+                src={`/flags/${currentLanguage.flag}`}
                 alt={currentLanguage.name}
                 className="w-10 h-10 rounded-full object-cover border-2 border-gray-300 shadow-md"
               />
@@ -199,7 +199,7 @@ function Header({ onTourSelect }: HeaderProps) {
                     }`}
                   >
                     <img
-                      src={`/public/flags/${lang.flag}`}
+                      src={`/flags/${lang.flag}`}
                       alt={lang.name}
                       className="w-8 h-8 rounded-full object-cover border-2 border-gray-300 shadow-sm"
                     />
@@ -219,7 +219,7 @@ function Header({ onTourSelect }: HeaderProps) {
               className="w-10 h-10 flex items-center justify-center"
             >
               <img
-                src={`/public/flags/${currentLanguage.flag}`}
+                src={`/flags/${currentLanguage.flag}`}
                 alt={currentLanguage.name}
                 className="w-10 h-10 rounded-full object-cover border-2 border-gray-300 shadow-md"
               />
@@ -238,7 +238,7 @@ function Header({ onTourSelect }: HeaderProps) {
                     }`}
                   >
                     <img
-                      src={`/public/flags/${lang.flag}`}
+                      src={`/flags/${lang.flag}`}
                       alt={lang.name}
                       className="w-8 h-8 rounded-full object-cover border-2 border-gray-300 shadow-sm"
                     />

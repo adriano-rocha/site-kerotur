@@ -35,6 +35,28 @@
       "reserve": "Faça sua reserva"
     }
   },
+  "partners": {
+    "title": "Nossos Parceiros",
+    "subtitle": "Trabalhamos com os melhores para garantir sua experiência perfeita",
+    "description": "A Kerotur tem parceria com empresas que oferecem os serviços de hospedagem, passeios e passagens aéreas para destinos nacionais e internacionais, seguro viagem, entre outros.",
+    "feature1": {
+      "title": "Hospedagens de Qualidade",
+      "description": "Parceria com os melhores hotéis e pousadas para garantir conforto e segurança durante sua estadia"
+    },
+    "feature2": {
+      "title": "Passagens Nacionais e Internacionais",
+      "description": "Venda de passagens aéreas para todos os destinos do Brasil e do mundo com as melhores tarifas"
+    },
+    "feature3": {
+      "title": "Segurança e Tranquilidade",
+      "description": "Seguro viagem, transfer e aluguel de carro para sua viagem ser completa e sem preocupações"
+    },
+    "badge": "Parceiros Confiáveis",
+    "cta": "Saiba mais",
+    "ctaSubtext": "Entre em contato e descubra todas as nossas parcerias e vantagens exclusivas",
+    "videoPlaceholder": "Conheça nossos parceiros",
+    "videoSoon": "Vídeo em breve"
+  },
   "testimonials": {
     "title": "O Que Nossos Clientes Dizem",
     "subtitle": "Experiências reais de quem viajou com a Kerotur"
@@ -68,10 +90,10 @@
       "title": "Formas de Pagamento"
     },
     "qrcode": {
-    "title": "Avalie-nos no Google",
-    "instruction": "Escaneie e deixe sua avaliação",
-    "button": "Avaliar Agora"
-  },
+      "title": "Avalie-nos no Google",
+      "instruction": "Escaneie e deixe sua avaliação",
+      "button": "Avaliar Agora"
+    },
     "social": {
       "title": "Siga-nos nas Redes Sociais"
     }

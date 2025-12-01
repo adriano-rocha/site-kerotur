@@ -53,7 +53,9 @@
     },
     "badge": "Partner Affidabili",
     "cta": "Scopri di più",
-    "ctaSubtext": "Contattaci e scopri tutte le nostre partnership e vantaggi esclusivi"
+    "ctaSubtext": "Contattaci e scopri tutte le nostre partnership e vantaggi esclusivi",
+    "videoPlaceholder": "Conozca nostri socios",
+    "videoSoon": "Video in arrivo"
   },
   "testimonials": {
     "title": "Cosa Dicono i Nostri Clienti",
@@ -88,15 +90,15 @@
       "title": "Metodi di Pagamento"
     },
     "qrcode": {
-  "title": "Recensiscici su Google",
-  "instruction": "Scansiona e lascia la tua recensione",
-  "button": "Recensisci ora"
-},
+      "title": "Recensiscici su Google",
+      "instruction": "Scansiona e lascia la tua recensione",
+      "button": "Recensisci ora"
+    },
     "social": {
       "title": "Seguici sui Social Media"
     }
   },
-   "footer": {
+  "footer": {
     "companyName": "Kerotur",
     "description": "Kerotur è nata dal desiderio di portare gioia, divertimento, cultura, intrattenimento e avventura a coloro che vogliono scoprire le bellezze e gli incanti delle nostre destinazioni.",
     "quickLinks": "Link Rapidi",
