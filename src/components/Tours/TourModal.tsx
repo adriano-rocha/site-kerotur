@@ -1,97 +1,98 @@
-import React, { type JSX, useEffect, useState } from 'react'
-import { useTranslation } from 'react-i18next'
-import { ChevronLeft, ChevronRight, MapPin, Play, Pause } from 'lucide-react'
+import { type JSX, useEffect, useState } from "react";
+import { useTranslation } from "react-i18next";
+import { ChevronLeft, ChevronRight, MapPin, Play, Pause } from "lucide-react";
 
 interface TourModalProps {
   tour: {
-    id: string
-    name: { [key: string]: string }
-    shortDescription: { [key: string]: string }
-    fullDescription?: { [key: string]: string }
-    image: string
-    images?: string[]
-    attractions?: { [key: string]: string[] }
-    duration?: { [key: string]: string }
+    id: string;
+    name: { [key: string]: string };
+    shortDescription: { [key: string]: string };
+    fullDescription?: { [key: string]: string };
+    image: string;
+    images?: string[];
+    attractions?: { [key: string]: string[] };
+    duration?: { [key: string]: string };
     price: {
-      value: string
-      perPerson: boolean
-      individual?: string
-      group?: string
-    }
-    included?: { [key: string]: string[] }
-    buttonText: { [key: string]: string }
-  }
-  onClose: () => void
+      value: string;
+      perPerson: boolean;
+      individual?: string;
+      group?: string;
+    };
+    included?: { [key: string]: string[] };
+    buttonText: { [key: string]: string };
+  };
+  onClose: () => void;
 }
 
 function TourModal({ tour, onClose }: TourModalProps): JSX.Element {
-  const { i18n } = useTranslation()
-  const currentLang = i18n.language ?? 'pt-BR'
+  const { i18n } = useTranslation();
+  const currentLang = i18n.language ?? "pt-BR";
   const getText = (map?: { [key: string]: string }) =>
-    map ? (map[currentLang] ?? map['pt-BR'] ?? '') : ''
+    map ? map[currentLang] ?? map["pt-BR"] ?? "" : "";
 
   // Estado do carrossel
-  const images = tour.images || [tour.image]
-  const [currentImageIndex, setCurrentImageIndex] = useState(0)
-  const [isPlaying, setIsPlaying] = useState(true)
+  const images = tour.images || [tour.image];
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  const [isPlaying, setIsPlaying] = useState(true);
 
   // Funções de navegação
   const nextImage = () => {
-    setCurrentImageIndex((prev) => (prev + 1) % images.length)
-  }
+    setCurrentImageIndex((prev) => (prev + 1) % images.length);
+  };
 
   const prevImage = () => {
-    setCurrentImageIndex((prev) => (prev - 1 + images.length) % images.length)
-  }
+    setCurrentImageIndex((prev) => (prev - 1 + images.length) % images.length);
+  };
 
   // Auto play
   useEffect(() => {
-    if (!isPlaying || images.length <= 1) return
+    if (!isPlaying || images.length <= 1) return;
 
-    const interval = setInterval(nextImage, 5000)
-    return () => clearInterval(interval)
-  }, [isPlaying, images.length])
+    const interval = setInterval(nextImage, 5000);
+    return () => clearInterval(interval);
+  }, [isPlaying, images.length]);
 
   // Pause no hover
   useEffect(() => {
-    const modalContent = document.querySelector('.tour-modal-content')
-    const handleMouseEnter = () => setIsPlaying(false)
-    const handleMouseLeave = () => setIsPlaying(true)
+    const modalContent = document.querySelector(".tour-modal-content");
+    const handleMouseEnter = () => setIsPlaying(false);
+    const handleMouseLeave = () => setIsPlaying(true);
 
-    modalContent?.addEventListener('mouseenter', handleMouseEnter)
-    modalContent?.addEventListener('mouseleave', handleMouseLeave)
+    modalContent?.addEventListener("mouseenter", handleMouseEnter);
+    modalContent?.addEventListener("mouseleave", handleMouseLeave);
 
     return () => {
-      modalContent?.removeEventListener('mouseenter', handleMouseEnter)
-      modalContent?.removeEventListener('mouseleave', handleMouseLeave)
-    }
-  }, [])
+      modalContent?.removeEventListener("mouseenter", handleMouseEnter);
+      modalContent?.removeEventListener("mouseleave", handleMouseLeave);
+    };
+  }, []);
 
   const WHATSAPP_LINK = `https://wa.me/5521982251450?text=${encodeURIComponent(
     `Olá! Gostaria de mais informações sobre o passeio: ${getText(tour.name)}`
-  )}`
+  )}`;
 
   // Bloquear scroll do body
   useEffect(() => {
-    const originalOverflow = document.body.style.overflow
-    document.body.style.overflow = 'hidden'
+    const originalOverflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
     return () => {
-      document.body.style.overflow = originalOverflow
-    }
-  }, [])
+      document.body.style.overflow = originalOverflow;
+    };
+  }, []);
 
   // Fechar com ESC
   useEffect(() => {
     const handleEsc = (e: KeyboardEvent) => {
-      if (e.key === 'Escape') onClose()
-    }
-    window.addEventListener('keydown', handleEsc)
-    return () => window.removeEventListener('keydown', handleEsc)
-  }, [onClose])
+      if (e.key === "Escape") onClose();
+    };
+    window.addEventListener("keydown", handleEsc);
+    return () => window.removeEventListener("keydown", handleEsc);
+  }, [onClose]);
 
   // Formatar descrição
-  const fullDesc = getText(tour.fullDescription) || getText(tour.shortDescription)
-  const paragraphs = fullDesc.split('\n').filter(p => p.trim())
+  const fullDesc =
+    getText(tour.fullDescription) || getText(tour.shortDescription);
+  const paragraphs = fullDesc.split("\n").filter((p) => p.trim());
 
   return (
     <div
@@ -108,8 +109,18 @@ function TourModal({ tour, onClose }: TourModalProps): JSX.Element {
           className="sticky top-4 right-4 ml-auto mr-4 bg-white/90 hover:bg-white text-gray-800 rounded-full p-3 transition-all duration-300 shadow-xl hover:shadow-2xl hover:scale-110 border border-gray-200 flex items-center justify-center"
           aria-label="Fechar"
         >
-          <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+          <svg
+            className="w-5 h-5"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M6 18L18 6M6 6l12 12"
+            />
           </svg>
         </button>
 
@@ -120,7 +131,8 @@ function TourModal({ tour, onClose }: TourModalProps): JSX.Element {
             alt={`${getText(tour.name)} - ${currentImageIndex + 1}`}
             className="w-full h-full object-cover transition-transform duration-800 hover:scale-105"
             onError={(e) => {
-              (e.target as HTMLImageElement).src = '/images/tours/default-tour.jpg'
+              (e.target as HTMLImageElement).src =
+                "/images/tours/default-tour.jpg";
             }}
           />
 
@@ -155,8 +167,8 @@ function TourModal({ tour, onClose }: TourModalProps): JSX.Element {
                       onClick={() => setCurrentImageIndex(index)}
                       className={`w-3 h-3 rounded-full transition-all duration-300 ${
                         index === currentImageIndex
-                          ? 'bg-[#0008B] w-8 shadow-lg'
-                          : 'bg-gray-400 hover:bg-gray-500 hover:w-4'
+                          ? "bg-[#0008B] w-8 shadow-lg"
+                          : "bg-gray-400 hover:bg-gray-500 hover:w-4"
                       }`}
                       aria-label={`Ir para imagem ${index + 1}`}
                     />
@@ -166,7 +178,7 @@ function TourModal({ tour, onClose }: TourModalProps): JSX.Element {
                 <button
                   onClick={() => setIsPlaying(!isPlaying)}
                   className="p-2 hover:bg-gray-200 rounded-xl transition-all duration-200 hover:scale-110"
-                  title={isPlaying ? 'Pausar' : 'Reproduzir'}
+                  title={isPlaying ? "Pausar" : "Reproduzir"}
                 >
                   {isPlaying ? (
                     <Pause className="w-5 h-5 text-gray-700" />
@@ -194,7 +206,12 @@ function TourModal({ tour, onClose }: TourModalProps): JSX.Element {
               </h1>
               {tour.duration && (
                 <div className="flex items-center gap-2 mt-2 text-sm text-gray-600 bg-gray-100 px-4 py-2 rounded-full font-medium">
-                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg
+                    className="w-4 h-4"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
                     <path
                       strokeLinecap="round"
                       strokeLinejoin="round"
@@ -241,7 +258,9 @@ function TourModal({ tour, onClose }: TourModalProps): JSX.Element {
                     <span className="text-emerald-500 text-xl font-bold mt-0.5 flex-shrink-0">
                       ✓
                     </span>
-                    <span className="text-gray-800 leading-relaxed">{item}</span>
+                    <span className="text-gray-800 leading-relaxed">
+                      {item}
+                    </span>
                   </div>
                 ))}
               </div>
@@ -258,9 +277,11 @@ function TourModal({ tour, onClose }: TourModalProps): JSX.Element {
                   Individual
                 </p>
                 <p className="text-5xl lg:text-6xl font-black text-[#0008B] drop-shadow-lg">
-                  {tour.price.individual || tour.price.value || 'R$ 0'}
+                  {tour.price.individual || tour.price.value || "R$ 0"}
                 </p>
-                <p className="text-lg text-gray-600 font-medium mt-2">por pessoa</p>
+                <p className="text-lg text-gray-600 font-medium mt-2">
+                  por pessoa
+                </p>
               </div>
               {tour.price.group && (
                 <div className="flex-1 border-l border-gray-200 pl-8 lg:pl-12">
@@ -308,7 +329,7 @@ function TourModal({ tour, onClose }: TourModalProps): JSX.Element {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default TourModal
+export default TourModal;
