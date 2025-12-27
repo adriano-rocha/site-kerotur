@@ -8,10 +8,12 @@ function Contact() {
   const EMAIL = "kerotur@kerotur.com";
   const PHONE = "+55 21 98225-1450";
   const ADDRESS = "Rua Noronha Torrezão, 282/1002B, Niterói - RJ";
-  const GOOGLE_REVIEW_LINK = "https://g.page/r/SUA_URL_AQUI/review"; // Substitua pela sua URL
+  const GOOGLE_REVIEW_LINK = "https://g.page/r/CTAfkQ_DMFPbEAE/review";
 
   const [rating, setRating] = useState(0);
   const [hoverRating, setHoverRating] = useState(0);
+  const [reviewName, setReviewName] = useState("");
+  const [reviewComment, setReviewComment] = useState("");
 
   const socialLinks = [
     { name: "WhatsApp", image: "/images/midias/whats.png", url: WHATSAPP_LINK },
@@ -29,6 +31,25 @@ function Contact() {
     { name: "Amex", image: "/images/payment/amex.jpg" },
     { name: "Link de Pagamento", image: "/images/payment/link.svg" }
   ];
+
+  const handleSubmitReview = (e: { preventDefault: () => void; }) => {
+    e.preventDefault();
+    
+    if (!rating || !reviewName || !reviewComment) {
+      alert("Por favor, preencha todos os campos e selecione uma avaliação!");
+      return;
+    }
+
+    const stars = "⭐".repeat(rating);
+    const message = `*Nova Avaliação Kerotur*\n\n${stars} (${rating}/5)\n\n*Nome:* ${reviewName}\n\n*Comentário:*\n${reviewComment}`;
+    
+    window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`, '_blank');
+    
+    // Limpar formulário
+    setRating(0);
+    setReviewName("");
+    setReviewComment("");
+  };
 
   return (
     <section
@@ -240,7 +261,6 @@ function Contact() {
 
           {/* Coluna Direita - Avaliação, Pagamento e Redes (2/3) */}
           <div className="lg:col-span-2 space-y-6" data-aos="fade-left" data-aos-delay="300">
-            
             {/* Seção de Avaliação */}
             <div className="bg-white rounded-2xl p-6 shadow-xl border border-gray-200">
               <h3 className="text-2xl font-bold text-[#0008B] mb-4 text-center">
@@ -255,6 +275,7 @@ function Contact() {
                 {[1, 2, 3, 4, 5].map((star) => (
                   <button
                     key={star}
+                    type="button"
                     onClick={() => setRating(star)}
                     onMouseEnter={() => setHoverRating(star)}
                     onMouseLeave={() => setHoverRating(0)}
@@ -282,24 +303,30 @@ function Contact() {
               </div>
 
               {/* Formulário de Avaliação */}
-              <form className="space-y-4">
+              <form onSubmit={handleSubmitReview} className="space-y-4">
                 <div>
                   <input
                     type="text"
+                    value={reviewName}
+                    onChange={(e) => setReviewName(e.target.value)}
                     placeholder={t("contact.review.namePlaceholder")}
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-[#00ffff] transition"
+                    required
                   />
                 </div>
                 <div>
                   <textarea
+                    value={reviewComment}
+                    onChange={(e) => setReviewComment(e.target.value)}
                     placeholder={t("contact.review.commentPlaceholder")}
                     rows={4}
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-[#00ffff] transition resize-none"
+                    required
                   ></textarea>
                 </div>
                 <button
                   type="submit"
-                  className="w-full bg-[#FF8C00] hover:bg-[#FF7A00] text-[#0008B] font-bold py-3 rounded-lg transition duration-300"
+                  className="w-full bg-[#FF8C00] hover:bg-[#FF7A00] text-white font-bold py-3 rounded-lg transition duration-300"
                 >
                   {t("contact.review.submitButton")}
                 </button>
@@ -308,7 +335,6 @@ function Contact() {
 
             {/* Grid com Pagamento e QR Code */}
             <div className="grid md:grid-cols-2 gap-6">
-              
               {/* Formas de Pagamento */}
               <div className="bg-gradient-to-br from-[#00ffff]/10 to-white rounded-2xl p-6 shadow-xl border border-[#00ffff]/30">
                 <h3 className="text-xl font-bold text-[#0008B] mb-4 text-center">
@@ -350,7 +376,6 @@ function Contact() {
                     alt="QR Code Google Avaliação"
                     className="w-40 h-40 object-contain"
                     onError={(e) => {
-                      // Fallback: mostra ícone do Google se não houver QR Code
                       e.currentTarget.src = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160' viewBox='0 0 160 160'%3E%3Crect width='160' height='160' fill='%23f0f0f0'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-size='14' fill='%23999'%3EQR Code%3C/text%3E%3C/svg%3E";
                     }}
                   />
@@ -382,7 +407,7 @@ function Contact() {
 
             {/* Redes Sociais */}
             <div className="bg-white rounded-2xl p-6 shadow-xl border border-gray-200">
-              <h3 className="text-xl font-bold text-[#0008B] mb-4 text-center">
+              <h3 className="text-xl font-bold text-[#0008B] mb-4 text-center transition duration-300">
                 {t("contact.social.title")}
               </h3>
               <div className="grid grid-cols-2 md:grid-cols-5 gap-4">

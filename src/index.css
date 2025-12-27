@@ -1,1 +1,98 @@
 @import "tailwindcss";
+
+.mvv-hero {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background-image: url("/images/logo.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.mvv-hero-overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.55);
+}
+
+.mvv-hero-content {
+  position: relative;
+  max-width: 800px;
+  width: 100%;
+  padding: 3rem 2.5rem;
+  border-radius: 1.5rem;
+
+  /* glassmorphism */
+  background: rgba(0, 255, 255, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow:
+    0 18px 45px rgba(0, 0, 0, 0.35),
+    0 0 0 1px rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+
+  color: #00008b;
+  text-align: center;
+}
+
+
+.mvv-title {
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 900;
+  margin-bottom: 1.5rem;
+  color: #00008b;
+}
+
+.mvv-text {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+  color: #00008b;
+}
+
+.mvv-back-button {
+  position: absolute;
+  top: 1rem;
+  right: 1.25rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 999px;
+  border: none;
+  background-color: #ffffff;
+  color: #00008b;
+  font-size: 1.5rem;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+}
+
+.mvv-back-button:hover {
+  background-color: #e5e7eb;
+  transform: translateY(-2px) scale(1.05);
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.35);
+}
+
+@media (max-width: 640px) {
+  .mvv-hero-content {
+    padding: 2.5rem 1.5rem;
+  }
+
+  .mvv-title {
+    font-size: 1.75rem;
+  }
+
+  .mvv-text {
+    font-size: 1rem;
+  }
+}
+
+

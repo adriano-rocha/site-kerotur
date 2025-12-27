@@ -1,67 +1,91 @@
-import { useState, useImperativeHandle, forwardRef, useCallback } from 'react'
-import { useTranslation } from 'react-i18next'
-import useEmblaCarousel from 'embla-carousel-react'
-import { ChevronLeft, ChevronRight } from 'lucide-react'
-import TourCard from './TourCard'
-import TourModal from './TourModal'
-import toursData from '../../data/tours.json'
+import { useState, useImperativeHandle, forwardRef, useCallback } from "react";
+import { useTranslation } from "react-i18next";
+import useEmblaCarousel from "embla-carousel-react";
+import { ChevronLeft, ChevronRight } from "lucide-react";
+import TourCard from "./TourCard";
+import TourModal from "./TourModal";
+import Autoplay from "embla-carousel-autoplay";
+import toursDataImport from "../../data/tours.json";
 
 interface Tour {
-  id: string
-  name: { [key: string]: string }
-  shortDescription: { [key: string]: string }
-  fullDescription?: { [key: string]: string }
-  image: string
-  images?: string[]
-  attractions?: { [key: string]: string[] }
-  duration?: { [key: string]: string }
+  id: string;
+  name: { [key: string]: string };
+  shortDescription: { [key: string]: string };
+  fullDescription?: { [key: string]: string };
+  image: string;
+  images?: string[];
+  attractions?: { [key: string]: string[] };
+  duration?: { [key: string]: string };
   price: {
-    individual?: string
-    group?: string
-    value?: string
-    perPerson?: boolean
-  }
-  included?: { [key: string]: string[] }
-  buttonText?: { [key: string]: string }
+    individual?: string;
+    group?: string;
+    value?: string;
+    perPerson?: boolean;
+  };
+  included?: { [key: string]: string[] | undefined } ;
+  buttonText?: { [key: string]: string };
 }
 
 export interface TourSectionRef {
-  openTourById: (tourId: string) => void
+  openTourById: (tourId: string) => void;
 }
 
+// Garantir que toursData é um array
+const toursData: Tour[] = Array.isArray(toursDataImport)
+  ? toursDataImport
+  : [toursDataImport];
+
 const TourSection = forwardRef<TourSectionRef, object>((_, ref) => {
-  const { t } = useTranslation()
-  const [selectedTour, setSelectedTour] = useState<Tour | null>(null)
+  const { t } = useTranslation();
+  const [selectedTour, setSelectedTour] = useState<Tour | null>(null);
 
   // Carrossel Desktop (3 slides por vez)
-  const [emblaRefDesktop, emblaApiDesktop] = useEmblaCarousel({
-    loop: true,
-    align: 'start',
-    slidesToScroll: 3,
-  })
+  const [emblaRefDesktop, emblaApiDesktop] = useEmblaCarousel(
+    {
+      loop: true,
+      align: "start",
+      slidesToScroll: 3,
+    },
+    [
+      Autoplay({
+        delay: 5000,
+        stopOnInteraction: false,
+        stopOnMouseEnter: true,
+      }),
+    ]
+  );
 
   // Carrossel Mobile (1 slide por vez)
-  const [emblaRefMobile, emblaApiMobile] = useEmblaCarousel({
-    loop: true,
-    align: 'start',
-    slidesToScroll: 1,
-  })
+  const [emblaRefMobile, emblaApiMobile] = useEmblaCarousel(
+    {
+      loop: true,
+      align: "start",
+      slidesToScroll: 1,
+    },
+    [
+      Autoplay({
+        delay: 4000,
+        stopOnInteraction: false,
+        stopOnMouseEnter: false,
+      }),
+    ]
+  );
 
   const scrollPrevDesktop = useCallback(() => {
-    if (emblaApiDesktop) emblaApiDesktop.scrollPrev()
-  }, [emblaApiDesktop])
+    if (emblaApiDesktop) emblaApiDesktop.scrollPrev();
+  }, [emblaApiDesktop]);
 
   const scrollNextDesktop = useCallback(() => {
-    if (emblaApiDesktop) emblaApiDesktop.scrollNext()
-  }, [emblaApiDesktop])
+    if (emblaApiDesktop) emblaApiDesktop.scrollNext();
+  }, [emblaApiDesktop]);
 
   const scrollPrevMobile = useCallback(() => {
-    if (emblaApiMobile) emblaApiMobile.scrollPrev()
-  }, [emblaApiMobile])
+    if (emblaApiMobile) emblaApiMobile.scrollPrev();
+  }, [emblaApiMobile]);
 
   const scrollNextMobile = useCallback(() => {
-    if (emblaApiMobile) emblaApiMobile.scrollNext()
-  }, [emblaApiMobile])
+    if (emblaApiMobile) emblaApiMobile.scrollNext();
+  }, [emblaApiMobile]);
 
   // Função para converter tour para o formato esperado pelo TourCard
   const formatTourForCard = (tour: Tour) => {
@@ -71,81 +95,90 @@ const TourSection = forwardRef<TourSectionRef, object>((_, ref) => {
       shortDescription: tour.shortDescription,
       image: tour.image,
       price: {
-        value: tour.price.individual || tour.price.value || 'Consulte',
-        perPerson: tour.price.perPerson !== undefined ? tour.price.perPerson : true
+        value: tour.price.individual || tour.price.value || "Consulte",
+        perPerson:
+          tour.price.perPerson !== undefined ? tour.price.perPerson : true,
       },
-      buttonText: tour.buttonText || { 'pt-BR': 'Reserve agora' }
-    }
-  }
+      buttonText: tour.buttonText || { "pt-BR": "Reserve agora" },
+    };
+  };
 
   // Função para converter tour para o formato esperado pelo TourModal
-  const formatTourForModal = (tour: Tour) => {
-    return {
-      id: tour.id,
-      name: tour.name,
-      shortDescription: tour.shortDescription,
-      fullDescription: tour.fullDescription || tour.shortDescription,
-      image: tour.image,
-      images: tour.images || [tour.image],
-      attractions: tour.attractions || { 'pt-BR': [] },
-      duration: tour.duration || { 'pt-BR': 'Consulte' },
-      price: {
-        value: tour.price.individual || tour.price.value || 'Consulte',
-        perPerson: tour.price.perPerson !== undefined ? tour.price.perPerson : true,
-        individual: tour.price.individual || tour.price.value || 'Consulte',
-        group: tour.price.group || 'Consulte'
-      },
-      included: tour.included || { 'pt-BR': [] },
-      buttonText: tour.buttonText || { 'pt-BR': 'Reserve agora' }
-    }
+const formatTourForModal = (tour: Tour) => {
+  // garante que sempre exista algum objeto de included
+  const included = tour.included || { "pt-BR": [] }
+
+  // força todos os valores a serem string[], nunca undefined
+  const normalizedIncluded: { [key: string]: string[] } = Object.fromEntries(
+    Object.entries(included).map(([lang, list]) => [lang, list || []])
+  )
+
+  return {
+    id: tour.id,
+    name: tour.name,
+    shortDescription: tour.shortDescription,
+    fullDescription: tour.fullDescription || tour.shortDescription,
+    image: tour.image,
+    images: tour.images || [tour.image],
+    attractions: tour.attractions || { "pt-BR": [] },
+    duration: tour.duration || { "pt-BR": "Consulte" },
+    price: {
+      value: tour.price.individual || tour.price.value || "Consulte",
+      perPerson:
+        tour.price.perPerson !== undefined ? tour.price.perPerson : true,
+      individual: tour.price.individual || tour.price.value || "Consulte",
+      group: tour.price.group || "Consulte",
+    },
+    included: normalizedIncluded, // <- aqui entra o objeto “limpo”
+    buttonText: tour.buttonText || { "pt-BR": "Reserve agora" },
   }
+}
 
   useImperativeHandle(ref, () => ({
     openTourById: (tourId: string) => {
-      // eslint-disable-next-line @typescript-eslint/no-explicit-any
-      const tour = toursData.find((t: any) => t.id === tourId)
+      const tour = toursData.find((t: Tour) => t.id === tourId);
       if (tour) {
-        setSelectedTour(tour as Tour)
-        
+        setSelectedTour(tour);
+
         // Scroll suave até a seção
         setTimeout(() => {
-          document.getElementById('passeios')?.scrollIntoView({ 
-            behavior: 'smooth',
-            block: 'start'
-          })
-        }, 100)
+          document.getElementById("passeios")?.scrollIntoView({
+            behavior: "smooth",
+            block: "start",
+          });
+        }, 100);
       }
-    }
-  }))
+    },
+  }));
 
   return (
     <section id="passeios" className="py-16 md:py-24 bg-gray-50">
       <div className="container mx-auto px-4">
-        <h2 
+        <h2
           className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-center text-[#0008B]"
           data-aos="fade-down"
         >
-          {t('tours.title')}
+          {t("tours.title")}
         </h2>
-        <p 
+        <p
           className="text-center text-gray-600 mb-12 max-w-2xl mx-auto"
           data-aos="fade-up"
           data-aos-delay="200"
         >
-          {t('tours.subtitle')}
+          {t("tours.subtitle")}
         </p>
 
         {/* Carrossel Desktop (3 cards por vez) */}
-        <div 
+        <div
           className="hidden md:block relative"
           data-aos="zoom-in"
           data-aos-delay="400"
         >
           <div className="overflow-hidden" ref={emblaRefDesktop}>
             <div className="flex gap-6">
-              {(toursData as Tour[]).map((tour) => (
-                <div 
-                  key={tour.id} 
+              {toursData.map((tour) => (
+                <div
+                  key={tour.id}
                   className="flex-[0_0_calc(33.333%-16px)] min-w-0"
                 >
                   <TourCard
@@ -162,6 +195,7 @@ const TourSection = forwardRef<TourSectionRef, object>((_, ref) => {
             className="bg-white hover:bg-[#00ffff]/20 flex items-center justify-center rounded-full shadow-xl w-12 h-12 absolute left-0 -translate-y-1/2 -translate-x-6 top-1/2 z-10 transition duration-300 hover:scale-110"
             onClick={scrollPrevDesktop}
             aria-label="3 passeios anteriores"
+            type="button"
           >
             <ChevronLeft className="w-6 h-6 text-[#0008B]" />
           </button>
@@ -170,36 +204,37 @@ const TourSection = forwardRef<TourSectionRef, object>((_, ref) => {
             className="bg-white hover:bg-[#00ffff]/20 flex items-center justify-center rounded-full shadow-xl w-12 h-12 absolute right-0 -translate-y-1/2 translate-x-6 top-1/2 z-10 transition duration-300 hover:scale-110"
             onClick={scrollNextDesktop}
             aria-label="Próximos 3 passeios"
+            type="button"
           >
             <ChevronRight className="w-6 h-6 text-[#0008B]" />
           </button>
 
           {/* Indicadores Desktop */}
           <div className="flex justify-center gap-2 mt-8">
-            {Array.from({ length: Math.ceil(toursData.length / 3) }).map((_, index) => (
-              <button
-                key={index}
-                onClick={() => emblaApiDesktop?.scrollTo(index * 3)}
-                className="w-2 h-2 rounded-full bg-[#00ffff] hover:bg-[#0008B] transition"
-                aria-label={`Ir para grupo ${index + 1}`}
-              />
-            ))}
+            {Array.from({ length: Math.ceil(toursData.length / 3) }).map(
+              (_, index) => (
+                <button
+                  key={index}
+                  onClick={() => emblaApiDesktop?.scrollTo(index * 3)}
+                  className="w-2 h-2 rounded-full bg-[#00ffff] hover:bg-[#0008B] transition"
+                  aria-label={`Ir para grupo ${index + 1}`}
+                  type="button"
+                />
+              )
+            )}
           </div>
         </div>
 
         {/* Carrossel Mobile (1 card por vez) */}
-        <div 
+        <div
           className="md:hidden relative"
           data-aos="zoom-in"
           data-aos-delay="400"
         >
           <div className="overflow-hidden" ref={emblaRefMobile}>
             <div className="flex">
-              {(toursData as Tour[]).map((tour) => (
-                <div 
-                  key={tour.id} 
-                  className="flex-[0_0_100%] min-w-0 px-2"
-                >
+              {toursData.map((tour) => (
+                <div key={tour.id} className="flex-[0_0_100%] min-w-0 px-2">
                   <TourCard
                     tour={formatTourForCard(tour)}
                     onClick={() => setSelectedTour(tour)}
@@ -214,6 +249,7 @@ const TourSection = forwardRef<TourSectionRef, object>((_, ref) => {
             className="bg-white hover:bg-[#00ffff]/20 flex items-center justify-center rounded-full shadow-xl w-10 h-10 absolute left-0 -translate-y-1/2 -translate-x-2 top-1/2 z-10 transition duration-300"
             onClick={scrollPrevMobile}
             aria-label="Passeio anterior"
+            type="button"
           >
             <ChevronLeft className="w-5 h-5 text-[#0008B]" />
           </button>
@@ -222,6 +258,7 @@ const TourSection = forwardRef<TourSectionRef, object>((_, ref) => {
             className="bg-white hover:bg-[#00ffff]/20 flex items-center justify-center rounded-full shadow-xl w-10 h-10 absolute right-0 -translate-y-1/2 translate-x-2 top-1/2 z-10 transition duration-300"
             onClick={scrollNextMobile}
             aria-label="Próximo passeio"
+            type="button"
           >
             <ChevronRight className="w-5 h-5 text-[#0008B]" />
           </button>
@@ -234,6 +271,7 @@ const TourSection = forwardRef<TourSectionRef, object>((_, ref) => {
                 onClick={() => emblaApiMobile?.scrollTo(index)}
                 className="w-2 h-2 rounded-full bg-[#00ffff] hover:bg-[#0008B] transition"
                 aria-label={`Ir para passeio ${index + 1}`}
+                type="button"
               />
             ))}
             {toursData.length > 10 && (
@@ -252,9 +290,9 @@ const TourSection = forwardRef<TourSectionRef, object>((_, ref) => {
         />
       )}
     </section>
-  )
-})
+  );
+});
 
-TourSection.displayName = 'TourSection'
+TourSection.displayName = "TourSection";
 
-export default TourSection
+export default TourSection;

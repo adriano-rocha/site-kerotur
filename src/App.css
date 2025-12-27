@@ -1,42 +1,483 @@
+/* ===== RESET & BASE ===== */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.6;
+  scroll-behavior: smooth;
+}
+
 #root {
-  max-width: 1280px;
+  max-width: 100%;
   margin: 0 auto;
+  overflow-x: hidden;
+}
+
+/* ===== TIPOGRAFIA ===== */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  line-height: 1.2;
+  color: #00008b;
+  margin: 0 0 1rem 0;
+}
+
+h1 {
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  margin-bottom: 1.5rem;
+}
+h2 {
+  font-size: clamp(1.75rem, 4vw, 2.75rem);
+  margin-bottom: 1.25rem;
+}
+h3 {
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  margin-bottom: 1rem;
+}
+
+/* ===== ANIMAÇÕES GERAIS ===== */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.6s ease-out forwards;
+}
+.animate-scaleIn {
+  animation: scaleIn 0.4s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+/* ===== HEADER ===== */
+header {
+  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.95);
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+
+header .container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+header a,
+header button {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+header a:hover,
+header button:hover:not(:disabled) {
+  transform: translateY(-2px);
+}
+
+/* ===== TOUR CARDS ===== */
+.tour-card {
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  border: none;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(20px);
+  border-radius: 1rem;
+}
+
+.tour-card:hover {
+  transform: translateY(-12px) scale(1.02);
+  box-shadow: 0 32px 64px rgba(0, 0, 0, 0.15);
+}
+
+.tour-card button {
+  background: linear-gradient(135deg, #00008b 0%, #00ffff 100%);
+  color: white;
+  border: none;
+  border-radius: 0.75rem;
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+
+.tour-card button:hover {
+  transform: translateY(-4px) scale(1.05);
+  box-shadow: 0 20px 40px rgba(0, 8, 139, 0.4);
+}
+
+/* ===== DROPDOWN TOURS (SCROLL FIXO) ===== */
+.tours-dropdown {
+  max-height: 450px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #00ffff #f1f5f9;
+}
+
+.tours-dropdown::-webkit-scrollbar {
+  width: 6px;
+}
+
+.tours-dropdown::-webkit-scrollbar-track {
+  background: #f1f5f9;
+  border-radius: 3px;
+}
+
+.tours-dropdown::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #00ffff, #00008b);
+  border-radius: 3px;
+}
+
+.tours-dropdown::-webkit-scrollbar-thumb:hover {
+  background: #00008b;
+}
+
+/* ===== MODAL SCROLL ===== */
+.tour-modal-content {
+  max-height: 80vh;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #00ffff #f3f4f6;
+}
+
+.tour-modal-content::-webkit-scrollbar {
+  width: 8px;
+}
+
+.tour-modal-content::-webkit-scrollbar-track {
+  background: #f3f4f6;
+  border-radius: 4px;
+}
+
+.tour-modal-content::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #00ffff, #00008b);
+  border-radius: 4px;
+}
+
+.tour-modal-content::-webkit-scrollbar-thumb:hover {
+  background: #00008b;
+}
+
+/* ===== SWIPER CARROSSEL ===== */
+.swiper {
+  padding-bottom: 4rem !important;
+}
+
+.swiper-pagination-bullet {
+  background: rgba(255, 255, 255, 0.5) !important;
+  opacity: 1 !important;
+  width: 12px !important;
+  height: 12px !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: #00ffff !important;
+  transform: scale(1.3) !important;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #00ffff !important;
+  background: rgba(255, 255, 255, 0.9) !important;
+  backdrop-filter: blur(10px) !important;
+  border-radius: 50% !important;
+  width: 48px !important;
+  height: 48px !important;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2) !important;
+  margin-top: -24px !important;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 18px !important;
+  font-weight: 600 !important;
+}
+
+/* ===== BOTÕES GERAIS ===== */
+.btn-primary,
+.btn-secondary,
+.btn-whatsapp {
+  font-weight: 700;
+  padding: 1rem 2rem;
+  border-radius: 0.75rem;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  transition: all 0.3s ease;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #00008b 0%, #00ffff 100%);
+  color: white;
+}
+
+.btn-primary:hover {
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+  transform: translateY(-0.5rem);
+}
+
+.btn-secondary {
+  background: linear-gradient(135deg, #f97316 0%, #ea580c 100%);
+  color: white;
+}
+
+.btn-secondary:hover {
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+  transform: translateY(-0.5rem);
+}
+
+.btn-whatsapp {
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  color: white;
+  font-weight: 800;
+  box-shadow: 0 20px 40px -12px rgba(16, 185, 129, 0.4);
+}
+
+.btn-whatsapp:hover {
+  background: linear-gradient(135deg, #059669 0%, #047857 100%);
+  transform: translateY(-0.75rem);
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+/* ===== UTILITÁRIOS ===== */
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.text-gradient-primary {
+  background: linear-gradient(135deg, #00008b 0%, #00ffff 50%, #00008b 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* ===== ESTILO DOS CARDS DE MISSÃO / VISÃO / VALORES ===== */
+.card-mvv-header {
+  background: linear-gradient(135deg, #00ffff 0%, #00008b 100%);
+  color: #ffffff;
+}
+
+.card-mvv-title {
+  color: #00008b;
+}
+
+.card-mvv-body {
+  background-color: #00ffff;
+  color: #00008b;
+}
+
+/* ===== PÁGINA MISSÃO / VISÃO / VALORES (FULL PAGE) ===== */
+.mvv-hero {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 2rem;
+  background-image: url("/images/logo.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.mvv-hero-overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.55);
+}
+
+.mvv-hero-content {
+  position: relative;
+  max-width: 800px;
+  width: 100%;
+  background-color: rgba(0, 255, 255, 0.9); /* turquesa opaco */
+  padding: 3rem 2.5rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.4);
+  color: #00008b;
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.mvv-title {
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 900;
+  margin-bottom: 1.5rem;
+  color: #00008b;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+.mvv-text {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+  color: #00008b;
+}
+
+.mvv-back-button {
+  position: absolute;
+  top: 1rem;
+  right: 1.25rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 999px;
+  border: none;
+  background-color: #ffffff;
+  color: #00008b;
+  font-size: 1.5rem;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+}
+
+.mvv-back-button:hover {
+  background-color: #e5e7eb;
+  transform: translateY(-2px) scale(1.05);
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.35);
+}
+
+@media (max-width: 640px) {
+  .mvv-hero-content {
+    padding: 2.5rem 1.5rem;
   }
-  to {
-    transform: rotate(360deg);
+
+  .mvv-title {
+    font-size: 1.75rem;
+  }
+
+  .mvv-text {
+    font-size: 1rem;
   }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+/* ===== VLibras ===== */
+[vw-access-button] {
+  bottom: 100px !important;
+  right: 24px !important;
+  z-index: 40 !important;
+}
+
+[vw-plugin-wrapper] {
+  z-index: 45 !important;
+}
+
+@media (max-width: 768px) {
+  [vw-access-button] {
+    bottom: 90px !important;
+    right: 16px !important;
   }
 }
 
-.card {
-  padding: 2em;
+/* ===== RESPONSIVO ===== */
+@media (max-width: 1024px) {
+  .tours-dropdown {
+    width: 90vw !important;
+    max-width: 350px !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+  }
 }
 
-.read-the-docs {
-  color: #888;
+@media (max-width: 640px) {
+  .tour-card {
+    margin-bottom: 2rem !important;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    width: 40px !important;
+    height: 40px !important;
+  }
+
+  .btn-primary,
+  .btn-secondary,
+  .btn-whatsapp {
+    padding: 0.875rem 1.5rem;
+    font-size: 0.875rem;
+  }
+}
+
+/* ===== LOADING SHIMMER ===== */
+@keyframes shimmer {
+  0% {
+    background-position: -468px 0;
+  }
+  100% {
+    background-position: 468px 0;
+  }
+}
+
+.shimmer {
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 400% 100%;
+  animation: shimmer 1.5s infinite;
+}
+
+/* ===== DARK MODE ===== */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #0f172a;
+    color: white;
+  }
+}
+
+/* ===== PRINT ===== */
+@media print {
+  header,
+  footer,
+  .no-print {
+    display: none !important;
+  }
+  .tour-card {
+    break-inside: avoid;
+    page-break-inside: avoid;
+    box-shadow: none;
+  }
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.shadow-2xl {
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+.shadow-3xl {
+  box-shadow: 0 35px 60px -12px rgba(0, 0, 0, 0.3);
 }

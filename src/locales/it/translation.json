@@ -1,6 +1,10 @@
 {
   "header": {
+    "home": "Casa",
     "aboutUs": "Chi Siamo",
+    "mission": "Missione",
+    "vision": "Visione",
+    "values": "Valori",
     "tours": "Tour",
     "partners": "Partner",
     "contact": "Contatti"
@@ -11,6 +15,19 @@
     "whatsappButton": "Contattaci",
     "learnMoreButton": "Scopri di più"
   },
+  "mission": {
+    "title": "Missione",
+    "text": "Sviluppare, offrire e fornire i migliori itinerari turistici a ogni cliente, generando esperienze incredibili, indimenticabili e formidabili."
+  },
+  "vision": {
+    "title": "Visione",
+    "text": "Essere un'agenzia di turismo riconosciuta a livello mondiale, che fornisce i migliori itinerari turistici in tutti i segmenti che serve."
+  },
+  "values": {
+    "title": "Valori",
+    "text": "Eccellenza e più che soddisfazione nel servizio, in modo allegro, divertente e rilassato."
+  },
+
   "about": {
     "title": "Chi Siamo",
     "paragraph1": "Kerotur è nato dal desiderio di portare gioia, divertimento, cultura, intrattenimento e avventura a chi vuole scoprire le bellezze e i fascini delle nostre destinazioni in modo leggero, sicuro e divertente. Siamo un'agenzia appassionata nel creare esperienze uniche nei nostri tour!",
@@ -19,7 +36,7 @@
   },
   "tours": {
     "title": "I Nostri Tour",
-    "subtitle": "Esplora le bellezze naturali, la cultura e i segreti più incredibili di Rio de Janeiro con Kerotur!",
+    "subtitle": "Esplora le bellezze naturali e le incredibili culture di Rio de Janeiro! Kerotur offre anche altre destinazioni in Brasile e nel mondo.",
     "card": {
       "from": "Da",
       "group": "Gruppo",
@@ -37,7 +54,7 @@
   },
   "partners": {
     "title": "I Nostri Partner",
-    "subtitle": "Lavoriamo con i migliori per garantire la tua esperienza perfetta",
+    "subtitle": "Collaboriamo con i migliori per garantirvi un'esperienza indimenticabile.",
     "description": "Kerotur ha partnership con aziende che offrono servizi di alloggio, tour e biglietti aerei per destinazioni nazionali e internazionali, assicurazione di viaggio, tra gli altri.",
     "feature1": {
       "title": "Alloggi di Qualità",
@@ -117,5 +134,9 @@
     "copyright": "Tutti i diritti riservati.",
     "cnpj": "P.IVA: 48.285.913/0001-28",
     "developedBy": "Sviluppato da"
+  },
+  "whatsapp": {
+    "message": "Ciao! Vorrei maggiori informazioni sui tour.",
+    "tooltip": "Contattaci su WhatsApp"
   }
 }

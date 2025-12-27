@@ -1,6 +1,10 @@
 {
   "header": {
+    "home": "Home",
     "aboutUs": "About Us",
+    "mission": "Mission",
+    "vision": "Vision",
+    "values": "Values",
     "tours": "Tours",
     "partners": "Partners",
     "contact": "Contact"
@@ -11,6 +15,19 @@
     "whatsappButton": "Contact Us",
     "learnMoreButton": "Learn More"
   },
+  "mission": {
+    "title": "Mission",
+    "text": "Develop, offer and provide the best tourist routes to every client, generating incredible, unforgettable and formidable experiences."
+  },
+  "vision": {
+    "title": "Vision",
+    "text": "Be a globally recognized tourism agency that provides the best tourist routes in all segments it serves."
+  },
+  "values": {
+    "title": "Values",
+    "text": "Excellence and more than satisfaction in service, in a cheerful, fun and relaxed way."
+  },
+
   "about": {
     "title": "About Us",
     "paragraph1": "Kerotur was born from the desire to bring joy, fun, culture, entertainment and adventure to those who want to discover the beauty and charms of our destinations in a light, safe and fun way. We are an agency passionate about creating unique experiences on our tours!",
@@ -19,7 +36,7 @@
   },
   "tours": {
     "title": "Our Tours",
-    "subtitle": "Explore the natural beauties, culture and the most incredible secrets of Rio de Janeiro with Kerotur!",
+    "subtitle": "Explore the natural beauty and incredible cultures of Rio de Janeiro! Kerotur also offers other destinations in Brazil and around the world.",
     "card": {
       "from": "From",
       "group": "Group",
@@ -37,8 +54,8 @@
   },
   "partners": {
     "title": "Our Partners",
-    "subtitle": "We work with the best to guarantee your perfect experience",
-    "description": "Kerotur has partnerships with companies that offer accommodation services, tours and airline tickets to national and international destinations, travel insurance, among others.",
+    "subtitle": "We work with the best to guarantee an unforgettable experience.",
+    "description": "Explore the natural beauty and incredible cultures of Rio de Janeiro! Kerotur also offers other destinations in Brazil and around the world.",
     "feature1": {
       "title": "Quality Accommodations",
       "description": "Partnership with the best hotels and inns to ensure comfort and safety during your stay"
@@ -118,5 +135,9 @@
     "copyright": "All rights reserved.",
     "cnpj": "Tax ID: 48.285.913/0001-28",
     "developedBy": "Developed by"
+  },
+  "whatsapp": {
+    "message": "Hello! I would like more information about the tours.",
+    "tooltip": "Contact us on WhatsApp"
   }
 }

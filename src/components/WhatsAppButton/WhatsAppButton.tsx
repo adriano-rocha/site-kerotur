@@ -29,14 +29,11 @@ function WhatsAppButton() {
         <img 
           src="/images/whats.png" 
           alt="WhatsApp" 
-          className="w-12 h-12"
+          className="w-10 h-10"
         />
       </div>
 
-      {/* Badge de notificação (opcional) */}
-      <div className="absolute -top-1 -right-1 bg-red-500 text-white text-xs font-bold rounded-full w-6 h-6 flex items-center justify-center animate-bounce">
-        1
-      </div>
+     
     </a>
   )
 }

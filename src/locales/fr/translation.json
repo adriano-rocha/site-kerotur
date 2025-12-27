@@ -1,6 +1,10 @@
 {
   "header": {
+    "home": "Accueil",
     "aboutUs": "À Propos",
+    "mission": "Mission",
+    "vision": "Vision",
+    "values": "Valeurs",
     "tours": "Circuits",
     "partners": "Partenaires",
     "contact": "Contact"
@@ -11,6 +15,19 @@
     "whatsappButton": "Contactez-nous",
     "learnMoreButton": "En savoir plus"
   },
+  "mission": {
+    "title": "Mission",
+    "text": "Développer, offrir et fournir les meilleurs itinéraires touristiques à chaque client, générant des expériences incroyables, inoubliables et formidables."
+  },
+  "vision": {
+    "title": "Vision",
+    "text": "Être une agence de tourisme reconnue mondialement, qui fournit les meilleurs itinéraires touristiques dans tous les segments qu'elle dessert."
+  },
+  "values": {
+    "title": "Valeurs",
+    "text": "Excellence et plus que satisfaction dans le service, de manière joyeuse, amusante et décontractée."
+  },
+
   "about": {
     "title": "À Propos",
     "paragraph1": "Kerotur est né du désir d'apporter joie, amusement, culture, divertissement et aventure à ceux qui veulent découvrir les beautés et les charmes de nos destinations de manière légère, sûre et amusante. Nous sommes une agence passionnée par la création d'expériences uniques lors de nos circuits!",
@@ -19,7 +36,7 @@
   },
   "tours": {
     "title": "Nos Circuits",
-    "subtitle": "Explorez les beautés naturelles, la culture et les secrets les plus incroyables de Rio de Janeiro avec Kerotur!",
+    "subtitle": "Explorez la beauté naturelle et les cultures incroyables de Rio de Janeiro ! Kerotur propose également d'autres destinations au Brésil et dans le monde entier.",
     "card": {
       "from": "À partir de",
       "group": "Groupe",
@@ -33,89 +50,93 @@
       "priceIndividual": "Prix Individuel",
       "priceGroup": "Prix Groupe",
       "reserve": "Réserver Maintenant"
-    },
-    "partners": {
-      "title": "Nos Partenaires",
-      "subtitle": "Nous travaillons avec les meilleurs pour garantir votre expérience parfaite",
-      "description": "Kerotur a des partenariats avec des entreprises qui offrent des services d'hébergement, des tours et des billets d'avion vers des destinations nationales et internationales, une assurance voyage, entre autres.",
-      "feature1": {
-        "title": "Hébergements de Qualité",
-        "description": "Partenariat avec les meilleurs hôtels et auberges pour garantir confort et sécurité pendant votre séjour"
-      },
-      "feature2": {
-        "title": "Vols Nationaux et Internationaux",
-        "description": "Vente de billets d'avion pour toutes les destinations au Brésil et dans le monde avec les meilleurs tarifs"
-      },
-      "feature3": {
-        "title": "Sécurité et Tranquillité",
-        "description": "Assurance voyage, transfert et location de voiture pour que votre voyage soit complet et sans soucis"
-      },
-      "badge": "Partenaires Fiables",
-      "cta": "En savoir plus",
-      "ctaSubtext": "Contactez-nous et découvrez tous nos partenariats et avantages exclusifs",
-      "videoPlaceholder": "Découvrez nos partenaires",
-      "videoSoon": "Vidéo à venir"
-    },
-    "testimonials": {
-      "title": "Ce Que Disent Nos Clients",
-      "subtitle": "Expériences réelles de ceux qui ont voyagé avec Kerotur"
-    },
-    "contact": {
-      "title": "Contactez-nous",
-      "subtitle": "Nous sommes prêts à rendre votre voyage inoubliable!",
-      "whatsapp": {
-        "title": "WhatsApp"
-      },
-      "email": {
-        "title": "Email"
-      },
-      "phone": {
-        "title": "Téléphone"
-      },
-      "address": {
-        "title": "Adresse"
-      },
-      "hours": {
-        "title": "Heures d'Ouverture"
-      },
-      "review": {
-        "title": "Laissez Votre Avis",
-        "subtitle": "Votre opinion est très importante pour nous!",
-        "namePlaceholder": "Votre nom",
-        "commentPlaceholder": "Parlez-nous de votre expérience...",
-        "submitButton": "Soumettre l'Avis"
-      },
-      "payment": {
-        "title": "Méthodes de Paiement"
-      },
-      "qrcode": {
-        "title": "Évaluez-nous sur Google",
-        "instruction": "Scannez et laissez votre avis",
-        "button": "Évaluer maintenant"
-      },
-      "social": {
-        "title": "Suivez-nous sur les Réseaux Sociaux"
-      }
-    },
-    "footer": {
-      "companyName": "Kerotur",
-      "description": "Kerotur est né du désir d'apporter joie, plaisir, culture, divertissement et aventure à ceux qui veulent découvrir les beautés et les charmes de nos destinations.",
-      "quickLinks": "Liens Rapides",
-      "aboutUs": "À Propos",
-      "tours": "Excursions",
-      "partners": "Partenaires",
-      "contact": "Contact",
-      "address": "Rue Noronha Torrezão, 282/1002B",
-      "postalCode": "CP 24240-182, Niterói – RJ",
-      "phone": "+55 21 98225-1450",
-      "businessHours": "Horaires d'Ouverture",
-      "allDays": "Tous les jours",
-      "hours": "8h à 22h",
-      "paymentMethods": "Moyens de Paiement",
-      "paymentNote": "* Les cartes et liens de paiement ont des frais administratifs",
-      "copyright": "Tous droits réservés.",
-      "cnpj": "SIRET: 48.285.913/0001-28",
-      "developedBy": "Développé par"
     }
+  },
+  "partners": {
+    "title": "Nos Partenaires",
+    "subtitle": "Nous collaborons avec les meilleurs pour vous garantir une expérience inoubliable.",
+    "description": "Kerotur a des partenariats avec des entreprises qui offrent des services d'hébergement, des tours et des billets d'avion vers des destinations nationales et internationales, une assurance voyage, entre autres.",
+    "feature1": {
+      "title": "Hébergements de Qualité",
+      "description": "Partenariat avec les meilleurs hôtels et auberges pour garantir confort et sécurité pendant votre séjour"
+    },
+    "feature2": {
+      "title": "Vols Nationaux et Internationaux",
+      "description": "Vente de billets d'avion pour toutes les destinations au Brésil et dans le monde avec les meilleurs tarifs"
+    },
+    "feature3": {
+      "title": "Sécurité et Tranquillité",
+      "description": "Assurance voyage, transfert et location de voiture pour que votre voyage soit complet et sans soucis"
+    },
+    "badge": "Partenaires Fiables",
+    "cta": "En savoir plus",
+    "ctaSubtext": "Contactez-nous et découvrez tous nos partenariats et avantages exclusifs",
+    "videoPlaceholder": "Découvrez nos partenaires",
+    "videoSoon": "Vidéo à venir"
+  },
+  "testimonials": {
+    "title": "Ce Que Disent Nos Clients",
+    "subtitle": "Expériences réelles de ceux qui ont voyagé avec Kerotur"
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "subtitle": "Nous sommes prêts à rendre votre voyage inoubliable!",
+    "whatsapp": {
+      "title": "WhatsApp"
+    },
+    "email": {
+      "title": "Email"
+    },
+    "phone": {
+      "title": "Téléphone"
+    },
+    "address": {
+      "title": "Adresse"
+    },
+    "hours": {
+      "title": "Heures d'Ouverture"
+    },
+    "review": {
+      "title": "Laissez Votre Avis",
+      "subtitle": "Votre opinion est très importante pour nous!",
+      "namePlaceholder": "Votre nom",
+      "commentPlaceholder": "Parlez-nous de votre expérience...",
+      "submitButton": "Soumettre l'Avis"
+    },
+    "payment": {
+      "title": "Méthodes de Paiement"
+    },
+    "qrcode": {
+      "title": "Évaluez-nous sur Google",
+      "instruction": "Scannez et laissez votre avis",
+      "button": "Évaluer maintenant"
+    },
+    "social": {
+      "title": "Suivez-nous sur les Réseaux Sociaux"
+    }
+  },
+  "footer": {
+    "companyName": "Kerotur",
+    "description": "Kerotur est né du désir d'apporter joie, plaisir, culture, divertissement et aventure à ceux qui veulent découvrir les beautés et les charmes de nos destinations.",
+    "quickLinks": "Liens Rapides",
+    "aboutUs": "À Propos",
+    "tours": "Excursions",
+    "partners": "Partenaires",
+    "contact": "Contact",
+    "address": "Rue Noronha Torrezão, 282/1002B",
+    "postalCode": "CP 24240-182, Niterói – RJ",
+    "phone": "+55 21 98225-1450",
+    "businessHours": "Horaires d'Ouverture",
+    "allDays": "Tous les jours",
+    "hours": "8h à 22h",
+    "paymentMethods": "Moyens de Paiement",
+    "paymentNote": "* Les cartes et liens de paiement ont des frais administratifs",
+    "copyright": "Tous droits réservés.",
+    "cnpj": "SIRET: 48.285.913/0001-28",
+    "developedBy": "Développé par"
+  },
+  "whatsapp": {
+    "message": "Bonjour ! Je souhaiterais obtenir plus d'informations sur les visites.",
+    "tooltip": "Contactez-nous sur WhatsApp"
   }
 }

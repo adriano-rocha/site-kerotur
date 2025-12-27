@@ -1,848 +1,1282 @@
 [
   {
-    "id": "niteroi-city-tour",
+    "id": "um-dia-no-rio",
     "name": {
-      "pt-BR": "Niterói City Tour",
-      "en": "Niterói City Tour",
-      "es": "Niterói City Tour",
-      "fr": "Niterói City Tour",
-      "it": "Niterói City Tour",
-      "al": "Niterói City Tour",
-      "ru": "Niterói City Tour",
-      "ch": "尼泰罗伊城市之旅",
-      "jp": "ニテロイシティツアー",
-      "ar": "جولة مدينة نيتيروي",
-      "he": "סיור עיר ניטרואי"
+      "pt-BR": "Um Dia no Rio",
+      "en": "One Day in Rio",
+      "es": "Un Día en Río",
+      "fr": "Un Jour à Rio",
+      "it": "Un Giorno a Rio",
+      "al": "Ein Tag in Rio",
+      "ru": "Один День в Рио",
+      "ch": "里约一日游",
+      "jp": "リオで一日",
+      "ar": "يوم واحد في ريو",
+      "he": "יום אחד בריו"
     },
     "shortDescription": {
-      "pt-BR": "Descubra as maravilhas de Niterói em um exclusivo city tour privativo, repleto de cultura, história e paisagens deslumbrantes!",
-      "en": "Discover the wonders of Niterói on an exclusive private city tour, full of culture, history and stunning landscapes!",
-      "es": "¡Descubra las maravillas de Niterói en un exclusivo city tour privado, lleno de cultura, historia y paisajes impresionantes!",
-      "fr": "Découvrez les merveilles de Niterói lors d'une visite privée exclusive de la ville, pleine de culture, d'histoire et de paysages époustouflants!",
-      "it": "Scopri le meraviglie di Niterói in un esclusivo tour privato della città, ricco di cultura, storia e paesaggi mozzafiato!",
-      "al": "Entdecken Sie die Wunder von Niterói auf einer exklusiven privaten Stadtrundfahrt voller Kultur, Geschichte und atemberaubender Landschaften!",
-      "ru": "Откройте для себя чудеса Нитерой в эксклюзивном частном туре по городу, полном культуры, истории и потрясающих пейзажей!",
-      "ch": "在独家私人城市之旅中探索尼泰罗伊的奇观，充满文化、历史和令人惊叹的风景！",
-      "jp": "文化、歴史、息をのむような景色に満ちた独占プライベートシティツアーで、ニテロイの驚異を発見してください！",
-      "ar": "اكتشف عجائب نيتيروي في جولة خاصة حصرية في المدينة، مليئة بالثقافة والتاريخ والمناظر الطبيعية الخلابة!",
-      "he": "גלה את פלאי ניטרואי בסיור עיר פרטי בלעדי, מלא בתרבות, היסטוריה ונופים מדהימים!"
+      "pt-BR": "Explore o melhor do Rio de Janeiro em um único dia! Visite o Cristo Redentor, Pão de Açúcar, praias famosas e conheça a cultura carioca com guia especializado.",
+      "en": "Explore the best of Rio de Janeiro in a single day! Visit Christ the Redeemer, Sugarloaf Mountain, famous beaches and discover carioca culture with a specialized guide.",
+      "es": "¡Explore lo mejor de Río de Janeiro en un solo día! Visite el Cristo Redentor, Pan de Azúcar, playas famosas y conozca la cultura carioca con guía especializado.",
+      "fr": "Explorez le meilleur de Rio de Janeiro en une seule journée! Visitez le Christ Rédempteur, le Pain de Sucre, les plages célèbres et découvrez la culture carioca avec un guide spécialisé.",
+      "it": "Esplora il meglio di Rio de Janeiro in un solo giorno! Visita il Cristo Redentore, il Pan di Zucchero, le spiagge famose e scopri la cultura carioca con una guida specializzata.",
+      "al": "Erkunden Sie das Beste von Rio de Janeiro an einem einzigen Tag! Besuchen Sie Christus den Erlöser, Zuckerhut, berühmte Strände und lernen Sie die Carioca-Kultur mit einem spezialisierten Guide kennen.",
+      "ru": "Исследуйте лучшее из Рио-де-Жанейро за один день! Посетите Христа-Искупителя, гору Сахарная Голова, знаменитые пляжи и познакомьтесь с культурой кариока с опытным гидом.",
+      "ch": "在一天内探索里约热内卢的精华！参观救世基督像、糖面包山、著名海滩，并在专业导游的陪同下了解里约文化。",
+      "jp": "リオデジャネイロの最高を1日で探索！キリスト像、シュガーローフマウンテン、有名なビーチを訪れ、専門ガイドとカリオカ文化を発見してください。",
+      "ar": "استكشف أفضل ما في ريو دي جانيرو في يوم واحد! قم بزيارة المسيح الفادي، جبل شوغر لوف، الشواطئ الشهيرة واكتشف ثقافة كاريوكا مع مرشد متخصص.",
+      "he": "חקרו את הטוב ביותר בריו דה ז'ניירו ביום אחד! בקרו בפסל ישו המושיע, הר הסוכר, חופים מפורסמים וגלו את תרבות הקריוקה עם מדריך מומחה."
     },
     "fullDescription": {
-      "pt-BR": "Venha conhecer Niterói nesse city tour de um dia inteiro na Cidade Sorriso. Este passeio proporciona uma experiência única de imersão na cultura e nas belezas naturais da cidade. Com a companhia de um guia experiente, você terá a oportunidade de explorar os principais pontos turísticos e cartões postais que fazem de Niterói um destino tão especial.\n\nDurante o tour, visitaremos locais icônicos como o Museu de Arte Contemporânea. Cada parada oferece uma perspectiva diferente e fascinante da cidade, enriquecida pelo conhecimento e pelas histórias compartilhadas pelo guia. Este passeio é ideal para quem deseja conhecer a essência de Niterói de forma confortável e personalizada.\n\nCom nosso serviço privativo, você terá a flexibilidade de explorar a cidade no seu próprio ritmo, aproveitando ao máximo cada momento deste dia inesquecível. Garanta uma experiência exclusiva e repleta de descobertas.\n\nNão perca a oportunidade de viver esse dia especial em Niterói. Reserve seu tour online agora e prepare-se para uma aventura inesquecível!",
-      "en": "Come discover Niterói on this full-day city tour in the Smile City. This tour provides a unique experience of immersion in the culture and natural beauties of the city. With the company of an experienced guide, you will have the opportunity to explore the main tourist attractions and postcards that make Niterói such a special destination.\n\nDuring the tour, we will visit iconic places such as the Museum of Contemporary Art. Each stop offers a different and fascinating perspective of the city, enriched by the knowledge and stories shared by the guide. This tour is ideal for those who want to know the essence of Niterói in a comfortable and personalized way.\n\nWith our private service, you will have the flexibility to explore the city at your own pace, making the most of every moment of this unforgettable day. Guarantee an exclusive experience full of discoveries.\n\nDon't miss the opportunity to live this special day in Niterói. Book your tour online now and get ready for an unforgettable adventure!",
-      "es": "Venga a conocer Niterói en este city tour de un día completo en la Ciudad Sonrisa. Este paseo proporciona una experiencia única de inmersión en la cultura y las bellezas naturales de la ciudad. Con la compañía de un guía experimentado, tendrá la oportunidad de explorar los principales puntos turísticos y postales que hacen de Niterói un destino tan especial.\n\nDurante el tour, visitaremos lugares icónicos como el Museo de Arte Contemporáneo. Cada parada ofrece una perspectiva diferente y fascinante de la ciudad, enriquecida por el conocimiento y las historias compartidas por el guía. Este paseo es ideal para quienes desean conocer la esencia de Niterói de forma cómoda y personalizada.\n\nCon nuestro servicio privado, tendrá la flexibilidad de explorar la ciudad a su propio ritmo, aprovechando al máximo cada momento de este día inolvidable. Garantice una experiencia exclusiva y llena de descubrimientos.\n\n¡No pierda la oportunidad de vivir este día especial en Niterói! Reserve su tour en línea ahora y prepárese para una aventura inolvidable!",
-      "fr": "Venez découvrir Niterói lors de cette visite d'une journée complète dans la Ville Souriante. Cette visite offre une expérience unique d'immersion dans la culture et les beautés naturelles de la ville. Accompagné d'un guide expérimenté, vous aurez l'occasion d'explorer les principales attractions touristiques et cartes postales qui font de Niterói une destination si spéciale.\n\nPendant la visite, nous visiterons des lieux emblématiques tels que le Musée d'Art Contemporain. Chaque arrêt offre une perspective différente et fascinante de la ville, enrichie par les connaissances et les histoires partagées par le guide. Cette visite est idéale pour ceux qui souhaitent connaître l'essence de Niterói de manière confortable et personnalisée.\n\nAvec notre service privé, vous aurez la flexibilité d'explorer la ville à votre rythme, en profitant au maximum de chaque moment de cette journée inoubliable. Garantissez une expérience exclusive et pleine de découvertes.\n\nNe manquez pas l'occasion de vivre cette journée spéciale à Niterói. Réservez votre visite en ligne maintenant et préparez-vous pour une aventure inoubliable!",
-      "it": "Vieni a scoprire Niterói in questo tour di un'intera giornata nella Città del Sorriso. Questo tour offre un'esperienza unica di immersione nella cultura e nelle bellezze naturali della città. Con la compagnia di una guida esperta, avrai l'opportunità di esplorare le principali attrazioni turistiche e cartoline che rendono Niterói una destinazione così speciale.\n\nDurante il tour, visiteremo luoghi iconici come il Museo d'Arte Contemporanea. Ogni sosta offre una prospettiva diversa e affascinante della città, arricchita dalle conoscenze e dalle storie condivise dalla guida. Questo tour è ideale per chi desidera conoscere l'essenza di Niterói in modo confortevole e personalizzato.\n\nCon il nostro servizio privato, avrai la flessibilità di esplorare la città al tuo ritmo, sfruttando al massimo ogni momento di questa giornata indimenticabile. Garantisci un'esperienza esclusiva e piena di scoperte.\n\nNon perdere l'occasione di vivere questa giornata speciale a Niterói. Prenota il tuo tour online ora e preparati per un'avventura indimenticabile!",
-      "al": "Kommen Sie und entdecken Sie Niterói auf dieser ganztägigen Stadtführung in der Stadt des Lächelns. Diese Tour bietet ein einzigartiges Erlebnis des Eintauchens in die Kultur und die natürlichen Schönheiten der Stadt. In Begleitung eines erfahrenen Reiseleiters haben Sie die Möglichkeit, die wichtigsten Sehenswürdigkeiten und Postkarten zu erkunden, die Niterói zu einem so besonderen Reiseziel machen.\n\nWährend der Tour werden wir ikonische Orte wie das Museum für Zeitgenössische Kunst besuchen. Jeder Halt bietet eine andere und faszinierende Perspektive auf die Stadt, bereichert durch das Wissen und die Geschichten, die der Reiseleiter teilt. Diese Tour ist ideal für diejenigen, die die Essenz von Niterói auf bequeme und personalisierte Weise kennenlernen möchten.\n\nMit unserem privaten Service haben Sie die Flexibilität, die Stadt in Ihrem eigenen Tempo zu erkunden und jeden Moment dieses unvergesslichen Tages optimal zu nutzen. Garantieren Sie ein exklusives Erlebnis voller Entdeckungen.\n\nVerpassen Sie nicht die Gelegenheit, diesen besonderen Tag in Niterói zu erleben. Buchen Sie Ihre Tour jetzt online und bereiten Sie sich auf ein unvergessliches Abenteuer vor!",
-      "ru": "Приезжайте открыть для себя Нитерой в этой однодневной экскурсии по Городу Улыбок. Этот тур предоставляет уникальный опыт погружения в культуру и природные красоты города. В компании опытного гида у вас будет возможность исследовать основные туристические достопримечательности и открытки, которые делают Нитерой таким особенным местом назначения.\n\nВо время тура мы посетим знаковые места, такие как Музей современного искусства. Каждая остановка предлагает другую и захватывающую перспективу города, обогащенную знаниями и историями, которыми делится гид. Этот тур идеально подходит для тех, кто хочет узнать сущность Нитероя комфортным и персонализированным способом.\n\nС нашим частным сервисом у вас будет гибкость исследовать город в своем собственном темпе, максимально используя каждый момент этого незабываемого дня. Гарантируйте эксклюзивный опыт, полный открытий.\n\nНе упустите возможность прожить этот особенный день в Нитерое. Забронируйте свой тур онлайн прямо сейчас и приготовьтесь к незабываемому приключению!",
-      "ch": "来尼泰罗伊的微笑之城参加这个全日城市之旅。这次旅行提供了独特的文化和城市自然美景的沉浸式体验。在经验丰富的导游陪同下，您将有机会探索使尼泰罗伊成为如此特殊目的地的主要旅游景点和明信片。\n\n在旅行期间，我们将参观标志性的地方，如当代艺术博物馆。每一站都提供了城市不同而迷人的视角，通过导游分享的知识和故事得到丰富。这次旅行非常适合那些想以舒适和个性化的方式了解尼泰罗伊本质的人。\n\n通过我们的私人服务，您将可以灵活地按照自己的节奏探索城市，充分利用这个难忘的一天的每一刻。保证一个独特而充满发现的体验。\n\n不要错过在尼泰罗伊度过这个特殊日子的机会。立即在线预订您的旅行，准备迎接一次难忘的冒险！",
-      "jp": "スマイルシティでのこの終日市内ツアーでニテロイを発見してください。このツアーは、街の文化と自然の美しさに浸る独特の体験を提供します。経験豊富なガイドと一緒に、ニテロイを特別な目的地にする主要な観光スポットや絵葉書を探索する機会があります。\n\nツアー中、私たちは現代美術館などの象徴的な場所を訪れます。各停留所は、ガイドによって共有される知識と物語によって豊かにされた、街の異なる魅力的な視点を提供します。このツアーは、快適でパーソナライズされた方法でニテロイの本質を知りたい人に最適です。\n\n私たちのプライベートサービスにより、自分のペースで街を探索する柔軟性があり、この忘れられない一日の瞬間を最大限に活用できます。発見に満ちた独占的な体験を保証します。\n\nニテロイでこの特別な日を過ごす機会をお見逃しなく。今すぐオンラインでツアーを予約し、忘れられない冒険の準備をしてください！",
-      "ar": "تعال لاكتشاف نيتيروي في هذه الجولة السياحية ليوم كامل في مدينة الابتسامة. توفر هذه الجولة تجربة فريدة من نوعها للانغماس في ثقافة وجمال المدينة الطبيعي. برفقة مرشد ذي خبرة، ستتاح لك الفرصة لاستكشاف المعالم السياحية الرئيسية والبطاقات البريدية التي تجعل من نيتيروي وجهة مميزة للغاية.\n\nخلال الجولة، سنزور أماكن أيقونية مثل متحف الفن المعاصر. تقدم كل محطة منظورًا مختلفًا ورائعًا للمدينة، مدعومًا بالمعرفة والقصص التي يشاركها المرشد. هذه الجولة مثالية لأولئك الذين يرغبون في معرفة جوهر نيتيروي بطريقة مريحة وشخصية.\n\nمع خدمتنا الخاصة، سيكون لديك المرونة لاستكشاف المدينة بالسرعة التي تناسبك، مع الاستفادة القصوى من كل لحظة من هذا اليوم الذي لا ينسى. ضمان تجربة حصرية مليئة بالاكتشافات.\n\nلا تفوت فرصة عيش هذا اليوم الخاص في نيتيروي. احجز جولتك عبر الإنترنت الآن واستعد لمغامرة لا تُنسى!",
-      "he": "בואו לגלות את ניטרואי בסיור עיר זה של יום שלם בעיר החיוך. סיור זה מספק חוויה ייחודית של טבילה בתרבות וביופי הטבעי של העיר. בליווי מדריך מנוסה, תהיה לכם הזדמנות לחקור את האטרקציות התיירותיות העיקריות והגלויות שהופכות את ניטרואי ליעד כל כך מיוחד.\n\nבמהלך הסיור, נבקר במקומות איקוניים כמו מוזיאון האמנות העכשווית. כל תחנה מציעה פרספקטיבה שונה ומרתקת של העיר, מועשרת בידע ובסיפורים שהמדריך משתף. סיור זה אידיאלי למי שרוצה להכיר את המהות של ניטרואי בצורה נוחה ומותאמת אישית.\n\nעם השירות הפרטי שלנו, תהיה לכם הגמישות לחקור את העיר בקצב שלכם, תוך ניצול מרבי של כל רגע ביום בלתי נשכח זה. הבטיחו חוויה בלעדית ומלאה בגילויים.\n\nאל תפספסו את ההזדמנות לחיות את היום המיוחד הזה בניטרואי. הזמינו את הסיור שלכם באינטרנט עכשיו והתכוננו להרפתקה בלתי נשכחת!"
+      "pt-BR": "Descubra o melhor do Rio de Janeiro em apenas um dia! Este tour completo leva você aos principais pontos turísticos da Cidade Maravilhosa, incluindo o icônico Cristo Redentor e o Pão de Açúcar.\n\nComece o dia com uma visita ao Cristo Redentor, uma das Sete Maravilhas do Mundo Moderno, de onde você terá vistas panorâmicas espetaculares da cidade. Em seguida, explore as praias mais famosas do Rio, como Copacabana e Ipanema, e conheça os bairros históricos e culturais.\n\nO tour inclui parada no Pão de Açúcar, onde você subirá de bondinho e terá vistas de 360 graus da baía de Guanabara. Ao longo do dia, o guia especializado compartilhará histórias fascinantes sobre a cultura carioca, arquitetura e pontos turísticos. Este é o passeio perfeito para quem tem pouco tempo e quer conhecer o essencial do Rio de Janeiro!",
+      "en": "Discover the best of Rio de Janeiro in just one day! This complete tour takes you to the main tourist attractions of the Marvelous City, including the iconic Christ the Redeemer and Sugarloaf Mountain.\n\nStart the day with a visit to Christ the Redeemer, one of the Seven Wonders of the Modern World, where you'll have spectacular panoramic views of the city. Then explore Rio's most famous beaches like Copacabana and Ipanema, and discover the historic and cultural neighborhoods.\n\nThe tour includes a stop at Sugarloaf Mountain, where you'll take the cable car up and enjoy 360-degree views of Guanabara Bay. Throughout the day, the specialized guide will share fascinating stories about carioca culture, architecture and landmarks. This is the perfect tour for those with limited time who want to see the essentials of Rio de Janeiro!",
+      "es": "¡Descubra lo mejor de Río de Janeiro en solo un día! Este tour completo lo lleva a las principales atracciones turísticas de la Ciudad Maravillosa, incluido el icónico Cristo Redentor y el Pan de Azúcar.\n\nComience el día con una visita al Cristo Redentor, una de las Siete Maravillas del Mundo Moderno, desde donde tendrá vistas panorámicas espectaculares de la ciudad. Luego explore las playas más famosas de Río como Copacabana e Ipanema, y conozca los barrios históricos y culturales.\n\nEl tour incluye una parada en el Pan de Azúcar, donde subirá en teleférico y disfrutará de vistas de 360 grados de la bahía de Guanabara. A lo largo del día, el guía especializado compartirá historias fascinantes sobre la cultura carioca, arquitectura y puntos turísticos. ¡Este es el tour perfecto para quienes tienen poco tiempo y quieren conocer lo esencial de Río de Janeiro!",
+      "fr": "Découvrez le meilleur de Rio de Janeiro en une seule journée! Cette visite complète vous emmène vers les principales attractions touristiques de la Ville Merveilleuse, y compris l'emblématique Christ Rédempteur et le Pain de Sucre.\n\nCommencez la journée par une visite du Christ Rédempteur, l'une des Sept Merveilles du Monde Moderne, d'où vous aurez des vues panoramiques spectaculaires de la ville. Ensuite, explorez les plages les plus célèbres de Rio comme Copacabana et Ipanema, et découvrez les quartiers historiques et culturels.\n\nLa visite comprend un arrêt au Pain de Sucre, où vous monterez en téléphérique et profiterez de vues à 360 degrés sur la baie de Guanabara. Tout au long de la journée, le guide spécialisé partagera des histoires fascinantes sur la culture carioca, l'architecture et les monuments. C'est la visite parfaite pour ceux qui ont peu de temps et veulent voir l'essentiel de Rio de Janeiro!",
+      "it": "Scopri il meglio di Rio de Janeiro in un solo giorno! Questo tour completo ti porta alle principali attrazioni turistiche della Città Meravigliosa, incluso l'iconico Cristo Redentore e il Pan di Zucchero.\n\nInizia la giornata con una visita al Cristo Redentore, una delle Sette Meraviglie del Mondo Moderno, da dove avrai viste panoramiche spettacolari della città. Poi esplora le spiagge più famose di Rio come Copacabana e Ipanema, e scopri i quartieri storici e culturali.\n\nIl tour include una sosta al Pan di Zucchero, dove salirai in funivia e godrai di viste a 360 gradi della baia di Guanabara. Durante la giornata, la guida specializzata condividerà storie affascinanti sulla cultura carioca, architettura e punti di riferimento. Questo è il tour perfetto per chi ha poco tempo e vuole vedere l'essenziale di Rio de Janeiro!",
+      "al": "Entdecken Sie das Beste von Rio de Janeiro an nur einem Tag! Diese vollständige Tour führt Sie zu den wichtigsten Sehenswürdigkeiten der Wunderstadt, einschließlich des ikonischen Christus des Erlösers und des Zuckerhuts.\n\nBeginnen Sie den Tag mit einem Besuch beim Christus des Erlösers, einem der Sieben Weltwunder der Moderne, von wo aus Sie spektakuläre Panoramablicke auf die Stadt haben. Erkunden Sie dann die berühmtesten Strände von Rio wie Copacabana und Ipanema und entdecken Sie die historischen und kulturellen Viertel.\n\nDie Tour beinhaltet einen Halt am Zuckerhut, wo Sie mit der Seilbahn hinauffahren und 360-Grad-Blicke auf die Guanabara-Bucht genießen. Den ganzen Tag über wird der spezialisierte Guide faszinierende Geschichten über die Carioca-Kultur, Architektur und Sehenswürdigkeiten teilen. Dies ist die perfekte Tour für diejenigen mit wenig Zeit, die das Wesentliche von Rio de Janeiro sehen möchten!",
+      "ru": "Откройте для себя лучшее из Рио-де-Жанейро всего за один день! Этот полный тур приведет вас к главным туристическим достопримечательностям Чудесного Города, включая культовую статую Христа-Искупителя и гору Сахарная Голова.\n\nНачните день с посещения Христа-Искупителя, одного из Семи Чудес Современного Мира, откуда открываются захватывающие панорамные виды на город. Затем исследуйте самые знаменитые пляжи Рио, такие как Копакабана и Ипанема, и откройте для себя исторические и культурные районы.\n\nТур включает остановку на горе Сахарная Голова, где вы поднимитесь на канатной дороге и насладитесь видами на 360 градусов залива Гуанабара. В течение дня опытный гид поделится увлекательными историями о культуре кариока, архитектуре и достопримечательностях. Это идеальный тур для тех, у кого мало времени и кто хочет увидеть самое главное в Рио-де-Жанейро!",
+      "ch": "在短短一天内探索里约热内卢的精华！这个完整的旅游将带您前往奇妙城市的主要旅游景点，包括标志性的救世基督像和糖面包山。\n\n从参观救世基督像开始新的一天，这是现代世界七大奇迹之一，在那里您将欣赏到城市的壮观全景。然后探索里约最著名的海滩，如科帕卡巴纳和伊帕内玛，并发现历史和文化社区。\n\n旅游包括在糖面包山停留，在那里您将乘坐缆车上山，欣赏瓜纳巴拉湾360度的景色。全天，专业导游将分享有关里约文化、建筑和地标的迷人故事。对于时间有限但想看里约热内卢精华的人来说，这是完美的旅游！",
+      "jp": "たった1日でリオデジャネイロの最高を発見！この完全なツアーは、象徴的なキリスト像とシュガーローフマウンテンを含む、素晴らしい都市の主要な観光名所にあなたを連れて行きます。\n\n現代世界の七不思議の一つであるキリスト像の訪問で一日を始め、そこから街の壮大なパノラマビューを楽しめます。その後、コパカバーナやイパネマなどのリオで最も有名なビーチを探索し、歴史的および文化的な地区を発見してください。\n\nツアーにはシュガーローフマウンテンでの停留所が含まれており、そこでケーブルカーで登り、グアナバラ湾の360度のビューを楽しめます。一日中、専門ガイドがカリオカ文化、建築、ランドマークについての魅力的な物語を共有します。これは時間が限られていて、リオデジャネイロの本質を見たい人のための完璧なツアーです！",
+      "ar": "اكتشف أفضل ما في ريو دي جانيرو في يوم واحد فقط! تأخذك هذه الجولة الكاملة إلى أهم المعالم السياحية للمدينة الرائعة، بما في ذلك تمثال المسيح الفادي الشهير وجبل شوغر لوف.\n\nابدأ اليوم بزيارة تمثال المسيح الفادي، أحد عجائب الدنيا السبع في العالم الحديث، حيث ستحصل على مناظر بانورامية رائعة للمدينة. ثم استكشف أشهر شواطئ ريو مثل كوباكابانا وإيبانيما، واكتشف الأحياء التاريخية والثقافية.\n\nتتضمن الجولة توقفًا في جبل شوغر لوف، حيث ستصعد بالتلفريك وتستمتع بمناظر 360 درجة لخليج غوانابارا. طوال اليوم، سيشارك المرشد المتخصص قصصًا رائعة عن ثقافة كاريوكا والهندسة المعمارية والمعالم. هذه هي الجولة المثالية لأولئك الذين لديهم وقت محدود ويريدون رؤية الأساسيات في ريو دي جانيرو!",
+      "he": "גלו את הטוב ביותר בריו דה ז'ניירו ביום אחד בלבד! סיור מלא זה לוקח אתכם לאטרקציות התיירותיות העיקריות של העיר הנפלאה, כולל פסל ישו המושיע האיקוני והר הסוכר.\n\nהתחילו את היום עם ביקור בפסל ישו המושיע, אחד משבעת פלאי העולם המודרני, משם תהיה לכם נוף פנורמי מרהיב של העיר. לאחר מכן חקרו את החופים המפורסמים ביותר של ריו כמו קופקבנה ואיפנמה, וגלו את השכונות ההיסטוריות והתרבותיות.\n\nהסיור כולל עצירה בהר הסוכר, שם תעלו ברכבל ותיהנו מנוף של 360 מעלות של מפרץ גואנבארה. לאורך היום, המדריך המומחה ישתף סיפורים מרתקים על תרבות הקריוקה, אדריכלות ונקודות ציון. זה הסיור המושלם למי שיש לו זמן מוגבל ורוצה לראות את המהותי בריו דה ז'ניירו!"
     },
-    "image": "/images/niteroi/niteroi1.png",
-    "images": [
-      "/images/niteroi/niteroi1.png",
-      "/images/niteroi/niteroi2.png",
-      "/images/niteroi/niteroi3.png",
-      "/images/niteroi/niteroi4.png",
-      "/images/niteroi/niteroi5.png",
-      "/images/niteroi/niteroi6.png",
-      "/images/niteroi/niteroi7.png"
-    ],
-    "attractions": {
-      "pt-BR": [
-        "Museu de Arte Contemporânea (MAC)",
-        "Teatro Popular Oscar Niemeyer",
-        "Fortaleza de Santa Cruz",
-        "Parque da Cidade",
-        "Praias de Niterói",
-        "Centro Histórico"
-      ],
-      "en": [
-        "Museum of Contemporary Art (MAC)",
-        "Oscar Niemeyer Popular Theater",
-        "Santa Cruz Fortress",
-        "City Park",
-        "Niterói Beaches",
-        "Historic Center"
-      ],
-      "es": [
-        "Museo de Arte Contemporáneo (MAC)",
-        "Teatro Popular Oscar Niemeyer",
-        "Fortaleza de Santa Cruz",
-        "Parque de la Ciudad",
-        "Playas de Niterói",
-        "Centro Histórico"
-      ],
-      "fr": [
-        "Musée d'Art Contemporain (MAC)",
-        "Théâtre Populaire Oscar Niemeyer",
-        "Forteresse de Santa Cruz",
-        "Parc de la Ville",
-        "Plages de Niterói",
-        "Centre Historique"
-      ],
-      "it": [
-        "Museo d'Arte Contemporanea (MAC)",
-        "Teatro Popolare Oscar Niemeyer",
-        "Fortezza di Santa Cruz",
-        "Parco della Città",
-        "Spiagge di Niterói",
-        "Centro Storico"
-      ],
-      "al": [
-        "Museum für Zeitgenössische Kunst (MAC)",
-        "Oscar Niemeyer Volkstheater",
-        "Festung Santa Cruz",
-        "Stadtpark",
-        "Strände von Niterói",
-        "Historisches Zentrum"
-      ],
-      "ru": [
-        "Музей современного искусства (MAC)",
-        "Народный театр Оскара Нимейера",
-        "Крепость Санта-Круз",
-        "Городской парк",
-        "Пляжи Нитероя",
-        "Исторический центр"
-      ],
-      "ch": [
-        "当代艺术博物馆（MAC）",
-        "奥斯卡·尼迈耶民众剧院",
-        "圣克鲁斯堡垒",
-        "城市公园",
-        "尼泰罗伊海滩",
-        "历史中心"
-      ],
-      "jp": [
-        "現代美術館（MAC）",
-        "オスカー・ニーマイヤー民衆劇場",
-        "サンタクルス要塞",
-        "シティパーク",
-        "ニテロイのビーチ",
-        "歴史地区"
-      ],
-      "ar": [
-        "متحف الفن المعاصر (MAC)",
-        "مسرح أوسكار نيماير الشعبي",
-        "قلعة سانتا كروز",
-        "حديقة المدينة",
-        "شواطئ نيتيروي",
-        "المركز التاريخي"
-      ],
-      "he": [
-        "מוזיאון לאמנות עכשווית (MAC)",
-        "תיאטרון עממי אוסקר נימאייר",
-        "מבצר סנטה קרוז",
-        "פארק העיר",
-        "חופי ניטרואי",
-        "המרכז ההיסטורי"
-      ]
-    },
-    "duration": {
-      "pt-BR": "O dia todo (8 horas)",
-      "en": "Full day (8 hours)",
-      "es": "Todo el día (8 horas)",
-      "fr": "Toute la journée (8 heures)",
-      "it": "Giornata intera (8 ore)",
-      "al": "Ganztägig (8 Stunden)",
-      "ru": "Полный день (8 часов)",
-      "ch": "全天（8小时）",
-      "jp": "終日（8時間）",
-      "ar": "يوم كامل (8 ساعات)",
-      "he": "יום שלם (8 שעות)"
-    },
-    "price": {
-      "individual": "R$ 290",
-      "group": "R$ 200"
-    },
-    "included": {
-      "pt-BR": ["Guia turístico experiente"],
-      "en": ["Experienced tour guide"],
-      "es": ["Guía turístico experimentado"],
-      "fr": ["Guide touristique expérimenté"],
-      "it": ["Guida turistica esperta"],
-      "al": ["Erfahrener Reiseleiter"],
-      "ru": ["Опытный гид"],
-      "ch": ["经验丰富的导游"],
-      "jp": ["経験豊富なツアーガイド"],
-      "ar": ["مرشد سياحي ذو خبرة"],
-      "he": ["מדריך תיירות מנוסה"]
-    }
-  },
-  {
-    "id": "cristo-redentor-trem-city-tour",
-    "name": {
-      "pt-BR": "Cristo Redentor de Trem e City Tour",
-      "en": "Christ the Redeemer by Train and City Tour",
-      "es": "Cristo Redentor en Tren y City Tour",
-      "fr": "Christ Rédempteur en Train et City Tour",
-      "it": "Cristo Redentore in Treno e City Tour",
-      "al": "Christus der Erlöser mit Zug und Stadtrundfahrt",
-      "ru": "Христос-Искупитель на Поезде и Городской Тур",
-      "ch": "乘火车游览救世基督像和城市之旅",
-      "jp": "列車でキリスト像とシティツアー",
-      "ar": "المسيح الفادي بالقطار وجولة في المدينة",
-      "he": "פסל ישו המושיע ברכבת וסיור בעיר"
-    },
-    "shortDescription": {
-      "pt-BR": "Visite uma das novas sete maravilhas do mundo moderno! Passeio de trem pela Floresta da Tijuca até o Cristo Redentor, seguido de um city tour pelo Rio de Janeiro.",
-      "en": "Visit one of the new seven wonders of the modern world! Train ride through Tijuca Forest to Christ the Redeemer, followed by a city tour of Rio de Janeiro.",
-      "es": "¡Visite una de las nuevas siete maravillas del mundo moderno! Viaje en tren por el Bosque de Tijuca hasta el Cristo Redentor, seguido de un city tour por Río de Janeiro.",
-      "fr": "Visitez l'une des nouvelles sept merveilles du monde moderne! Voyage en train à travers la forêt de Tijuca jusqu'au Christ Rédempteur, suivi d'une visite de la ville de Rio de Janeiro.",
-      "it": "Visita una delle nuove sette meraviglie del mondo moderno! Viaggio in treno attraverso la Foresta di Tijuca fino al Cristo Redentore, seguito da un tour della città di Rio de Janeiro.",
-      "al": "Besuchen Sie eines der neuen sieben Weltwunder der modernen Welt! Zugfahrt durch den Tijuca-Wald zum Christus-Erlöser, gefolgt von einer Stadtrundfahrt durch Rio de Janeiro.",
-      "ru": "Посетите одно из новых семи чудес современного мира! Поездка на поезде через лес Тижука к статуе Христа-Искупителя, а затем экскурсия по Рио-де-Жанейро.",
-      "ch": "参观现代世界新七大奇迹之一！乘火车穿越蒂茹卡森林前往救世基督像，然后进行里约热内卢城市之旅。",
-      "jp": "現代世界の新七不思議の一つを訪れましょう！チジュカの森を列車で通ってキリスト像へ、その後リオデジャネイロの市内観光。",
-      "ar": "قم بزيارة إحدى عجائب الدنيا السبع الجديدة في العالم الحديث! رحلة بالقطار عبر غابة تيجوكا إلى تمثال المسيح الفادي، تليها جولة في مدينة ريو دي جانيرو.",
-      "he": "בקרו באחד משבעת פלאי העולם החדשים! נסיעה ברכבת דרך יער טיז'וקה לפסל ישו המושיע, ולאחר מכן סיור בעיר ריו דה ז'ניירו."
-    },
-    "fullDescription": {
-      "pt-BR": "Descubra o icônico Cristo Redentor, uma das novas sete maravilhas do mundo moderno, em um passeio guiado inesquecível. Comece sua aventura com um passeio de trem pela exuberante Floresta da Tijuca até o topo do Morro do Corcovado, onde vistas panorâmicas do Rio de Janeiro o aguardam.\n\nEste passeio é acessível para cadeirantes, garantindo que todos possam vivenciar a majestade desta atração mundialmente famosa. Ideal para casais e famílias, o passeio oferece um ambiente familiar onde a natureza e a cultura se encontram harmoniosamente.\n\nCom a presença de um guia experiente, você terá a oportunidade de aprender mais sobre a história e a importância do Cristo Redentor, enquanto aproveita a beleza natural ao seu redor. Este passeio é perfeito para adultos que buscam uma experiência cultural enriquecedora no coração do Rio de Janeiro.\n\nApós explorar o Cristo Redentor, continue sua jornada com um city tour na cidade do Rio, onde a arquitetura moderna e as vistas deslumbrantes da Baía de Guanabara o esperam. Este passeio é ideal para aqueles que desejam explorar mais além do Rio, mergulhando em uma combinação única de natureza e urbanismo.\n\nNão perca a chance de vivenciar momentos inesquecíveis em um dos destinos mais encantadores do Brasil.",
-      "en": "Discover the iconic Christ the Redeemer, one of the new seven wonders of the modern world, on an unforgettable guided tour. Begin your adventure with a train ride through the lush Tijuca Forest to the top of Corcovado Mountain, where panoramic views of Rio de Janeiro await you.\n\nThis tour is wheelchair accessible, ensuring that everyone can experience the majesty of this world-famous attraction. Ideal for couples and families, the tour offers a family-friendly environment where nature and culture meet harmoniously.\n\nWith the presence of an experienced guide, you will have the opportunity to learn more about the history and importance of Christ the Redeemer, while enjoying the natural beauty around you. This tour is perfect for adults seeking an enriching cultural experience in the heart of Rio de Janeiro.\n\nAfter exploring Christ the Redeemer, continue your journey with a city tour in Rio, where modern architecture and stunning views of Guanabara Bay await you. This tour is ideal for those who want to explore beyond Rio, diving into a unique combination of nature and urbanism.\n\nDon't miss the chance to experience unforgettable moments in one of Brazil's most enchanting destinations.",
-      "es": "Descubra el icónico Cristo Redentor, una de las nuevas siete maravillas del mundo moderno, en un tour guiado inolvidable. Comience su aventura con un viaje en tren por el exuberante Bosque de Tijuca hasta la cima del Morro do Corcovado, donde le esperan vistas panorámicas de Río de Janeiro.\n\nEste tour es accesible para sillas de ruedas, garantizando que todos puedan experimentar la majestuosidad de esta atracción mundialmente famosa. Ideal para parejas y familias, el tour ofrece un ambiente familiar donde la naturaleza y la cultura se encuentran armoniosamente.\n\nCon la presencia de un guía experimentado, tendrá la oportunidad de aprender más sobre la historia y la importancia del Cristo Redentor, mientras disfruta de la belleza natural a su alrededor. Este tour es perfecto para adultos que buscan una experiencia cultural enriquecedora en el corazón de Río de Janeiro.\n\nDespués de explorar el Cristo Redentor, continúe su viaje con un city tour en la ciudad de Río, donde la arquitectura moderna y las vistas deslumbrantes de la Bahía de Guanabara le esperan. Este tour es ideal para aquellos que desean explorar más allá de Río, sumergiéndose en una combinación única de naturaleza y urbanismo.\n\nNo pierda la oportunidad de vivir momentos inolvidables en uno de los destinos más encantadores de Brasil.",
-      "fr": "Découvrez l'emblématique Christ Rédempteur, l'une des nouvelles sept merveilles du monde moderne, lors d'une visite guidée inoubliable. Commencez votre aventure par un voyage en train à travers la luxuriante forêt de Tijuca jusqu'au sommet du Corcovado, où des vues panoramiques de Rio de Janeiro vous attendent.\n\nCette visite est accessible aux fauteuils roulants, garantissant que tout le monde peut vivre la majesté de cette attraction mondialement célèbre. Idéale pour les couples et les familles, la visite offre un environnement familial où la nature et la culture se rencontrent harmonieusement.\n\nAvec la présence d'un guide expérimenté, vous aurez l'occasion d'en apprendre davantage sur l'histoire et l'importance du Christ Rédempteur, tout en profitant de la beauté naturelle qui vous entoure. Cette visite est parfaite pour les adultes à la recherche d'une expérience culturelle enrichissante au cœur de Rio de Janeiro.\n\nAprès avoir exploré le Christ Rédempteur, poursuivez votre voyage avec une visite de la ville de Rio, où l'architecture moderne et les vues imprenables sur la baie de Guanabara vous attendent. Cette visite est idéale pour ceux qui souhaitent explorer au-delà de Rio, en plongeant dans une combinaison unique de nature et d'urbanisme.\n\nNe manquez pas l'occasion de vivre des moments inoubliables dans l'une des destinations les plus enchanteresses du Brésil.",
-      "it": "Scopri l'iconico Cristo Redentore, una delle nuove sette meraviglie del mondo moderno, in un tour guidato indimenticabile. Inizia la tua avventura con un viaggio in treno attraverso la lussureggiante Foresta di Tijuca fino alla cima del Corcovado, dove ti attendono viste panoramiche di Rio de Janeiro.\n\nQuesto tour è accessibile alle sedie a rotelle, garantendo che tutti possano vivere la maestosità di questa attrazione famosa in tutto il mondo. Ideale per coppie e famiglie, il tour offre un ambiente familiare dove natura e cultura si incontrano armoniosamente.\n\nCon la presenza di una guida esperta, avrai l'opportunità di saperne di più sulla storia e l'importanza del Cristo Redentore, godendo della bellezza naturale che ti circonda. Questo tour è perfetto per gli adulti che cercano un'esperienza culturale arricchente nel cuore di Rio de Janeiro.\n\nDopo aver esplorato il Cristo Redentore, continua il tuo viaggio con un tour della città di Rio, dove l'architettura moderna e le viste mozzafiato della Baia di Guanabara ti aspettano. Questo tour è ideale per coloro che desiderano esplorare oltre Rio, immergendosi in una combinazione unica di natura e urbanismo.\n\nNon perdere l'occasione di vivere momenti indimenticabili in una delle destinazioni più incantevoli del Brasile.",
-      "al": "Entdecken Sie den ikonischen Christus-Erlöser, eines der neuen sieben Weltwunder der modernen Welt, auf einer unvergesslichen geführten Tour. Beginnen Sie Ihr Abenteuer mit einer Zugfahrt durch den üppigen Tijuca-Wald bis zur Spitze des Corcovado, wo Sie ein Panoramablick auf Rio de Janeiro erwartet.\n\nDiese Tour ist rollstuhlgerecht, so dass jeder die Majestät dieser weltberühmten Attraktion erleben kann. Ideal für Paare und Familien bietet die Tour eine familienfreundliche Umgebung, in der Natur und Kultur harmonisch zusammentreffen.\n\nMit einem erfahrenen Reiseleiter haben Sie die Möglichkeit, mehr über die Geschichte und Bedeutung des Christus-Erlösers zu erfahren, während Sie die natürliche Schönheit um Sie herum genießen. Diese Tour ist perfekt für Erwachsene, die ein bereicherndes kulturelles Erlebnis im Herzen von Rio de Janeiro suchen.\n\nNach der Erkundung des Christus-Erlösers setzen Sie Ihre Reise mit einer Stadtrundfahrt durch Rio fort, wo moderne Architektur und atemberaubende Ausblicke auf die Guanabara-Bucht auf Sie warten. Diese Tour ist ideal für diejenigen, die über Rio hinaus erkunden möchten und in eine einzigartige Kombination aus Natur und Urbanismus eintauchen möchten.\n\nVerpassen Sie nicht die Gelegenheit, unvergessliche Momente in einem der bezauberndsten Reiseziele Brasiliens zu erleben.",
-      "ru": "Откройте для себя знаковую статую Христа-Искупителя, одно из новых семи чудес современного мира, в незабываемой экскурсии с гидом. Начните свое приключение с поездки на поезде через пышный лес Тижука на вершину Корковадо, где вас ждут панорамные виды Рио-де-Жанейро.\n\nЭтот тур доступен для инвалидных колясок, гарантируя, что каждый может испытать величие этой всемирно известной достопримечательности. Идеально подходящий для пар и семей, тур предлагает семейную атмосферу, где природа и культура гармонично встречаются.\n\nВ присутствии опытного гида у вас будет возможность узнать больше об истории и значении Христа-Искупителя, наслаждаясь природной красотой вокруг вас. Этот тур идеально подходит для взрослых, ищущих обогащающий культурный опыт в самом сердце Рио-де-Жанейро.\n\nПосле изучения Христа-Искупителя продолжите свое путешествие с городской экскурсией по Рио, где вас ждут современная архитектура и потрясающие виды на залив Гуанабара. Этот тур идеален для тех, кто хочет исследовать за пределами Рио, погружаясь в уникальное сочетание природы и урбанизма.\n\nНе упустите шанс пережить незабываемые моменты в одном из самых очаровательных направлений Бразилии.",
-      "ch": "在难忘的导游之旅中探索标志性的救世基督像，这是现代世界新七大奇迹之一。从穿越郁郁葱葱的蒂茹卡森林的火车之旅开始您的冒险，到达科尔科瓦多山顶，在那里等待着您里约热内卢的全景。\n\n这次旅行适合轮椅使用，确保每个人都能体验这个世界著名景点的壮丽。非常适合情侣和家庭，这次旅行提供了一个家庭友好的环境，自然与文化和谐相遇。\n\n在经验丰富的导游陪同下，您将有机会了解更多关于救世基督像的历史和重要性，同时欣赏周围的自然美景。这次旅行非常适合在里约热内卢中心寻求丰富文化体验的成年人。\n\n在探索救世基督像之后，继续您的旅程，在里约进行城市之旅，在那里等待着您现代建筑和瓜纳巴拉湾的壮丽景色。这次旅行非常适合那些想要探索里约以外的人，沉浸在自然和城市化的独特结合中。\n\n不要错过在巴西最迷人的目的地之一体验难忘时刻的机会。",
-      "jp": "忘れられないガイド付きツアーで、現代世界の新七不思議の一つである象徴的なキリスト像を発見してください。緑豊かなチジュカの森を通る列車の旅であなたの冒険を始め、コルコバードの頂上に到達し、そこでリオデジャネイロのパノラマビューがあなたを待っています。\n\nこのツアーは車椅子でアクセス可能で、誰もがこの世界的に有名なアトラクションの壮大さを体験できることを保証します。カップルや家族に最適で、このツアーは自然と文化が調和的に出会う家族向けの環境を提供します。\n\n経験豊富なガイドの存在により、キリスト像の歴史と重要性についてさらに学ぶ機会があり、周囲の自然の美しさを楽しむことができます。このツアーは、リオデジャネイロの中心部で豊かな文化体験を求める大人に最適です。\n\nキリスト像を探索した後、リオの市内ツアーで旅を続け、そこでは現代建築とグアナバラ湾の素晴らしい景色があなたを待っています。このツアーは、自然と都市化のユニークな組み合わせに没入しながら、リオを超えて探索したい人に最適です。\n\nブラジルで最も魅力的な目的地の一つで忘れられない瞬間を体験する機会をお見逃しなく。",
-      "ar": "اكتشف تمثال المسيح الفادي الشهير، أحد عجائب الدنيا السبع الجديدة في العالم الحديث، في جولة إرشادية لا تُنسى. ابدأ مغامرتك برحلة بالقطار عبر غابة تيجوكا الخصبة إلى قمة جبل كوركوفادو، حيث تنتظرك مناظر بانورامية لريو دي جانيرو.\n\nهذه الجولة متاحة للكراسي المتحركة، مما يضمن أن الجميع يمكنهم تجربة عظمة هذا المعلم السياحي الشهير عالميًا. مثالية للأزواج والعائلات، توفر الجولة بيئة عائلية حيث تلتقي الطبيعة والثقافة بشكل متناغم.\n\nمع وجود مرشد ذي خبرة، ستتاح لك الفرصة لمعرفة المزيد عن تاريخ وأهمية المسيح الفادي، بينما تستمتع بالجمال الطبيعي من حولك. هذه الجولة مثالية للبالغين الذين يبحثون عن تجربة ثقافية غنية في قلب ريو دي جانيرو.\n\nبعد استكشاف المسيح الفادي، تابع رحلتك بجولة في مدينة ريو، حيث تنتظرك العمارة الحديثة والمناظر الخلابة لخليج غوانابارا. هذه الجولة مثالية لأولئك الذين يرغبون في استكشاف ما وراء ريو، والانغماس في مزيج فريد من الطبيعة والتحضر.\n\nلا تفوت فرصة عيش لحظات لا تُنسى في واحدة من أكثر الوجهات سحرًا في البرازيل.",
-      "he": "גלו את פסל ישו המושיע האיקוני, אחד משבעת פלאי העולם החדשים, בסיור מודרך בלתי נשכח. התחילו את ההרפתקה שלכם עם נסיעה ברכבת דרך יער טיז'וקה השופע עד לפסגת הר קורקובדו, שם מחכים לכם נופים פנורמיים של ריו דה ז'ניירו.\n\nסיור זה נגיש לכיסאות גלגלים, מה שמבטיח שכולם יוכלו לחוות את ההוד של אטרקציה מפורסמת זו. אידיאלי לזוגות ומשפחות, הסיור מציע סביבה משפחתית שבה הטבע והתרבות נפגשים בהרמוניה.\n\nבנוכחות מדריך מנוסה, תהיה לכם הזדמנות ללמוד עוד על ההיסטוריה והחשיבות של פסל ישו המושיע, בעוד אתם נהנים מהיופי הטבעי סביבכם. סיור זה מושלם למבוגרים המחפשים חוויה תרבותית מעשירה בלב ריו דה ז'ניירו.\n\nלאחר חקר פסל ישו המושיע, המשיכו במסע שלכם עם סיור עיר בריו, שם מחכות לכם ארכיטקטורה מודרנית ונופים מרהיבים של מפרץ גואנבארה. סיור זה אידיאלי למי שרוצה לחקור מעבר לריו, לטבול בשילוב ייחודי של טבע ועיור.\n\nאל תפספסו את ההזדמנות לחוות רגעים בלתי נשכחים באחד היעדים המקסימים ביותר בברזיל."
-    },
-    "image": "/images/cristo/cristo.webp",
-    "images": [
-      "/images/cristo/cr1.png",
-      "/images/cristo/cr2.png",
-      "/images/cristo/cr3.png",
-      "/images/cristo/cr4.png",
-      "/images/cristo/cr5.png",
-      "/images/cristo/trem1.jpg",
-      "/images/cristo/trem2.jpg",
-      "/images/cristo/trem3.png"
-    ],
+    "image": "/images/rio1.jpg",
+    "images": ["/images/rio1.jpg", "/images/rio2.jpg", "/images/rio3.jpg"],
     "attractions": {
       "pt-BR": [
         "Cristo Redentor",
-        "Passeio de Trem pela Floresta da Tijuca",
-        "Morro do Corcovado",
-        "City Tour pelo Rio de Janeiro",
-        "Baía de Guanabara",
-        "Arquitetura Moderna do Rio"
+        "Pão de Açúcar",
+        "Praias de Copacabana e Ipanema",
+        "Centro Histórico",
+        "Escadaria Selarón",
+        "Catedral Metropolitana"
       ],
       "en": [
         "Christ the Redeemer",
-        "Train Ride through Tijuca Forest",
-        "Corcovado Mountain",
-        "City Tour of Rio de Janeiro",
-        "Guanabara Bay",
-        "Modern Architecture of Rio"
+        "Sugarloaf Mountain",
+        "Copacabana and Ipanema Beaches",
+        "Historic Center",
+        "Selarón Steps",
+        "Metropolitan Cathedral"
       ],
       "es": [
         "Cristo Redentor",
-        "Viaje en Tren por el Bosque de Tijuca",
-        "Morro do Corcovado",
-        "City Tour por Río de Janeiro",
-        "Bahía de Guanabara",
-        "Arquitectura Moderna de Río"
+        "Pan de Azúcar",
+        "Playas de Copacabana e Ipanema",
+        "Centro Histórico",
+        "Escalera Selarón",
+        "Catedral Metropolitana"
       ],
       "fr": [
         "Christ Rédempteur",
-        "Voyage en Train à travers la Forêt de Tijuca",
-        "Mont Corcovado",
-        "Visite de la Ville de Rio de Janeiro",
-        "Baie de Guanabara",
-        "Architecture Moderne de Rio"
+        "Pain de Sucre",
+        "Plages de Copacabana et Ipanema",
+        "Centre Historique",
+        "Escalier Selarón",
+        "Cathédrale Métropolitaine"
       ],
       "it": [
         "Cristo Redentore",
-        "Viaggio in Treno attraverso la Foresta di Tijuca",
-        "Monte Corcovado",
-        "Tour della Città di Rio de Janeiro",
-        "Baia di Guanabara",
-        "Architettura Moderna di Rio"
+        "Pan di Zucchero",
+        "Spiagge di Copacabana e Ipanema",
+        "Centro Storico",
+        "Scalinata Selarón",
+        "Cattedrale Metropolitana"
       ],
       "al": [
         "Christus der Erlöser",
-        "Zugfahrt durch den Tijuca-Wald",
-        "Corcovado-Berg",
-        "Stadtrundfahrt durch Rio de Janeiro",
-        "Guanabara-Bucht",
-        "Moderne Architektur von Rio"
+        "Zuckerhut",
+        "Strände von Copacabana und Ipanema",
+        "Historisches Zentrum",
+        "Selarón-Treppe",
+        "Metropolitankathedrale"
       ],
       "ru": [
         "Христос-Искупитель",
-        "Поездка на Поезде через Лес Тижука",
-        "Гора Корковадо",
-        "Городская Экскурсия по Рио-де-Жанейро",
-        "Залив Гуанабара",
-        "Современная Архитектура Рио"
+        "Сахарная Голова",
+        "Пляжи Копакабана и Ипанема",
+        "Исторический Центр",
+        "Лестница Селарона",
+        "Кафедральный Собор"
       ],
       "ch": [
         "救世基督像",
-        "穿越蒂茹卡森林的火车之旅",
-        "科尔科瓦多山",
-        "里约热内卢城市之旅",
-        "瓜纳巴拉湾",
-        "里约现代建筑"
+        "糖面包山",
+        "科帕卡巴纳和伊帕内玛海滩",
+        "历史中心",
+        "塞拉隆阶梯",
+        "大都会大教堂"
       ],
       "jp": [
         "キリスト像",
-        "チジュカの森を通る列車の旅",
-        "コルコバードの丘",
-        "リオデジャネイロ市内観光",
-        "グアナバラ湾",
-        "リオのモダン建築"
+        "シュガーローフマウンテン",
+        "コパカバーナとイパネマのビーチ",
+        "歴史地区",
+        "セラロン階段",
+        "メトロポリタン大聖堂"
       ],
       "ar": [
-        "تمثال المسيح الفادي",
-        "رحلة بالقطار عبر غابة تيجوكا",
-        "جبل كوركوفادو",
-        "جولة في مدينة ريو دي جانيرو",
-        "خليج غوانابارا",
-        "العمارة الحديثة في ريو"
+        "المسيح الفادي",
+        "جبل شوغر لوف",
+        "شواطئ كوباكابانا وإيبانيما",
+        "المركز التاريخي",
+        "سلالم سيلارون",
+        "الكاتدرائية الكبرى"
       ],
       "he": [
-        "פסל ישו המושיע",
-        "נסיעה ברכבת דרך יער טיז'וקה",
-        "הר קורקובדו",
-        "סיור עיר בריו דה ז'ניירו",
-        "מפרץ גואנבארה",
-        "ארכיטקטורה מודרנית של ריו"
+        "ישו המושיע",
+        "הר הסוכר",
+        "חופי קופקבנה ואיפנמה",
+        "המרכז ההיסטורי",
+        "מדרגות סלרון",
+        "הקתדרלה המטרופוליטנית"
       ]
     },
     "duration": {
-      "pt-BR": "Meio dia (4 horas)",
-      "en": "Half day (4 hours)",
-      "es": "Medio día (4 horas)",
-      "fr": "Demi-journée (4 heures)",
-      "it": "Mezza giornata (4 ore)",
-      "al": "Halbtägig (4 Stunden)",
-      "ru": "Полдня (4 часа)",
-      "ch": "半天（4小时）",
-      "jp": "半日（4時間）",
-      "ar": "نصف يوم (4 ساعات)",
-      "he": "חצי יום (4 שעות)"
+      "pt-BR": "9 horas",
+      "en": "9 hours",
+      "es": "9 horas",
+      "fr": "9 heures",
+      "it": "9 ore",
+      "al": "9 Stunden",
+      "ru": "9 часов",
+      "ch": "9小时",
+      "jp": "9時間",
+      "ar": "9 ساعات",
+      "he": "9 שעות"
     },
     "price": {
-      "individual": "R$ 340",
-      "group": "R$ 280"
+      "individual": "R$ 500",
+      "group": "R$ 450"
     },
     "included": {
       "pt-BR": [
-        "Ingresso do trem",
-        "Guia turístico experiente",
-        "City tour pelo Rio"
+        "Transporte em veículo confortável",
+        "Guia turístico especializado",
+        "Ingressos para Cristo Redentor e Pão de Açúcar",
+        "Paradas nos principais pontos turísticos",
+        "*A realização do tour está sujeita a um número mínimo de participantes e as vagas são limitadas. Entre em contato para consultar a disponibilidade.",
+        "**Recomendável:** Levar garrafa de água, protetor solar e repelente"
       ],
-      "en": ["Train ticket", "Experienced tour guide", "City tour of Rio"],
+      "en": [
+        "Transportation in comfortable vehicle",
+        "Specialized tour guide",
+        "Tickets to Christ the Redeemer and Sugarloaf",
+        "Stops at main tourist attractions",
+        "*Tour operation is subject to minimum number of participants and spots are limited. Contact us to check availability.",
+        "**Recommended:** Bring water bottle, sunscreen and repellent"
+      ],
       "es": [
-        "Billete de tren",
-        "Guía turístico experimentado",
-        "City tour por Río"
+        "Transporte en vehículo cómodo",
+        "Guía turístico especializado",
+        "Entradas al Cristo Redentor y Pan de Azúcar",
+        "Paradas en los principales puntos turísticos",
+        "*La realización del tour está sujeta a un número mínimo de participantes y las plazas son limitadas. Contáctenos para consultar disponibilidad.",
+        "**Recomendable:** Llevar botella de agua, protector solar y repelente"
       ],
       "fr": [
-        "Billet de train",
-        "Guide touristique expérimenté",
-        "Visite de la ville de Rio"
+        "Transport en véhicule confortable",
+        "Guide touristique spécialisé",
+        "Billets pour le Christ Rédempteur et le Pain de Sucre",
+        "Arrêts aux principales attractions touristiques",
+        "*La réalisation du tour est soumise à un nombre minimum de participants et les places sont limitées. Contactez-nous pour vérifier la disponibilité.",
+        "**Recommandé:** Apporter bouteille d'eau, crème solaire et répulsif"
       ],
       "it": [
-        "Biglietto del treno",
-        "Guida turistica esperta",
-        "Tour della città di Rio"
+        "Trasporto in veicolo confortevole",
+        "Guida turistica specializzata",
+        "Biglietti per il Cristo Redentore e il Pan di Zucchero",
+        "Fermate alle principali attrazioni turistiche",
+        "*L'effettuazione del tour è soggetta a un numero minimo di partecipanti e i posti sono limitati. Contattaci per verificare la disponibilità.",
+        "**Consigliato:** Portare bottiglia d'acqua, protezione solare e repellente"
       ],
-      "al": ["Zugticket", "Erfahrener Reiseleiter", "Stadtrundfahrt durch Rio"],
-      "ru": ["Билет на поезд", "Опытный гид", "Городская экскурсия по Рио"],
-      "ch": ["火车票", "经验丰富的导游", "里约城市之旅"],
-      "jp": ["列車チケット", "経験豊富なツアーガイド", "リオ市内観光"],
-      "ar": ["تذكرة القطار", "مرشد سياحي ذو خبرة", "جولة في مدينة ريو"],
-      "he": ["כרטיס רכבת", "מדריך תיירות מנוסה", "סיור עיר בריו"]
+      "al": [
+        "Transport in komfortablem Fahrzeug",
+        "Spezialisierter Reiseleiter",
+        "Tickets für Christus den Erlöser und Zuckerhut",
+        "Stopps an den wichtigsten Sehenswürdigkeiten",
+        "**Empfohlen:** Wasserflasche, Sonnencreme und Insektenschutzmittel mitbringen"
+      ],
+      "ru": [
+        "Транспорт в комфортабельном автомобиле",
+        "Специализированный гид",
+        "Билеты на Христа-Искупителя и Сахарную Голову",
+        "*Проведение тура зависит от минимального количества участников, места ограничены. Свяжитесь с нами для проверки доступности.",
+        "Остановки на главных туристических достопримечательностях",
+        "**Рекомендуется:** Взять бутылку воды, солнцезащитный крем и репеллент"
+      ],
+      "ch": [
+        "舒适车辆运输",
+        "专业导游",
+        "救世基督像和糖面包山门票",
+        "在主要旅游景点停留",
+        "*旅游活动需达到最低参与人数要求，名额有限。请联系查询可用性。",
+        "**建议：**携带水瓶、防晒霜和驱虫剂"
+      ],
+      "jp": [
+        "快適な車両での移動",
+        "専門ツアーガイド",
+        "キリスト像とシュガーローフマウンテンのチケット",
+        "主要観光スポットでの停車",
+        "*ツアー実施は最低参加人数が必要で、席数に限りがあります。空き状況はご連絡ください。",
+        "**推奨：**水筒、日焼け止め、虫除けを持参"
+      ],
+      "ar": [
+        "النقل في مركبة مريحة",
+        "مرشد سياحي متخصص",
+        "تذاكر للمسيح الفادي وشوغر لوف",
+        "توقفات في المعالم السياحية الرئيسية",
+        "*إجراء الجولة مشروط بعدد أدنى من المشاركين والمقاعد محدودة. اتصل بنا للاستفسار عن التوافر.",
+        "**موصى به:** إحضار زجاجة ماء وواقي شمسي وطارد حشرات"
+      ],
+      "he": [
+        "הסעה ברכב נוח",
+        "מדריך תיירות מומחה",
+        "כרטיסים לישו המושיע והר הסוכר",
+        "עצירות באטרקציות התיירותיות העיקריות",
+        "*קיום הסיור תלוי במספר מינימלי של משתתפים והמקומות מוגבלים. צרו קשר לבדיקת זמינות.",
+        "**מומלץ:** להביא בקבוק מים, קרם הגנה ודוחה חרקים"
+      ]
     }
   },
   {
-    "id": "arraial-do-cabo",
+    "id": "melhor-rio",
     "name": {
-      "pt-BR": "Arraial do Cabo",
-      "en": "Arraial do Cabo",
-      "es": "Arraial do Cabo",
-      "fr": "Arraial do Cabo",
-      "it": "Arraial do Cabo",
-      "al": "Arraial do Cabo",
-      "ru": "Аррайал-ду-Кабу",
-      "ch": "阿拉亚尔杜卡布",
-      "jp": "アライアル・ド・カボ",
-      "ar": "أرايال دو كابو",
-      "he": "אראיאל דו קאבו"
+      "pt-BR": "O Melhor do Rio",
+      "en": "The Best of Rio",
+      "es": "Lo Mejor de Río",
+      "fr": "Le Meilleur de Rio",
+      "it": "Il Meglio di Rio",
+      "al": "Das Beste von Rio",
+      "ru": "Лучшее Рио",
+      "ch": "里约精华 ",
+      "jp": "リオの最高 ",
+      "ar": "أفضل الريو",
+      "he": "הטוב ביותר בריו "
     },
     "shortDescription": {
-      "pt-BR": "Descubra o Caribe Brasileiro! Praias paradisíacas com águas cristalinas e areia branca em um passeio inesquecível.",
-      "en": "Discover the Brazilian Caribbean! Paradisiacal beaches with crystal clear waters and white sand on an unforgettable tour.",
-      "es": "¡Descubra el Caribe Brasileño! Playas paradisíacas con aguas cristalinas y arena blanca en un tour inolvidable.",
-      "fr": "Découvrez les Caraïbes brésiliennes! Des plages paradisiaques aux eaux cristallines et au sable blanc lors d'une visite inoubliable.",
-      "it": "Scopri i Caraibi brasiliani! Spiagge paradisiache con acque cristalline e sabbia bianca in un tour indimenticabile.",
-      "al": "Entdecken Sie die brasilianische Karibik! Paradiesische Strände mit kristallklarem Wasser und weißem Sand auf einer unvergesslichen Tour.",
-      "ru": "Откройте для себя бразильские Карибы! Райские пляжи с кристально чистой водой и белым песком в незабываемом туре.",
-      "ch": "探索巴西加勒比海！在难忘的旅程中享受天堂般的海滩、清澈的海水和白色的沙滩。",
-      "jp": "ブラジルのカリブ海を発見！忘れられないツアーで透き通った海と白い砂浜の楽園のビーチ。",
-      "ar": "اكتشف الكاريبي البرازيلي! شواطئ جنة بمياه صافية ورمال بيضاء في جولة لا تُنسى.",
-      "he": "גלו את הקריביים הברזילאיים! חופים גן עדן עם מים צלולים וחול לבן בסיור בלתי נשכח."
+      "pt-BR": "Descubra os principais cartões postais do Rio em 9h de tour completo",
+      "en": "Discover Rio's main postcards in a complete 9h tour",
+      "es": "Descubra los principales postales de Río en tour completo de 9h",
+      "fr": "Découvrez les principaux cartes postales de Rio en tour complet de 9h",
+      "it": "Scopri le principali cartoline di Rio in tour completo di 9h",
+      "al": "Entdecken Sie Rios Hauptkartenmotive in kompletter 9-Stunden-Tour",
+      "ru": "Откройте главные достопримечательности Рио в полном 9-часовом туре",
+      "ch": "在9小时完整游览中发现里约的主要名片",
+      "jp": "9時間の完全ツアーでリオの主要名所を発見",
+      "ar": "اكتشف بطاقات البريد الرئيسية لريو في جولة كاملة مدتها 9 ساعات",
+      "he": "גלה את כרטיסי הדואר הראשיים של ריו בסיור מלא של 9 שעות"
     },
-    "fullDescription": {
-      "pt-BR": "Embarque em uma aventura única para Arraial do Cabo, conhecida como o Caribe Brasileiro! Esta excursão de dia completo leva você a explorar algumas das praias mais deslumbrantes do Brasil, com suas águas cristalinas em tons de azul turquesa e areia branca fininha.\n\nDurante o passeio, você visitará praias paradisíacas como a Praia do Farol, considerada uma das mais belas do Brasil, a Prainhas do Pontal do Atalaia, e a famosa Praia do Forno. Cada parada oferece paisagens de tirar o fôlego e oportunidades incríveis para mergulho, fotografia e relaxamento.\n\nO tour inclui um passeio de barco pelas águas cristalinas, onde você poderá observar a rica vida marinha e formações rochosas impressionantes. Com a presença de um guia experiente, você conhecerá a história local, curiosidades sobre a região e os melhores pontos para aproveitar cada momento.\n\nEste passeio é perfeito para famílias, casais e grupos de amigos que buscam um dia de contato com a natureza em seu estado mais puro. As águas calmas e a beleza natural intocada fazem de Arraial do Cabo um destino imperdível para quem visita o Rio de Janeiro.\n\nNão deixe de conhecer esse pedaço do paraíso! Reserve agora e prepare-se para um dos dias mais memoráveis da sua viagem.",
-      "en": "Embark on a unique adventure to Arraial do Cabo, known as the Brazilian Caribbean! This full-day excursion takes you to explore some of Brazil's most stunning beaches, with their crystal-clear waters in shades of turquoise blue and fine white sand.\n\nDuring the tour, you will visit paradisiacal beaches such as Praia do Farol, considered one of the most beautiful in Brazil, Prainhas do Pontal do Atalaia, and the famous Praia do Forno. Each stop offers breathtaking landscapes and incredible opportunities for diving, photography, and relaxation.\n\nThe tour includes a boat ride through crystal-clear waters, where you can observe the rich marine life and impressive rock formations. With an experienced guide, you will learn about local history, curiosities about the region, and the best spots to enjoy every moment.\n\nThis tour is perfect for families, couples, and groups of friends seeking a day of contact with nature in its purest state. The calm waters and untouched natural beauty make Arraial do Cabo a must-visit destination for those visiting Rio de Janeiro.\n\nDon't miss this piece of paradise! Book now and get ready for one of the most memorable days of your trip.",
-      "es": "¡Embárquese en una aventura única a Arraial do Cabo, conocido como el Caribe Brasileño! Esta excursión de día completo lo lleva a explorar algunas de las playas más impresionantes de Brasil, con sus aguas cristalinas en tonos de azul turquesa y arena blanca fina.\n\nDurante el tour, visitará playas paradisíacas como Praia do Farol, considerada una de las más bellas de Brasil, Prainhas do Pontal do Atalaia y la famosa Praia do Forno. Cada parada ofrece paisajes impresionantes y oportunidades increíbles para bucear, fotografiar y relajarse.\n\nEl tour incluye un paseo en barco por aguas cristalinas, donde podrá observar la rica vida marina y formaciones rocosas impresionantes. Con un guía experimentado, conocerá la historia local, curiosidades sobre la región y los mejores lugares para disfrutar cada momento.\n\nEste tour es perfecto para familias, parejas y grupos de amigos que buscan un día de contacto con la naturaleza en su estado más puro. Las aguas tranquilas y la belleza natural intacta hacen de Arraial do Cabo un destino imperdible para quienes visitan Río de Janeiro.\n\n¡No deje de conocer este pedazo de paraíso! Reserve ahora y prepárese para uno de los días más memorables de su viaje.",
-      "fr": "Embarquez pour une aventure unique à Arraial do Cabo, connue sous le nom de Caraïbes brésiliennes! Cette excursion d'une journée complète vous emmène explorer certaines des plages les plus magnifiques du Brésil, avec leurs eaux cristallines aux teintes bleu turquoise et leur sable blanc fin.\n\nPendant le tour, vous visiterez des plages paradisiaques comme Praia do Farol, considérée comme l'une des plus belles du Brésil, Prainhas do Pontal do Atalaia et la célèbre Praia do Forno. Chaque arrêt offre des paysages à couper le souffle et des opportunités incroyables pour la plongée, la photographie et la détente.\n\nLe tour comprend une promenade en bateau dans des eaux cristallines, où vous pourrez observer la riche vie marine et les impressionnantes formations rocheuses. Avec un guide expérimenté, vous découvrirez l'histoire locale, les curiosités de la région et les meilleurs endroits pour profiter de chaque instant.\n\nCe tour est parfait pour les familles, les couples et les groupes d'amis à la recherche d'une journée de contact avec la nature dans son état le plus pur. Les eaux calmes et la beauté naturelle intacte font d'Arraial do Cabo une destination incontournable pour ceux qui visitent Rio de Janeiro.\n\nNe manquez pas ce morceau de paradis! Réservez maintenant et préparez-vous pour l'un des jours les plus mémorables de votre voyage.",
-      "it": "Imbarcati in un'avventura unica ad Arraial do Cabo, conosciuta come i Caraibi brasiliani! Questa escursione di un'intera giornata ti porta a esplorare alcune delle spiagge più straordinarie del Brasile, con le loro acque cristalline nei toni del blu turchese e la sabbia bianca finissima.\n\nDurante il tour, visiterai spiagge paradisiache come Praia do Farol, considerata una delle più belle del Brasile, Prainhas do Pontal do Atalaia e la famosa Praia do Forno. Ogni tappa offre paesaggi mozzafiato e incredibili opportunità per le immersioni, la fotografia e il relax.\n\nIl tour include un giro in barca attraverso acque cristalline, dove potrai osservare la ricca vita marina e le impressionanti formazioni rocciose. Con una guida esperta, conoscerai la storia locale, le curiosità sulla regione e i migliori punti per goderti ogni momento.\n\nQuesto tour è perfetto per famiglie, coppie e gruppi di amici che cercano una giornata di contatto con la natura nel suo stato più puro. Le acque calme e la bellezza naturale incontaminata rendono Arraial do Cabo una destinazione imperdibile per chi visita Rio de Janeiro.\n\nNon perdere questo angolo di paradiso! Prenota ora e preparati per uno dei giorni più memorabili del tuo viaggio.",
-      "al": "Begeben Sie sich auf ein einzigartiges Abenteuer nach Arraial do Cabo, bekannt als die brasilianische Karibik! Dieser ganztägige Ausflug führt Sie dazu, einige der atemberaubendsten Strände Brasiliens zu erkunden, mit ihren kristallklaren Gewässern in Türkisblau-Tönen und feinem weißen Sand.\n\nWährend der Tour besuchen Sie paradiesische Strände wie Praia do Farol, der als einer der schönsten Brasiliens gilt, Prainhas do Pontal do Atalaia und den berühmten Praia do Forno. Jeder Halt bietet atemberaubende Landschaften und unglaubliche Möglichkeiten zum Tauchen, Fotografieren und Entspannen.\n\nDie Tour beinhaltet eine Bootsfahrt durch kristallklare Gewässer, wo Sie die reiche Meeresfauna und beeindruckende Felsformationen beobachten können. Mit einem erfahrenen Reiseleiter lernen Sie die lokale Geschichte, Kuriositäten über die Region und die besten Orte kennen, um jeden Moment zu genießen.\n\nDiese Tour ist perfekt für Familien, Paare und Gruppen von Freunden, die einen Tag im Kontakt mit der Natur in ihrem reinsten Zustand suchen. Die ruhigen Gewässer und die unberührte natürliche Schönheit machen Arraial do Cabo zu einem unverzichtbaren Reiseziel für Besucher von Rio de Janeiro.\n\nVerpassen Sie nicht dieses Stück Paradies! Buchen Sie jetzt und bereiten Sie sich auf einen der denkwürdigsten Tage Ihrer Reise vor.",
-      "ru": "Отправьтесь в уникальное приключение в Аррайал-ду-Кабу, известный как бразильские Карибы! Эта однодневная экскурсия приведет вас к исследованию некоторых из самых потрясающих пляжей Бразилии с их кристально чистой водой в оттенках бирюзового синего и мелким белым песком.\n\nВо время тура вы посетите райские пляжи, такие как Прайя-ду-Фарол, считающийся одним из самых красивых в Бразилии, Прайньяс-ду-Понтал-ду-Аталайя и знаменитый Прайя-ду-Форну. Каждая остановка предлагает захватывающие дух пейзажи и невероятные возможности для дайвинга, фотографии и отдыха.\n\nТур включает прогулку на лодке по кристально чистым водам, где вы сможете наблюдать богатую морскую жизнь и впечатляющие скальные образования. С опытным гидом вы узнаете о местной истории, любопытных фактах о регионе и лучших местах, чтобы насладиться каждым моментом.\n\nЭтот тур идеально подходит для семей, пар и групп друзей, ищущих день контакта с природой в ее чистейшем состоянии. Спокойные воды и нетронутая природная красота делают Аррайал-ду-Кабу обязательным для посещения местом для тех, кто посещает Рио-де-Жанейро.\n\nНе упустите этот кусочек рая! Забронируйте сейчас и приготовьтесь к одному из самых запоминающихся дней вашего путешествия.",
-      "ch": "踏上前往阿拉亚尔杜卡布的独特冒险之旅，这里被称为巴西加勒比海！这次全日游将带您探索巴西一些最令人惊叹的海滩，拥有绿松石蓝色调的清澈海水和细白沙滩。\n\n在旅途中，您将参观天堂般的海滩，如被认为是巴西最美丽的法罗海滩、阿塔莱亚角小海滩和著名的福尔诺海滩。每一站都提供令人惊叹的景观和潜水、摄影和放松的绝佳机会。\n\n旅行包括在清澈的海水中乘船游览，您可以观察丰富的海洋生物和令人印象深刻的岩石结构。在经验丰富的导游陪同下，您将了解当地历史、该地区的奇闻趣事以及享受每一刻的最佳地点。\n\n这次旅行非常适合寻求在最纯净状态下与大自然接触一天的家庭、情侣和朋友团体。平静的海水和未受破坏的自然美景使阿拉亚尔杜卡布成为访问里约热内卢的人必游之地。\n\n不要错过这片天堂！立即预订，准备好迎接您旅行中最难忘的一天。",
-      "jp": "ブラジルのカリブ海として知られるアライアル・ド・カボへのユニークな冒険に出発しましょう！この終日ツアーでは、ターコイズブルーの色合いの透き通った海と細かい白い砂浜を持つブラジルで最も素晴らしいビーチのいくつかを探索します。\n\nツアー中、ブラジルで最も美しいビーチの一つと考えられているファロルビーチ、ポンタル・ド・アタライアの小さなビーチ、有名なフォルノビーチなどの楽園のようなビーチを訪れます。各停留所は息をのむような景色と、ダイビング、写真撮影、リラクゼーションのための素晴らしい機会を提供します。\n\nツアーには透き通った海でのボート乗りが含まれており、豊かな海洋生物と印象的な岩の形成を観察できます。経験豊富なガイドと一緒に、地元の歴史、この地域についての興味深い事実、そして各瞬間を楽しむための最高のスポットを学びます。\n\nこのツアーは、最も純粋な状態で自然と触れ合う日を求める家族、カップル、友人グループに最適です。穏やかな海と手つかずの自然の美しさは、リオデジャネイロを訪れる人にとってアライアル・ド・カボを必見の目的地にしています。\n\nこの楽園の一部をお見逃しなく！今すぐ予約して、旅行で最も思い出に残る日の一つに備えてください。",
-      "ar": "انطلق في مغامرة فريدة إلى أرايال دو كابو، المعروف باسم الكاريبي البرازيلي! تأخذك هذه الرحلة ليوم كامل لاستكشاف بعض من أجمل الشواطئ في البرازيل، بمياهها الصافية بظلال الأزرق الفيروزي والرمال البيضاء الناعمة.\n\nخلال الجولة، ستزور شواطئ جنة مثل برايا دو فارول، الذي يعتبر من أجمل الشواطئ في البرازيل، وبراينهاس دو بونتال دو أتالايا، والشهير برايا دو فورنو. تقدم كل محطة مناظر طبيعية خلابة وفرص رائعة للغوص والتصوير والاسترخاء.\n\nتتضمن الجولة رحلة بالقارب عبر المياه الصافية، حيث يمكنك مراقبة الحياة البحرية الغنية والتكوينات الصخرية المثيرة للإعجاب. مع مرشد ذي خبرة، ستتعرف على التاريخ المحلي، والفضول حول المنطقة، وأفضل الأماكن للاستمتاع بكل لحظة.\n\nهذه الجولة مثالية للعائلات والأزواج ومجموعات الأصدقاء الذين يبحثون عن يوم من الاتصال بالطبيعة في حالتها الأنقى. المياه الهادئة والجمال الطبيعي البكر تجعل من أرايال دو كابو وجهة لا بد من زيارتها لأولئك الذين يزورون ريو دي جانيرو.\n\nلا تفوت هذه القطعة من الجنة! احجز الآن واستعد لأحد أكثر الأيام التي لا تُنسى في رحلتك.",
-      "he": "צאו להרפתקה ייחודית לאראיאל דו קאבו, המכונה הקריביים הברזילאיים! טיול יום שלם זה לוקח אתכם לחקור כמה מהחופים המדהימים ביותר בברזיל, עם המים הצלולים בגוונים של כחול טורקיז וחול לבן עדין.\n\nבמהלך הסיור, תבקרו בחופים גן עדן כמו פראיה דו פארול, הנחשב לאחד היפים ביותר בברזיל, פראיניאס דו פונטל דו אטלאיה, והמפורסם פראיה דו פורנו. כל תחנה מציעה נופים עוצרי נשימה והזדמנויות מדהימות לצלילה, צילום והרפיה.\n\nהסיור כולל שיט בסירה במים צלולים, שם תוכלו לצפות בחיי הים העשירים ובתצורות סלע מרשימות. עם מדריך מנוסה, תלמדו על ההיסטוריה המקומית, עובדות מעניינות על האזור והמקומות הטובים ביותר ליהנות מכל רגע.\n\nסיור זה מושלם למשפחות, זוגות וקבוצות חברים המחפשים יום של קשר עם הטבע במצבו הטהור ביותר. המים הרגועים והיופי הטבעי הבתולי הופכים את אראיאל דו קאבו ליעד שאסור לפספס למי שמבקר בריו דה ז'ניירו.\n\nאל תפספסו את פיסת גן העדן הזו! הזמינו עכשיו והתכוננו לאחד הימים הבלתי נשכחים ביותר בטיול שלכם."
-    },
-    "image": "/images/arraial/arraial1.png",
-    "images": [
-      "/images/arraial/arraial1.png",
-      "/images/arraial/arraial3.jpg",
-      "/images/arraial/arraial4.jfif",
-      "/images/arraial/arraial2.jpg"
-    ],
-    "attractions": {
-      "pt-BR": [
-        "Praia do Farol",
-        "Prainhas do Pontal do Atalaia",
-        "Praia do Forno",
-        "Passeio de Barco",
-        "Mergulho em Águas Cristalinas",
-        "Mirante do Pontal do Atalaia"
-      ],
-      "en": [
-        "Farol Beach",
-        "Prainhas do Pontal do Atalaia",
-        "Forno Beach",
-        "Boat Tour",
-        "Diving in Crystal Clear Waters",
-        "Pontal do Atalaia Viewpoint"
-      ],
-      "es": [
-        "Playa do Farol",
-        "Prainhas do Pontal do Atalaia",
-        "Playa do Forno",
-        "Paseo en Barco",
-        "Buceo en Aguas Cristalinas",
-        "Mirador del Pontal do Atalaia"
-      ],
-      "fr": [
-        "Plage do Farol",
-        "Prainhas do Pontal do Atalaia",
-        "Plage do Forno",
-        "Tour en Bateau",
-        "Plongée dans des Eaux Cristallines",
-        "Point de Vue de Pontal do Atalaia"
-      ],
-      "it": [
-        "Spiaggia do Farol",
-        "Prainhas do Pontal do Atalaia",
-        "Spiaggia do Forno",
-        "Tour in Barca",
-        "Immersioni in Acque Cristalline",
-        "Punto Panoramico di Pontal do Atalaia"
-      ],
-      "al": [
-        "Farol Strand",
-        "Prainhas do Pontal do Atalaia",
-        "Forno Strand",
-        "Bootstour",
-        "Tauchen in Kristallklarem Wasser",
-        "Aussichtspunkt Pontal do Atalaia"
-      ],
-      "ru": [
-        "Пляж Фарол",
-        "Прайньяс-ду-Понтал-ду-Аталайя",
-        "Пляж Форну",
-        "Прогулка на Лодке",
-        "Дайвинг в Кристально Чистых Водах",
-        "Смотровая Площадка Понтал-ду-Аталайя"
-      ],
-      "ch": [
-        "法罗海滩",
-        "阿塔莱亚角小海滩",
-        "福尔诺海滩",
-        "乘船游览",
-        "在清澈的海水中潜水",
-        "阿塔莱亚角观景点"
-      ],
-      "jp": [
-        "ファロルビーチ",
-        "ポンタル・ド・アタライアの小さなビーチ",
-        "フォルノビーチ",
-        "ボートツアー",
-        "透き通った海でのダイビング",
-        "ポンタル・ド・アタライア展望台"
-      ],
-      "ar": [
-        "شاطئ فارول",
-        "برايناس دو بونتال دو أتالايا",
-        "شاطئ فورنو",
-        "جولة بالقارب",
-        "الغوص في المياه الصافية",
-        "نقطة المراقبة بونتال دو أتالايا"
-      ],
-      "he": [
-        "חוף פארול",
-        "פראיניאס דו פונטל דו אטלאיה",
-        "חוף פורנו",
-        "סיור בסירה",
-        "צלילה במים צלולים",
-        "תצפית פונטל דו אטלאיה"
-      ]
-    },
+    "image": "/images/beachrj.jpg",
+    "images": ["/images/beachrj.jpg", "/images/melhorRio2.png"],
     "duration": {
-      "pt-BR": "O dia todo (8 horas)",
-      "en": "Full day (8 hours)",
-      "es": "Todo el día (8 horas)",
-      "fr": "Toute la journée (8 heures)",
-      "it": "Giornata intera (8 ore)",
-      "al": "Ganztägig (8 Stunden)",
-      "ru": "Полный день (8 часов)",
-      "ch": "全天（8小时）",
-      "jp": "終日（8時間）",
-      "ar": "يوم كامل (8 ساعات)",
-      "he": "יום שלם (8 שעות)"
+      "pt-BR": "9 horas",
+      "en": "9 hours",
+      "es": "9 horas",
+      "fr": "9 heures",
+      "it": "9 ore",
+      "al": "9 Stunden",
+      "ru": "9 часов",
+      "ch": "9小时",
+      "jp": "9時間",
+      "ar": "9 ساعة",
+      "he": "9 שעות"
     },
     "price": {
-      "individual": "R$ 220",
-      "group": "R$ 180"
+      "individual": "R$ 500",
+      "group": "R$ 450"
     },
     "included": {
       "pt-BR": [
         "Transporte ida e volta",
-        "Passeio de barco",
-        "Guia turístico experiente",
-        "Paradas nas principais praias"
+        "Guia turístico",
+        "9h de tour completo",
+        "**Recomendável:** Garrafa de água, protetor solar e repelente"
       ],
       "en": [
         "Round trip transportation",
-        "Boat tour",
-        "Experienced tour guide",
-        "Stops at main beaches"
-      ],
-      "es": [
-        "Transporte ida y vuelta",
-        "Paseo en barco",
-        "Guía turístico experimentado",
-        "Paradas en las principales playas"
-      ],
-      "fr": [
-        "Transport aller-retour",
-        "Tour en bateau",
-        "Guide touristique expérimenté",
-        "Arrêts aux principales plages"
-      ],
-      "it": [
-        "Trasporto andata e ritorno",
-        "Tour in barca",
-        "Guida turistica esperta",
-        "Fermate nelle principali spiagge"
-      ],
-      "al": [
-        "Hin- und Rücktransport",
-        "Bootstour",
-        "Erfahrener Reiseleiter",
-        "Stopps an den wichtigsten Stränden"
-      ],
-      "ru": [
-        "Транспорт туда и обратно",
-        "Прогулка на лодке",
-        "Опытный гид",
-        "Остановки на основных пляжах"
-      ],
-      "ch": ["往返交通", "乘船游览", "经验丰富的导游", "在主要海滩停靠"],
-      "jp": [
-        "往復送迎",
-        "ボートツアー",
-        "経験豊富なツアーガイド",
-        "主要なビーチでの停車"
-      ],
-      "ar": [
-        "النقل ذهابًا وإيابًا",
-        "جولة بالقارب",
-        "مرشد سياحي ذو خبرة",
-        "توقفات في الشواطئ الرئيسية"
-      ],
-      "he": [
-        "הסעות הלוך ושוב",
-        "סיור בסירה",
-        "מדריך תיירות מנוסה",
-        "עצירות בחופים העיקריים"
+        "Tour guide",
+        "9h complete tour",
+        "*A realização do tour está sujeita a um número mínimo de participantes e as vagas são limitadas. Entre em contato para consultar a disponibilidade.",
+        "**Recommended:** Water bottle, sunscreen and repellent"
       ]
     }
   },
   {
-    "id": "favela-rocinha-walking-tour",
+    "id": "expresso-trem",
     "name": {
-      "pt-BR": "Favela da Rocinha Walking Tour",
-      "en": "Rocinha Favela Walking Tour",
-      "es": "Tour a Pie por la Favela de Rocinha",
-      "fr": "Visite à Pied de la Favela Rocinha",
-      "it": "Tour a Piedi della Favela Rocinha",
-      "al": "Rocinha Favela Rundgang",
-      "ru": "Пешеходная Экскурсия по Фавеле Росинья",
-      "ch": "罗西尼亚贫民窟步行游",
-      "jp": "ロシーニャファベーラウォーキングツアー",
-      "ar": "جولة سيرًا على الأقدام في فافيلا روسينها",
-      "he": "סיור רגלי בפאבלה רוסינה"
+      "pt-BR": "Expresso de trem (Cristo Redentor e Pão de Açúcar)",
+      "en": "Train Express (Christ the Redeemer and Sugarloaf)",
+      "es": "Expreso de tren (Cristo Redentor y Pan de Azúcar)",
+      "fr": "Train Express (Christ Rédempteur et Pain de Sucre)",
+      "it": "Treno Express (Cristo Redentore e Pan di Zucchero)",
+      "al": "Schnellzug (Christus Erlöser und Zuckerhut)",
+      "ru": "Экспресс-поезд (Христос-Искупитель и Сахарная Голова)",
+      "ch": "快车列车（救世主耶稣像和糖面包山）",
+      "jp": "急行列車（キリスト像とシュガーローフ）",
+      "ar": "قطار سريع (المسيح الفادي وسكر اللوف)",
+      "he": "רכבת מהירה (משיח הגואל וסוכרloaf)"
     },
     "shortDescription": {
-      "pt-BR": "Descubra a vibrante cultura do Rio de Janeiro em um tour privado pelas favelas. Aprenda sobre as dinâmicas sociais e culturais do Rio de Janeiro enquanto explora a cidade com um guia experiente.",
-      "en": "Discover the vibrant culture of Rio de Janeiro on a private favela tour. Learn about the social and cultural dynamics of Rio de Janeiro while exploring the city with an experienced guide.",
-      "es": "Descubra la vibrante cultura de Río de Janeiro en un tour privado por las favelas. Aprenda sobre las dinámicas sociales y culturales de Río de Janeiro mientras explora la ciudad con un guía experimentado.",
-      "fr": "Découvrez la culture vibrante de Rio de Janeiro lors d'une visite privée des favelas. Apprenez les dynamiques sociales et culturelles de Rio de Janeiro tout en explorant la ville avec un guide expérimenté.",
-      "it": "Scopri la vibrante cultura di Rio de Janeiro in un tour privato delle favelas. Scopri le dinamiche sociali e culturali di Rio de Janeiro mentre esplori la città con una guida esperta.",
-      "al": "Entdecken Sie die lebendige Kultur von Rio de Janeiro bei einer privaten Favela-Tour. Erfahren Sie mehr über die sozialen und kulturellen Dynamiken von Rio de Janeiro, während Sie die Stadt mit einem erfahrenen Guide erkunden.",
-      "ru": "Откройте для себя яркую культуру Рио-де-Жанейро в частной экскурсии по фавелам. Узнайте о социальной и культурной динамике Рио-де-Жанейро, исследуя город с опытным гидом.",
-      "ch": "在私人贫民窟之旅中探索里约热内卢充满活力的文化。在经验丰富的导游陪同下探索城市，了解里约热内卢的社会和文化动态。",
-      "jp": "プライベートファベーラツアーでリオデジャネイロの活気ある文化を発見してください。経験豊富なガイドと一緒に街を探索しながら、リオデジャネイロの社会的および文化的ダイナミクスについて学びましょう。",
-      "ar": "اكتشف الثقافة النابضة بالحياة في ريو دي جانيرو في جولة خاصة في الفافيلا. تعرف على الديناميكيات الاجتماعية والثقافية لريو دي جانيرو أثناء استكشاف المدينة مع مرشد ذي خبرة.",
-      "he": "גלו את התרבות התוססת של ריו דה ז'ניירו בסיור פרטי בפאבלות. למדו על הדינמיקה החברתית והתרבותית של ריו דה ז'ניירו תוך כדי חקר העיר עם מדריך מנוסה."
+      "pt-BR": "Viagem de trem panorâmica até o Cristo Redentor e teleférico ao Pão de Açúcar",
+      "en": "Panoramic train ride to Christ the Redeemer and cable car to Sugarloaf (",
+      "es": "Viaje en tren panorámico al Cristo Redentor y teleférico al Pan de Azúcar ",
+      "fr": "Voyage en train panoramique au Christ Rédempteur et téléphérique au Pain de Sucre",
+      "it": "Viaggio in treno panoramico al Cristo Redentore e funivia al Pan di Zucchero ",
+      "al": "Panoramafahrt mit Zug zum Christus Erlöser und Seilbahn zum Zuckerhut",
+      "ru": "Панорамная поездка на поезде к Христу-Искупителю и фуникулеру на Сахарную Голову",
+      "ch": "全景火车之旅至救世主耶稣像和糖面包山缆车 (6小时; ",
+      "jp": "パノラマ列車でキリスト像とシュガーローフへ (6時間; ",
+      "ar": "رحلة قطار بانورامية إلى المسيح الفادي وحبل سكر اللوف (6س; ",
+      "he": "נסיעת רכבת פנורמית למשיח הגואל וכבל סוכרloaf (6ש'; R$370)"
     },
-    "fullDescription": {
-      "pt-BR": "Conheça um lado do Rio de Janeiro que vai além do asfalto com um passeio a pé guiado pelas favelas da cidade. Explore os becos e ruas vibrantes das favelas e obtenha uma compreensão mais profunda das dinâmicas sociais e culturais do Rio de Janeiro.\n\nEncontre seu guia e comece um passeio a pé pela Zona Sul do Rio. Acompanhado por um guia experiente, você terá a oportunidade de explorar esses locais de maneira segura e informativa.\n\nComo se trata de um passeio privado, a atenção é totalmente personalizada, garantindo que você possa fazer todas as perguntas e obter o máximo de informações e insights durante a visita. A caminhada pelas favelas oferece uma visão genuína e sem filtros, proporcionando uma conexão mais profunda com a cidade e seus moradores.\n\nDurante o tour, você conhecerá projetos sociais, arte urbana, comércio local e terá a oportunidade de conversar com moradores que compartilham suas histórias e perspectivas únicas sobre a vida na comunidade.\n\nEste passeio é perfeito para quem busca uma experiência autêntica e deseja compreender melhor a complexidade e a riqueza cultural que fazem parte da identidade do Rio de Janeiro.",
-      "en": "Discover a side of Rio de Janeiro that goes beyond the pavement with a guided walking tour through the city's favelas. Explore the vibrant alleys and streets of the favelas and gain a deeper understanding of Rio de Janeiro's social and cultural dynamics.\n\nMeet your guide and start a walking tour through Rio's South Zone. Accompanied by an experienced guide, you will have the opportunity to explore these places in a safe and informative way.\n\nAs this is a private tour, the attention is completely personalized, ensuring that you can ask all your questions and get the maximum information and insights during the visit. The walk through the favelas offers a genuine and unfiltered view, providing a deeper connection with the city and its residents.\n\nDuring the tour, you will learn about social projects, urban art, local commerce, and have the opportunity to talk with residents who share their unique stories and perspectives on life in the community.\n\nThis tour is perfect for those seeking an authentic experience and wanting to better understand the complexity and cultural richness that are part of Rio de Janeiro's identity.",
-      "es": "Conozca un lado de Río de Janeiro que va más allá del asfalto con un paseo a pie guiado por las favelas de la ciudad. Explore los callejones y calles vibrantes de las favelas y obtenga una comprensión más profunda de las dinámicas sociales y culturales de Río de Janeiro.\n\nEncuentre a su guía y comience un paseo a pie por la Zona Sur de Río. Acompañado por un guía experimentado, tendrá la oportunidad de explorar estos lugares de manera segura e informativa.\n\nComo se trata de un paseo privado, la atención es totalmente personalizada, garantizando que pueda hacer todas las preguntas y obtener la máxima información e ideas durante la visita. La caminata por las favelas ofrece una visión genuina y sin filtros, proporcionando una conexión más profunda con la ciudad y sus habitantes.\n\nDurante el tour, conocerá proyectos sociales, arte urbano, comercio local y tendrá la oportunidad de conversar con residentes que comparten sus historias y perspectivas únicas sobre la vida en la comunidad.\n\nEste paseo es perfecto para quienes buscan una experiencia auténtica y desean comprender mejor la complejidad y la riqueza cultural que forman parte de la identidad de Río de Janeiro.",
-      "fr": "Découvrez un côté de Rio de Janeiro qui va au-delà du bitume avec une visite guidée à pied à travers les favelas de la ville. Explorez les ruelles et les rues vibrantes des favelas et obtenez une compréhension plus profonde des dynamiques sociales et culturelles de Rio de Janeiro.\n\nRencontrez votre guide et commencez une visite à pied dans la zone sud de Rio. Accompagné d'un guide expérimenté, vous aurez l'occasion d'explorer ces lieux de manière sûre et informative.\n\nComme il s'agit d'une visite privée, l'attention est entièrement personnalisée, garantissant que vous pouvez poser toutes vos questions et obtenir le maximum d'informations et d'idées pendant la visite. La promenade dans les favelas offre une vision authentique et sans filtre, offrant une connexion plus profonde avec la ville et ses habitants.\n\nPendant le tour, vous découvrirez des projets sociaux, de l'art urbain, du commerce local et aurez l'occasion de parler avec des résidents qui partagent leurs histoires uniques et leurs perspectives sur la vie dans la communauté.\n\nCette visite est parfaite pour ceux qui recherchent une expérience authentique et souhaitent mieux comprendre la complexité et la richesse culturelle qui font partie de l'identité de Rio de Janeiro.",
-      "it": "Scopri un lato di Rio de Janeiro che va oltre l'asfalto con un tour a piedi guidato attraverso le favelas della città. Esplora i vicoli e le strade vibranti delle favelas e ottieni una comprensione più profonda delle dinamiche sociali e culturali di Rio de Janeiro.\n\nIncontra la tua guida e inizia un tour a piedi nella zona sud di Rio. Accompagnato da una guida esperta, avrai l'opportunità di esplorare questi luoghi in modo sicuro e informativo.\n\nPoiché si tratta di un tour privato, l'attenzione è completamente personalizzata, garantendo che tu possa fare tutte le domande e ottenere il massimo delle informazioni e delle intuizioni durante la visita. La passeggiata attraverso le favelas offre una visione genuina e senza filtri, fornendo una connessione più profonda con la città e i suoi abitanti.\n\nDurante il tour, conoscerai progetti sociali, arte urbana, commercio locale e avrai l'opportunità di parlare con i residenti che condividono le loro storie uniche e le loro prospettive sulla vita nella comunità.\n\nQuesto tour è perfetto per chi cerca un'esperienza autentica e desidera comprendere meglio la complessità e la ricchezza culturale che fanno parte dell'identità di Rio de Janeiro.",
-      "al": "Entdecken Sie eine Seite von Rio de Janeiro, die über das Pflaster hinausgeht, mit einer geführten Wanderung durch die Favelas der Stadt. Erkunden Sie die lebhaften Gassen und Straßen der Favelas und gewinnen Sie ein tieferes Verständnis für die sozialen und kulturellen Dynamiken von Rio de Janeiro.\n\nTreffen Sie Ihren Guide und beginnen Sie einen Rundgang durch die Südzone von Rio. Begleitet von einem erfahrenen Guide haben Sie die Möglichkeit, diese Orte auf sichere und informative Weise zu erkunden.\n\nDa es sich um eine private Tour handelt, ist die Aufmerksamkeit vollständig personalisiert, sodass Sie alle Ihre Fragen stellen und während des Besuchs maximale Informationen und Einblicke erhalten können. Der Spaziergang durch die Favelas bietet eine authentische und ungefilterte Sicht und bietet eine tiefere Verbindung mit der Stadt und ihren Bewohnern.\n\nWährend der Tour lernen Sie soziale Projekte, urbane Kunst, lokalen Handel kennen und haben die Möglichkeit, mit Bewohnern zu sprechen, die ihre einzigartigen Geschichten und Perspektiven über das Leben in der Gemeinschaft teilen.\n\nDiese Tour ist perfekt für diejenigen, die eine authentische Erfahrung suchen und die Komplexität und den kulturellen Reichtum, die Teil der Identität von Rio de Janeiro sind, besser verstehen möchten.",
-      "ru": "Откройте для себя сторону Рио-де-Жанейро, которая выходит за рамки асфальта, с экскурсией с гидом по фавелам города. Исследуйте яркие переулки и улицы фавел и получите более глубокое понимание социальной и культурной динамики Рио-де-Жанейро.\n\nВстретьтесь со своим гидом и начните пешеходную экскурсию по Южной зоне Рио. В сопровождении опытного гида у вас будет возможность исследовать эти места безопасным и информативным способом.\n\nПоскольку это частная экскурсия, внимание полностью персонализировано, гарантируя, что вы можете задать все свои вопросы и получить максимум информации и понимания во время визита. Прогулка по фавелам предлагает подлинный и нефильтрованный взгляд, обеспечивая более глубокую связь с городом и его жителями.\n\nВо время тура вы узнаете о социальных проектах, уличном искусстве, местной торговле и получите возможность поговорить с жителями, которые делятся своими уникальными историями и перспективами жизни в сообществе.\n\nЭта экскурсия идеально подходит для тех, кто ищет аутентичный опыт и хочет лучше понять сложность и культурное богатство, которые являются частью идентичности Рио-де-Жанейро.",
-      "ch": "通过导游带领的城市贫民窟步行游，探索里约热内卢超越路面的一面。探索贫民窟充满活力的小巷和街道，深入了解里约热内卢的社会和文化动态。\n\n与您的导游会面，开始在里约南区的步行之旅。在经验丰富的导游陪同下，您将有机会以安全和信息丰富的方式探索这些地方。\n\n由于这是私人旅游，关注完全个性化，确保您可以提出所有问题并在访问期间获得最大的信息和见解。穿越贫民窟的步行提供了真实和未经过滤的视角，与城市及其居民建立更深层次的联系。\n\n在旅途中，您将了解社会项目、城市艺术、当地商业，并有机会与居民交谈，他们分享关于社区生活的独特故事和观点。\n\n这次旅行非常适合那些寻求真实体验并希望更好地理解构成里约热内卢身份的复杂性和文化丰富性的人。",
-      "jp": "街のファベーラを案内するウォーキングツアーで、舗装を超えたリオデジャネイロの側面を発見してください。ファベーラの活気ある路地や通りを探索し、リオデジャネイロの社会的および文化的ダイナミクスについてより深く理解します。\n\nガイドと会い、リオの南ゾーンでウォーキングツアーを始めましょう。経験豊富なガイドと一緒に、これらの場所を安全で有益な方法で探索する機会があります。\n\nこれはプライベートツアーなので、注意は完全にパーソナライズされ、訪問中にすべての質問をし、最大限の情報と洞察を得ることができます。ファベーラを歩くことで、本物でフィルターのないビューが提供され、街とその住民とのより深いつながりが得られます。\n\nツアー中、社会プロジェクト、都市芸術、地元の商業について学び、コミュニティでの生活についての独自のストーリーと視点を共有する住民と話す機会があります。\n\nこのツアーは、本物の体験を求め、リオデジャネイロのアイデンティティの一部である複雑さと文化的豊かさをよりよく理解したい人に最適です。",
-      "ar": "اكتشف جانبًا من ريو دي جانيرو يتجاوز الرصيف من خلال جولة مشي بصحبة مرشد عبر فافيلات المدينة. استكشف الأزقة والشوارع النابضة بالحياة للفافيلات واكتسب فهمًا أعمق للديناميكيات الاجتماعية والثقافية لريو دي جانيرو.\n\nالتقِ بمرشدك وابدأ جولة سيرًا على الأقدام في المنطقة الجنوبية من ريو. برفقة مرشد ذي خبرة، ستتاح لك الفرصة لاستكشاف هذه الأماكن بطريقة آمنة وغنية بالمعلومات.\n\nنظرًا لأن هذه جولة خاصة، فإن الاهتمام مخصص تمامًا، مما يضمن أنه يمكنك طرح جميع أسئلتك والحصول على أقصى قدر من المعلومات والرؤى أثناء الزيارة. توفر المشي عبر الفافيلات رؤية حقيقية وغير مفلترة، مما يوفر اتصالًا أعمق بالمدينة وسكانها.\n\nخلال الجولة، ستتعرف على المشاريع الاجتماعية والفن الحضري والتجارة المحلية وستتاح لك الفرصة للتحدث مع السكان الذين يشاركون قصصهم الفريدة ووجهات نظرهم حول الحياة في المجتمع.\n\nهذه الجولة مثالية لأولئك الذين يبحثون عن تجربة أصيلة ويريدون فهم أفضل للتعقيد والثراء الثقافي الذي يشكل جزءًا من هوية ريو دي جانيرو.",
-      "he": "גלו צד של ריו דה ז'ניירו שחורג מהמדרכה עם סיור מודרך רגלי דרך הפאבלות של העיר. חקרו את הסמטאות והרחובות התוססים של הפאבלות וקבלו הבנה עמוקה יותר של הדינמיקה החברתית והתרבותית של ריו דה ז'ניירו.\n\nפגשו את המדריך שלכם והתחילו סיור רגלי באזור הדרום של ריו. בליווי מדריך מנוסה, תהיה לכם הזדמנות לחקור את המקומות הללו בצורה בטוחה ואינפורמטיבית.\n\nמכיוון שזהו סיור פרטי, תשומת הלב מותאמת אישית לחלוטין, מה שמבטיח שתוכלו לשאול את כל השאלות ולקבל מקסימום מידע ותובנות במהלך הביקור. ההליכה דרך הפאבלות מציעה מבט אמיתי ולא מסונן, המספק קשר עמוק יותר עם העיר ותושביה.\n\nבמהלך הסיור, תכירו פרויקטים חברתיים, אמנות רחוב, מסחר מקומי ותהיה לכם הזדמנות לדבר עם תושבים שמשתפים את הסיפורים הייחודיים והפרספקטיבות שלהם על החיים בקהילה.\n\nסיור זה מושלם למי שמחפש חוויה אותנטית ורוצה להבין טוב יותר את המורכבות והעושר התרבותי שהם חלק מהזהות של ריו דה ז'ניירו."
-    },
-    "image": "/images/rocinha/rocinha4.jpeg",
+    "image": "/images/cristo/cristoTrain.png",
     "images": [
-      "/images/rocinha/rocinha1.jpeg",
-      "/images/rocinha/rocinha2.jpeg",
-      "/images/rocinha/rocinha3.jpeg",
-      "/images/rocinha/rocinha4.jpeg"
+      "/images/cristo/cr2.png",
+      "/images/cristo/cr1.png",
+      "images/cristo/trem1.jpg",
+      "images/cristo/trem2.jpg",
+      "images/cristo/trem3.png",
+      "images/cristo/cr4.png"
     ],
-    "attractions": {
-      "pt-BR": [
-        "Caminhada pela Rocinha",
-        "Arte Urbana e Grafites",
-        "Projetos Sociais da Comunidade",
-        "Comércio Local",
-        "Vista Panorâmica do Rio",
-        "Interação com Moradores"
-      ],
-      "en": [
-        "Rocinha Walking Tour",
-        "Urban Art and Graffiti",
-        "Community Social Projects",
-        "Local Commerce",
-        "Panoramic View of Rio",
-        "Interaction with Residents"
-      ],
-      "es": [
-        "Caminata por Rocinha",
-        "Arte Urbano y Grafitis",
-        "Proyectos Sociales Comunitarios",
-        "Comercio Local",
-        "Vista Panorámica de Río",
-        "Interacción con Residentes"
-      ],
-      "fr": [
-        "Visite à Pied de Rocinha",
-        "Art Urbain et Graffitis",
-        "Projets Sociaux Communautaires",
-        "Commerce Local",
-        "Vue Panoramique de Rio",
-        "Interaction avec les Résidents"
-      ],
-      "it": [
-        "Tour a Piedi di Rocinha",
-        "Arte Urbana e Graffiti",
-        "Progetti Sociali della Comunità",
-        "Commercio Locale",
-        "Vista Panoramica di Rio",
-        "Interazione con i Residenti"
-      ],
-      "al": [
-        "Rocinha Rundgang",
-        "Urbane Kunst und Graffiti",
-        "Soziale Gemeinschaftsprojekte",
-        "Lokaler Handel",
-        "Panoramablick auf Rio",
-        "Interaktion mit Bewohnern"
-      ],
-      "ru": [
-        "Пешеходная Экскурсия по Росинье",
-        "Уличное Искусство и Граффити",
-        "Социальные Проекты Сообщества",
-        "Местная Торговля",
-        "Панорамный Вид на Рио",
-        "Взаимодействие с Жителями"
-      ],
-      "ch": [
-        "罗西尼亚步行游",
-        "城市艺术和涂鸦",
-        "社区社会项目",
-        "当地商业",
-        "里约全景",
-        "与居民互动"
-      ],
-      "jp": [
-        "ロシーニャウォーキングツアー",
-        "都市芸術と落書き",
-        "コミュニティ社会プロジェクト",
-        "地元の商業",
-        "リオのパノラマビュー",
-        "住民との交流"
-      ],
-      "ar": [
-        "جولة سيرًا على الأقدام في روسينها",
-        "الفن الحضري والجرافيتي",
-        "المشاريع الاجتماعية المجتمعية",
-        "التجارة المحلية",
-        "منظر بانورامي لريو",
-        "التفاعل مع السكان"
-      ],
-      "he": [
-        "סיור רגלי ברוסינה",
-        "אמנות רחוב וגרפיטי",
-        "פרויקטים חברתיים קהילתיים",
-        "מסחר מקומי",
-        "נוף פנורמי של ריו",
-        "אינטראקציה עם תושבים"
-      ]
-    },
     "duration": {
-      "pt-BR": "Meio dia (3-4 horas)",
-      "en": "Half day (3-4 hours)",
-      "es": "Medio día (3-4 horas)",
-      "fr": "Demi-journée (3-4 heures)",
-      "it": "Mezza giornata (3-4 ore)",
-      "al": "Halbtägig (3-4 Stunden)",
-      "ru": "Полдня (3-4 часа)",
-      "ch": "半天（3-4小时）",
-      "jp": "半日（3-4時間）",
-      "ar": "نصف يوم (3-4 ساعات)",
-      "he": "חצי יום (3-4 שעות)"
+      "pt-BR": "6 horas",
+      "en": "6 hours",
+      "es": "6 horas",
+      "fr": "6 heures",
+      "it": "6 ore",
+      "al": "6 Stunden",
+      "ru": "6 часов",
+      "ch": "6小时",
+      "jp": "6時間",
+      "ar": "6 ساعة",
+      "he": "6 שעות"
     },
     "price": {
-      "individual": "R$ 150",
-      "group": "R$ 120"
+      "individual": "R$ 370",
+      "group": "R$ 330"
     },
     "included": {
       "pt-BR": [
-        "Guia local experiente e bilíngue",
-        "Tour privado e personalizado",
-        "Visita a projetos sociais",
-        "Segurança e suporte durante todo o passeio"
+        "Transporte ida e volta",
+        "Ingressos trem Corcovado",
+        "Teleférico Pão de Açúcar",
+        "Guia turístico",
+        "*A realização do tour está sujeita a um número mínimo de participantes e as vagas são limitadas. Entre em contato para consultar a disponibilidade.",
+        "**Recomendável:** Garrafa de água, protetor solar e repelente"
       ],
       "en": [
-        "Experienced bilingual local guide",
-        "Private and personalized tour",
-        "Visit to social projects",
-        "Safety and support throughout the tour"
+        "Round trip transportation",
+        "Corcovado train tickets",
+        "Sugarloaf cable car",
+        "Tour guide",
+        "*Tour operation is subject to minimum number of participants and spots are limited. Contact us to check availability.",
+        "**Recommended:** Water bottle, sunscreen and repellent"
       ],
       "es": [
-        "Guía local experimentado y bilingüe",
-        "Tour privado y personalizado",
-        "Visita a proyectos sociales",
-        "Seguridad y apoyo durante todo el paseo"
-      ],
-      "fr": [
-        "Guide local expérimenté et bilingue",
-        "Visite privée et personnalisée",
-        "Visite de projets sociaux",
-        "Sécurité et soutien tout au long de la visite"
-      ],
-      "it": [
-        "Guida locale esperta e bilingue",
-        "Tour privato e personalizzato",
-        "Visita a progetti sociali",
-        "Sicurezza e supporto durante tutto il tour"
-      ],
-      "al": [
-        "Erfahrener zweisprachiger lokaler Guide",
-        "Private und personalisierte Tour",
-        "Besuch sozialer Projekte",
-        "Sicherheit und Unterstützung während der gesamten Tour"
-      ],
-      "ru": [
-        "Опытный двуязычный местный гид",
-        "Частный и персонализированный тур",
-        "Посещение социальных проектов",
-        "Безопасность и поддержка на протяжении всего тура"
-      ],
-      "ch": [
-        "经验丰富的双语本地导游",
-        "私人和个性化旅游",
-        "参观社会项目",
-        "全程安全和支持"
-      ],
-      "jp": [
-        "経験豊富なバイリンガル地元ガイド",
-        "プライベートでパーソナライズされたツアー",
-        "社会プロジェクトへの訪問",
-        "ツアー全体を通じた安全とサポート"
-      ],
-      "ar": [
-        "مرشد محلي ذو خبرة وثنائي اللغة",
-        "جولة خاصة ومخصصة",
-        "زيارة المشاريع الاجتماعية",
-        "السلامة والدعم طوال الجولة"
-      ],
-      "he": [
-        "מדריך מקומי מנוסה ודו-לשוני",
-        "סיור פרטי ומותאם אישית",
-        "ביקור בפרויקטים חברתיים",
-        "בטיחות ותמיכה לאורך כל הסיור"
+        "Transporte ida y vuelta",
+        "Entradas tren Corcovado",
+        "Teleférico Pan de Azúcar",
+        "Guía turístico",
+        "*La realización del tour está sujeta a un número mínimo de participantes y las plazas son limitadas. Contáctenos para consultar disponibilidad.",
+        "**Recomendable:** Botella de agua, protector solar y repelente"
       ]
     }
   },
   {
-    "id": "angra-dos-reis-ilha-grande",
+    "id": "lapa-santa-teresa",
     "name": {
-      "pt-BR": "Angra dos Reis - Ilha Grande",
-      "en": "Angra dos Reis - Ilha Grande",
-      "es": "Angra dos Reis - Ilha Grande",
-      "fr": "Angra dos Reis - Ilha Grande",
-      "it": "Angra dos Reis - Ilha Grande",
-      "al": "Angra dos Reis - Ilha Grande",
-      "ru": "Ангра-дус-Рейс - Илья-Гранде",
-      "ch": "安格拉杜斯雷斯 - 大岛",
-      "jp": "アングラ・ドス・レイス - イーリャ・グランデ",
-      "ar": "أنجرا دوس ريس - إيلا غراندي",
-      "he": "אנגרה דוס רייס - אילה גרנדה"
+      "pt-BR": "Lapa e Santa Teresa",
+      "en": "Lapa and Santa Teresa",
+      "es": "Lapa y Santa Teresa",
+      "fr": "Lapa et Santa Teresa",
+      "it": "Lapa e Santa Teresa",
+      "al": "Lapa und Santa Teresa",
+      "ru": "Лапа и Санта-Тереза",
+      "ch": "拉帕和圣塔特蕾莎",
+      "jp": "ラパとサンタテレザ",
+      "ar": "لابا وسانتا تيريزا",
+      "he": "לפה וסנטה טרזה"
     },
     "shortDescription": {
-      "pt-BR": "Explore as praias paradisíacas de Ilha Grande! Passeio de dia inteiro com paradas na Lagoa Azul, Freguesia de Santana, Praia da Baleia e almoço na Praia de Japariz.",
-      "en": "Explore the paradisiacal beaches of Ilha Grande! Full-day tour with stops at Blue Lagoon, Freguesia de Santana, Whale Beach and lunch at Japariz Beach.",
-      "es": "¡Explora las playas paradisíacas de Ilha Grande! Tour de día completo con paradas en Lagoa Azul, Freguesia de Santana, Praia da Baleia y almuerzo en Praia de Japariz.",
-      "fr": "Explorez les plages paradisiaques d'Ilha Grande! Excursion d'une journée avec arrêts au Lagon Bleu, Freguesia de Santana, Praia da Baleia et déjeuner à Praia de Japariz.",
-      "it": "Esplora le spiagge paradisiache di Ilha Grande! Tour di un'intera giornata con soste alla Laguna Blu, Freguesia de Santana, Praia da Baleia e pranzo a Praia de Japariz.",
-      "al": "Erkunden Sie die paradiesischen Strände von Ilha Grande! Ganztagesausflug mit Stopps an der Blauen Lagune, Freguesia de Santana, Praia da Baleia und Mittagessen am Praia de Japariz.",
-      "ru": "Исследуйте райские пляжи Илья-Гранде! Экскурсия на целый день с остановками на Голубой лагуне, Фрегезия-де-Сантана, Прайя-да-Балея и обедом на Прайя-де-Жапариз.",
-      "ch": "探索大岛的天堂海滩！全日游，在蓝色泻湖、圣塔纳教区、鲸鱼海滩停留，并在雅帕里兹海滩享用午餐。",
-      "jp": "イーリャ・グランデの楽園のビーチを探索しましょう！ブルーラグーン、フレゲジア・デ・サンタナ、プライア・ダ・バレイアに立ち寄り、プライア・デ・ジャパリスで昼食をとる終日ツアー。",
-      "ar": "استكشف شواطئ إيلا غراندي الجنة! جولة ليوم كامل مع توقفات في البحيرة الزرقاء، فريجيسيا دي سانتانا، برايا دا باليا وغداء في برايا دي جاباريز.",
-      "he": "חקרו את החופים הגן עדן של אילה גרנדה! סיור יום שלם עם עצירות בלגונה הכחולה, פרגזיה דה סנטנה, פראיה דה באליה וארוחת צהריים בפראיה דה ז'פאריז."
+      "pt-BR": "Descubra o boêmio Lapa e o charme histórico de Santa Teresa",
+      "en": "Discover bohemian Lapa and historic Santa Teresa charm",
+      "es": "Descubre el bohemio Lapa y el encanto histórico de Santa Teresa",
+      "fr": "Découvrez le bohème Lapa et le charme historique de Santa Teresa",
+      "it": "Scopri il bohemien Lapa e il fascino storico di Santa Teresa",
+      "al": "Entdecken Sie das bohemische Lapa und den historischen Charme von Santa Teresa",
+      "ru": "Откройте богемный Лапа и исторический шарм Санта-Терезы",
+      "ch": "发现波西米亚拉帕和圣塔特蕾莎的历史魅力 ",
+      "jp": "ボヘミアンなラパとサンタテレザの歴史的魅力の発見 ",
+      "ar": "اكتشف اللاپا البوهيمي وسحر سانتا تيريزا التاريخي",
+      "he": "גלה את לפה הבוהמייני והקסם ההיסטורי של סנטה טרזה "
+    },
+    "image": "/images/lapa-a-noite.webp",
+    "images": ["/images/lapa.jpg", "/images/lapa-escada.jpg"],
+    "duration": {
+      "pt-BR": "6 horas",
+      "en": "6 hours",
+      "es": "6 horas",
+      "fr": "6 heures",
+      "it": "6 ore",
+      "al": "6 Stunden",
+      "ru": "6 часов",
+      "ch": "6小时",
+      "jp": "6時間",
+      "ar": "6 ساعة",
+      "he": "6 שעות"
+    },
+    "price": {
+      "individual": "R$ 280",
+      "group": "R$ 250"
+    },
+    "included": {
+      "pt-BR": [
+        "Transporte ida e volta",
+        "Guia turístico local",
+        "Visita aos arcos da Lapa",
+        "Passeio por Santa Teresa",
+        "*A realização do tour está sujeita a um número mínimo de participantes e as vagas são limitadas. Entre em contato para consultar a disponibilidade.",
+        "**Recomendável:** Garrafa de água, protetor solar e repelente"
+      ],
+      "en": [
+        "Round trip transportation",
+        "Local tour guide",
+        "Lapa Arches visit",
+        "Santa Teresa walking tour",
+        "*A realização do tour está sujeita a um número mínimo de participantes e as vagas são limitadas. Entre em contato para consultar a disponibilidade.",
+        "**Recommended:** Water bottle, sunscreen and repellent"
+      ]
+    }
+  },
+  {
+    "id": "maracana",
+    "name": {
+      "pt-BR": "Maracanã",
+      "en": "Maracanã",
+      "es": "Maracanã",
+      "fr": "Maracanã",
+      "it": "Maracanã",
+      "al": "Maracanã",
+      "ru": "Мараканã",
+      "ch": "马拉卡纳",
+      "jp": "マラカナ",
+      "ar": "ماراكانا",
+      "he": "מרקאנא"
+    },
+    "shortDescription": {
+      "pt-BR": "Visita guiada ao templo do futebol brasileiro no Maracanã (4h;",
+      "en": "Guided tour to the Brazilian football temple at Maracanã (4h;",
+      "es": "Visita guiada al templo del fútbol brasileño en Maracanã (4h;",
+      "fr": "Visite guidée du temple du football brésilien au Maracanã (4h;",
+      "it": "Visita guidata al tempio del calcio brasiliano al Maracanã (4h;",
+      "al": "Geführte Tour zum brasilianischen Fußballtempel Maracanã (4h;",
+      "ru": "Экскурсия по храму бразильского футбола в Мараканã (4ч;",
+      "ch": "巴西足球圣殿马拉卡纳导览游 (4小时;",
+      "jp": "ブラジルサッカーの聖地マラカナガイドツアー (4時間;",
+      "ar": "جولة موجهة إلى معبد كرة القدم البرازيلية في ماراكانا (4س;",
+      "he": "סיור מודרך למקדש הכדורגל הברזילאי במרקאנא (4ש';"
+    },
+    "image": "/images/maracana1.jpg",
+    "images": ["/images/maracana1.jpg", "/images/maracana2.jpg"],
+    "duration": {
+      "pt-BR": "4 horas",
+      "en": "4 hours",
+      "es": "4 horas",
+      "fr": "4 heures",
+      "it": "4 ore",
+      "al": "4 Stunden",
+      "ru": "4 часа",
+      "ch": "4小时",
+      "jp": "4時間",
+      "ar": "4 ساعة",
+      "he": "4 שעות"
+    },
+    "price": {
+      "individual": "R$ 270",
+      "group": "R$ 240"
+    },
+    "included": {
+      "pt-BR": [
+        "Transporte ida e volta",
+        "Ingresso Maracanã",
+        "Guia especializado em futebol",
+        "Visita completa ao estádio",
+        "A realização do tour está sujeita a um número mínimo de participantes e as vagas são limitadas. Entre em contato para consultar a disponibilidade.",
+        "**Recomendável:** Garrafa de água, protetor solar e repelente"
+      ],
+      "en": [
+        "Round trip transportation",
+        "Maracanã ticket",
+        "Football specialist guide",
+        "Complete stadium tour",
+        "*A realização do tour está sujeita a um número mínimo de participantes e as vagas são limitadas. Entre em contato para consultar a disponibilidade.",
+        "**Recommended:** Water bottle, sunscreen and repellent"
+      ]
+    }
+  },
+  {
+  "id": "boulevard-olimpico",
+  "name": {
+    "pt-BR": "Boulevard Olímpico e AquaRio",
+    "en": "Olympic Boulevard and AquaRio",
+    "es": "Bulevar Olímpico y AquaRio",
+    "fr": "Boulevard Olympique et AquaRio",
+    "it": "Boulevard Olimpico e AquaRio",
+    "al": "Olympischer Boulevard und AquaRio",
+    "ru": "Олимпийский бульвар и AquaRio",
+    "ch": "奥运大道和AquaRio",
+    "jp": "オリンピック大通りとAquaRio",
+    "ar": "بوليفار أولمبي وAquaRio",
+    "he": "בולווארד אולימפי וAquaRio"
+  },
+  "shortDescription": {
+    "pt-BR": "Passeio pelo Boulevard Olímpico, AquaRio e opcionais Museu de Cera e Roda Gigante ",
+    "en": "Olympic Boulevard, AquaRio and optional Wax Museum & Ferris Wheel tour ",
+    "es": "Paseo por Boulevard Olímpico, AquaRio y opcionales Museo de Cera y Rueda Gigante ",
+    "fr": "Promenade Boulevard Olympique, AquaRio et optionnels Musée de Cire et Grande Roue ",
+    "it": "Passeggiata Boulevard Olimpico, AquaRio e opzionali Museo della Cera e Ruota Panoramica ",
+    "al": "Spaziergang Olympischer Boulevard, AquaRio und optional Wachsfigurenmuseum & Riesenrad ",
+    "ru": "Прогулка по Олимпийскому бульвару, AquaRio и по желанию Музей восковых фигур и Колесо обозрения",
+    "ch": "奥运大道、AquaRio及可选蜡像馆和摩天轮游览 ",
+    "jp": "オリンピック大通り、AquaRioとオプション蝋人形館＆観覧車 ",
+    "ar": "جولة في بوليفار أولمبي، AquaRio واختياري متحف الشمع وعجلة فيريس ",
+    "he": "טיול בבולווארד אולימפי, AquaRio ואופציונלי מוזיאון השעווה וגלגל ענק "
+  },
+  "image": "/images/boulevardOlimpico1.avif",
+  "images": ["/images/boulevard2.avif", "/images/aquario.jpg"],
+  "duration": {
+    "pt-BR": "4 horas",
+    "en": "4 hours",
+    "es": "4 horas",
+    "fr": "4 heures",
+    "it": "4 ore",
+    "al": "4 Stunden",
+    "ru": "4 часа",
+    "ch": "4小时",
+    "jp": "4時間",
+    "ar": "4 ساعة",
+    "he": "4 שעות"
+  },
+  "price": {
+    "individual": "R$ 330",
+    "group": "R$ 300"
+  },
+  "included": {
+    "pt-BR": [
+      "Transporte ida e volta",
+      "Ingresso AquaRio",
+      "Passeio Boulevard Olímpico",
+      "Guia turístico",
+      "**Recomendável:** Garrafa de água, protetor solar e repelente"
+    ],
+    "en": [
+      "Round trip transportation",
+      "AquaRio ticket",
+      "Olympic Boulevard walk",
+      "Tour guide",
+      "**Recommended:** Water bottle, sunscreen and repellent"
+    ]
+  }
+},
+{
+  "id": "jardim-botanico",
+  "name": {
+    "pt-BR": "Jardim Botânico do Rio de Janeiro",
+    "en": "Rio de Janeiro Botanical Garden",
+    "es": "Jardín Botánico de Río de Janeiro",
+    "fr": "Jardin Botanique de Rio de Janeiro",
+    "it": "Giardino Botanico di Rio de Janeiro",
+    "al": "Botanischer Garten Rio de Janeiro",
+    "ru": "Ботанический сад Рио-де-Жанейро",
+    "ch": "里约热内卢植物园",
+    "jp": "リオデジャネイロ植物園",
+    "ar": "حديقة نباتية ريو دي جانيرو",
+    "he": "גן בוטני ריו דה ז'ניירו"
+  },
+  "shortDescription": {
+    "pt-BR": "Passeio pelo magnífico Jardim Botânico do Rio (fechado às segundas) (4h;",
+    "en": "Tour through magnificent Rio Botanical Garden (closed Mondays) (4h;",
+    "es": "Paseo por el magnífico Jardín Botánico de Río (cerrado lunes) (4h;",
+    "fr": "Promenade dans le magnifique Jardin Botanique de Rio (fermé lundi) (4h;",
+    "it": "Passeggiata nel magnifico Giardino Botanico di Rio (chiuso lunedì) (4h;",
+    "al": "Spaziergang durch den prächtigen Botanischen Garten Rio (montags geschlossen) (4h;",
+    "ru": "Прогулка по великолепному Ботаническому саду Рио (закрыт по понедельникам) (4ч;",
+    "ch": "里约壮丽植物园游览（周一闭园） (4小时;",
+    "jp": "壮大なリオ植物園散策（月曜休園） (4時間;",
+    "ar": "جولة في حديقة نباتية ريو الرائعة (مغلق الاثنين) (4س;",
+    "he": "טיול בגן הבוטני המפואר של ריו (סגור שניות) (4ש';"
+  },
+  "image": "/images/jardimBotanico.webp",
+  "images": ["/images/jardim_botanico/jb1.png","/images/jardim_botanico/jb2.png", "/images/jardim_botanico/jb3.png"],
+  "duration": {
+    "pt-BR": "4 horas",
+    "en": "4 hours",
+    "es": "4 horas",
+    "fr": "4 heures",
+    "it": "4 ore",
+    "al": "4 Stunden",
+    "ru": "4 часа",
+    "ch": "4小时",
+    "jp": "4時間",
+    "ar": "4 ساعة",
+    "he": "4 שעות"
+  },
+  "price": {
+    "individual": "R$ 250",
+    "group": "R$ 220"
+  },
+  "included": {
+    "pt-BR": [
+      "Transporte ida e volta",
+      "Ingresso Jardim Botânico",
+      "Guia especializado",
+      "Visita completa ao jardim",
+      "*A realização do tour está sujeita a um número mínimo de participantes e as vagas são limitadas. Entre em contato para consultar a disponibilidade.",      
+      "**Recomendável:** Garrafa de água, protetor solar e repelente"
+    ],
+    "en": [
+      "Round trip transportation",
+      "Botanical Garden ticket",
+      "Specialized guide",
+      "Complete garden tour",
+      "**Recommended:** Water bottle, sunscreen and repellent"
+    ]
+  }
+},
+{
+  "id": "floresta-tijuca",
+  "name": {
+    "pt-BR": "Floresta da Tijuca",
+    "en": "Tijuca Forest",
+    "es": "Bosque de Tijuca",
+    "fr": "Forêt de Tijuca",
+    "it": "Foresta di Tijuca",
+    "al": "Tijuca-Wald",
+    "ru": "Лес Тиюка",
+    "ch": "蒂珠卡森林",
+    "jp": "チジュカの森",
+    "ar": "غابة تيجيكا",
+    "he": "יער טיחוקה"
+  },
+  "shortDescription": {
+    "pt-BR": "Trilha ecológica pela Floresta da Tijuca, pulmão da cidade ",
+    "en": "Ecological trail through Tijuca Forest, the city's lung",
+    "es": "Sendero ecológico por Bosque de Tijuca, pulmón de la ciudad",
+    "fr": "Sentier écologique dans la Forêt de Tijuca, poumon de la ville",
+    "it": "Sentiero ecologico nella Foresta di Tijuca, polmoni della città",
+    "al": "Ökologischer Pfad durch Tijuca-Wald, Lunge der Stadt ",
+    "ru": "Экологическая тропа по Лесу Тиюка, легким города",
+    "ch": "蒂珠卡森林生态步道，城市之肺 (4小时;",
+    "jp": "都市の肺チジュカの森エコトレイル ",
+    "ar": "مسار بيئي في غابة تيجيكا، رئة المدينة (4س;",
+    "he": "שביל אקולוגי ביער טיחוקה, ריאות העיר (4ש';"
+  },
+  "image": "/images/florestaTijuca1.webp",
+  "images": ["/images/florestaTijuca.png", "/images/florestaTijuca.webp"],
+  "duration": {
+    "pt-BR": "4 horas",
+    "en": "4 hours",
+    "es": "4 horas",
+    "fr": "4 heures",
+    "it": "4 ore",
+    "al": "4 Stunden",
+    "ru": "4 часа",
+    "ch": "4小时",
+    "jp": "4時間",
+    "ar": "4 ساعة",
+    "he": "4 שעות"
+  },
+  "price": {
+    "individual": "R$ 200",
+    "group": "R$ 180"
+  },
+  "included": {
+    "pt-BR": [
+      "Transporte ida e volta",
+      "Guia ambientalista",
+      "Trilha guiada na floresta",
+      "Visita aos principais mirantes",
+      "**Recomendável:** Garrafa de água, protetor solar e repelente"
+    ],
+    "en": [
+      "Round trip transportation",
+      "Environmentalist guide",
+      "Guided forest trail",
+      "Main viewpoints visit",
+      "**Recommended:** Water bottle, sunscreen and repellent"
+    ]
+  }
+},
+{
+  "id": "rio-historico-1",
+  "name": {
+    "pt-BR": "Rio Histórico 1",
+    "en": "Historic Rio 1",
+    "es": "Río Histórico 1",
+    "fr": "Rio Historique 1",
+    "it": "Rio Storico 1",
+    "al": "Historisches Rio 1",
+    "ru": "Исторический Рио 1",
+    "ch": "历史里约 1",
+    "jp": "歴史的リオ 1",
+    "ar": "ريو التاريخي 1",
+    "he": "ריו ההיסטורי 1"
+  },
+  "shortDescription": {
+    "pt-BR": "Descubra o centro histórico do Rio com seus monumentos coloniais",
+    "en": "Discover Rio's historic center with its colonial monuments",
+    "es": "Descubre el centro histórico de Río con sus monumentos coloniales",
+    "fr": "Découvrez le centre historique de Rio avec ses monuments coloniaux",
+    "it": "Scopri il centro storico di Rio con i suoi monumenti coloniali",
+    "al": "Entdecken Sie Rios historisches Zentrum mit kolonialen Denkmälern",
+    "ru": "Откройте исторический центр Рио с его колониальными памятниками",
+    "ch": "发现里约历史中心及其殖民地纪念碑",
+    "jp": "リオの歴史地区と植民地時代の記念碑を発見 ",
+    "ar": "اكتشف مركز ريو التاريخي ومعالمها الاستعمارية ",
+    "he": "גלה את מרכז ריו ההיסטורי עם מונומנטים קולוניאליים "
+  },
+  "image": "/images/rio_historico1/rio_hist4.png",
+  "images": ["/images/rio_hist2.png", "/images/rio_hist1.png", "/images/rio_hist4.png"],
+  "duration": {
+    "pt-BR": "4 horas",
+    "en": "4 hours",
+    "es": "4 horas",
+    "fr": "4 heures",
+    "it": "4 ore",
+    "al": "4 Stunden",
+    "ru": "4 часа",
+    "ch": "4小时",
+    "jp": "4時間",
+    "ar": "4 ساعة",
+    "he": "4 שעות"
+  },
+  "price": {
+    "individual": "R$ 220",
+    "group": "R$ 200"
+  },
+  "included": {
+    "pt-BR": [
+      "Transporte ida e volta",
+      "Guia historiador",
+      "Visita aos principais monumentos",
+      "Passeio pelo centro histórico",
+      "*A realização do tour está sujeita a um número mínimo de participantes e as vagas são limitadas. Entre em contato para consultar a disponibilidade.",
+      "**Recomendável:** Garrafa de água, protetor solar e repelente"
+    ],
+    "en": [
+      "Round trip transportation",
+      "Historian guide",
+      "Main monuments visit",
+      "Historic center walk",
+      "**Recommended:** Water bottle, sunscreen and repellent"
+    ]
+  }
+},
+{
+  "id": "rio-historico-2",
+  "name": {
+    "pt-BR": "Rio Histórico 2",
+    "en": "Historic Rio 2",
+    "es": "Río Histórico 2",
+    "fr": "Rio Historique 2",
+    "it": "Rio Storico 2",
+    "al": "Historisches Rio 2",
+    "ru": "Исторический Рио 2",
+    "ch": "历史里约 2",
+    "jp": "歴史的リオ 2",
+    "ar": "ريو التاريخي 2",
+    "he": "ריו ההיסטורי 2"
+  },
+  "shortDescription": {
+    "pt-BR": "Explore o coração colonial do Rio com seus tesouros históricos",
+    "en": "Explore Rio's colonial heart with its historic treasures",
+    "es": "Explora el corazón colonial de Río con sus tesoros históricos" ,
+    "fr": "Explorez le cœur colonial de Rio avec ses trésors historiques",
+    "it": "Esplora il cuore coloniale di Rio con i suoi tesori storici",
+    "al": "Erkunden Sie Rios koloniales Herz mit seinen historischen Schätzen",
+    "ru": "Исследуйте колониальное сердце Рио с его историческими сокровищами",
+    "ch": "探索里约殖民地中心及其历史宝藏 ",
+    "jp": "リオの植民地時代中心と歴史的宝物を探検 ",
+    "ar": "استكشف قلب ريو الاستعماري وبنى تاريخية ",
+    "he": "חקור את לב ריו הקולוניאלי ואוצרותיו ההיסטוריים"
+  },
+  "image": "/images/rio_historico2/cbb.png",
+  "images": ["/images/rio_historico2/cdmetro.png", "/images/rio_historico2/cbb.png", "/images/rio_historico2/hist1.png", "/images/rio_historico2/hist2.png"],
+  "duration": {
+    "pt-BR": "4 horas",
+    "en": "4 hours",
+    "es": "4 horas",
+    "fr": "4 heures",
+    "it": "4 ore",
+    "al": "4 Stunden",
+    "ru": "4 часа",
+    "ch": "4小时",
+    "jp": "4時間",
+    "ar": "4 ساعة",
+    "he": "4 שעות"
+  },
+  "price": {
+    "individual": "R$ 220",
+    "group": "R$ 200"
+  },
+  "disclaimer": {
+    "pt-BR": "*A realização do tour está sujeita a um número mínimo de participantes e as vagas são limitadas. Entre em contato para consultar a disponibilidade.",
+    "en": "*Tour operation is subject to minimum number of participants and spots are limited. Contact us to check availability.",
+    "es": "*La realización del tour está sujeta a un número mínimo de participantes y las plazas son limitadas. Contáctenos para consultar disponibilidad.",
+    "fr": "*La réalisation du tour est soumise à un nombre minimum de participants et les places sont limitées. Contactez-nous pour vérifier la disponibilidade.",
+    "it": "*L'effettuazione del tour è soggetta a un numero minimo di partecipanti e i posti sono limitati. Contattaci per verificare la disponibilità.",
+    "al": "*Die Tourfindung ist abhängig von der Mindestteilnehmerzahl und die Plätze sind begrenzt. Kontaktieren Sie uns für Verfügbarkeit.",
+    "ru": "*Проведение тура зависит от минимального количества участников, места ограничены. Свяжитесь с нами для проверки доступности.",
+    "ch": "*旅游活动需达到最低参与人数要求，名额有限。请联系查询可用性。",
+    "jp": "*ツアー実施は最低参加人数が必要で、席数に限りがあります。空き状況はご連絡ください。",
+    "ar": "*إجراء الجولة مشروط بعدد أدنى من المشاركين والمقاعد محدودة. اتصل بنا للاستفسار عن التوافر.",
+    "he": "*קיום הסיור תלוי במספר מינימלי של משתתפים והמקומות מוגבלים. צרו קשר לבדיקת זמינות."
+  },
+  "included": {
+    "pt-BR": [
+      "Transporte ida e volta",
+      "Guia historiador especializado",
+      "Visita aos casarões coloniais",
+      "Passeio pelas ruas históricas",
+      "**Recomendável:** Garrafa de água, protetor solar e repelente"
+    ],
+    "en": [
+      "Round trip transportation",
+      "Specialized historian guide",
+      "Colonial mansions visit",
+      "Historic streets walk",
+      "**Recommended:** Water bottle, sunscreen and repellent"
+    ]
+  }
+},
+{
+  "id": "favela-rocinha",
+  "name": {
+    "pt-BR": "Favela da Rocinha",
+    "en": "Rocinha Favela",
+    "es": "Favela de Rocinha",
+    "fr": "Favela de Rocinha",
+    "it": "Favela di Rocinha",
+    "al": "Rocinha-Favela",
+    "ru": "Фавела Рошинья",
+    "ch": "罗希尼亚贫民窟",
+    "jp": "ロシニャ・ファベーラ",
+    "ar": "فافيلا روشينيا",
+    "he": "פאוולה דה רושיניה"
+  },
+  "shortDescription": {
+    "pt-BR": "Visita guiada à maior favela do Brasil com segurança tota",
+    "en": "Guided tour to Brazil's largest favela with total safet",
+    "es": "Visita guiada a la mayor favela de Brasil con seguridad tota",
+    "fr": "Visite guidée de la plus grande favela du Brésil en toute sécurit",
+    "it": "Visita guidata alla più grande favela del Brasile in totale sicurezz",
+    "al": "Geführte Tour zur größten Favela Brasiliens mit totaler Sicherhei",
+    "ru": "Экскурсия по крупнейшей фавеле Бразилии с полной безопасность",
+    "ch": "巴西最大贫民窟全程安全导览游",
+    "jp": "ブラジル最大のファベーラ完全安全ガイドツアー",
+    "ar": "جولة موجهة إلى أكبر فافيلا في البرازيل بأمان كامل ",
+    "he": "סיור מודרך בפאוולה הגדולה בברזיל בביטחון מלא "
+  },
+  "image": "/images/rocinha/rocinha1.jpeg",
+  "images": ["/images/rocinha/rocinha3.jpeg" ,"/images/rocinha/rocinha2.jpeg", "/images/rocinha/rocinha4.jpeg", "/images/rocinha/rocinha5.jpeg"],
+  "duration": {
+    "pt-BR": "4 horas",
+    "en": "4 hours",
+    "es": "4 horas",
+    "fr": "4 heures",
+    "it": "4 ore",
+    "al": "4 Stunden",
+    "ru": "4 часа",
+    "ch": "4小时",
+    "jp": "4時間",
+    "ar": "4 ساعة",
+    "he": "4 שעות"
+  },
+  "price": {
+    "individual": "R$ 250",
+    "group": "R$ 220"
+  },
+  "disclaimer": {
+    "pt-BR": "*A realização do tour está sujeita a um número mínimo de participantes e as vagas são limitadas. Entre em contato para consultar a disponibilidade.",
+    "en": "*Tour operation is subject to minimum number of participants and spots are limited. Contact us to check availability.",
+    "es": "*La realización del tour está sujeta a un número mínimo de participantes y las plazas son limitadas. Contáctenos para consultar disponibilidad.",
+    "fr": "*La réalisation du tour est soumise à un nombre minimum de participants et les places sont limitées. Contactez-nous pour vérifier la disponibilité.",
+    "it": "*L'effettuazione del tour è soggetta a un numero minimo di partecipanti e i posti sono limitati. Contattaci per verificare la disponibilità.",
+    "al": "*Die Tourfindung ist abhängig von der Mindestteilnehmerzahl und die Plätze sind begrenzt. Kontaktieren Sie uns für Verfügbarkeit.",
+    "ru": "*Проведение тура зависит от минимального количества участников, места ограничены. Свяжитесь с нами для проверки доступности.",
+    "ch": "*旅游活动需达到最低参与人数要求，名额有限。请联系查询可用性。",
+    "jp": "*ツアー実施は最低参加人数が必要で、席数に限りがあります。空き状況はご連絡ください。",
+    "ar": "*إجراء الجولة مشروط بعدد أدنى من المشاركين والمقاعد محدودة. اتصل بنا للاستفسار عن التوافر.",
+    "he": "*קיום הסיור תלוי במספר מינימלי של משתתפים והמקומות מוגבלים. צרו קשר לבדיקת זמינות."
+  },
+  "included": {
+    "pt-BR": [
+      "Transporte ida e volta",
+      "Guia local da comunidade",
+      "Tour a pé pela Rocinha",
+      "Visita aos principais pontos",
+      "**Recomendável:** Garrafa de água, protetor solar e repelente"
+    ],
+    "en": [
+      "Round trip transportation",
+      "Local community guide",
+      "Walking tour through Rocinha",
+      "Main points visit",
+      "**Recommended:** Water bottle, sunscreen and repellent"
+    ]
+  }
+},
+{
+  "id": "cristo-trem-city",
+  "name": {
+    "pt-BR": "Cristo Redentor de trem e city tour",
+    "en": "Christ Redeemer by train and city tour",
+    "es": "Cristo Redentor en tren y city tour",
+    "fr": "Christ Rédempteur en train et city tour",
+    "it": "Cristo Redentore in treno e city tour",
+    "al": "Christus Erlöser per Zug und City Tour",
+    "ru": "Христос-Искупитель на поезде и обзорная экскурсия",
+    "ch": "火车基督像和城市游览",
+    "jp": "列車でキリスト像とシティツアー",
+    "ar": "المسيح الفادي بالقطار وجولة مدينة",
+    "he": "משיח הגואל ברכבת וסיור עיר"
+  },
+  "shortDescription": {
+    "pt-BR": "Trem panorâmico ao Cristo Redentor + city tour completo pelo Ri",
+    "en": "Panoramic train to Christ Redeemer + complete Rio city tou",
+    "es": "Tren panorámico al Cristo Redentor + city tour completo por Rí",
+    "fr": "Train panoramique au Christ Rédempteur + city tour complet Ri",
+    "it": "Treno panoramico al Cristo Redentore + city tour completo Ri",
+    "al": "Panoramazug zum Christus Erlöser + komplette Rio City Tou",
+    "ru": "Панорамный поезд к Христу-Искупителю + полная обзорная экскурсия по Ри",
+    "ch": "全景火车至基督像+里约完整城市游览",
+    "jp": "パノラマ列車でキリスト像+リオ完全シティツアー",
+    "ar": "قطار بانورامي إلى المسيح الفادي + جولة مدينة ريو كاملة (6س;0)",
+    "he": "רכבת פנורמית למשיח הגואל + סיור עיר ריו מלא "
+  },
+  "image": "/images/trem_cristo.jpg",
+  "images": ["/images/cristo_trem/trem1.jpg", "/images/cristo_trem/trem2.jpg","/images/cristo_trem/trem3.png"],
+  "duration": {
+    "pt-BR": "6 horas",
+    "en": "6 hours",
+    "es": "6 horas",
+    "fr": "6 heures",
+    "it": "6 ore",
+    "al": "6 Stunden",
+    "ru": "6 часов",
+    "ch": "6小时",
+    "jp": "6時間",
+    "ar": "6 ساعة",
+    "he": "6 שעות"
+  },
+  "price": {
+    "individual": "R$ 340",
+    "group": "R$ 310"
+  },
+  "disclaimer": {
+    "pt-BR": "*A realização do tour está sujeita a um número mínimo de participantes e as vagas são limitadas. Entre em contato para consultar a disponibilidade.",
+    "en": "*Tour operation is subject to minimum number of participants and spots are limited. Contact us to check availability.",
+    "es": "*La realización del tour está sujeta a un número mínimo de participantes y las plazas son limitadas. Contáctenos para consultar disponibilidad.",
+    "fr": "*La réalisation du tour est soumise à un nombre minimum de participants et les places sont limitées. Contactez-nous pour vérifier la disponibilité.",
+    "it": "*L'effettuazione del tour è soggetta a un numero minimo di partecipanti e i posti sono limitati. Contattaci per verificare la disponibilità.",
+    "al": "*Die Tourfindung ist abhängig von der Mindestteilnehmerzahl und die Plätze sind begrenzt. Kontaktieren Sie uns für Verfügbarkeit.",
+    "ru": "*Проведение тура зависит от минимального количества участников, места ограничены. Свяжитесь с нами для проверки доступности.",
+    "ch": "*旅游活动需达到最低参与人数要求，名额有限。请联系查询可用性。",
+    "jp": "*ツアー実施は最低参加人数が必要で、席数に限りがあります。空き状況はご連絡ください。",
+    "ar": "*إجراء الجولة مشروط بعدد أدنى من المشاركين والمقاعد محدودة. اتصل بنا للاستفسار عن التوافر.",
+    "he": "*קיום הסיור תלוי במספר מינימלי של משתתפים והמקומות מוגבלים. צרו קשר לבדיקת זמינות."
+  },
+  "included": {
+    "pt-BR": [
+      "Transporte ida e volta",
+      "Trem Corcovado (Cristo)",
+      "City tour panorâmico",
+      "Guia bilíngue",
+      "**Recomendável:** Garrafa de água, protetor solar e repelente"
+    ],
+    "en": [
+      "Round trip transportation",
+      "Corcovado train (Christ)",
+      "Panoramic city tour",
+      "Bilingual guide",
+      "**Recommended:** Water bottle, sunscreen and repellent"
+    ]
+  }
+}
+,
+{
+  "id": "cristo-aquario-roda",
+  "name": {
+    "pt-BR": "Cristo Redentor, AquaRio e Roda Gigante",
+    "en": "Christ Redeemer, AquaRio and Ferris Wheel",
+    "es": "Cristo Redentor, AquaRio y Rueda Gigante",
+    "fr": "Christ Rédempteur, AquaRio et Grande Roue",
+    "it": "Cristo Redentore, AquaRio e Ruota Panoramica",
+    "al": "Christus Erlöser, AquaRio und Riesenrad",
+    "ru": "Христос-Искупитель, AquaRio и Колесо обозрения",
+    "ch": "基督像、AquaRio和摩天轮",
+    "jp": "キリスト像、AquaRioと観覧車",
+    "ar": "المسيح الفادي، AquaRio وعجلة فيريس",
+    "he": "משיח הגואל, AquaRio וגלגל ענק"
+  },
+  "shortDescription": {
+    "pt-BR": "Cristo Redentor + AquaRio + Roda Gigante com vista panorâmica",
+    "en": "Christ Redeemer + AquaRio + Ferris Wheel with panoramic view",
+    "es": "Cristo Redentor + AquaRio + Rueda Gigante con vista panorámica",
+    "fr": "Christ Rédempteur + AquaRio + Grande Roue vue panoramique",
+    "it": "Cristo Redentore + AquaRio + Ruota Panoramica vista panoramica",
+    "al": "Christus Erlöser + AquaRio + Riesenrad mit Panoramablick",
+    "ru": "Христос-Искупитель + AquaRio + Колесо обозрения с панорамным видом",
+    "ch": "基督像+AquaRio+全景摩天轮 ",
+    "jp": "キリスト像+Aqua",
+    "ar": "المسيح الفادي + AquaRio + عجلة بانورامية ",
+    "he": "משיח הגואל + AquaRio + גלגל ענק פנורמי "
+  },
+  "image": "/images/cristo/cristo.webp",
+  "images": ["/images/cristoAquarioRoda1.png", "/images/aquaRio.webp", "images/bigWhells.jpg"],
+  "duration": {
+    "pt-BR": "6 horas",
+    "en": "6 hours",
+    "es": "6 horas",
+    "fr": "6 heures",
+    "it": "6 ore",
+    "al": "6 Stunden",
+    "ru": "6 часов",
+    "ch": "6小时",
+    "jp": "6時間",
+    "ar": "6 ساعة",
+    "he": "6 שעות"
+  },
+  "price": {
+    "individual": "R$ 450",
+    "group": "R$ 410"
+  },
+  "disclaimer": {
+    "pt-BR": "*A realização do tour está sujeita a um número mínimo de participantes e as vagas são limitadas. Entre em contato para consultar a disponibilidade.",
+    "en": "*Tour operation is subject to minimum number of participants and spots are limited. Contact us to check availability.",
+    "es": "*La realización del tour está sujeta a un número mínimo de participantes y las plazas son limitadas. Contáctenos para consultar disponibilidad.",
+    "fr": "*La réalisation du tour est soumise à un nombre minimum de participants et les places sont limitées. Contactez-nous pour vérifier la disponibilité.",
+    "it": "*L'effettuazione del tour è soggetta a un numero minimo di partecipanti e i posti sono limitati. Contattaci per verificare la disponibilità.",
+    "al": "*Die Tourfindung ist abhängig von der Mindestteilnehmerzahl und die Plätze sind begrenzt. Kontaktieren Sie uns für Verfügbarkeit.",
+    "ru": "*Проведение тура зависит от минимального количества участников, места ограничены. Свяжитесь с нами для проверки доступности.",
+    "ch": "*旅游活动需达到最低参与人数要求，名额有限。请联系查询可用性。",
+    "jp": "*ツアー実施は最低参加人数が必要で、席数に限りがあります。空き状況はご連絡ください。",
+    "ar": "*إجراء الجولة مشروط بعدد أدنى من المشاركين والمقاعد محدودة. اتصل بنا للاستفسار عن التوافر.",
+    "he": "*קיום הסיור תלוי במספר מינימלי של משתתפים והמקומות מוגבלים. צרו קשר לבדיקת זמינות."
+  },
+  "included": {
+    "pt-BR": [
+      "Transporte ida e volta",
+      "Ingresso Cristo Redentor",
+      "Ingresso AquaRio",
+      "Roda Gigante",
+      "**Recomendável:** Garrafa de água, protetor solar e repelente"
+    ],
+    "en": [
+      "Round trip transportation",
+      "Christ Redeemer ticket",
+      "AquaRio ticket",
+      "Ferris Wheel",
+      "**Recommended:** Water bottle, sunscreen and repellent"
+    ]
+  }
+},
+{
+  "id": "cristo-selarón",
+  "name": {
+    "pt-BR": "Cristo Redentor e Escadaria Selarón",
+    "en": "Christ Redeemer and Selarón Stairs",
+    "es": "Cristo Redentor y Escalera Selarón",
+    "fr": "Christ Rédempteur et Esccalier Selarón",
+    "it": "Cristo Redentore e Scala Selarón",
+    "al": "Christus Erlöser und Selarón-Treppe",
+    "ru": "Христос-Искупитель и Лестница Селарона",
+    "ch": "基督像和塞拉隆楼梯",
+    "jp": "キリスト像とセラロン階段",
+    "ar": "المسيح الفادي ودرج سيلارون",
+    "he": "משיח הגואל ומדרגות סלארון"
+  },
+  "shortDescription": {
+    "pt-BR": "Cristo Redentor com vista única + colorida Escadaria Selaró",
+    "en": "Christ Redeemer with unique view + colorful Selarón Stair",
+    "es": "Cristo Redentor con vista única + colorida Escalera Selaró",
+    "fr": "Christ Rédempteur vue unique + Esccalier Selarón color",
+    "it": "Cristo Redentore vista unica + Scala Selarón colorat",
+    "al": "Christus Erlöser einzigartiger Blick + bunte Selarón-Trepp",
+    "ru": "Христос-Искупитель с уникальным видом + разноцветная Лестница Селарон",
+    "ch": "基督像独特景观+彩色塞拉隆楼梯",
+    "jp": "キリスト像唯一の眺め+カラフルセラロン階段",
+    "ar": "المسيح الفادي منظر فريد + درج سيلارون ملون ",
+    "he": "משיח הגואל נוף ייחודי + מדרגות סלארון צבעוניות "
+  },
+  "image": "/images/selaron.png",
+  "images": ["/images/cristo/cr1.png", "/images/selaron.png"],
+  "duration": {
+    "pt-BR": "6 horas",
+    "en": "6 hours",
+    "es": "6 horas",
+    "fr": "6 heures",
+    "it": "6 ore",
+    "al": "6 Stunden",
+    "ru": "6 часов",
+    "ch": "6小时",
+    "jp": "6時間",
+    "ar": "6 ساعة",
+    "he": "6 שעות"
+  },
+  "price": {
+    "individual": "R$ 300",
+    "group": "R$ 270"
+  },
+  "disclaimer": {
+    "pt-BR": "*A realização do tour está sujeita a um número mínimo de participantes e as vagas são limitadas. Entre em contato para consultar a disponibilidade.",
+    "en": "*Tour operation is subject to minimum number of participants and spots are limited. Contact us to check availability.",
+    "es": "*La realización del tour está sujeta a un número mínimo de participantes y las plazas son limitadas. Contáctenos para consultar disponibilidad.",
+    "fr": "*La réalisation du tour est soumise à un nombre minimum de participants et les places sont limitées. Contactez-nous pour vérifier la disponibilité.",
+    "it": "*L'effettuazione del tour è soggetta a un numero minimo di partecipanti e i posti sono limitati. Contattaci per verificare la disponibilità.",
+    "al": "*Die Tourfindung ist abhängig von der Mindestteilnehmerzahl und die Plätze sind begrenzt. Kontaktieren Sie uns für Verfügbarkeit.",
+    "ru": "*Проведение тура зависит от минимального количества участников, места ограничены. Свяжитесь с нами для проверки доступности.",
+    "ch": "*旅游活动需达到最低参与人数要求，名额有限。请联系查询可用性。",
+    "jp": "*ツアー実施は最低参加人数が必要で、席数に限りがあります。空き状況はご連絡ください。",
+    "ar": "*إجراء الجولة مشروط بعدد أدنى من المشاركين والمقاعد محدودة. اتصل بنا للاستفسار عن التوافر.",
+    "he": "*קיום הסיור תלוי במספר מינימלי של משתתפים והמקומות מוגבלים. צרו קשר לבדיקת זמינות."
+  },
+  "included": {
+    "pt-BR": [
+      "Transporte ida e volta",
+      "Ingresso Cristo Redentor",
+      "Visita Escadaria Selarón",
+      "Guia especializado",
+      "**Recomendável:** Garrafa de água, protetor solar e repelente"
+    ],
+    "en": [
+      "Round trip transportation",
+      "Christ Redeemer ticket",
+      "Selarón Stairs visit",
+      "Specialized guide",
+      "**Recommended:** Water bottle, sunscreen and repellent"
+    ]
+  }
+},
+{
+  "id": "arraial-cabo",
+  "name": {
+    "pt-BR": "Arraial do Cabo (Outra cidade)",
+    "en": "Arraial do Cabo (Other city)",
+    "es": "Arraial do Cabo (Otra ciudad)",
+    "fr": "Arraial do Cabo (Autre ville)",
+    "it": "Arraial do Cabo (Altra città)",
+    "al": "Arraial do Cabo (Andere Stadt)",
+    "ru": "Arraial do Cabo (Другой город)",
+    "ch": "Arraial do Cabo (其他城市)",
+    "jp": "Arraial do Cabo (他都市)",
+    "ar": "Arraial do Cabo (مدينة أخرى)",
+    "he": "Arraial do Cabo (עיר אחרת)"
+  },
+  "shortDescription": {
+    "pt-BR": "Paraíso das águas cristalinas em Arraial do Cabo, paraíso do mergulho",
+    "en": "Crystal clear waters paradise in Arraial do Cabo, diving heaven",
+    "es": "Paraíso de aguas cristalinas en Arraial do Cabo, paraíso del buceo",
+    "fr": "Paradis des eaux cristallines à Arraial do Cabo, paradis de la plongée",
+    "it": "Paradiso delle acque cristalline ad Arraial do Cabo, paradiso della subacquea",
+    "al": "Paradies der kristallklaren Gewässer in Arraial do Cabo, Taucherparadies",
+    "ru": "Рай кристально чистых вод в Arraial do Cabo, рай дайвинга",
+    "ch": "Arraial do Cabo水晶般清澈海水天堂，潜水胜地 ",
+    "jp": "Arraial do Cabo透明な海の楽園、ダイビング天国 ",
+    "ar": "جنة المياه الصافية في Arraial do Cabo، جنة الغوص ",
+    "he": "גן עדן של מים צלולים באראיאל דו קאבו, גן עדן לצלילה (15ש"
+  },
+  "image": "/images/arraial/arraial1.png",
+  "images": ["/images/arraial/arraial3.jpg", "/images/arraial/arraial2.jpg", "/images/arraial/arraial4.jfif"],
+  "duration": {
+    "pt-BR": "15 horas",
+    "en": "15 hours",
+    "es": "15 horas",
+    "fr": "15 heures",
+    "it": "15 ore",
+    "al": "15 Stunden",
+    "ru": "15 часов",
+    "ch": "15小时",
+    "jp": "15時間",
+    "ar": "15 ساعة",
+    "he": "15 שעות"
+  },
+  "price": {
+    "individual": "R$ 290",
+    "group": "R$ 250"
+  },
+  "disclaimer": {
+    "pt-BR": "*A realização do tour está sujeita a um número mínimo de participantes e as vagas são limitadas. Entre em contato para consultar a disponibilidade.",
+    "en": "*Tour operation is subject to minimum number of participants and spots are limited. Contact us to check availability.",
+    "es": "*La realización del tour está sujeta a un número mínimo de participantes y las plazas son limitadas. Contáctenos para consultar disponibilidad.",
+    "fr": "*La réalisation du tour est soumise à un nombre minimum de participants et les places sont limitées. Contactez-nous pour vérifier la disponibilité.",
+    "it": "*L'effettuazione del tour è soggetta a un numero minimo di partecipanti e i posti sono limitati. Contattaci per verificare la disponibilità.",
+    "al": "*Die Tourfindung ist abhängig von der Mindestteilnehmerzahl und die Plätze sind begrenzt. Kontaktieren Sie uns für Verfügbarkeit.",
+    "ru": "*Проведение тура зависит от минимального количества участников, места ограничены. Свяжитесь с нами для проверки доступности.",
+    "ch": "*旅游活动需达到最低参与人数要求，名额有限。请联系查询可用性。",
+    "jp": "*ツアー実施は最低参加人数が必要で、席数に限りがあります。空き状況はご連絡ください。",
+    "ar": "*إجراء الجولة مشروط بعدد أدنى من المشاركين والمقاعد محدودة. اتصل بنا للاستفسار عن التوافر.",
+    "he": "*קיום הסיור תלוי במספר מינימלי של משתתפים והמקומות מוגבלים. צרו קשר לבדיקת זמינות."
+  },
+  "included": {
+    "pt-BR": [
+      "Transporte ida e volta",
+      "Passeio de barco",
+      "Paradas para mergulho",
+      "Guia especializado",
+      "**Recomendável:** Garrafa de água, protetor solar e repelente"
+    ],
+    "en": [
+      "Round trip transportation",
+      "Boat tour",
+      "Diving stops",
+      "Specialized guide",
+      "**Recommended:** Water bottle, sunscreen and repellent"
+    ]
+  }
+}
+,
+  {
+    "id": "angra-dos-reis",
+    "name": {
+      "pt-BR": "Angra dos Reis (Ilha Grande)",
+      "en": "Angra dos Reis (Ilha Grande)",
+      "es": "Angra dos Reis (Ilha Grande)",
+      "fr": "Angra dos Reis (Ilha Grande)",
+      "it": "Angra dos Reis (Ilha Grande)",
+      "al": "Angra dos Reis (Ilha Grande)",
+      "ru": "Ангра-дус-Рейс (Илья-Гранде)",
+      "ch": "安格拉杜斯雷斯（大岛）",
+      "jp": "アングラ・ドス・レイス（イリャ・グランデ）",
+      "ar": "أنجرا دوس ريس (إلها غراندي)",
+      "he": "אנגרה דוס רייס (אילהה גרנדה)"
+    },
+    "shortDescription": {
+      "pt-BR": "Passeio de dia inteiro nadando em três praias paradisíacas de Ilha Grande. Paradas na Lagoa Azul, Freguesia de Santana, Praia da Baleia e almoço na Praia de Japariz.",
+      "en": "Full-day tour swimming at three paradisiacal beaches on Ilha Grande. Stops at Blue Lagoon, Freguesia de Santana, Whale Beach and lunch at Japariz Beach.",
+      "es": "Tour de día completo nadando en tres playas paradisíacas de Ilha Grande. Paradas en Laguna Azul, Freguesia de Santana, Playa de la Ballena y almuerzo en Playa de Japariz.",
+      "fr": "Excursion d'une journée complète pour nager sur trois plages paradisiaques d'Ilha Grande. Arrêts au Lagon Bleu, Freguesia de Santana, Plage de la Baleine et déjeuner à la Plage de Japariz.",
+      "it": "Tour di un'intera giornata nuotando in tre spiagge paradisiache di Ilha Grande. Fermate alla Laguna Blu, Freguesia de Santana, Spiaggia della Balena e pranzo alla Spiaggia di Japariz.",
+      "al": "Ganztägige Tour zum Schwimmen an drei paradiesischen Stränden auf Ilha Grande. Stopps an der Blauen Lagune, Freguesia de Santana, Walfischstrand und Mittagessen am Japariz-Strand.",
+      "ru": "Однодневный тур с купанием на трех райских пляжах Илья-Гранде. Остановки у Голубой Лагуны, Фрегезии де Сантаны, Пляжа Кита и обед на Пляже Жапариз.",
+      "ch": "全日游在大岛的三个天堂海滩游泳。在蓝色泻湖、圣塔纳教区、鲸鱼海滩停留，并在雅帕里斯海滩享用午餐。",
+      "jp": "イリャ・グランデの3つの楽園ビーチで泳ぐ終日ツアー。ブルーラグーン、フレゲジア・デ・サンタナ、ホエールビーチに立ち寄り、ジャパリズビーチで昼食。",
+      "ar": "جولة ليوم كامل للسباحة في ثلاثة شواطئ جنة في إلها غراندي. توقفات في البحيرة الزرقاء، فريغيسيا دي سانتانا، شاطئ الحوت وغداء في شاطئ جاباريز.",
+      "he": "סיור יום שלם עם שחייה בשלושה חופים גן עדן באילהה גרנדה. עצירות בלגונה הכחולה, פרגזיה דה סנטנה, חוף הלוויתן וארוחת צהריים בחוף ג'פאריז."
     },
     "fullDescription": {
-      "pt-BR": "Neste passeio de dia inteiro, você desfrutará de um dia inesquecível nadando em três praias paradisíacas de Ilha Grande, a maior ilha de Angra dos Reis. As águas cristalinas e a natureza exuberante fazem deste um dos destinos mais procurados do litoral brasileiro.\n\nO tour começa às 7h da manhã no Rio de Janeiro, com previsão de retorno às 18h. Durante o passeio, você visitará a famosa Lagoa Azul, conhecida por suas águas cristalinas e vida marinha abundante - perfeita para snorkeling. Em seguida, conhecerá a charmosa Freguesia de Santana e a bela Praia da Baleia.\n\nO almoço será servido na Praia de Japariz, onde você poderá saborear a culinária local e relaxar em um ambiente paradisíaco cercado por natureza. Cada parada oferece oportunidades incríveis para fotos, mergulho e momentos de relaxamento total.\n\nEste passeio é ideal para famílias, casais e grupos de amigos que buscam um dia completo de contato com a natureza em um dos destinos mais bonitos do Brasil.\n\nIMPORTANTE: Esta atividade não é recomendada para pessoas com mobilidade reduzida e cadeirantes devido às características do terreno e acesso às praias.",
-      "en": "On this full-day tour, you will enjoy an unforgettable day swimming at three paradisiacal beaches on Ilha Grande, the largest island in Angra dos Reis. The crystal-clear waters and lush nature make this one of the most sought-after destinations on the Brazilian coast.\n\nThe tour starts at 7am in Rio de Janeiro, with an expected return at 6pm. During the tour, you will visit the famous Blue Lagoon, known for its crystal-clear waters and abundant marine life - perfect for snorkeling. Then you will visit the charming Freguesia de Santana and the beautiful Whale Beach.\n\nLunch will be served at Japariz Beach, where you can taste local cuisine and relax in a paradisiacal environment surrounded by nature. Each stop offers incredible opportunities for photos, diving, and moments of total relaxation.\n\nThis tour is ideal for families, couples, and groups of friends seeking a full day of contact with nature in one of Brazil's most beautiful destinations.\n\nIMPORTANT: This activity is not recommended for people with reduced mobility and wheelchair users due to terrain characteristics and beach access.",
-      "es": "En este tour de día completo, disfrutará de un día inolvidable nadando en tres playas paradisíacas de Ilha Grande, la isla más grande de Angra dos Reis. Las aguas cristalinas y la naturaleza exuberante hacen de este uno de los destinos más buscados de la costa brasileña.\n\nEl tour comienza a las 7am en Río de Janeiro, con retorno previsto a las 18h. Durante el recorrido, visitará la famosa Lagoa Azul, conocida por sus aguas cristalinas y abundante vida marina, perfecta para snorkeling. Luego conocerá la encantadora Freguesia de Santana y la hermosa Praia da Baleia.\n\nEl almuerzo se servirá en Praia de Japariz, donde podrá saborear la cocina local y relajarse en un ambiente paradisíaco rodeado de naturaleza. Cada parada ofrece oportunidades increíbles para fotos, buceo y momentos de relajación total.\n\nEste paseo es ideal para familias, parejas y grupos de amigos que buscan un día completo de contacto con la naturaleza en uno de los destinos más hermosos de Brasil.\n\nIMPORTANTE: Esta actividad no se recomienda para personas con movilidad reducida y usuarios de sillas de ruedas debido a las características del terreno y el acceso a las playas.",
-      "fr": "Lors de cette excursion d'une journée complète, vous profiterez d'une journée inoubliable en nageant sur trois plages paradisiaques d'Ilha Grande, la plus grande île d'Angra dos Reis. Les eaux cristallines et la nature luxuriante en font l'une des destinations les plus recherchées de la côte brésilienne.\n\nLa visite commence à 7h du matin à Rio de Janeiro, avec un retour prévu à 18h. Pendant la visite, vous visiterez le célèbre Lagon Bleu, connu pour ses eaux cristallines et sa vie marine abondante - parfait pour la plongée avec tuba. Ensuite, vous visiterez la charmante Freguesia de Santana et la belle Plage de la Baleine.\n\nLe déjeuner sera servi à la Plage de Japariz, où vous pourrez déguster la cuisine locale et vous détendre dans un environnement paradisiaque entouré par la nature. Chaque arrêt offre des opportunités incroyables pour des photos, de la plongée et des moments de détente totale.\n\nCette excursion est idéale pour les familles, les couples et les groupes d'amis à la recherche d'une journée complète de contact avec la nature dans l'une des plus belles destinations du Brésil.\n\nIMPORTANT: Cette activité n'est pas recommandée pour les personnes à mobilité réduite et les utilisateurs de fauteuils roulants en raison des caractéristiques du terrain et de l'accès aux plages.",
-      "it": "In questo tour di un'intera giornata, godrai di una giornata indimenticabile nuotando in tre spiagge paradisiache di Ilha Grande, la più grande isola di Angra dos Reis. Le acque cristalline e la natura rigogliosa rendono questa una delle destinazioni più ricercate della costa brasiliana.\n\nIl tour inizia alle 7 del mattino a Rio de Janeiro, con ritorno previsto alle 18. Durante il tour, visiterai la famosa Laguna Blu, nota per le sue acque cristalline e l'abbondante vita marina - perfetta per lo snorkeling. Poi visiterai l'affascinante Freguesia de Santana e la bellissima Spiaggia della Balena.\n\nIl pranzo sarà servito alla Spiaggia di Japariz, dove potrai assaporare la cucina locale e rilassarti in un ambiente paradisiaco circondato dalla natura. Ogni sosta offre incredibili opportunità per foto, immersioni e momenti di relax totale.\n\nQuesto tour è ideale per famiglie, coppie e gruppi di amici che cercano una giornata completa di contatto con la natura in una delle destinazioni più belle del Brasile.\n\nIMPORTANTE: Questa attività non è consigliata per persone con mobilità ridotta e utenti in sedia a rotelle a causa delle caratteristiche del terreno e dell'accesso alle spiagge.",
-      "al": "Bei dieser ganztägigen Tour genießen Sie einen unvergesslichen Tag beim Schwimmen an drei paradiesischen Stränden von Ilha Grande, der größten Insel von Angra dos Reis. Das kristallklare Wasser und die üppige Natur machen dies zu einem der begehrtesten Reiseziele an der brasilianischen Küste.\n\nDie Tour beginnt um 7 Uhr morgens in Rio de Janeiro, mit einer geplanten Rückkehr um 18 Uhr. Während der Tour besuchen Sie die berühmte Blaue Lagune, bekannt für ihr kristallklares Wasser und reiches Meeresleben - perfekt zum Schnorcheln. Dann besuchen Sie die charmante Freguesia de Santana und den schönen Walstrand.\n\nDas Mittagessen wird am Japariz-Strand serviert, wo Sie die lokale Küche probieren und in einer paradiesischen Umgebung inmitten der Natur entspannen können. Jeder Halt bietet unglaubliche Möglichkeiten für Fotos, Tauchen und Momente völliger Entspannung.\n\nDiese Tour ist ideal für Familien, Paare und Gruppen von Freunden, die einen ganzen Tag Kontakt mit der Natur in einem der schönsten Reiseziele Brasiliens suchen.\n\nWICHTIG: Diese Aktivität wird für Personen mit eingeschränkter Mobilität und Rollstuhlfahrer aufgrund der Geländemerkmale und des Zugangs zu den Stränden nicht empfohlen.",
-      "ru": "В этом туре на целый день вы проведете незабываемый день, купаясь на трех райских пляжах Илья-Гранде, самого большого острова Ангра-дус-Рейс. Кристально чистая вода и пышная природа делают это одним из самых востребованных мест на бразильском побережье.\n\nТур начинается в 7 утра в Рио-де-Жанейро с ожидаемым возвращением в 18:00. Во время тура вы посетите знаменитую Голубую лагуну, известную своей кристально чистой водой и богатой морской жизнью - идеальную для снорклинга. Затем вы посетите очаровательную Фрегезия-де-Сантана и красивый Китовый пляж.\n\nОбед будет подан на пляже Жапариз, где вы сможете попробовать местную кухню и расслабиться в райской обстановке, окруженной природой. Каждая остановка предлагает невероятные возможности для фотографий, дайвинга и моментов полного расслабления.\n\nЭтот тур идеально подходит для семей, пар и групп друзей, ищущих целый день контакта с природой в одном из самых красивых мест Бразилии.\n\nВАЖНО: Эта активность не рекомендуется для людей с ограниченной подвижностью и пользователей инвалидных колясок из-за особенностей местности и доступа к пляжам.",
-      "ch": "在这个全日游中，您将在安格拉杜斯雷斯最大的岛屿大岛的三个天堂海滩上享受难忘的游泳日。清澈的海水和茂盛的自然使这里成为巴西海岸最受欢迎的目的地之一。\n\n旅行从早上7点在里约热内卢开始，预计下午6点返回。在游览期间，您将参观著名的蓝色泻湖，以其清澈的海水和丰富的海洋生物而闻名 - 非常适合浮潜。然后您将参观迷人的圣塔纳教区和美丽的鲸鱼海滩。\n\n午餐将在雅帕里兹海滩提供，您可以在那里品尝当地美食并在被大自然环绕的天堂般的环境中放松。每一站都提供了令人难以置信的照片、潜水和完全放松时刻的机会。\n\n这次旅行非常适合寻求在巴西最美丽的目的地之一与大自然全天接触的家庭、情侣和朋友团体。\n\n重要提示：由于地形特征和海滩通道的原因，不建议行动不便者和轮椅使用者参加此活动。",
-      "jp": "この終日ツアーでは、アングラ・ドス・レイスで最大の島イーリャ・グランデの3つの楽園のビーチで泳ぐ忘れられない一日を楽しむことができます。透き通った海と豊かな自然が、ブラジル海岸で最も人気のある目的地の一つです。\n\nツアーはリオデジャネイロで午前7時に始まり、午後6時に戻る予定です。ツアー中、透き通った海と豊富な海洋生物で知られる有名なブルーラグーンを訪れます - シュノーケリングに最適です。その後、魅力的なフレゲジア・デ・サンタナと美しいクジラビーチを訪れます。\n\n昼食はジャパリスビーチで提供され、地元の料理を味わい、自然に囲まれた楽園のような環境でリラックスできます。各停留所は、写真、ダイビング、完全なリラクゼーションの瞬間のための素晴らしい機会を提供します。\n\nこのツアーは、ブラジルで最も美しい目的地の一つで自然との完全な一日を求める家族、カップル、友人グループに最適です。\n\n重要：この活動は、地形の特性とビーチへのアクセスのため、移動が困難な方や車椅子ユーザーにはお勧めしません。",
-      "ar": "في هذه الجولة ليوم كامل، ستستمتع بيوم لا يُنسى من السباحة في ثلاثة شواطئ جنة في إيلا غراندي، أكبر جزيرة في أنجرا دوس ريس. المياه الصافية والطبيعة المورقة تجعل هذا واحدًا من أكثر الوجهات المطلوبة على الساحل البرازيلي.\n\nتبدأ الجولة الساعة 7 صباحًا في ريو دي جانيرو، مع العودة المتوقعة في الساعة 6 مساءً. خلال الجولة، ستزور البحيرة الزرقاء الشهيرة، المعروفة بمياهها الصافية والحياة البحرية الوفيرة - مثالية للغطس. ثم ستزور فريجيسيا دي سانتانا الساحرة وشاطئ الحوت الجميل.\n\nسيتم تقديم الغداء في شاطئ جاباريز، حيث يمكنك تذوق المأكولات المحلية والاسترخاء في بيئة جنة محاطة بالطبيعة. تقدم كل محطة فرصًا مذهلة للصور والغوص ولحظات من الاسترخاء التام.\n\nهذه الجولة مثالية للعائلات والأزواج ومجموعات الأصدقاء الذين يبحثون عن يوم كامل من الاتصال بالطبيعة في واحدة من أجمل الوجهات في البرازيل.\n\nمهم: لا يُنصح بهذا النشاط للأشخاص ذوي الحركة المحدودة ومستخدمي الكراسي المتحركة بسبب خصائص التضاريس والوصول إلى الشواطئ.",
-      "he": "בסיור יום שלם זה, תהנו מיום בלתי נשכח של שחייה בשלושה חופים גן עדן באילה גרנדה, האי הגדול ביותר באנגרה דוס רייס. המים הצלולים והטבע השופע הופכים את זה לאחד היעדים המבוקשים ביותר בחוף הברזילאי.\n\nהסיור מתחיל בשעה 7 בבוקר בריו דה ז'ניירו, עם חזרה צפויה ב-18:00. במהלך הסיור, תבקרו בלגונה הכחולה המפורסמת, הידועה במים הצלולים והחיים הימיים הרבים - מושלמת לשנורקלינג. לאחר מכן תבקרו בפרגזיה דה סנטנה המקסימה ובחוף הלווייתן היפה.\n\nארוחת הצהריים תוגש בחוף ז'פאריז, שם תוכלו לטעום את המטבח המקומי ולהירגע בסביבה גן עדן המוקפת בטבע. כל עצירה מציעה הזדמנויות מדהימות לצילומים, צלילה ורגעים של הרפיה מוחלטת.\n\nסיור זה מושלם למשפחות, זוגות וקבוצות חברים המחפשים יום שלם של קשר עם הטבע באחד היעדים היפים ביותר בברזיל.\n\nחשוב: פעילות זו אינה מומלצת לאנשים עם ניידות מוגבלת ומשתמשי כיסאות גלגלים בשל מאפייני השטח והגישה לחופים."
+      "pt-BR": "Desfrute de um dia completo nadando em três praias paradisíacas de Ilha Grande, a maior ilha de Angra dos Reis. As paradas incluem a deslumbrante Lagoa Azul com águas cristalinas, Freguesia de Santana, Praia da Baleia e um delicioso almoço na Praia de Japariz.\n\nO tour começa às 7h no Rio de Janeiro com retorno previsto às 18h. Durante o passeio de barco, você conhecerá algumas das praias mais bonitas do Brasil e poderá mergulhar em águas azul-turquesa repletas de vida marinha.\n\n**Importante:** Bebidas e petiscos no barco, serviços de fotógrafo, jet-ski, ração para peixes, bebidas e sobremesas no restaurante não estão incluídos. Atividade não recomendada para pessoas com mobilidade reduzida e cadeirantes.",
+      "en": "Enjoy a full day swimming at three paradisiacal beaches on Ilha Grande, the largest island in Angra dos Reis. Stops include the stunning Blue Lagoon with crystal-clear waters, Freguesia de Santana, Whale Beach and a delicious lunch at Japariz Beach.\n\nThe tour starts at 7am in Rio de Janeiro with expected return at 6pm. During the boat tour, you'll visit some of Brazil's most beautiful beaches and can dive into turquoise-blue waters full of marine life.\n\n**Important:** Drinks and snacks on the boat, photographer services, jet-ski, fish food, drinks and desserts at the restaurant are not included. Activity not recommended for people with reduced mobility and wheelchair users.",
+      "es": "Disfrute de un día completo nadando en tres playas paradisíacas de Ilha Grande, la isla más grande de Angra dos Reis. Las paradas incluyen la impresionante Laguna Azul con aguas cristalinas, Freguesia de Santana, Playa de la Ballena y un delicioso almuerzo en Playa de Japariz.\n\nEl tour comienza a las 7h en Río de Janeiro con retorno previsto a las 18h. Durante el paseo en barco, conocerá algunas de las playas más hermosas de Brasil y podrá sumergirse en aguas azul turquesa repletas de vida marina.\n\n**Importante:** Bebidas y aperitivos en el barco, servicios de fotógrafo, jet-ski, comida para peces, bebidas y postres en el restaurante no están incluidos. Actividad no recomendada para personas con movilidad reducida y usuarios de sillas de ruedas.",
+      "fr": "Profitez d'une journée complète à nager sur trois plages paradisiaques d'Ilha Grande, la plus grande île d'Angra dos Reis. Les arrêts comprennent le magnifique Lagon Bleu aux eaux cristallines, Freguesia de Santana, la Plage de la Baleine et un délicieux déjeuner à la Plage de Japariz.\n\nLa visite commence à 7h à Rio de Janeiro avec retour prévu à 18h. Pendant l'excursion en bateau, vous visiterez certaines des plus belles plages du Brésil et pourrez plonger dans des eaux bleu turquoise pleines de vie marine.\n\n**Important:** Les boissons et collations sur le bateau, les services de photographe, jet-ski, nourriture pour poissons, boissons et desserts au restaurant ne sont pas inclus. Activité non recommandée pour les personnes à mobilité réduite et les utilisateurs de fauteuils roulants.",
+      "it": "Goditi una giornata completa nuotando in tre spiagge paradisiache di Ilha Grande, l'isola più grande di Angra dos Reis. Le fermate includono la splendida Laguna Blu con acque cristalline, Freguesia de Santana, Spiaggia della Balena e un delizioso pranzo alla Spiaggia di Japariz.\n\nIl tour inizia alle 7h a Rio de Janeiro con ritorno previsto alle 18h. Durante il tour in barca, visiterai alcune delle spiagge più belle del Brasile e potrai tuffarti in acque turchesi piene di vita marina.\n\n**Importante:** Bevande e spuntini sulla barca, servizi fotografici, jet-ski, cibo per pesci, bevande e dessert al ristorante non sono inclusi. Attività non consigliata per persone con mobilità ridotta e utenti di sedie a rotelle.",
+      "al": "Genießen Sie einen ganzen Tag beim Schwimmen an drei paradiesischen Stränden auf Ilha Grande, der größten Insel von Angra dos Reis. Die Stopps umfassen die atemberaubende Blaue Lagune mit kristallklarem Wasser, Freguesia de Santana, Walfischstrand und ein köstliches Mittagessen am Japariz-Strand.\n\nDie Tour beginnt um 7 Uhr in Rio de Janeiro mit geplanter Rückkehr um 18 Uhr. Während der Bootstour besuchen Sie einige der schönsten Strände Brasiliens und können in türkisblaues Wasser voller Meeresleben eintauchen.\n\n**Wichtig:** Getränke und Snacks auf dem Boot, Fotografendienste, Jet-Ski, Fischfutter, Getränke und Desserts im Restaurant sind nicht enthalten. Aktivität nicht empfohlen für Menschen mit eingeschränkter Mobilität und Rollstuhlfahrer.",
+      "ru": "Наслаждайтесь полным днем купания на трех райских пляжах Илья-Гранде, крупнейшего острова Ангра-дус-Рейс. Остановки включают потрясающую Голубую Лагуну с кристально чистыми водами, Фрегезию де Сантану, Пляж Кита и вкусный обед на Пляже Жапариз.\n\nТур начинается в 7 утра в Рио-де-Жанейро с ожидаемым возвращением в 18:00. Во время лодочного тура вы посетите некоторые из самых красивых пляжей Бразилии и сможете окунуться в бирюзово-голубые воды, полные морской жизни.\n\n**Важно:** Напитки и закуски на лодке, услуги фотографа, гидроциклы, корм для рыб, напитки и десерты в ресторане не включены. Активность не рекомендуется для людей с ограниченной подвижностью и пользователей инвалидных колясок.",
+      "ch": "在大岛（安格拉杜斯雷斯最大的岛屿）的三个天堂海滩享受全天游泳。停靠点包括拥有清澈海水的令人惊叹的蓝色泻湖、圣塔纳教区、鲸鱼海滩和在雅帕里斯海滩享用美味午餐。\n\n旅游从里约热内卢早上7点开始，预计下午6点返回。在乘船游览期间，您将参观巴西一些最美丽的海滩，并可以潜入充满海洋生物的绿松石蓝色海水中。\n\n**重要提示：**船上的饮料和小吃、摄影师服务、水上摩托艇、鱼食、餐厅的饮料和甜点不包括在内。不建议行动不便的人和轮椅使用者参加此活动。",
+      "jp": "アングラ・ドス・レイス最大の島であるイリャ・グランデの3つの楽園ビーチで一日中泳ぐことをお楽しみください。立ち寄り先には、透き通った海の素晴らしいブルーラグーン、フレゲジア・デ・サンタナ、ホエールビーチ、そしてジャパリズビーチでの美味しい昼食が含まれます。\n\nツアーはリオデジャネイロで午前7時に始まり、午後6時に戻る予定です。ボートツアー中、ブラジルで最も美しいビーチのいくつかを訪れ、海洋生物でいっぱいのターコイズブルーの海に飛び込むことができます。\n\n**重要：**ボート上の飲み物とスナック、写真家のサービス、ジェットスキー、魚の餌、レストランでの飲み物とデザートは含まれていません。移動に制限のある方や車椅子ユーザーにはお勧めできません。",
+      "ar": "استمتع بيوم كامل من السباحة في ثلاثة شواطئ جنة في إلها غراندي، أكبر جزيرة في أنجرا دوس ريس. تشمل المحطات البحيرة الزرقاء المذهلة بمياهها الصافية، فريغيسيا دي سانتانا، شاطئ الحوت وغداء لذيذ في شاطئ جاباريز.\n\nتبدأ الجولة في الساعة 7 صباحًا في ريو دي جانيرو مع العودة المتوقعة في الساعة 6 مساءً. خلال جولة القارب، ستزور بعض أجمل الشواطئ في البرازيل ويمكنك الغوص في المياه الفيروزية الزرقاء المليئة بالحياة البحرية.\n\n**مهم:** المشروبات والوجبات الخفيفة على القارب، خدمات المصور، الدراجة المائية، طعام الأسماك، المشروبات والحلويات في المطعم غير مشمولة. النشاط غير موصى به للأشخاص ذوي الحركة المحدودة ومستخدمي الكراسي المتحركة.",
+      "he": "תיהנו מיום שלם של שחייה בשלושה חופים גן עדן באילהה גרנדה, האי הגדול ביותר באנגרה דוס רייס. העצירות כוללות את הלגונה הכחולה המדהימה עם מים צלולים, פרגזיה דה סנטנה, חוף הלוויתן וארוחת צהריים טעימה בחוף ג'פאריז.\n\nהסיור מתחיל בשעה 7 בבוקר בריו דה ז'ניירו עם חזרה צפויה בשעה 18:00. במהלך סיור הסירה, תבקרו בכמה מהחופים היפים ביותר בברזיל ותוכלו לצלול למים טורקיז כחולים מלאים בחיי ים.\n\n**חשוב:** משקאות וחטיפים בסירה, שירותי צלם, ג'ט סקי, מזון לדגים, משקאות וקינוחים במסעדה אינם כלולים. הפעילות לא מומלצת לאנשים עם ניידות מוגבלת ומשתמשי כיסאות גלגלים."
     },
     "image": "/images/angra/angra1.png",
     "images": [
@@ -858,198 +1292,509 @@
         "Freguesia de Santana",
         "Praia da Baleia",
         "Praia de Japariz",
-        "Snorkeling em Águas Cristalinas",
-        "Almoço com Vista para o Mar"
+        "Passeio de Barco",
+        "Mergulho em Águas Cristalinas"
       ],
       "en": [
         "Blue Lagoon",
         "Freguesia de Santana",
         "Whale Beach",
         "Japariz Beach",
-        "Snorkeling in Crystal Clear Waters",
-        "Lunch with Sea View"
+        "Boat Tour",
+        "Diving in Crystal Clear Waters"
       ],
       "es": [
-        "Lagoa Azul",
+        "Laguna Azul",
         "Freguesia de Santana",
-        "Praia da Baleia",
-        "Praia de Japariz",
-        "Snorkel en Aguas Cristalinas",
-        "Almuerzo con Vista al Mar"
+        "Playa de la Ballena",
+        "Playa de Japariz",
+        "Paseo en Barco",
+        "Buceo en Aguas Cristalinas"
       ],
       "fr": [
         "Lagon Bleu",
         "Freguesia de Santana",
         "Plage de la Baleine",
         "Plage de Japariz",
-        "Plongée avec Tuba dans des Eaux Cristallines",
-        "Déjeuner avec Vue sur la Mer"
+        "Tour en Bateau",
+        "Plongée dans des Eaux Cristallines"
       ],
       "it": [
         "Laguna Blu",
         "Freguesia de Santana",
         "Spiaggia della Balena",
         "Spiaggia di Japariz",
-        "Snorkeling in Acque Cristalline",
-        "Pranzo con Vista sul Mare"
+        "Tour in Barca",
+        "Immersioni in Acque Cristalline"
       ],
       "al": [
         "Blaue Lagune",
         "Freguesia de Santana",
-        "Walstrand",
+        "Walfischstrand",
         "Japariz-Strand",
-        "Schnorcheln in Kristallklarem Wasser",
-        "Mittagessen mit Meerblick"
+        "Bootstour",
+        "Tauchen in Kristallklarem Wasser"
       ],
       "ru": [
         "Голубая Лагуна",
-        "Фрегезия-де-Сантана",
-        "Китовый Пляж",
+        "Фрегезия де Сантана",
+        "Пляж Кита",
         "Пляж Жапариз",
-        "Снорклинг в Кристально Чистых Водах",
-        "Обед с Видом на Море"
+        "Прогулка на Лодке",
+        "Дайвинг в Кристально Чистых Водах"
       ],
       "ch": [
         "蓝色泻湖",
         "圣塔纳教区",
         "鲸鱼海滩",
-        "雅帕里兹海滩",
-        "在清澈的海水中浮潜",
-        "享用海景午餐"
+        "雅帕里斯海滩",
+        "乘船游览",
+        "在清澈的海水中潜水"
       ],
       "jp": [
         "ブルーラグーン",
         "フレゲジア・デ・サンタナ",
-        "クジラビーチ",
-        "ジャパリスビーチ",
-        "透き通った海でのシュノーケリング",
-        "海の景色を眺めながらの昼食"
+        "ホエールビーチ",
+        "ジャパリズビーチ",
+        "ボートツアー",
+        "透き通った海でのダイビング"
       ],
       "ar": [
         "البحيرة الزرقاء",
-        "فريجيسيا دي سانتانا",
+        "فريغيسيا دي سانتانا",
         "شاطئ الحوت",
         "شاطئ جاباريز",
-        "الغطس في المياه الصافية",
-        "غداء مع إطلالة على البحر"
+        "جولة بالقارب",
+        "الغوص في المياه الصافية"
       ],
       "he": [
         "הלגונה הכחולה",
         "פרגזיה דה סנטנה",
-        "חוף הלווייתן",
-        "חוף ז'פאריז",
-        "שנורקלינג במים צלולים",
-        "ארוחת צהריים עם נוף לים"
+        "חוף הלוויתן",
+        "חוף ג'פאריז",
+        "סיור בסירה",
+        "צלילה במים צלולים"
       ]
     },
     "duration": {
-      "pt-BR": "O dia todo (11 horas - 7h às 18h)",
-      "en": "Full day (11 hours - 7am to 6pm)",
-      "es": "Todo el día (11 horas - 7h a 18h)",
-      "fr": "Toute la journée (11 heures - 7h à 18h)",
-      "it": "Giornata intera (11 ore - 7h alle 18h)",
-      "al": "Ganztägig (11 Stunden - 7 bis 18 Uhr)",
-      "ru": "Полный день (11 часов - с 7:00 до 18:00)",
-      "ch": "全天（11小时 - 7点至18点）",
-      "jp": "終日（11時間 - 7時から18時）",
-      "ar": "يوم كامل (11 ساعة - من 7 صباحًا إلى 6 مساءً)",
-      "he": "יום שלם (11 שעות - 7:00 עד 18:00)"
+      "pt-BR": "15 horas",
+      "en": "15 hours",
+      "es": "15 horas",
+      "fr": "15 heures",
+      "it": "15 ore",
+      "al": "15 Stunden",
+      "ru": "15 часов",
+      "ch": "15小时",
+      "jp": "15時間",
+      "ar": "15 ساعة",
+      "he": "15 שעות"
     },
     "price": {
-      "value": "R$ 350",
-      "perPerson": true
+      "individual": "R$ 290",
+      "group": "R$ 250"
     },
     "included": {
       "pt-BR": [
+        "Transporte ida e volta",
         "Guia turístico experiente",
-        "Passeio de barco pelas ilhas",
+        "Passeio de barco",
+        "Almoço (sem bebidas e sobremesas)",
         "Paradas em 4 praias paradisíacas",
-        "Almoço incluído (bebidas não inclusas)"
+        "*A realização do tour está sujeita a um número mínimo de participantes e as vagas são limitadas. Entre em contato para consultar a disponibilidade.",
+        "**Recomendável:** Levar garrafa de água, protetor solar e repelente"
       ],
       "en": [
+        "Round trip transportation",
         "Experienced tour guide",
-        "Boat tour through the islands",
+        "Boat tour",
+        "Lunch (without drinks and desserts)",
         "Stops at 4 paradisiacal beaches",
-        "Lunch included (drinks not included)"
+        "**Recommended:** Bring water bottle, sunscreen and repellent"
       ],
       "es": [
+        "Transporte ida y vuelta",
         "Guía turístico experimentado",
-        "Paseo en barco por las islas",
+        "Paseo en barco",
+        "Almuerzo (sin bebidas y postres)",
         "Paradas en 4 playas paradisíacas",
-        "Almuerzo incluido (bebidas no incluidas)"
+        "**Recomendable:** Llevar botella de agua, protector solar y repelente"
       ],
       "fr": [
+        "Transport aller-retour",
         "Guide touristique expérimenté",
-        "Tour en bateau à travers les îles",
-        "Arrêts dans 4 plages paradisiaques",
-        "Déjeuner inclus (boissons non incluses)"
+        "Tour en bateau",
+        "Déjeuner (sans boissons et desserts)",
+        "Arrêts sur 4 plages paradisiaques",
+        "**Recommandé:** Apporter bouteille d'eau, crème solaire et répulsif"
       ],
       "it": [
+        "Trasporto andata e ritorno",
         "Guida turistica esperta",
-        "Tour in barca attraverso le isole",
+        "Tour in barca",
+        "Pranzo (senza bevande e dessert)",
         "Fermate in 4 spiagge paradisiache",
-        "Pranzo incluso (bevande non incluse)"
+        "**Consigliato:** Portare bottiglia d'acqua, protezione solare e repellente"
       ],
       "al": [
+        "Hin- und Rücktransport",
         "Erfahrener Reiseleiter",
-        "Bootstour durch die Inseln",
+        "Bootstour",
+        "Mittagessen (ohne Getränke und Desserts)",
         "Stopps an 4 paradiesischen Stränden",
-        "Mittagessen inklusive (Getränke nicht inklusive)"
+        "**Empfohlen:** Wasserflasche, Sonnencreme und Insektenschutzmittel mitbringen"
       ],
       "ru": [
+        "Транспорт туда и обратно",
         "Опытный гид",
-        "Экскурсия на лодке по островам",
+        "Прогулка на лодке",
+        "Обед (без напитков и десертов)",
         "Остановки на 4 райских пляжах",
-        "Обед включен (напитки не включены)"
+        "**Рекомендуется:** Взять бутылку воды, солнцезащитный крем и репеллент"
       ],
       "ch": [
+        "往返交通",
         "经验丰富的导游",
-        "乘船游览岛屿",
+        "乘船游览",
+        "午餐（不含饮料和甜点）",
         "在4个天堂海滩停留",
-        "包含午餐（不含饮料）"
+        "**建议：**携带水瓶、防晒霜和驱虫剂"
       ],
       "jp": [
+        "往復送迎",
         "経験豊富なツアーガイド",
-        "島々を巡るボートツアー",
-        "4つの楽園のビーチでの停車",
-        "昼食込み（飲み物は含まれません）"
+        "ボートツアー",
+        "昼食（飲み物とデザートなし）",
+        "4つの楽園ビーチでの停車",
+        "**推奨：**水筒、日焼け止め、虫除けを持参"
       ],
       "ar": [
+        "النقل ذهابًا وإيابًا",
         "مرشد سياحي ذو خبرة",
-        "جولة بالقارب عبر الجزر",
+        "جولة بالقارب",
+        "غداء (بدون مشروبات وحلويات)",
         "توقفات في 4 شواطئ جنة",
-        "الغداء مشمول (المشروبات غير مشمولة)"
+        "**موصى به:** إحضار زجاجة ماء وواقي شمسي وطارد حشرات"
       ],
       "he": [
+        "הסעות הלוך ושוב",
         "מדריך תיירות מנוסה",
-        "סיור בסירה דרך האיים",
+        "סיור בסירה",
+        "ארוחת צהריים (ללא משקאות וקינוחים)",
         "עצירות ב-4 חופים גן עדן",
-        "ארוחת צהריים כלולה (משקאות לא כלולים)"
-      ]
-    },
-    "notes": {
-      "pt-BR": [
-        "Reservas para até 3 pessoas",
-        "Transporte: cliente aluga e dirige o carro",
-        "Pedágios, estacionamentos e taxas não inclusos",
-        "Taxa de R$0,30 da TurisAngra paga separadamente",
-        "Bebidas e petiscos no barco não inclusos",
-        "Serviços de fotógrafo e jet-ski não inclusos",
-        "Ração para peixes não inclusa",
-        "Sobremesas no restaurante não inclusas",
-        "Atividade NÃO recomendada para pessoas com mobilidade reduzida e cadeirantes"
-      ],
-      "en": [
-        "Reservations for up to 3 people",
-        "Transportation: client rents and drives the car",
-        "Tolls, parking, and fees not included",
-        "TurisAngra fee of R$ 10.30 paid separately",
-        "Drinks and snacks on the boat not included",
-        "Photographer and jet-ski services not included",
-        "Fish food not included",
-        "Desserts at the restaurant not included",
-        "Activity NOT recommended for people with reduced mobility and wheelchair users"
+        "**מומלץ:** להביא בקבוק מים, קרם הגנה ודוחה חרקים"
       ]
     }
+  },
+  {
+  "id": "buzios",
+  "name": {
+    "pt-BR": "Búzios",
+    "en": "Búzios",
+    "es": "Búzios",
+    "fr": "Búzios",
+    "it": "Búzios",
+    "al": "Búzios",
+    "ru": "Бузьос",
+    "ch": "布济奥斯",
+    "jp": "ブジオス",
+    "ar": "بوزيوس",
+    "he": "בוזיוס"
+  },
+  "shortDescription": {
+    "pt-BR": "As 23 praias paradisíacas de Búzios, a Saint-Tropez brasileir",
+    "en": "Búzios' 23 paradisiacal beaches, Brazil's Saint-Trope",
+    "es": "Las 23 playas paradisíacas de Búzios, la Saint-Tropez brasileñ",
+    "fr": "Les 23 plages paradisiaques de Búzios, la Saint-Tropez brésilienn",
+    "it": "Le 23 spiagge paradisiache di Búzios, la Saint-Tropez brasilian",
+    "al": "Búzios' 23 paradiesische Strände, Brasiliens Saint-Trope",
+    "ru": "23 райских пляжа Бузьоса, бразильская Сен-Троп",
+    "ch": "布济奥斯23个天堂海滩，巴西圣特罗佩",
+    "jp": "ブジオスの23の楽園ビーチ、ブラジルのサン・トロペ",
+    "ar": "23 شاطئ جنة في بوزيوس، سان تروبيه البرازيلية ",
+    "he": "23 חופי גן עדן בבוזיוס, סנט טרופה הברזילאית "
+  },
+  "image": "/images/buzios.webp",
+  "images": ["/images/buzios2.webp", "/images/buzios3.jpg"],
+  "duration": {
+    "pt-BR": "15 horas",
+    "en": "15 hours",
+    "es": "15 horas",
+    "fr": "15 heures",
+    "it": "15 ore",
+    "al": "15 Stunden",
+    "ru": "15 часов",
+    "ch": "15小时",
+    "jp": "15時間",
+    "ar": "15 ساعة",
+    "he": "15 שעות"
+  },
+  "price": {
+    "individual": "R$ 290",
+    "group": "R$ 250"
+  },
+  "disclaimer": {
+    "pt-BR": "*A realização do tour está sujeita a um número mínimo de participantes e as vagas são limitadas. Entre em contato para consultar a disponibilidade.",
+    "en": "*Tour operation is subject to minimum number of participants and spots are limited. Contact us to check availability.",
+    "es": "*La realización del tour está sujeta a un número mínimo de participantes y las plazas son limitadas. Contáctenos para consultar disponibilidad.",
+    "fr": "*La réalisation du tour est soumise à un nombre minimum de participants et les places sont limitées. Contactez-nous pour vérifier la disponibilité.",
+    "it": "*L'effettuazione del tour è soggetta a un numero minimo di partecipanti e i posti sono limitati. Contattaci per verificare la disponibilità.",
+    "al": "*Die Tourfindung ist abhängig von der Mindestteilnehmerzahl und die Plätze sind begrenzt. Kontaktieren Sie uns für Verfügbarkeit.",
+    "ru": "*Проведение тура зависит от минимального количества участников, места ограничены. Свяжитесь с нами для проверки доступности.",
+    "ch": "*旅游活动需达到最低参与人数要求，名额有限。请联系查询可用性。",
+    "jp": "*ツアー実施は最低参加人数が必要で、席数に限りがあります。空き状況はご連絡ください。",
+    "ar": "*إجراء الجولة مشروط بعدد أدنى من المشاركين والمقاعد محدودة. اتصل بنا للاستفسار عن التوافر.",
+    "he": "*קיום הסיור תלוי במספר מינימלי של משתתפים והמקומות מוגבלים. צרו קשר לבדיקת זמינות."
+  },
+  "included": {
+    "pt-BR": [
+      "Transporte ida e volta",
+      "Passeio de barco pelas praias",
+      "Paradas para fotos",
+      "Guia local de Búzios",
+      "**Recomendável:** Garrafa de água, protetor solar e repelente"
+    ],
+    "en": [
+      "Round trip transportation",
+      "Boat tour through beaches",
+      "Photo stops",
+      "Local Búzios guide",
+      "**Recommended:** Water bottle, sunscreen and repellent"
+    ]
   }
+},
+{
+  "id": "petropolis-imperial",
+  "name": {
+    "pt-BR": "Petrópolis, Cidade Imperial",
+    "en": "Petrópolis, Imperial City",
+    "es": "Petrópolis, Ciudad Imperial",
+    "fr": "Petrópolis, Ville Impériale",
+    "it": "Petrópolis, Città Imperiale",
+    "al": "Petrópolis, Kaiserliche Stadt",
+    "ru": "Петрополис, Имперский город",
+    "ch": "彼得罗波利斯，帝国之城",
+    "jp": "ペトロポリス、帝国都市",
+    "ar": "بتروبوليس، المدينة الإمبراطورية",
+    "he": "פטרופוליס, עיר הקיסרות"
+  },
+  "shortDescription": {
+    "pt-BR": "Palácios imperiais e museus de Petrópolis de terça a doming**",
+    "en": "Imperial palaces and museums in Petrópolis Tue-Su**",
+    "es": "Palacios imperiales y museos de Petrópolis de martes a doming**",
+    "fr": "Palais impériaux et musées de Petrópolis mar-di**",
+    "it": "Palazzi imperiali e musei di Petrópolis mar-do**",
+    "al": "Kaiserliche Paläste und Museen in Petrópolis Di-S**",
+    "ru": "Императорские дворцы и музеи Петрополиса вт-в**",
+    "ch": "彼得罗波利斯皇宫博物馆 周二至周日**",
+    "jp": "ペトロポリス皇宮博物館 火曜-日曜**",
+    "ar": "قصور إمبراطورية ومتاحف بتروبوليس من الثلاثاء للأحد (15س)***",
+    "he": "ארמונות קיסריים ומוזיאונים בפטרופוליס ג'-ו' **"
+  },
+  "image": "/images/cidadePetr.webp",
+  "images": ["/images/palacio.jpg", "/images/petropolis/petr1.png"],
+  "duration": {
+    "pt-BR": "15 horas",
+    "en": "15 hours",
+    "es": "15 horas",
+    "fr": "15 heures",
+    "it": "15 ore",
+    "al": "15 Stunden",
+    "ru": "15 часов",
+    "ch": "15小时",
+    "jp": "15時間",
+    "ar": "15 ساعة",
+    "he": "15 שעות"
+  },
+  "price": {
+    "individual": "R$ 220",
+    "group": "R$ 200"
+  },
+  "disclaimer": {
+    "pt-BR": "*A realização do tour está sujeita a um número mínimo de participantes e as vagas são limitadas. Entre em contato para consultar a disponibilidade.",
+    "en": "*Tour operation is subject to minimum number of participants and spots are limited. Contact us to check availability.",
+    "es": "*La realización del tour está sujeta a un número mínimo de participantes y las plazas son limitadas. Contáctenos para consultar disponibilidad.",
+    "fr": "*La réalisation du tour est soumise à un nombre minimum de participants et les places sont limitées. Contactez-nous pour vérifier la disponibilité.",
+    "it": "*L'effettuazione del tour è soggetta a un numero minimo di partecipanti e i posti sono limitati. Contattaci per verificare la disponibilità.",
+    "al": "*Die Tourfindung ist abhängig von der Mindestteilnehmerzahl und die Plätze sind begrenzt. Kontaktieren Sie uns für Verfügbarkeit.",
+    "ru": "*Проведение тура зависит от минимального количества участников, места ограничены. Свяжитесь с нами для проверки доступности.",
+    "ch": "*旅游活动需达到最低参与人数要求，名额有限。请联系查询可用性。",
+    "jp": "*ツアー実施は最低参加人数が必要で、席数に限りがあります。空き状況はご連絡ください。",
+    "ar": "*إجراء الجولة مشروط بعدد أدنى من المشاركين والمقاعد محدودة. اتصل بنا للاستفسار عن التوافر.",
+    "he": "*קיום הסיור תלוי במספר מינימלי של משתתפים והמקומות מוגבלים. צרו קשר לבדיקת זמינות."
+  },
+  "included": {
+    "pt-BR": [
+      "Transporte ida e volta",
+      "Museu Imperial",
+      "Casa de Santos Dumont",
+      "Palácio de Cristal",
+      "**Recomendável:** Garrafa de água, protetor solar e repelente"
+    ],
+    "en": [
+      "Round trip transportation",
+      "Imperial Museum",
+      "Santos Dumont House",
+      "Crystal Palace",
+      "**Recommended:** Water bottle, sunscreen and repellent"
+    ]
+  }
+},
+{
+  "id": "teresopolis",
+  "name": {
+    "pt-BR": "Teresópolis",
+    "en": "Teresópolis",
+    "es": "Teresópolis",
+    "fr": "Teresópolis",
+    "it": "Teresópolis",
+    "al": "Teresópolis",
+    "ru": "Терезополис",
+    "ch": "特雷索波利斯",
+    "jp": "テレゾポリス",
+    "ar": "تيريزوبوليس",
+    "he": "טרזופוליס"
+  },
+  "shortDescription": {
+    "pt-BR": "Parque Nacional da Serra dos Órgãos em Teresópolis, natureza exuberante",
+    "en": "Serra dos Órgãos National Park in Teresópolis, lush nature",
+    "es": "Parque Nacional Serra dos Órgãos en Teresópolis, naturaleza exuberante",
+    "fr": "Parc National Serra dos Órgãos à Teresópolis, nature luxuriante",
+    "it": "Parco Nazionale Serra dos Órgãos a Teresópolis, natura lussureggiante",
+    "al": "Nationalpark Serra dos Órgãos in Teresópolis, üppige Natur",
+    "ru": "Национальный парк Серра-дус-Оргаус в Терезополис, пышная природа",
+    "ch": "特雷索波利斯塞尔拉多斯奥尔加奥斯国家公园，郁郁葱葱的自然 ",
+    "jp": "テレゾポリス・セルラ・ドス・オルガオス国立公園、豊かな自然",
+    "ar": "حديقة سيررا دوس أورغاوس الوطنية في تيريزوبوليس، طبيعة خضراء ",
+    "he": "פארק לאומי סרה דוס אורגאוס בטרזופוליס, טבע שופע "
+  },
+  "image": "/images/teresopolis.jpg",
+  "images": ["/images/teresopolis2.jpg"],
+  "duration": {
+    "pt-BR": "15 horas",
+    "en": "15 hours",
+    "es": "15 horas",
+    "fr": "15 heures",
+    "it": "15 ore",
+    "al": "15 Stunden",
+    "ru": "15 часов",
+    "ch": "15小时",
+    "jp": "15時間",
+    "ar": "15 ساعة",
+    "he": "15 שעות"
+  },
+  "price": {
+    "individual": "R$ 250",
+    "group": "R$ 220"
+  },
+  "disclaimer": {
+    "pt-BR": "*A realização do tour está sujeita a um número mínimo de participantes e as vagas são limitadas. Entre em contato para consultar a disponibilidade.",
+    "en": "*Tour operation is subject to minimum number of participants and spots are limited. Contact us to check availability.",
+    "es": "*La realización del tour está sujeta a un número mínimo de participantes y las plazas son limitadas. Contáctenos para consultar disponibilidad.",
+    "fr": "*La réalisation du tour est soumise à un nombre minimum de participants et les places sont limitées. Contactez-nous pour vérifier la disponibilité.",
+    "it": "*L'effettuazione del tour è soggetta a un numero minimo di partecipanti e i posti sono limitati. Contattaci per verificare la disponibilità.",
+    "al": "*Die Tourfindung ist abhängig von der Mindestteilnehmerzahl und die Plätze sind begrenzt. Kontaktieren Sie uns für Verfügbarkeit.",
+    "ru": "*Проведение тура зависит от минимального количества участников, места ограничены. Свяжитесь с нами для проверки доступности.",
+    "ch": "*旅游活动需达到最低参与人数要求，名额有限。请联系查询可用性。",
+    "jp": "*ツアー実施は最低参加人数が必要で、席数に限りがあります。空き状況はご連絡ください。",
+    "ar": "*إجراء الجولة مشروط بعدد أدنى من المشاركين والمقاعد محدودة. اتصل بنا للاستفسار عن التوافر.",
+    "he": "*קיום הסיור תלוי במספר מינימלי של משתתפים והמקומות מוגבלים. צרו קשר לבדיקת זמינות."
+  },
+  "included": {
+    "pt-BR": [
+      "Transporte ida e volta",
+      "Entrada Parque Nacional",
+      "Trilhas guiadas",
+      "Guia ambientalista",
+      "**Recomendável:** Garrafa de água, protetor solar e repelente"
+    ],
+    "en": [
+      "Round trip transportation",
+      "National Park entrance",
+      "Guided trails",
+      "Environmentalist guide",
+      "**Recommended:** Water bottle, sunscreen and repellent"
+    ]
+  }
+},
+{
+  "id": "niteroi-city",
+  "name": {
+    "pt-BR": "Niterói City Tour",
+    "en": "Niterói City Tour",
+    "es": "City Tour Niterói",
+    "fr": "City Tour Niterói",
+    "it": "City Tour Niterói",
+    "al": "Niterói City Tour",
+    "ru": "Городской тур Нитерой",
+    "ch": "尼泰罗伊城市游览",
+    "jp": "ニテロイシティツアー",
+    "ar": "جولة مدينة نيتيروي",
+    "he": "סיור עיר ניטרוי"
+  },
+  "shortDescription": {
+    "pt-BR": "MAC, Praia de Icaraí e Ponte Rio-Niterói no city tour de Niterói",
+    "en": "MAC, Icaraí Beach and Rio-Niterói Bridge in Niterói city tour",
+    "es": "MAC, Playa Icaraí y Puente Rio-Niterói en city tour Niterói",
+    "fr": "MAC, Plage Icaraí et Pont Rio-Niterói en city tour Niterói",
+    "it": "MAC, Spiaggia Icaraí e Ponte Rio-Niterói nel city tour Niterói",
+    "al": "MAC, Icaraí-Strand und Rio-Niterói-Brücke im Niterói City Tour",
+    "ru": "MAC, пляж Икараи и мост Рио-Нитерой в городском туре Нитерой",
+    "ch": "尼泰罗伊城市游览：MAC、伊卡赖海滩和里约-尼泰罗伊大桥 ",
+    "jp": "ニテロイシティツアー：MAC、イカライビーチとリオ-ニテロイ橋 ",
+    "ar": "جولة مدينة نيتيروي: MAC، شاطئ إيكاراي وجسر ريو-نيتيروي (15س",
+    "he": "סיור עיר ניטרוי: MAC, חוף איקראי וגשר ריו-ניטרוי (15ש'"
+  },
+  "image": "/images/niteroi/niteroi1.png",
+  "images": ["/images/niteroi/niteroi2.png", "/images/niteroi/niteroi3.png","/images/niteroi/niteroi4.png","/images/niteroi/niteroi5.png", "/images/niteroi/niteroi6.png"],
+  "duration": {
+    "pt-BR": "15 horas",
+    "en": "15 hours",
+    "es": "15 horas",
+    "fr": "15 heures",
+    "it": "15 ore",
+    "al": "15 Stunden",
+    "ru": "15 часов",
+    "ch": "15小时",
+    "jp": "15時間",
+    "ar": "15 ساعة",
+    "he": "15 שעות"
+  },
+  "price": {
+    "individual": "R$ 450",
+    "group": "R$ 410"
+  },
+  "disclaimer": {
+    "pt-BR": "*A realização do tour está sujeita a um número mínimo de participantes e as vagas são limitadas. Entre em contato para consultar a disponibilidade.",
+    "en": "*Tour operation is subject to minimum number of participants and spots are limited. Contact us to check availability.",
+    "es": "*La realización del tour está sujeta a un número mínimo de participantes y las plazas son limitadas. Contáctenos para consultar disponibilidad.",
+    "fr": "*La réalisation du tour est soumise à un nombre minimum de participants et les places sont limitées. Contactez-nous pour vérifier la disponibilité.",
+    "it": "*L'effettuazione del tour è soggetta a un numero minimo di partecipanti e i posti sono limitati. Contattaci per verificare la disponibilità.",
+    "al": "*Die Tourfindung ist abhängig von der Mindestteilnehmerzahl und die Plätze sind begrenzt. Kontaktieren Sie uns für Verfügbarkeit.",
+    "ru": "*Проведение тура зависит от минимального количества участников, места ограничены. Свяжитесь с нами для проверки доступности.",
+    "ch": "*旅游活动需达到最低参与人数要求，名额有限。请联系查询可用性。",
+    "jp": "*ツアー実施は最低参加人数が必要で、席数に限りがあります。空き状況はご連絡ください。",
+    "ar": "*إجراء الجولة مشروط بعدد أدنى من المشاركين والمقاعد محدودة. اتصل بنا للاستفسار عن التوافر.",
+    "he": "*קיום הסיור תלוי במספר מינימלי של משתתפים והמקומות מוגבלים. צרו קשר לבדיקת זמינות."
+  },
+  "included": {
+    "pt-BR": [
+      "Transporte ida e volta",
+      "Museu de Arte Contemporânea (MAC)",
+      "Praia de Icaraí",
+      "Travessia Ponte Rio-Niterói",
+      "**Recomendável:** Garrafa de água, protetor solar e repelente"
+    ],
+    "en": [
+      "Round trip transportation",
+      "Contemporary Art Museum (MAC)",
+      "Icaraí Beach",
+      "Rio-Niterói Bridge crossing",
+      "**Recommended:** Water bottle, sunscreen and repellent"
+    ]
+  }
+}
+
+
+
+
 ]

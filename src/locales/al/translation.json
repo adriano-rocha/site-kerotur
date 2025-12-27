@@ -1,5 +1,6 @@
 {
   "header": {
+    "home": "Heim",
     "aboutUs": "Über Uns",
     "tours": "Touren",
     "partners": "Partner",
@@ -17,9 +18,27 @@
     "paragraph2": "Hier ist jede Route einzigartig und mit Sorgfalt geplant. Jeder Halt hat Geschichte, Geschichten und Kuriositäten, die Wissen schaffen. Und da Wissen keinen Platz einnimmt, füllen Sie Ihr Gepäck mit neuen Erinnerungen!",
     "paragraph3": "Ob für brasilianische oder ausländische Touristen, Kerotur ist mehr als eine Agentur: Wir sind die fehlende Brücke, um aus Ihrer Routine auszubrechen, neue Freunde zu finden und unglaubliche, unvergessliche und großartige Momente zu sammeln."
   },
+  "tours": {
+    "title": "Unsere Touren",
+    "subtitle": "Entdecken Sie die natürliche Schönheit und die faszinierende Kultur von Rio de Janeiro! Kerutour bietet auch andere Reiseziele in Brasilien und weltweit an.",
+    "card": {
+      "from": "Aus",
+      "group": "Gruppe",
+      "reserve": "Machen Sie Ihre Reservierung"
+    },
+    "modal": {
+      "about": "Über die Tour",
+      "attractions": "Attraktionen",
+      "included": "Sogar",
+      "duration": "Dauer",
+      "priceIndividual": "Individueller Preis",
+      "priceGroup": "Gruppenpreis",
+      "reserve": "Machen Sie Ihre Reservierung"
+    }
+  },
   "partners": {
     "title": "Unsere Partner",
-    "subtitle": "Wir arbeiten mit den Besten zusammen, um Ihr perfektes Erlebnis zu garantieren",
+    "subtitle": "Wir arbeiten mit den Besten zusammen, um ein unvergessliches Erlebnis zu garantieren.",
     "description": "Kerotur hat Partnerschaften mit Unternehmen, die Unterkunftsdienstleistungen, Touren und Flugtickets zu nationalen und internationalen Zielen, Reiseversicherungen und mehr anbieten.",
     "feature1": {
       "title": "Qualitätsunterkünfte",
@@ -99,5 +118,9 @@
     "copyright": "Alle Rechte vorbehalten.",
     "cnpj": "Steuernummer: 48.285.913/0001-28",
     "developedBy": "Entwickelt von"
+  },
+  "whatsapp": {
+    "message": "Hallo! Ich hätte gerne mehr Informationen zu den Touren.",
+    "tooltip": "Kontaktieren Sie uns per WhatsApp."
   }
-}
+  }

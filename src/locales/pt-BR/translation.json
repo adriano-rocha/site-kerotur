@@ -1,6 +1,10 @@
 {
   "header": {
+    "home": "Início",
     "aboutUs": "Sobre Nós",
+    "mission": "Missão",
+    "vision": "Visão",
+    "values": "Valores",
     "tours": "Passeios",
     "partners": "Parceiros",
     "contact": "Contato"
@@ -11,6 +15,19 @@
     "whatsappButton": "Fale Conosco",
     "learnMoreButton": "Saiba mais"
   },
+  "mission": {
+    "title": "Missão",
+    "text": "Desenvolver, oferecer e proporcionar os melhores roteiros turísticos a cada cliente, gerando experiências incríveis, inesquecíveis e formidáveis."
+  },
+  "vision": {
+    "title": "Visão",
+    "text": "Ser uma agencia de turismo reconhecida mundialmente, que proporciona os melhores roteiros turísticos em todos os segmentos que atende."
+  },
+  "values": {
+    "title": "Valores",
+    "text": "Excelência e mais que satisfação no atendimento, de um jeito alegre, divertido e descontraído."
+  },
+
   "about": {
     "title": "Sobre Nós",
     "paragraph1": "A Kerotur nasceu do desejo de levar alegria, diversão, cultura, entretenimento e aventura para quem quer descobrir as belezas e os encantos dos nossos destinos, de forma leve, segura e divertida. Somos uma agência apaixonada por criar experiências únicas em nossos passeios!",
@@ -19,7 +36,7 @@
   },
   "tours": {
     "title": "Nossos Passeios",
-    "subtitle": "Explore as belezas naturais, a cultura e os segredos mais incríveis do Rio de Janeiro com a Kerotur!",
+    "subtitle": "Explore as belezas naturais e as culturas mais incríveis do Rio de Janeiro! A Kerotur também tem outros destinos no Brasil e no mundo.",
     "card": {
       "from": "A partir de",
       "group": "Grupo",
@@ -117,5 +134,9 @@
     "copyright": "Todos os direitos reservados.",
     "cnpj": "CNPJ: 48.285.913/0001-28",
     "developedBy": "Desenvolvido por"
+  },
+  "whatsapp": {
+    "message": "Olá! Gostaria de mais informações sobre os passeios.",
+    "tooltip": "Fale conosco no WhatsApp"
   }
 }

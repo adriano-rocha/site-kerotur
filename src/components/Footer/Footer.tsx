@@ -15,12 +15,11 @@ function Footer() {
     { name: "Mastercard", image: "/images/payment/mastercard.svg" },
     { name: "Elo", image: "/images/payment/elo.svg" },
     { name: "Amex", image: "/images/payment/amex.jpg" },
-    /*{ name: "Link de Pagamento", image: "/images/payment/link.svg" }*/
   ];
 
   return (
     <footer
-      className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-gray-300"
+      className="bg-white text-[#00008B]"
       data-aos="fade-up"
       data-aos-duration="800"
     >
@@ -33,11 +32,11 @@ function Footer() {
             <h3 className="text-2xl font-bold text-[#00ffff]">
               {t('footer.companyName')}
             </h3>
-            <p className="text-sm leading-relaxed">
+            <p className="text-sm leading-relaxed text-[#00008B]">
               {t('footer.description')}
             </p>
 
-            {/* Redes sociais - Ordem: WhatsApp, Instagram, Facebook, Linktree, TripAdvisor */}
+            {/* Redes sociais */}
             <div className="flex gap-3 pt-2 flex-wrap">
 
               {/* WhatsApp */}
@@ -45,7 +44,7 @@ function Footer() {
                 href={WHATSAPP_LINK}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 bg-gray-700 hover:bg-green-600 rounded-full flex items-center justify-center transition duration-300"
+                className="w-10 h-10 bg-[#00008B] hover:bg-green-600 text-white rounded-full flex items-center justify-center transition duration-300"
                 aria-label="WhatsApp"
               >
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -58,7 +57,7 @@ function Footer() {
                 href={INSTAGRAM_LINK}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 bg-gray-700 hover:bg-pink-600 rounded-full flex items-center justify-center transition duration-300"
+                className="w-10 h-10 bg-[#00008B] hover:bg-pink-600 text-white rounded-full flex items-center justify-center transition duration-300"
                 aria-label="Instagram"
               >
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -71,7 +70,7 @@ function Footer() {
                 href={FACEBOOK_LINK}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 bg-gray-700 hover:bg-blue-600 rounded-full flex items-center justify-center transition duration-300"
+                className="w-10 h-10 bg-[#00008B] hover:bg-blue-600 text-white rounded-full flex items-center justify-center transition duration-300"
                 aria-label="Facebook"
               >
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -84,7 +83,7 @@ function Footer() {
                 href={LINKTREE_LINK}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 bg-gray-700 hover:bg-green-500 rounded-full flex items-center justify-center transition duration-300"
+                className="w-10 h-10 bg-[#00008B] hover:bg-green-500 text-white rounded-full flex items-center justify-center transition duration-300"
                 aria-label="Linktree"
               >
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -97,7 +96,7 @@ function Footer() {
                 href={TRIPADVISOR_LINK}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 bg-gray-700 hover:bg-green-700 rounded-full flex items-center justify-center transition duration-300"
+                className="w-10 h-10 bg-[#00008B] hover:bg-green-700 text-white rounded-full flex items-center justify-center transition duration-300"
                 aria-label="TripAdvisor"
               >
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -109,10 +108,10 @@ function Footer() {
 
           {/* Coluna 2: Links rápidos */}
           <div>
-            <h4 className="text-lg font-bold text-[#00ffff] mb-4">
+            <h4 className="text-lg font-bold text-[#00008B] mb-4">
               {t('footer.quickLinks')}
             </h4>
-            <ul className="space-y-2 text-sm">
+            <ul className="space-y-2 text-sm text-[#00008B]">
               <li><a href="#sobre" className="hover:text-[#00ffff] transition duration-300">{t('footer.aboutUs')}</a></li>
               <li><a href="#passeios" className="hover:text-[#00ffff] transition duration-300">{t('footer.tours')}</a></li>
               <li><a href="#parceiros" className="hover:text-[#00ffff] transition duration-300">{t('footer.partners')}</a></li>
@@ -122,12 +121,12 @@ function Footer() {
 
           {/* Coluna 3: Contato */}
           <div>
-            <h4 className="text-lg font-bold text-[#00ffff] mb-4">
+            <h4 className="text-lg font-bold text-[#00008B] mb-4">
               {t('footer.contact')}
             </h4>
-            <ul className="space-y-3 text-sm">
+            <ul className="space-y-3 text-sm text-[#00008B]">
               <li className="flex items-start gap-2">
-                <svg className="w-5 h-5 text-[#00ffff] flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-5 h-5 text-[#00008B] flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                 </svg>
@@ -138,7 +137,7 @@ function Footer() {
               </li>
 
               <li className="flex items-center gap-2">
-                <svg className="w-5 h-5 text-[#00ffff] flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-5 h-5 text-[#00008B] flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                 </svg>
                 <a href="tel:+5521982251450" className="hover:text-[#00ffff] transition duration-300">
@@ -147,7 +146,7 @@ function Footer() {
               </li>
 
               <li className="flex items-center gap-2">
-                <svg className="w-5 h-5 text-[#00ffff] flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-5 h-5 text-[#00008B] flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
                 <div className="flex flex-col">
@@ -160,25 +159,25 @@ function Footer() {
 
           {/* Coluna 4: Horário + Pagamentos */}
           <div>
-            <h4 className="text-lg font-bold text-[#00ffff] mb-4">
+            <h4 className="text-lg font-bold text-[#00008B] mb-4">
               {t('footer.businessHours')}
             </h4>
 
-            <div className="bg-gray-800 rounded-lg p-3 mb-4 text-center">
+            <div className="bg-gray-100 border-2 border-[#00008B] rounded-lg p-3 mb-4 text-center">
               <p className="text-sm">
-                <span className="text-[#00ffff] font-semibold">{t('footer.allDays')}</span><br />
-                <span className="text-white text-lg">{t('footer.hours')}</span>
+                <span className="text-[#00008B] font-semibold">{t('footer.allDays')}</span><br />
+                <span className="text-[#00008B] text-lg font-bold">{t('footer.hours')}</span>
               </p>
             </div>
 
-            <h4 className="text-lg font-bold text-[#00ffff] mb-3">{t('footer.paymentMethods')}</h4>
+            <h4 className="text-lg font-bold text-[#00008B] mb-3">{t('footer.paymentMethods')}</h4>
 
             <div className="space-y-3">
               <div className="flex gap-2 flex-wrap">
                 {paymentMethods.map((method, index) => (
                   <div 
                     key={index}
-                    className="bg-white p-2 rounded-lg flex items-center justify-center hover:shadow-lg transition-shadow duration-300"
+                    className="bg-gray-100 p-2 rounded-lg flex items-center justify-center hover:shadow-lg transition-shadow duration-300 border border-gray-300"
                     title={method.name}
                   >
                     <img 
@@ -193,7 +192,7 @@ function Footer() {
                 ))}
               </div>
 
-              <p className="text-xs text-gray-400 italic">
+              <p className="text-xs text-[#00008B] italic">
                 {t('footer.paymentNote')}
               </p>
             </div>
@@ -202,29 +201,28 @@ function Footer() {
       </div>
 
       {/* Barra Inferior */}
-      <div className="border-t border-gray-700">
+      <div className="border-t-2 border-[#00008B]">
         <div className="container mx-auto px-4 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm">
 
-            <p className="text-gray-400">
+            <p className="text-[#00008B]">
               © {currentYear}{" "}
               <span className="text-[#00ffff] font-semibold">{t('footer.companyName')} Turismo e Eventos</span>.
               {" "}{t('footer.copyright')}
             </p>
 
-            <p className="text-gray-400">{t('footer.cnpj')}</p>
+            <p className="text-[#00008B]">{t('footer.cnpj')}</p>
 
             <div className="flex items-center gap-2">
               <img
-                src="/images/cadastur-logo.png"
+                src="/images/new-cadastur.png"
                 alt="Cadastur"
-                className="h-10"
+                className="h-15"
                 onError={(e) => (e.currentTarget.style.display = "none")}
               />
-              <span className="text-gray-500 text-xs">Cadastur</span>
             </div>
 
-            <p className="text-gray-500 text-xs">
+            <p className="text-[#00008B] text-xs">
               {t('footer.developedBy')}{" "}
               <a
                 href="https://i9criacaodesite.com.br"

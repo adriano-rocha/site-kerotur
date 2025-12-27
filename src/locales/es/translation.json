@@ -1,6 +1,10 @@
 {
   "header": {
+    "home": "Casa",
     "aboutUs": "Sobre Nosotros",
+    "mission": "Misión",
+    "vision": "Visión",
+    "values": "Valores",
     "tours": "Tours",
     "partners": "Socios",
     "contact": "Contacto"
@@ -11,6 +15,19 @@
     "whatsappButton": "Contáctenos",
     "learnMoreButton": "Saber más"
   },
+  "mission": {
+    "title": "Misión",
+    "text": "Desarrollar, ofrecer y proporcionar las mejores rutas turísticas a cada cliente, generando experiencias increíbles, inolvidables y formidables."
+  },
+  "vision": {
+    "title": "Visión",
+    "text": "Ser una agencia de turismo reconocida mundialmente, que proporciona las mejores rutas turísticas en todos los segmentos que atiende."
+  },
+  "values": {
+    "title": "Valores",
+    "text": "Excelencia y más que satisfacción en la atención, de manera alegre, divertida y relajada."
+  },
+
   "about": {
     "title": "Sobre Nosotros",
     "paragraph1": "Kerotur nació del deseo de llevar alegría, diversión, cultura, entretenimiento y aventura a quienes quieren descubrir las bellezas y encantos de nuestros destinos de forma ligera, segura y divertida. ¡Somos una agencia apasionada por crear experiencias únicas en nuestros tours!",
@@ -19,7 +36,7 @@
   },
   "tours": {
     "title": "Nuestros Tours",
-    "subtitle": "¡Explora las bellezas naturales, la cultura y los secretos más increíbles de Río de Janeiro con Kerotur!",
+    "subtitle": "¡Explora la belleza natural y la increíble cultura de Río de Janeiro! Kerotur también ofrece otros destinos en Brasil y el mundo.",
     "card": {
       "from": "Desde",
       "group": "Grupo",
@@ -37,7 +54,7 @@
   },
   "partners": {
     "title": "Nuestros Socios",
-    "subtitle": "Trabajamos con los mejores para garantizar tu experiencia perfecta",
+    "subtitle": "Trabajamos con los mejores para garantizar una experiencia inolvidable.",
     "description": "Kerotur tiene asociaciones con empresas que ofrecen servicios de alojamiento, tours y billetes aéreos para destinos nacionales e internacionales, seguro de viaje, entre otros.",
     "feature1": {
       "title": "Alojamientos de Calidad",
@@ -100,7 +117,7 @@
   },
   "footer": {
     "companyName": "Kerotur",
-    "description": "Kerotur nació del deseo de llevar alegría, diversión, cultura, entretenimiento y aventura a quienes quieren descubrir las bellezas y encantos de nuestros destinos.",
+    "description": "¡Explora la belleza natural y la increíble cultura de Río de Janeiro! Kerotur también ofrece otros destinos en Brasil y el mundo.",
     "quickLinks": "Enlaces Rápidos",
     "aboutUs": "Sobre Nosotros",
     "tours": "Paseos",
@@ -117,5 +134,9 @@
     "copyright": "Todos los derechos reservados.",
     "cnpj": "RFC: 48.285.913/0001-28",
     "developedBy": "Desarrollado por"
+  },
+  "whatsapp": {
+    "message": "¡Hola! Me gustaría más información sobre los tours.",
+    "tooltip": "Contáctanos por WhatsApp."
   }
 }

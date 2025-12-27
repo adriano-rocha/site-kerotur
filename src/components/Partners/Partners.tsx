@@ -121,32 +121,91 @@ function Partners() {
             </div>
           </div>
 
-          {/* Vídeo/Imagem */}
-          <div className="relative" data-aos="fade-left" data-aos-delay="200">
-            <div className="relative rounded-xl overflow-hidden shadow-2xl bg-white aspect-video border-4 border-[#0008B] flex items-center justify-center">
-              {/* Placeholder para vídeo */}
-              <div className="text-center p-8">
-                <div className="w-20 h-20 bg-[#00ffff]/30 border-2 border-[#0008B] rounded-full flex items-center justify-center mx-auto mb-4 hover:scale-110 transition-transform duration-300">
-                  <svg
-                    className="w-10 h-10 text-[#0008B]"
-                    fill="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M8 5v14l11-7z" />
-                  </svg>
-                </div>
-                <p className="text-[#0008B] text-lg font-semibold">
-                  {t('partners.videoPlaceholder')}
-                </p>
-                <p className="text-[#0008B]/70 text-sm mt-2">
-                  {t('partners.videoSoon')}
-                </p>
-              </div>
+          {/* Vídeo */}
+          <div className="relative flex justify-center" data-aos="fade-left" data-aos-delay="200">
+            {/* Badge decorativo - MOVIDO PARA CANTO SUPERIOR ESQUERDO EM VERDE */}
+            <div className="absolute -top-6 -left-6 bg-green-500 text-white font-bold px-6 py-3 rounded-full shadow-lg transform -rotate-12 hover:rotate-0 transition-transform duration-300 z-10">
+              {t('partners.badge')}
             </div>
 
-            {/* Badge decorativo */}
-            <div className="absolute -bottom-6 -right-6 bg-[#FF8C00] text-[#0008B] font-bold px-6 py-3 rounded-full shadow-lg transform rotate-12 hover:rotate-0 transition-transform duration-300">
-              {t('partners.badge')}
+            <div className="relative rounded-xl overflow-hidden shadow-2xl bg-white border-4 border-[#0008B] w-full max-w-sm">
+              <div className="relative" style={{ aspectRatio: '9/16' }}>
+                <video
+                  className="w-full h-full object-cover"
+                  controls
+                  preload="auto"
+                  playsInline
+                  controlsList="nodownload"
+                  crossOrigin="anonymous"
+                >
+                  <source src="/images/video.mp4" type="video/mp4" />
+                  
+                  {/* Legendas em todos os idiomas */}
+                  <track 
+                    src="/images/legendas-pt.vtt" 
+                    kind="subtitles" 
+                    srcLang="pt-BR" 
+                    label="Português"
+                    default
+                  />
+                  <track 
+                    src="/images/legendas-en.vtt" 
+                    kind="subtitles" 
+                    srcLang="en" 
+                    label="English"
+                  />
+                  <track 
+                    src="/images/legendas-es.vtt" 
+                    kind="subtitles" 
+                    srcLang="es" 
+                    label="Español"
+                  />
+                  <track 
+                    src="/images/legendas-fr.vtt" 
+                    kind="subtitles" 
+                    srcLang="fr" 
+                    label="Français"
+                  />
+                  <track 
+                    src="/images/legendas-it.vtt" 
+                    kind="subtitles" 
+                    srcLang="it" 
+                    label="Italiano"
+                  />
+                  <track 
+                    src="/images/legendas-de.vtt" 
+                    kind="subtitles" 
+                    srcLang="de" 
+                    label="Deutsch"
+                  />
+                  <track 
+                    src="/images/legendas-he.vtt" 
+                    kind="subtitles" 
+                    srcLang="he" 
+                    label="עברית"
+                  />
+                  <track 
+                    src="/images/legendas-zh.vtt" 
+                    kind="subtitles" 
+                    srcLang="zh" 
+                    label="中文"
+                  />
+                  <track 
+                    src="/images/legendas-ja.vtt" 
+                    kind="subtitles" 
+                    srcLang="ja" 
+                    label="日本語"
+                  />
+                  <track 
+                    src="/images/legendas-ru.vtt" 
+                    kind="subtitles" 
+                    srcLang="ru" 
+                    label="Русский"
+                  />
+                  
+                  {t('partners.videoNotSupported') || 'Seu navegador não suporta a reprodução de vídeos.'}
+                </video>
+              </div>
             </div>
           </div>
         </div>
