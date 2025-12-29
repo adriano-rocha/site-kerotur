@@ -1,4 +1,4 @@
-import { type JSX, useEffect, useState } from "react";
+import { type JSX, useEffect, useState, useCallback } from "react";
 import { useTranslation } from "react-i18next";
 import { ChevronLeft, ChevronRight, MapPin, Play, Pause } from "lucide-react";
 
@@ -35,37 +35,39 @@ function TourModal({ tour, onClose }: TourModalProps): JSX.Element {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [isPlaying, setIsPlaying] = useState(true);
 
-  // Funções de navegação
-  const nextImage = () => {
+  // ✅ FUNÇÕES MEMOIZADAS - Corrige ESLint e performance
+  const nextImage = useCallback(() => {
     setCurrentImageIndex((prev) => (prev + 1) % images.length);
-  };
+  }, [images.length]);
 
-  const prevImage = () => {
+  const prevImage = useCallback(() => {
     setCurrentImageIndex((prev) => (prev - 1 + images.length) % images.length);
-  };
+  }, [images.length]);
 
-  // Auto play
+  // ✅ AUTO PLAY CORRIGIDO - ESLint feliz
   useEffect(() => {
     if (!isPlaying || images.length <= 1) return;
 
     const interval = setInterval(nextImage, 5000);
     return () => clearInterval(interval);
-  }, [isPlaying, images.length]);
+  }, [isPlaying, nextImage]);
 
-  // Pause no hover
+  // ✅ PAUSE HOVER CORRIGIDO - Mais estável
   useEffect(() => {
     const modalContent = document.querySelector(".tour-modal-content");
+    if (!modalContent) return;
+
     const handleMouseEnter = () => setIsPlaying(false);
     const handleMouseLeave = () => setIsPlaying(true);
 
-    modalContent?.addEventListener("mouseenter", handleMouseEnter);
-    modalContent?.addEventListener("mouseleave", handleMouseLeave);
+    modalContent.addEventListener("mouseenter", handleMouseEnter);
+    modalContent.addEventListener("mouseleave", handleMouseLeave);
 
     return () => {
-      modalContent?.removeEventListener("mouseenter", handleMouseEnter);
-      modalContent?.removeEventListener("mouseleave", handleMouseLeave);
+      modalContent.removeEventListener("mouseenter", handleMouseEnter);
+      modalContent.removeEventListener("mouseleave", handleMouseLeave);
     };
-  }, []);
+  }, [isPlaying]);
 
   const WHATSAPP_LINK = `https://wa.me/5521982251450?text=${encodeURIComponent(
     `Olá! Gostaria de mais informações sobre o passeio: ${getText(tour.name)}`
