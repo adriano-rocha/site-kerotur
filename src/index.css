@@ -17,28 +17,38 @@
 .mvv-hero-overlay {
   position: absolute;
   inset: 0;
-  background-color: rgba(0, 0, 0, 0.55);
+  background-color: rgba(0, 0, 0, 0.25);
 }
 
 .mvv-hero-content {
   position: relative;
-  max-width: 800px;
+  z-index: 1;
+  max-width: 1200px;
   width: 100%;
-  padding: 3rem 2.5rem;
-  border-radius: 1.5rem;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-  /* glassmorphism */
-  background: rgba(0, 255, 255, 0.25);
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  box-shadow:
-    0 18px 45px rgba(0, 0, 0, 0.35),
-    0 0 0 1px rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
-
-  color: #00008b;
-  text-align: center;
 }
+
+.mvv-card {
+  position: relative;
+  max-width: 520px;    
+  font-weight: 900;       /* retrato mais larguinho */
+  width: 100%;
+  min-height: 60vh;           /* altura de card retrato */
+  background-color: #87ecef;  
+  color: #00008b;             
+  border-radius: 1.75rem;
+  padding: 2.5rem 2.25rem;
+  box-shadow: 0 22px 60px rgba(0, 0, 0, 0.35);
+  display: flex;
+  flex-direction: column;
+  gap: 2.75rem;
+  backdrop-filter: none;      /* garante sem opacidade/neblina */
+}
+
 
 
 .mvv-title {
@@ -50,7 +60,7 @@
 
 .mvv-text {
   font-size: 1.1rem;
-  line-height: 1.8;
+  line-height: 2.5;
   margin-bottom: 2rem;
   color: #00008b;
 }
@@ -74,6 +84,8 @@
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
   transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
 }
+
+
 
 .mvv-back-button:hover {
   background-color: #e5e7eb;

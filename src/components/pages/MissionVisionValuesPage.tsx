@@ -11,8 +11,6 @@ const MissionVisionValuesPage: React.FC = () => {
   const query = useQuery();
   const type = query.get("type") as "mission" | "vision" | "values" | null;
 
-   
-
   const title =
     type === "mission"
       ? t("mission.title")
@@ -33,18 +31,19 @@ const MissionVisionValuesPage: React.FC = () => {
 
   return (
     <section className="mvv-hero">
-      <div className="mvv-hero-overlay"/>
+      <div className="mvv-hero-overlay" />
       <div className="mvv-hero-content">
-        <h1 className="mvv-title">{title}</h1>
-        <p className="mvv-text">{text}</p>
-
-        <button
-          type="button"
-          className="mvv-back-button"
-          onClick={() => window.history.back()}
-        >
-          ×
-        </button>
+        <div className="mvv-card">
+          <h1 className="mvv-title">{title}</h1>
+          <p className="mvv-text">{text}</p>
+          <button
+            type="button"
+            className="mvv-back-button"
+            onClick={() => window.history.back()}
+          >
+            ×
+          </button>
+        </div>
       </div>
     </section>
   );
