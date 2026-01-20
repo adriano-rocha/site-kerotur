@@ -10,7 +10,7 @@
     "contact": "Contato"
   },
   "hero": {
-    "title": "A Kerotur leva você para os melhores passeios.",
+    "title": "A Kerotur leva você para os melhores passeios!",
     "subtitle": "A Kerotur nasceu do desejo de levar alegria, diversão, cultura, entretenimento e aventura para quem quer descobrir as belezas e os encantos dos nossos destinos, de forma leve, segura e divertida.",
     "whatsappButton": "Fale Conosco",
     "learnMoreButton": "Saiba mais"
@@ -29,7 +29,7 @@
   },
 
   "about": {
-    "title": "Sobre Nós",
+    "title": "Quem somos",
     "paragraph1": "A Kerotur nasceu do desejo de levar alegria, diversão, cultura, entretenimento e aventura para quem quer descobrir as belezas e os encantos dos nossos destinos, de forma leve, segura e divertida. Somos uma agência apaixonada por criar experiências únicas em nossos passeios!",
     "paragraph2": "Aqui, cada roteiro é único e planejado com carinho. Cada parada tem história, causos e curiosidades que geram conhecimento. E já que conhecimento não ocupa espaço, encha sua bagagem com novas memórias!",
     "paragraph3": "Seja para turistas brasileiros ou estrangeiros, a Kerotur é mais que uma agência: somos aquela ponte que faltava pra você sair da rotina, fazer novas amizades e colecionar momentos incríveis, inesquecíveis e formidáveis."
@@ -37,6 +37,9 @@
   "tours": {
     "title": "Nossos Passeios",
     "subtitle": "Explore as belezas naturais e as culturas mais incríveis do Rio de Janeiro! A Kerotur também tem outros destinos no Brasil e no mundo.",
+     "tour": {
+    "tramTicket": "ingresso do Bonde"
+     },
     "card": {
       "from": "A partir de",
       "group": "Grupo",

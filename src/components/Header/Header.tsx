@@ -14,6 +14,7 @@ function Header({ onTourSelect }: HeaderProps) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isToursDropdownOpen, setIsToursDropdownOpen] = useState(false);
   const [isLanguageMenuOpen, setIsLanguageMenuOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
   const dropdownRef = useRef<HTMLLIElement>(null);
   const languageRefDesktop = useRef<HTMLLIElement | null>(null);
   const languageRefMobile = useRef<HTMLDivElement | null>(null);
@@ -21,14 +22,14 @@ function Header({ onTourSelect }: HeaderProps) {
 
   const WHATSAPP_LINK = "https://wa.me/5521982251450";
   const INSTAGRAM_LINK = "https://www.instagram.com/kerotur_/";
-  const FACEBOOK_LINK = "#";
-  const LINKTREE_LINK = "#";
-  const TRIPADVISOR_LINK = "#";
-  const WEBSITE_LINK = "https://kerotur.com";
+  const FACEBOOK_LINK = "https://www.facebook.com/share/1G1BD6rCFg/";
+  const LINKTREE_LINK = "https://linktr.ee/kerotur_";
+  const TRIPADVISOR_LINK =
+    "https://www.tripadvisor.com.br/Attraction_Review-g303506-d32984640-Reviews-Kerotur_Turismo_e_Eventos-Rio_de_Janeiro_State_of_Rio_de_Janeiro.html";
 
   const languages = [
     { code: "pt-BR", flag: "br.png", name: "Português" },
-    { code: "en", flag: "en.png", name: "English" },
+    { code: "en", flag: "eua.png", name: "English" },
     { code: "es", flag: "es.png", name: "Español" },
     { code: "fr", flag: "fr.png", name: "Français" },
     { code: "it", flag: "it.png", name: "Italiano" },
@@ -102,18 +103,32 @@ function Header({ onTourSelect }: HeaderProps) {
     };
   }, []);
 
+  // ADICIONE completo antes do return (linha ~170)
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 10);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
     <>
       <header className="bg-white text-[#0008B] sticky top-0 z-50 shadow-lg">
         {/* Barra Superior - Contatos e Redes Sociais */}
-        <div className="bg-gray-100 border-b border-gray-200">
-          <div className="container mx-auto px-4 py-2">
-            <div className="flex flex-col md:flex-row justify-between items-center gap-3 text-sm">
-              {/* Contatos */}
-              <div className="flex flex-wrap items-center gap-4 justify-center md:justify-start">
+        <div
+          className={`bg-[#FF8C00] border-b border-orange-400 transition-all duration-300 ${
+            isScrolled ? "h-0 opacity-0" : "h-20 sm:h-16"
+          }`}
+        >
+          <div className="container mx-auto px-4 py-3 sm:py-2 flex items-center h-full">
+            <div className="flex flex-col md:flex-row justify-between items-center gap-3 w-full text-sm md:text-base">
+              {/* Contatos - AZUL ULTRAMAR */}
+              <div className="flex flex-wrap items-center gap-4 md:ml-auto text-[#00008B] font-semibold">
                 <a
                   href="mailto:kerotur@kerotur.com"
-                  className="flex items-center gap-2 hover:text-[#00ffff] transition"
+                  className="flex items-center gap-2 hover:text-[#00ffff] transition text-[#00008B] font-semibold"
                 >
                   <svg
                     className="w-4 h-4"
@@ -130,10 +145,9 @@ function Header({ onTourSelect }: HeaderProps) {
                   </svg>
                   <span>kerotur@kerotur.com</span>
                 </a>
-
                 <a
                   href="tel:+5521982251450"
-                  className="flex items-center gap-2 hover:text-[#00ffff] transition"
+                  className="flex items-center gap-2 hover:text-[#00ffff] transition text-[#00008B] font-semibold"
                 >
                   <svg
                     className="w-4 h-4"
@@ -155,24 +169,6 @@ function Header({ onTourSelect }: HeaderProps) {
               {/* Redes Sociais - TODOS CORRIGIDOS */}
               <div className="flex gap-2 items-center">
                 {/* Site */}
-                <a
-                  href={WEBSITE_LINK}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-8 h-8 bg-[#0008B] hover:bg-[#00ffff] text-[#0008B] hover:text-[#0008B] rounded-full flex items-center justify-center transition duration-300 group"
-                  aria-label="Website"
-                >
-                  <svg
-                    className="w-4 h-4 fill-current stroke-current"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      fillRule="evenodd"
-                      d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"
-                      clipRule="evenodd"
-                    />
-                  </svg>
-                </a>
 
                 {/* TripAdvisor */}
                 <a
@@ -290,29 +286,31 @@ function Header({ onTourSelect }: HeaderProps) {
           </div>
 
           {/* MENU DESKTOP */}
-          <ul className="hidden lg:flex gap-6 items-center font-semibold text-lg text-[#00ffff]">
+          <ul className="hidden lg:flex gap-6 items-center font-semibold text-lg text-[#00008B]">
             {/* Home - Scroll to Top */}
             <li>
               <button
                 onClick={scrollToTop}
-                className="hover:text-[#00008B] transition"
+                className="hover:text-[#000080] hover:underline underline-offset-4 transition-all duration-200 ease-in-out cursor-pointer"
               >
                 {t("header.home")}
               </button>
             </li>
 
             <li>
-              <a href="#sobre" className="hover:text-[#00008B] transition">
+              <a
+                href="#sobre"
+                className="hover:text-[#000080] hover:underline underline-offset-4 transition-all duration-200 ease-in-out cursor-pointer"
+              >
                 {t("header.aboutUs")}
               </a>
             </li>
-
             {/* Missão */}
             <li>
               <button
                 type="button"
                 onClick={() => navigate("/mvv?type=mission")}
-                className="hover:text-[#00008B] transition"
+                className="hover:text-[#000080] hover:underline underline-offset-4 transition-all duration-200 ease-in-out cursor-pointer"
               >
                 {t("header.mission")}
               </button>
@@ -323,7 +321,7 @@ function Header({ onTourSelect }: HeaderProps) {
               <button
                 type="button"
                 onClick={() => navigate("/mvv?type=vision")}
-                className="hover:text-[#00008B] transition"
+                className="hover:text-[#000080] hover:underline underline-offset-4 transition-all duration-200 ease-in-out cursor-pointer"
               >
                 {t("header.vision")}
               </button>
@@ -334,7 +332,7 @@ function Header({ onTourSelect }: HeaderProps) {
               <button
                 type="button"
                 onClick={() => navigate("/mvv?type=values")}
-                className="hover:text-[#00008B] transition"
+                className="hover:text-[#000080] hover:underline underline-offset-4 transition-all duration-200 ease-in-out cursor-pointer"
               >
                 {t("header.values")}
               </button>
@@ -346,7 +344,7 @@ function Header({ onTourSelect }: HeaderProps) {
               onMouseEnter={handleMouseEnter}
               onMouseLeave={handleMouseLeave}
             >
-              <button className="hover:text-[#00008B] transition flex items-center gap-1 py-2">
+              <button className="hover:text-[#00008B] transition flex items-center gap-1 py-2 cursor-pointer">
                 {t("header.tours")}
                 <svg
                   className={`w-4 h-4 transition-transform ${
@@ -375,13 +373,19 @@ function Header({ onTourSelect }: HeaderProps) {
             </li>
 
             <li>
-              <a href="#parceiros" className="hover:text-[#00008B] transition">
+              <a
+                href="#parceiros"
+                className="hover:text-[#000080] hover:underline underline-offset-4 transition-all duration-200 ease-in-out cursor-pointer"
+              >
                 {t("header.partners")}
               </a>
             </li>
 
             <li>
-              <a href="#contato" className="hover:text-[#00008B] transition">
+              <a
+                href="#contato"
+                className="hover:text-[#000080] hover:underline underline-offset-4 transition-all duration-200 ease-in-out cursor-pointer"
+              >
                 {t("header.contact")}
               </a>
             </li>
@@ -423,9 +427,7 @@ function Header({ onTourSelect }: HeaderProps) {
                       key={lang.code}
                       onClick={() => changeLanguage(lang.code)}
                       className={`w-full px-4 py-2 text-left flex items-center gap-3 hover:bg-gray-50 transition ${
-                        i18n.language === lang.code
-                          ? "bg-[#00ffff] text-[#0008B]"
-                          : "text-[#0008B]"
+                        i18n.language === lang.code ? "bg-[#00ffff]" : ""
                       }`}
                     >
                       <img
@@ -462,9 +464,7 @@ function Header({ onTourSelect }: HeaderProps) {
                       key={lang.code}
                       onClick={() => changeLanguage(lang.code)}
                       className={`w-full px-4 py-2 text-left flex items-center gap-3 hover:bg-gray-50 transition ${
-                        i18n.language === lang.code
-                          ? "bg-[#00ffff] text-[#0008B]"
-                          : "text-[#0008B]"
+                        i18n.language === lang.code ? "bg-[#00ffff]" : ""
                       }`}
                     >
                       <img
@@ -634,9 +634,7 @@ function Header({ onTourSelect }: HeaderProps) {
             </li>
           </ul>
         )}
-        
       </header>
-   
     </>
   );
 }

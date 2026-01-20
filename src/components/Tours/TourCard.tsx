@@ -16,7 +16,8 @@ interface TourCardProps {
 }
 
 function TourCard({ tour, onClick }: TourCardProps) {
-  const { i18n, t } = useTranslation()
+  
+  const { i18n} = useTranslation()
   const currentLang = i18n.language
 
   return (
@@ -45,19 +46,25 @@ function TourCard({ tour, onClick }: TourCardProps) {
           {tour.shortDescription[currentLang] || tour.shortDescription['pt-BR']}
         </p>
 
+       
         <div className="flex items-center justify-between mb-4">
           <div>
-            <p className="text-2xl font-bold text-[#0008B]">
+            <p className="text-xl font-bold text-[#00008B]"> {/* 👈 text-xl (era 2xl) */}
               {tour.price.value}
             </p>
-            {tour.price.perPerson && (
-              <p className="text-sm text-gray-500">por pessoa</p>
-            )}
+            {/* 👈 REMOVIDO: perPerson e "grupo consulte economia especial" */}
           </div>
         </div>
 
-        <div className="w-full bg-[#FF8C00] hover:bg-[#FF7A00] text-[#0008B] font-bold py-3 rounded-lg transition duration-300 text-center">
-          {tour.buttonText[currentLang] || tour.buttonText['pt-BR'] || t('tours.card.reserve')}
+        {/* ✅ BOTÃO RESERVE AGORA - COR WHATSAPP SEM HOVER */}
+        <div 
+          className="w-full bg-green-500 text-white font-bold py-3 rounded-lg text-center cursor-pointer"
+          onClick={(e) => {
+            e.stopPropagation() // Impede abrir modal
+            window.open('https://wa.me/5521982251450?text=Reservei+o+passeio+Um+Dia+no+Rio', '_blank')
+          }}
+        >
+          Reserve agora
         </div>
       </div>
     </div>
@@ -65,3 +72,7 @@ function TourCard({ tour, onClick }: TourCardProps) {
 }
 
 export default TourCard
+
+
+
+

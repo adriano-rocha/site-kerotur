@@ -10,7 +10,7 @@
     "contact": "Contact"
   },
   "hero": {
-    "title": "Kerotur takes you to the best tours.",
+    "title": "Kerotur takes you to the best tours!",
     "subtitle": "Kerotur was born from the desire to bring joy, fun, culture, entertainment and adventure to those who want to discover the beauty and charms of our destinations in a light, safe and fun way.",
     "whatsappButton": "Contact Us",
     "learnMoreButton": "Learn More"
@@ -29,7 +29,7 @@
   },
 
   "about": {
-    "title": "About Us",
+    "title": "Who we are",
     "paragraph1": "Kerotur was born from the desire to bring joy, fun, culture, entertainment and adventure to those who want to discover the beauty and charms of our destinations in a light, safe and fun way. We are an agency passionate about creating unique experiences on our tours!",
     "paragraph2": "Here, each itinerary is unique and carefully planned. Each stop has history, stories and curiosities that generate knowledge. And since knowledge takes up no space, fill your luggage with new memories!",
     "paragraph3": "Whether for Brazilian or foreign tourists, Kerotur is more than an agency: we are that missing bridge for you to break out of your routine, make new friends and collect incredible, unforgettable and formidable moments."
@@ -37,6 +37,9 @@
   "tours": {
     "title": "Our Tours",
     "subtitle": "Explore the natural beauty and incredible cultures of Rio de Janeiro! Kerotur also offers other destinations in Brazil and around the world.",
+    "tour": {
+    "tramTicket": "entrada al Tranvía"
+  },
     "card": {
       "from": "From",
       "group": "Group",

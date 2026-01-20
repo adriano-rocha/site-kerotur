@@ -17,10 +17,26 @@ function Contact() {
 
   const socialLinks = [
     { name: "WhatsApp", image: "/images/midias/whats.png", url: WHATSAPP_LINK },
-    { name: "Instagram", image: "/images/midias/insta.avif", url: "https://www.instagram.com/kerotur_/" },
-    { name: "Facebook", image: "/images/midias/face.avif", url: "#" },
-    { name: "Linktree", image: "/images/midias/link.webp", url: "#" },
-    { name: "TripAdvisor", image: "/images/midias/trip.png", url: "#" }
+    {
+      name: "Instagram",
+      image: "/images/midias/insta.avif",
+      url: "https://www.instagram.com/kerotur_/",
+    },
+    {
+      name: "Facebook",
+      image: "/images/midias/face.avif",
+      url: "https://www.facebook.com/share/1G1BD6rCFg/",
+    },
+    {
+      name: "Linktree",
+      image: "/images/midias/link.webp",
+      url: "https://linktr.ee/kerotur_",
+    },
+    {
+      name: "TripAdvisor",
+      image: "/images/midias/trip.png",
+      url: "https://www.tripadvisor.com.br/Attraction_Review-g303506-d32984640-Reviews-Kerotur_Turismo_e_Eventos-Rio_de_Janeiro_State_of_Rio_de_Janeiro.html",
+    },
   ];
 
   const paymentMethods = [
@@ -29,12 +45,12 @@ function Contact() {
     { name: "Mastercard", image: "/images/payment/mastercard.svg" },
     { name: "Elo", image: "/images/payment/elo.svg" },
     { name: "Amex", image: "/images/payment/amex.jpg" },
-    { name: "Link de Pagamento", image: "/images/payment/link.svg" }
+    { name: "Link de Pagamento", image: "/images/payment/link.svg" },
   ];
 
-  const handleSubmitReview = (e: { preventDefault: () => void; }) => {
+  const handleSubmitReview = (e: { preventDefault: () => void }) => {
     e.preventDefault();
-    
+
     if (!rating || !reviewName || !reviewComment) {
       alert("Por favor, preencha todos os campos e selecione uma avaliação!");
       return;
@@ -42,9 +58,12 @@ function Contact() {
 
     const stars = "⭐".repeat(rating);
     const message = `*Nova Avaliação Kerotur*\n\n${stars} (${rating}/5)\n\n*Nome:* ${reviewName}\n\n*Comentário:*\n${reviewComment}`;
-    
-    window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`, '_blank');
-    
+
+    window.open(
+      `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`,
+      "_blank"
+    );
+
     // Limpar formulário
     setRating(0);
     setReviewName("");
@@ -60,11 +79,12 @@ function Contact() {
         {/* Título */}
         <div className="text-center mb-12">
           <h2
-            className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-[#0008B]"
+            className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-white bg-[#FF8C00] px-8 py-4 rounded-2xl inline-block shadow-lg"
             data-aos="fade-down"
           >
             {t("contact.title")}
           </h2>
+
           <p
             className="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto"
             data-aos="fade-up"
@@ -88,8 +108,12 @@ function Contact() {
             >
               <div className="flex items-center gap-3">
                 <div className="bg-white/20 rounded-full p-2">
-                  <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+                  <svg
+                    className="w-8 h-8"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
                   </svg>
                 </div>
                 <div className="flex-1">
@@ -260,7 +284,11 @@ function Contact() {
           </div>
 
           {/* Coluna Direita - Avaliação, Pagamento e Redes (2/3) */}
-          <div className="lg:col-span-2 space-y-6" data-aos="fade-left" data-aos-delay="300">
+          <div
+            className="lg:col-span-2 space-y-6"
+            data-aos="fade-left"
+            data-aos-delay="300"
+          >
             {/* Seção de Avaliação */}
             <div className="bg-white rounded-2xl p-6 shadow-xl border border-gray-200">
               <h3 className="text-2xl font-bold text-[#0008B] mb-4 text-center">
@@ -342,16 +370,16 @@ function Contact() {
                 </h3>
                 <div className="grid grid-cols-3 gap-3 mb-4">
                   {paymentMethods.map((method, index) => (
-                    <div 
+                    <div
                       key={index}
                       className="bg-white p-3 rounded-lg shadow-md flex flex-col items-center justify-center hover:shadow-lg transition-shadow duration-300"
                     >
-                      <img 
+                      <img
                         src={method.image}
                         alt={method.name}
                         className="w-10 h-10 mb-1 object-contain"
                         onError={(e) => {
-                          e.currentTarget.style.display = 'none';
+                          e.currentTarget.style.display = "none";
                         }}
                       />
                       <p className="text-xs font-semibold text-[#0008B] text-center">
@@ -371,12 +399,13 @@ function Contact() {
                   {t("contact.qrcode.title")}
                 </h3>
                 <div className="bg-white p-4 rounded-xl shadow-lg mb-3">
-                  <img 
+                  <img
                     src="/images/qrcode-google.png"
                     alt="QR Code Google Avaliação"
                     className="w-40 h-40 object-contain"
                     onError={(e) => {
-                      e.currentTarget.src = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160' viewBox='0 0 160 160'%3E%3Crect width='160' height='160' fill='%23f0f0f0'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-size='14' fill='%23999'%3EQR Code%3C/text%3E%3C/svg%3E";
+                      e.currentTarget.src =
+                        "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160' viewBox='0 0 160 160'%3E%3Crect width='160' height='160' fill='%23f0f0f0'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-size='14' fill='%23999'%3EQR Code%3C/text%3E%3C/svg%3E";
                     }}
                   />
                 </div>
@@ -385,12 +414,12 @@ function Contact() {
                 </p>
                 <div className="flex gap-1 mb-3">
                   {[1, 2, 3, 4, 5].map((star) => (
-                    <svg 
+                    <svg
                       key={star}
                       className="w-6 h-6 text-[#FF8C00] fill-current"
                       viewBox="0 0 24 24"
                     >
-                      <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                      <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
                     </svg>
                   ))}
                 </div>
@@ -420,12 +449,12 @@ function Contact() {
                     className="bg-gradient-to-br from-gray-50 to-white p-4 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1 flex flex-col items-center justify-center border border-gray-200"
                   >
                     <div className="w-12 h-12 flex items-center justify-center mb-2">
-                      <img 
+                      <img
                         src={social.image}
                         alt={social.name}
                         className="w-full h-full object-contain"
                         onError={(e) => {
-                          e.currentTarget.style.display = 'none';
+                          e.currentTarget.style.display = "none";
                         }}
                       />
                     </div>

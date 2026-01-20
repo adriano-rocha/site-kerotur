@@ -8,7 +8,7 @@
   align-items: center;
   justify-content: center;
   padding: 2rem;
-  background-image: url("/images/logo.jpg");
+  background: linear-gradient(135deg, #87CEEB 0%, #00ffff 50%, #87ecef 100%);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -92,6 +92,7 @@
   transform: translateY(-2px) scale(1.05);
   box-shadow: 0 20px 30px rgba(0, 0, 0, 0.35);
 }
+
 
 @media (max-width: 640px) {
   .mvv-hero-content {

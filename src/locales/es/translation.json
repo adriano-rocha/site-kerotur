@@ -29,7 +29,7 @@
   },
 
   "about": {
-    "title": "Sobre Nosotros",
+    "title": "Quienes somos",
     "paragraph1": "Kerotur nació del deseo de llevar alegría, diversión, cultura, entretenimiento y aventura a quienes quieren descubrir las bellezas y encantos de nuestros destinos de forma ligera, segura y divertida. ¡Somos una agencia apasionada por crear experiencias únicas en nuestros tours!",
     "paragraph2": "Aquí, cada itinerario es único y planeado con cariño. Cada parada tiene historia, relatos y curiosidades que generan conocimiento. Y como el conocimiento no ocupa espacio, ¡llena tu equipaje con nuevos recuerdos!",
     "paragraph3": "Ya sea para turistas brasileños o extranjeros, Kerotur es más que una agencia: somos ese puente que faltaba para que salgas de la rutina, hagas nuevas amistades y colecciones momentos increíbles, inolvidables y formidables."
@@ -37,6 +37,9 @@
   "tours": {
     "title": "Nuestros Tours",
     "subtitle": "¡Explora la belleza natural y la increíble cultura de Río de Janeiro! Kerotur también ofrece otros destinos en Brasil y el mundo.",
+    "tour": {
+    "tramTicket": "entrada al Tranvía"
+  },
     "card": {
       "from": "Desde",
       "group": "Grupo",

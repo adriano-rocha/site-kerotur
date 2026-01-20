@@ -26,8 +26,8 @@ function HomePage() {
     <>
       <Header onTourSelect={handleTourSelect} />
       <Hero />
-      <About />
       <TourSection ref={toursRef} />
+      <About />      
       <Partners />
 
       <Contact />

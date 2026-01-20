@@ -3,13 +3,6 @@ import { useTranslation } from "react-i18next";
 function Hero() {
   const { t } = useTranslation();
 
-  const flags = [
-    { src: "https://flagcdn.com/w80/br.png", alt: "Brasil" },
-    { src: "https://flagcdn.com/w80/us.png", alt: "Estados Unidos" },
-    { src: "https://flagcdn.com/w80/es.png", alt: "Espanha" },
-    { src: "https://flagcdn.com/w80/fr.png", alt: "França" },
-  ];
-
   const ActionButtons = () => (
     <>
       <a
@@ -49,17 +42,6 @@ function Hero() {
               <h2 className="text-2xl md:text-3xl lg:text-3xl font-bold text-[#00008B] mb-0 py-10">
                 {t("hero.title")}
               </h2>
-
-              <div className="flex gap-1.5 mt-0">
-                {flags.map((flag) => (
-                  <img
-                    key={flag.alt}
-                    src={flag.src}
-                    alt={flag.alt}
-                    className="h-4 w-auto shadow-sm rounded"
-                  />
-                ))}
-              </div>
             </div>
 
             {/* Botões Desktop */}
