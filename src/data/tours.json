@@ -43,8 +43,12 @@
     "image": "/images/umDiaNoRio/rio1.jpg",
     "images": [
       "/images/umDiaNoRio/paisagem.avif",
-      "/images/umDiaNoRio/tele2.avif",
+      "images/umDiaNoRio/catedralrj.jpg",
+      "images/umDiaNoRio/catedralPorDentro.webp",
       "images/umDiaNoRio/cristo.webp",
+      "images/umDiaNoRio/frenteMaraca.jpeg",
+      "images/umDiaNoRio/escada2.jpeg",
+      "/images/umDiaNoRio/tele2.avif",
       "images/umDiaNoRio/rio1.jpg"
     ],
     "attractions": {
@@ -172,8 +176,7 @@
         "",
         "👨‍💼 **Guia de turismo**",
         "",
-        "👶 **Política de Gratuidade:** Crianças até 2 anos não pagam (no colo).",
-        "",
+
         "↩️ **Política de Cancelamento:** O cancelamento será gratuito se solicitado até 24h antes do passeio. Caso o cancelamento seja solicitado no mesmo dia do passeio, será cobrado o valor referente à 50% do valor total.",
         "",
         "💳 **Taxas Administrativas:** Os pagamentos realizados em cartão de crédito terão um acréscimo de 5% ao valor total.",
@@ -194,8 +197,7 @@
         "",
         "👨‍💼 **Tour guide**",
         "",
-        "👶 **Free Policy:** Children up to 2 years old don't pay (on lap)",
-        "",
+
         "↩️ **Cancellation Policy:** Cancellation is free if requested up to 24h before the tour. If requested on the same day, 50% of the total value will be charged.",
         "",
         "💳 **Administrative Fees:** Credit card payments will have a 5% surcharge on the total amount.",
@@ -216,8 +218,7 @@
         "",
         "👨‍💼 **Guía turístico**",
         "",
-        "👶 **Política de Gratuito:** Niños hasta 2 años no pagan (en brazos)",
-        "",
+
         "↩️ **Política de Cancelación:** La cancelación es gratuita si se solicita hasta 24h antes del paseo. Si se solicita el mismo día, se cobrará el 50% del valor total.",
         "",
         "💳 **Tarifas Administrativas:** Los pagos con tarjeta de crédito tendrán un recargo del 5% sobre el valor total.",
@@ -238,8 +239,7 @@
         "",
         "👨‍💼 **Guide touristique**",
         "",
-        "👶 **Politique de Gratuité:** Enfants jusqu'à 2 ans ne paient pas (sur les genoux)",
-        "",
+
         "↩️ **Politique d'Annulation:** L'annulation est gratuite si demandée jusqu'à 24h avant l'excursion. Si demandée le jour même, 50% du montant total sera facturé.",
         "",
         "💳 **Frais Administratifs:** Les paiements par carte de crédit auront un supplément de 5% sur le montant total.",
@@ -260,8 +260,7 @@
         "",
         "👨‍💼 **Guida turistica**",
         "",
-        "👶 **Politica Gratuità:** Bambini fino a 2 anni non pagano (in braccio)",
-        "",
+
         "↩️ **Politica Cancellazione:** La cancellazione è gratuita se richiesta fino a 24h prima del tour. Se richiesta lo stesso giorno, verrà addebitato il 50% dell'importo totale.",
         "",
         "💳 **Commissioni Amministrative:** I pagamenti con carta di credito avranno un'aggiunta del 5% sull'importo totale.",
@@ -282,8 +281,7 @@
         "",
         "👨‍💼 **Reiseleiter**",
         "",
-        "👶 **Kostenlose Politik:** Kinder bis 2 Jahre zahlen nicht (auf dem Schoß)",
-        "",
+
         "↩️ **Stornierungsrichtlinie:** Die Stornierung ist kostenlos, wenn sie bis 24h vor der Tour angefordert wird. Bei Anforderung am selben Tag wird 50% des Gesamtbetrags berechnet.",
         "",
         "💳 **Verwaltungsgebühren:** Zahlungen per Kreditkarte haben einen Aufschlag von 5% auf den Gesamtbetrag.",
@@ -304,8 +302,7 @@
         "",
         "👨‍💼 **Гид**",
         "",
-        "👶 **Политика бесплатного проезда:** Дети до 2 лет не платят (на руках)",
-        "",
+
         "↩️ **Политика отмены:** Отмена бесплатна при запросе за 24 часа до экскурсии. При отмене в день экскурсии взимается 50% от общей стоимости.",
         "",
         "💳 **Административные сборы:** Оплата кредитной картой облагается дополнительной платой 5% от общей суммы.",
@@ -326,8 +323,7 @@
         "",
         "👨‍💼 **旅游导游**",
         "",
-        "👶 **免费政策：**2岁以下儿童免费（需家长怀抱）",
-        "",
+
         "↩️ **取消政策：**提前24小时取消免费；同日取消收取总费用50%。",
         "",
         "💳 **行政费用：**信用卡支付需加收总金额的5%。",
@@ -348,8 +344,7 @@
         "",
         "👨‍💼 **ツアーガイド**",
         "",
-        "👶 **無料ポリシー：**2歳までの子供は無料（保護者の膝の上）",
-        "",
+
         "↩️ **キャンセルポリシー：**ツアー24時間前までのキャンセルは無料。当日キャンセルの場合は総額の50%が請求されます。",
         "",
         "💳 **手数料：**クレジットカード払いは総額の5%上乗せされます。",
@@ -370,8 +365,7 @@
         "",
         "👨‍💼 **مرشد سياحي**",
         "",
-        "👶 **سياسة الإعفاء: الأطفال حتى 2 سنة لا يدفعون (في حضن الوالدين)",
-        "",
+
         "↩️ **سياسة الإلغاء: الإلغاء مجاني إذا طُلب قبل 24 ساعة من الجولة. في حالة الإلغاء في نفس يوم الجولة، سيتم فرض 50% من المبلغ الإجمالي.",
         "",
         "💳 **الرسوم الإدارية: الدفع ببطاقة الائتمان سيتم إضافة 5% على المبلغ الإجمالي.",
@@ -392,8 +386,7 @@
         "",
         "👨‍💼 **מדריך טיולים**",
         "",
-        "👶 **מדיניות חינם: ילדים עד גיל 2 לא משלמים (על הברכיים)",
-        "",
+
         "↩️ **מדיניות ביטול: ביטול חינם אם מבוצע עד 24 שעות לפני הסיור. ביטול באותו יום יחויב ב-50% מערך הסיור הכולל.",
         "",
         "💳 **עמלות מנהליות: תשלומים בכרטיס אשראי יכללו תוספת של 5% לסכום הכולל.",
@@ -454,14 +447,14 @@
     },
     "image": "/images/oMelhorDoRio/beachrj.jpg",
     "images": [
-      "/images/oMelhorDoRio/cristo.webp",     
+      "/images/oMelhorDoRio/cristo.webp",
       "/images/oMelhorDoRio/catedral.jpg",
-       "/images/oMelhorDoRio/paisagem.avif",
+      "/images/oMelhorDoRio/paisagem.avif",
+      "/images/oMelhorDoRio/bellini.avif",
       "/images/oMelhorDoRio/lapa.jpg",
       "/images/oMelhorDoRio/escultura.avif",
       "/images/oMelhorDoRio/escadas.webp",
-      "/images/oMelhorDoRio/aquaRio.webp",
-      "/images/oMelhorDoRio/maracana.jpg"
+      "/images/oMelhorDoRio/aquaRio.webp"
     ],
     "attractions": {
       "pt-BR": [
@@ -599,8 +592,7 @@
         "",
         "👨‍💼 **Guia de turismo**",
         "",
-        "👶 **Política de Gratuidade:** Crianças até 2 anos não pagam (no colo).",
-        "",
+
         "↩️ **Política de Cancelamento:** O cancelamento será gratuito se solicitado até 24h antes do passeio. Caso o cancelamento seja solicitado no mesmo dia do passeio, será cobrado o valor referente à 50% do valor total.",
         "",
         "💳 **Taxas Administrativas:** Os pagamentos realizados em cartão de crédito terão um acréscimo de 5% ao valor total.",
@@ -621,8 +613,7 @@
         "",
         "👨‍💼 **Tour guide**",
         "",
-        "👶 **Free Policy:** Children up to 2 years old don't pay (on lap)",
-        "",
+
         "↩️ **Cancellation Policy:** Cancellation is free if requested up to 24h before the tour. If requested on the same day, 50% of the total value will be charged.",
         "",
         "💳 **Administrative Fees:** Credit card payments will have a 5% surcharge on the total amount.",
@@ -643,8 +634,7 @@
         "",
         "👨‍💼 **Guía turístico**",
         "",
-        "👶 **Política de Gratuito:** Niños hasta 2 años no pagan (en brazos)",
-        "",
+
         "↩️ **Política de Cancelación:** La cancelación es gratuita si se solicita hasta 24h antes del paseo. Si se solicita el mismo día, se cobrará el 50% del valor total.",
         "",
         "💳 **Tarifas Administrativas:** Los pagos con tarjeta de crédito tendrán un recargo del 5% sobre el valor total.",
@@ -665,8 +655,7 @@
         "",
         "👨‍💼 **Guide touristique**",
         "",
-        "👶 **Politique de Gratuité:** Enfants jusqu'à 2 ans ne paient pas (sur les genoux)",
-        "",
+
         "↩️ **Politique d'Annulation:** L'annulation est gratuite si demandée jusqu'à 24h avant l'excursion. Si demandée le jour même, 50% du montant total sera facturé.",
         "",
         "💳 **Frais Administratifs:** Les paiements par carte de crédit auront un supplément de 5% sur le montant total.",
@@ -687,8 +676,7 @@
         "",
         "👨‍💼 **Guida turistica**",
         "",
-        "👶 **Politica Gratuità:** Bambini fino a 2 anni non pagano (in braccio)",
-        "",
+
         "↩️ **Politica Cancellazione:** La cancellazione è gratuita se richiesta fino a 24h prima del tour. Se richiesta lo stesso giorno, verrà addebitato il 50% dell'importo totale.",
         "",
         "💳 **Commissioni Amministrative:** I pagamenti con carta di credito avranno un'aggiunta del 5% sull'importo totale.",
@@ -709,8 +697,7 @@
         "",
         "👨‍💼 **Reiseleiter**",
         "",
-        "👶 **Kostenlose Politik:** Kinder bis 2 Jahre zahlen nicht (auf dem Schoß)",
-        "",
+
         "↩️ **Stornierungsrichtlinie:** Die Stornierung ist kostenlos, wenn sie bis 24h vor der Tour angefordert wird. Bei Anforderung am selben Tag wird 50% des Gesamtbetrags berechnet.",
         "",
         "💳 **Verwaltungsgebühren:** Zahlungen per Kreditkarte haben einen Aufschlag von 5% auf den Gesamtbetrag.",
@@ -731,8 +718,7 @@
         "",
         "👨‍💼 **Гид**",
         "",
-        "👶 **Политика бесплатного проезда:** Дети до 2 лет не платят (на руках)",
-        "",
+
         "↩️ **Политика отмены:** Отмена бесплатна при запросе за 24 часа до экскурсии. При отмене в день экскурсии взимается 50% от общей стоимости.",
         "",
         "💳 **Административные сборы:** Оплата кредитной картой облагается дополнительной платой 5% от общей суммы.",
@@ -753,8 +739,7 @@
         "",
         "👨‍💼 **旅游导游**",
         "",
-        "👶 **免费政策：**2岁以下儿童免费（需家长怀抱）",
-        "",
+
         "↩️ **取消政策：**提前24小时取消免费；同日取消收取总费用50%。",
         "",
         "💳 **行政费用：**信用卡支付需加收总金额的5%。",
@@ -775,8 +760,7 @@
         "",
         "👨‍💼 **ツアーガイド**",
         "",
-        "👶 **無料ポリシー：**2歳までの子供は無料（保護者の膝の上）",
-        "",
+
         "↩️ **キャンセルポリシー：**ツアー24時間前までのキャンセルは無料。当日キャンセルの場合は総額の50%が請求されます。",
         "",
         "💳 **手数料：**クレジットカード払いは総額の5%上乗せされます。",
@@ -797,8 +781,7 @@
         "",
         "👨‍💼 **مرشد سياحي**",
         "",
-        "👶 **سياسة الإعفاء: الأطفال حتى 2 سنة لا يدفعون (في حضن الوالدين)",
-        "",
+
         "↩️ **سياسة الإلغاء: الإلغاء مجاني إذا طُلب قبل 24 ساعة من الجولة. في حالة الإلغاء في نفس يوم الجولة، سيتم فرض 50% من المبلغ الإجمالي.",
         "",
         "💳 **الرسوم الإدارية: الدفع ببطاقة الائتمان سيتم إضافة 5% على المبلغ الإجمالي.",
@@ -819,8 +802,7 @@
         "",
         "👨‍💼 **מדריך טיולים**",
         "",
-        "👶 **מדיניות חינם: ילדים עד גיל 2 לא משלמים (על הברכיים)",
-        "",
+
         "↩️ **מדיניות ביטול: ביטול חינם אם מבוצע עד 24 שעות לפני הסיור. ביטול באותו יום יחויב ב-50% מערך הסיור הכולל.",
         "",
         "💳 **עמלות מנהליות: תשלומים בכרטיס אשראי יכללו תוספת של 5% לסכום הכולל.",
@@ -923,8 +905,7 @@
         "",
         "👨‍💼 **Guia de turismo**",
         "",
-        "👶 **Política de Gratuidade:** Crianças até 2 anos não pagam (no colo).",
-        "",
+
         "↩️ **Política de Cancelamento:** O cancelamento será gratuito se solicitado até 24h antes do passeio. Caso o cancelamento seja solicitado no mesmo dia do passeio, será cobrado o valor referente à 50% do valor total.",
         "",
         "💳 **Taxas Administrativas:** Os pagamentos realizados em cartão de crédito terão um acréscimo de 5% ao valor total.",
@@ -945,8 +926,7 @@
         "",
         "👨‍💼 **Tour guide**",
         "",
-        "👶 **Free Policy:** Children up to 2 years old don't pay (on lap)",
-        "",
+
         "↩️ **Cancellation Policy:** Cancellation is free if requested up to 24h before the tour. If requested on the same day, 50% of the total value will be charged.",
         "",
         "💳 **Administrative Fees:** Credit card payments will have a 5% surcharge on the total amount.",
@@ -967,8 +947,7 @@
         "",
         "👨‍💼 **Guía turístico**",
         "",
-        "👶 **Política de Gratuito:** Niños hasta 2 años no pagan (en brazos)",
-        "",
+
         "↩️ **Política de Cancelación:** La cancelación es gratuita si se solicita hasta 24h antes del paseo. Si se solicita el mismo día, se cobrará el 50% del valor total.",
         "",
         "💳 **Tarifas Administrativas:** Los pagos con tarjeta de crédito tendrán un recargo del 5% sobre el valor total.",
@@ -989,8 +968,7 @@
         "",
         "👨‍💼 **Guide touristique**",
         "",
-        "👶 **Politique de Gratuité:** Enfants jusqu'à 2 ans ne paient pas (sur les genoux)",
-        "",
+
         "↩️ **Politique d'Annulation:** L'annulation est gratuite si demandée jusqu'à 24h avant l'excursion. Si demandée le jour même, 50% du montant total sera facturé.",
         "",
         "💳 **Frais Administratifs:** Les paiements par carte de crédit auront un supplément de 5% sur le montant total.",
@@ -1011,8 +989,7 @@
         "",
         "👨‍💼 **Guida turistica**",
         "",
-        "👶 **Politica Gratuità:** Bambini fino a 2 anni non pagano (in braccio)",
-        "",
+
         "↩️ **Politica Cancellazione:** La cancellazione è gratuita se richiesta fino a 24h prima del tour. Se richiesta lo stesso giorno, verrà addebitato il 50% dell'importo totale.",
         "",
         "💳 **Commissioni Amministrative:** I pagamenti con carta di credito avranno un'aggiunta del 5% sull'importo totale.",
@@ -1033,8 +1010,7 @@
         "",
         "👨‍💼 **Reiseleiter**",
         "",
-        "👶 **Kostenlose Politik:** Kinder bis 2 Jahre zahlen nicht (auf dem Schoß)",
-        "",
+
         "↩️ **Stornierungsrichtlinie:** Die Stornierung ist kostenlos, wenn sie bis 24h vor der Tour angefordert wird. Bei Anforderung am selben Tag wird 50% des Gesamtbetrags berechnet.",
         "",
         "💳 **Verwaltungsgebühren:** Zahlungen per Kreditkarte haben einen Aufschlag von 5% auf den Gesamtbetrag.",
@@ -1055,8 +1031,7 @@
         "",
         "👨‍💼 **Гид**",
         "",
-        "👶 **Политика бесплатного проезда:** Дети до 2 лет не платят (на руках)",
-        "",
+
         "↩️ **Политика отмены:** Отмена бесплатна при запросе за 24 часа до экскурсии. При отмене в день экскурсии взимается 50% от общей стоимости.",
         "",
         "💳 **Административные сборы:** Оплата кредитной картой облагается дополнительной платой 5% от общей суммы.",
@@ -1077,8 +1052,7 @@
         "",
         "👨‍💼 **旅游导游**",
         "",
-        "👶 **免费政策：**2岁以下儿童免费（需家长怀抱）",
-        "",
+
         "↩️ **取消政策：**提前24小时取消免费；同日取消收取总费用50%。",
         "",
         "💳 **行政费用：**信用卡支付需加收总金额的5%。",
@@ -1099,8 +1073,7 @@
         "",
         "👨‍💼 **ツアーガイド**",
         "",
-        "👶 **無料ポリシー：**2歳までの子供は無料（保護者の膝の上）",
-        "",
+
         "↩️ **キャンセルポリシー：**ツアー24時間前までのキャンセルは無料。当日キャンセルの場合は総額の50%が請求されます。",
         "",
         "💳 **手数料：**クレジットカード払いは総額の5%上乗せされます。",
@@ -1121,8 +1094,7 @@
         "",
         "👨‍💼 **مرشد سياحي**",
         "",
-        "👶 **سياسة الإعفاء: الأطفال حتى 2 سنة لا يدفعون (في حضن الوالدين)",
-        "",
+
         "↩️ **سياسة الإلغاء: الإلغاء مجاني إذا طُلب قبل 24 ساعة من الجولة. في حالة الإلغاء في نفس يوم الجولة، سيتم فرض 50% من المبلغ الإجمالي.",
         "",
         "💳 **الرسوم الإدارية: الدفع ببطاقة الائتمان سيتم إضافة 5% على المبلغ الإجمالي.",
@@ -1143,8 +1115,7 @@
         "",
         "👨‍💼 **מדריך טיולים**",
         "",
-        "👶 **מדיניות חינם: ילדים עד גיל 2 לא משלמים (על הברכיים)",
-        "",
+
         "↩️ **מדיניות ביטול: ביטול חינם אם מבוצע עד 24 שעות לפני הסיור. ביטול באותו יום יחויב ב-50% מערך הסיור הכולל.",
         "",
         "💳 **עמלות מנהליות: תשלומים בכרטיס אשראי יכללו תוספת של 5% לסכום הכולל.",
@@ -1204,7 +1175,13 @@
       "he": "בואו לגלות את האזורים ההיסטוריים והבוהמיים של לפה וסנטה טרזה. הסיור ל-6 שעות כולל ביקור בקתדרלת ריו דה ז'נירו הגדולה, קשתות לפה, מדרגות סלרון ונסיעה בטרמפ סנטה טרזה. טרמפ סנטה טרזה האייקוני עובר דרך קשתות לפה, המבנה הגדול ביותר שנבנה על ידי עבדים כאשר ברזיל הייתה מושבה פורטוגזית. תהיה לכם הזדמנות ללכת ברובע, לראות יצירות של אמנים מקומיים ואפילו לקנות. קתדרלת מטרופולין בעיצוב מודרני מכילה 8000 איש, אך בניסים במהלך ביקור האפיפיור יוחנן פאולוס השני ב-1981 נכחו 20,000 עומדים. מדרגות סלרון עם כמעט 8000 אריחים צבעוניים ב-125 מטר ו-215 מדרגות היא האטרקציה התיירותית השלישית בפופולריות בריו, שימשה לקליפ של Snoop Dogg וגם של U2."
     },
     "image": "/images/lapa/lapa-a-noite.webp",
-    "images": ["/images/lapa/lapa.jpg", "/images/lapa/lapa-escada.jpg"],
+    "images": [
+      "/images/lapa/lapa.jpg",
+      "/images/lapa/bondeSantaTeresa.webp",
+      "/images/lapa/santaTeresa.jpeg",
+      "/images/lapa/escadaria-selaron.webp",
+      "/images/lapa/bondeST.jpg"
+    ],
     "start": {
       "pt-BR": "8 horas",
       "en": "8 hours",
@@ -1529,25 +1506,37 @@
       "ar": "ماراكانا، معبد كرة القدم البرازيلية. في هذه الجولة سترى خلف الكواليس لمجمع الملعب بما في ذلك المتحف، غرف الملابس، الملعب، المدرجات وقاعة الصحافة.",
       "he": "מראקאנה, מקדש הכדורגל הברזילאי. בטור הזה תראו את מאחורי הקלעים של מתחם האצטדיון, כולל המוזיאון, חדרי ההלבשה, המגרש, היציעים וחדר העיתונות."
     },
+
     "fullDescription": {
-      "pt-BR": "Venha descobrir o Maracanã, um complexo esportivo que inclui um campo de futebol, parque aquático, pista de atletismo e ginásio para esportes indoor. O estádio foi palco das finais da Copa do Mundo de 1950 e 2014, e onde Pelé marcou seu milésimo gol. Além disso, foi sede de shows de Frank Sinatra em 1981, Queen em 1985, sir Paul McCartney, Backstreet boys, Shakira e muitos outros artistas nacionais e internacionais. Neste tour de 4 horas, conheceremos o Museu do Maracanã e sua história, o vestiário e aqueles que quiserem poderão tirar fotos e fazer gols, ambos opcionais. *Em dias de jogo, pode não haver visita interna e/ou o tempo pode ser restrito.",
-      "en": "Come discover Maracanã, a sports complex that includes a football field, aquatic park, athletics track and indoor sports gym. The stadium hosted the 1950 and 2014 World Cup finals, and where Pelé scored his 1,000th goal. It also hosted shows by Frank Sinatra in 1981, Queen in 1985, Sir Paul McCartney, Backstreet Boys, Shakira and many other national and international artists. In this 4-hour tour, we'll visit the Maracanã Museum and its history, the locker room and those who wish can take photos and score goals, both optional. *On match days, internal visits may not be available and/or time may be restricted.",
-      "es": "Ven a descubrir Maracanã, un complejo deportivo que incluye campo de fútbol, parque acuático, pista de atletismo y gimnasio para deportes indoor. El estadio fue sede de las finales del Mundial 1950 y 2014, y donde Pelé marcó su gol 1000. También acogió shows de Frank Sinatra en 1981, Queen en 1985, Sir Paul McCartney, Backstreet Boys, Shakira y muchos otros artistas nacionales e internacionales. En este tour de 4 horas conoceremos el Museo Maracanã y su historia, el vestuario y quienes quieran podrán sacarse fotos y hacer goles, ambos opcionales. *En días de partido puede no haber visita interna y/o el tiempo puede ser restringido.",
-      "fr": "Venez découvrir Maracanã, un complexe sportif comprenant un terrain de football, parc aquatique, piste d'athlétisme et gymnase pour sports indoor. Le stade a accueilli les finales de la Coupe du Monde 1950 et 2014, et où Pelé a marqué son 1000e but. Il a également accueilli des concerts de Frank Sinatra en 1981, Queen en 1985, Sir Paul McCartney, Backstreet Boys, Shakira et de nombreux autres artistes nationaux et internationaux. Dans cette visite de 4 heures, nous visiterons le Musée Maracanã et son histoire, les vestiaires et ceux qui le souhaitent pourront prendre des photos et marquer des buts, les deux étant optionnels. *Les jours de match, les visites internes peuvent ne pas être disponibles et/ou le temps peut être restreint.",
-      "it": "Vieni a scoprire Maracanã, un complesso sportivo che include campo da calcio, parco acquatico, pista di atletica e palestra per sport indoor. Lo stadio ha ospitato le finali dei Mondiali 1950 e 2014, e dove Pelé ha segnato il suo millesimo gol. Ha anche ospitato concerti di Frank Sinatra nel 1981, Queen nel 1985, Sir Paul McCartney, Backstreet Boys, Shakira e molti altri artisti nazionali e internazionali. In questo tour di 4 ore visiteremo il Museo Maracanã e la sua storia, gli spogliatoi e chi vorrà potrà scattare foto e segnare gol, entrambi opzionali. *Nei giorni di partita le visite interne potrebbero non essere disponibili e/o il tempo potrebbe essere limitato.",
-      "al": "Komm und entdecke Maracanã, ein Sportkomplex mit Fußballfeld, Wasserpark, Leichtathletikbahn und Halle für Indoor-Sport. Das Stadion war Schauplatz der WM-Finals 1950 und 2014, und wo Pelé sein 1000. Tor schoss. Es beherbergte auch Konzerte von Frank Sinatra 1981, Queen 1985, Sir Paul McCartney, Backstreet Boys, Shakira und vielen anderen nationalen und internationalen Künstlern. In dieser 4-Stunden-Tour besuchen wir das Maracanã-Museum und seine Geschichte, die Umkleide und wer möchte kann Fotos machen und Tore schießen, beides optional. *An Spieltagen können Innenbesuche nicht verfügbar sein und/oder die Zeit eingeschränkt sein.",
-      "ru": "Приезжайте открыть Маракану, спортивный комплекс с футбольным полем, аквапарком, беговой дорожкой и залом для indoor-спорта. Стадион был ареной финалов ЧМ 1950 и 2014, и где Пеле забил свой тысячный гол. Также здесь выступали Фрэнк Синатра в 1981, Queen в 1985, сэр Пол Маккартни, Backstreet Boys, Шакира и многие другие национальные и международные артисты. В этом 4-часовом туре мы посетим Музей Мараканы и его историю, раздевалку, и желающие смогут сделать фото и забить голы, оба варианта опциональны. *В дни матчей внутренние экскурсии могут быть недоступны и/или время ограничено.",
-      "ch": "来探索马拉卡纳体育综合体，包括足球场、水上乐园、田径跑道和室内体育馆。该球场举办了1950年和2014年世界杯决赛，贝利在这里打进第1000球。还举办过1981年弗兰克·辛纳特拉、1985年皇后乐队、保罗·麦卡特尼爵士、后街男孩、夏奇拉等众多国内外艺人的演唱会。本次4小时游览将参观马拉卡纳博物馆及其历史、更衣室，愿意者可拍照和射门（均为可选）。*比赛日可能无法进行内部参观和/或时间受限。",
-      "jp": "マラカナンを探訪。サッカー場、水上公園、陸上競技場、室内スポーツジムを含むスポーツ複合施設。1950年・2014年ワールドカップ決勝戦、ペレの1000号ゴールの舞台。1981年フランク・シナトラ、1985年クイーン、ポール・マッカートニー、バックストリート・ボーイズ、シャキーラなど国内外アーティスト公演も。4時間のツアーでマラカナン博物館と歴史、更衣室見学、希望者は写真撮影・ゴール体験（どちらも任意）。*試合日は内部見学不可または時間制限あり。",
-      "ar": "تعال اكتشف ماراكانا، مجمع رياضي يشمل ملعب كرة قدم، حديقة مائية، مضمار ألعاب القوى وصالة رياضات داخلية. الملعب استضاف نهائيات كأس العالم 1950 و2014، وأين سجل بيليه هدفه الألف. كما استضاف حفلات فرانك سيناترا 1981، كوين 1985، السير بول مكارتني، بويز الشارع الخلفي، شاكيرا وعدد كبير من الفنانين المحليين والدوليين. في هذه الجولة لمدة 4 ساعات، سنزور متحف ماراكانا وتاريخه، غرفة الملابس ويمكن للراغبين التقاط الصور وحتى تسجيل الأهداف، كلاهما اختياري. *في أيام المباريات قد لا تكون الزيارات الداخلية متاحة و/أو قد يكون الوقت محدود.",
-      "he": "בואו לגלות את מראקאנה, מתחם ספורט הכולל מגרש כדורגל, פארק מים, מסלול אתלטיקה ואולם ספורט מקורה. האצטדיון אירח גמרי מונדיאל 1950 ו-2014, ומקום שבו פלה כבש את שערו ה-1000. אירח גם הופעות של פרנק סינטרה ב-1981, קווין ב-1985, סר פול מקרטני, באקסטריט בויז, שאקירה ועוד אמנים רבים מקומיים ובינלאומיים. בסיור זה של 4 שעות נבקר במוזיאון מראקאנה ובסיפורו, בחדר ההלבשה ובאפשרות מי שרוצה לצלם ולבעוט לשער, שניהם אופציונליים. *ביום משחק ייתכן שלא תתקיימן ביקורים פנימיים ו/או שהזמן יהיה מוגבל."
+      "pt-BR": "Descubra o Maracanã, icônico complexo esportivo com estádio de futebol, parque aquático, pista de atletismo e ginásio poliesportivo. Palco das Copas de 1950 e 2014, onde Pelé marcou seu milésimo gol em 1969. Shows históricos de Frank Sinatra (1981), Queen (1985), Paul McCartney, Backstreet Boys, Shakira e grandes artistas. Neste tour de 4h visitamos Museu do Maracanã, vestiários e opcionalmente fotos/gols. *Em dias de jogo, visita interna pode estar indisponível ou com tempo restrito.",
+
+      "en": "Discover Maracanã, iconic sports complex with football stadium, aquatic park, athletics track and indoor arena. Stage of 1950 & 2014 World Cup finals, where Pelé scored his 1000th goal on 1969. Historic shows by Frank Sinatra (1981), Queen (1985), Paul McCartney, Backstreet Boys, Shakira and major artists. 4h tour includes Maracanã Museum, locker rooms and optional photos/goals. *On match days, internal visits may be unavailable or time-restricted.",
+
+      "es": "Descubre Maracanã, complejo deportivo icónico con estadio de fútbol, parque acuático, pista de atletismo y polideportivo. Escenario de finales Mundial 1950 y 2014, donde Pelé marcó su gol milésimo el 1969. Shows históricos de Frank Sinatra (1981), Queen (1985), Paul McCartney, Backstreet Boys, Shakira y grandes artistas. Tour 4h incluye Museo Maracanã, vestuarios y opcionalmente fotos/goles. *En días de partido, visitas internas pueden estar indisponibles o restringidas.",
+
+      "fr": "Découvrez Maracanã, complexe sportif emblématique avec stade de foot, parc aquatique, piste d'athlétisme et salle polyvalente. Théâtre des finales Coupe du Monde 1950 et 2014, où Pelé marqua son 1000e but le 1969. Concerts historiques de Frank Sinatra (1981), Queen (1985), Paul McCartney, Backstreet Boys, Shakira et grands artistes. Visite 4h incluant Musée Maracanã, vestiaires et photos/buts optionnels. *Les jours de match, visites intérieures peuvent être impossibles ou limitées.",
+
+      "it": "Scopri Maracanã, complesso sportivo iconico con stadio di calcio, parco acquatico, pista d'atletica e palestre coperte. Palcoscenico finali Mondiali 1950 e 2014, dove Pelé segnò il suo millesimo gol il 1969. Concerti storici di Frank Sinatra (1981), Queen (1985), Paul McCartney, Backstreet Boys, Shakira e grandi artisti. Tour 4h con Museo Maracanã, spogliatoi e foto/palletti opzionali. *Nei giorni di partita, visite interne possono essere vietate o limitate.",
+
+      "al": "Entdecke Maracanã, ikonisches Sportkomplex mit Fußballstadion, Wasserpark, Leichtathletikbahn und Mehrzweckhalle. Bühne WM-Finals 1950/2014, wo Pelé sein **1000. Tor am 1969 erzielte. Historische Konzerte von Frank Sinatra (1981), Queen (1985), Paul McCartney, Backstreet Boys, Shakira und großen Künstlern. 4h-Tour mit Maracanã-Museum, Umkleiden und optional Fotos/Tore. *An Spieltagen können Innenbesuche untersagt oder zeitlich begrenzt sein.",
+
+      "ru": "Откройте Maracanã — легендарный спортивный комплекс со стадионом, аквапарком, беговой дорожкой и крытым залом. Арена финалов ЧМ-1950 и 2014, где Пеле забил свой **тысячный гол 1969. Исторические концерты Фрэнка Синатры (1981), Queen (1985), Пола Маккартни, Backstreet Boys, Шакиры и звезд. 4-часовая экскурсия: музей Maracanã, раздевалки, фото/голы по желанию. *В дни матчей внутренние визиты могут быть недоступны или ограничены.",
+
+      "ch": "探索马拉卡纳纳体育综合体：足球场、水上乐园、田径跑道和室内体育馆。1950/2014世界杯决赛场地，贝利1969年月日**第1000球**诞生地。弗兰克·辛纳屈拉(1981)、皇后乐队(1985)、保罗·麦卡特尼、后街男孩、夏奇拉等巨星演唱会舞台。4小时游览马拉卡纳纳博物馆、更衣室，可选拍照/射门。*比赛日内部参观可能受限。",
+
+      "jp": "マラカナンを探索！フットボールスタジアム、水上パーク、陸上トラック、屋内体育館の複合施設。1950・2014ワールドカップ決勝戦、ペレ**1000ゴール目**（1969）の舞台。フランク・シナトラ(81)、クイーン(85)、ポール・マッカートニー、バックストリート・ボーイズ、シャキーラらの伝説コンサート。4時間ツアーで博物館、更衣室、写真/ゴール体験（任意）。※試合日は内部見学不可の場合あり。",
+
+      "ar": "اكتشف ماراكانا، المجمع الرياضي الأيقوني مع ملعب كرة قدم، حديقة مائية، مضمار ألعاب قوى وقاعة رياضية داخلية. مسرح نهائيات كأس العالم 1950 و2014، حيث سجل بيليه **ألفي هدفه** في1969. حفلات تاريخية لفرانك سيناترا (1981)، كوين (1985)، بول مكارتني، بويز الشارع الخلفي، شاكيرا ونجوم عالميين. جولة 4 ساعات تشمل متحف ماراكانا، غرف تغيير الملابس وصور/أهداف اختيارية. *في أيام المباريات، الزيارات الداخلية قد تكون محظورة أو محدودة.",
+
+      "he": "גלו את מראקאנה, מתחם ספורט אייקוני עם אצטדיון כדורגל, פארק מים, מסלול אתלטיקה ואולם ספורט מקורה. בימת גמרי מונדיאל 1950 ו-2014, שם פלה כבש את **שער האלף** שלו ב1969. הופעות היסטוריות של פרנק סינטרה (1981), קווין (1985), פול מקרטני, בקסטריט בויז, שאקירה וכוכבים גדולים. סיור 4 שעות כולל מוזיאון מראקאנה, חדרי הלבשה ותמונות/שערים אופציונליים. *ביום משחקים, כניסה פנימית עלולה להיות מוגבלת או אסורה."
     },
+
     "image": "/images/maracana/maracana1.jpg",
     "images": [
       "/images/maracana/maracana3.avif",
-      "/images/maracana/maracana2.jpg",
       "/images/maracana/maracaQueen.avif",
       "/images/maracana/placa.avif",
+      "/images/maracana/maracana.jpg",
       "/images/maracana/bellini.avif",
       "/images/maracana/maracana1.jpg"
     ],
@@ -1854,21 +1843,38 @@
       "ar": "امشِ معنا في بوليفار أولمبي واكتشف: متحف الغد ومتحف فنون ريو (الواجهة فقط)، جدارية إتنياس كوبرا وزر AquaRio ومتحف الشمع وعجلة فيريس.",
       "he": "הסתובבו איתנו בשדרת האולימפיאדה וגלו: מוזיאון המחר ומוזיאון אמנות ריו (חזית בלבד), קיר האתניות של קוברה וביקור באקווריו, מוזיאון השעווה וגלגל ענק."
     },
+
     "fullDescription": {
-      "pt-BR": "Venha passear conosco pelo Boulevard Olímpico, parando para uma foto em frente ao Museu do Amanhã, ao Museu de Arte do Rio, ao mural étnico Kobra em homenagem às Olimpíadas de 2016 e que está no Livro Guinness. Também visite o AquaRio, o Aquário Marinho do Rio, com uma visita de aproximadamente 1 hora; O Museu de Cera aproximadamente 30 minutos e a Roda-Gigante, que tem 88 metros de altura e uma volta completa de 20 minutos, com a opção de dar mais uma volta. É uma caminhada tranquila na região portuária do Rio, o que resulta em ótimas fotos para receber muitas curtidas nas redes sociais! **Valores opcionais: (Museu de Cera e Roda Gigante)**",
-      "en": "Come walk with us through Olympic Boulevard, stopping for photos in front of Museum of Tomorrow, Museum of Art Rio, Kobra's ethnic mural tribute to 2016 Olympics (Guinness record) and visit AquaRio, Rio's Marine Aquarium (~1h visit); Wax Museum (~30min) and Ferris Wheel (88m tall, 20min full rotation with option for extra turn). It's a relaxed walk in Rio's port area, perfect for great social media photos! **Optional costs: (Wax Museum and Ferris Wheel)**",
-      "es": "Ven a pasear con nosotros por Boulevard Olímpico, parando para fotos frente al Museo del Mañana, Museo de Arte Río, mural étnico Kobra en homenaje a JJ.OO. 2016 (récord Guinness) y visita AquaRio, Acuario Marino Río (~1h); Museo de Cera (~30min) y Rueda Gigante (88m altura, 20min vuelta completa con opción extra). Es un paseo tranquilo por zona portuaria Río, ideal para fotos virales en redes! **Costos opcionales: (Museo de Cera y Rueda Gigante)**",
-      "fr": "Venez marcher avec nous sur le Boulevard Olympique, arrêt photo devant Musée du Demain, Musée d'Art Rio, fresque ethnique Kobra hommage aux JO 2016 (record Guinness) et visitez AquaRio, Aquarium Marin Rio (~1h); Musée de Cire (~30min) et Grande Roue (88m hauteur, 20min rotation complète avec option supplémentaire). Balade tranquille dans zone portuaire Rio, parfait pour photos réseaux sociaux! **Coûts optionnels: (Musée de Cire et Grande Roue)**",
-      "it": "Vieni a passeggiare con noi sul Boulevard Olimpico, sosta foto davanti Museo del Domani, Museo d'Arte Rio, murales etnico Kobra omaggio Olimpiadi 2016 (record Guinness) e visita AquaRio, Acquario Marino Rio (~1h); Museo della Cera (~30min) e Ruota Panoramica (88m altezza, 20min giro completo con opzione extra). Passeggiata tranquilla nella zona portuale Rio, perfetta per foto social! **Costi opzionali: (Museo della Cera e Ruota Panoramica)**",
-      "al": "Komm mit uns spazieren auf Olympic Boulevard, Foto-Stopp vor Museum von Morgen, Rio-Kunst-Museum, Kobra's ethnisches Wandbild zu Olympia 2016 (Guinness-Rekord) und besuche AquaRio, Rio-Meerwasser-Aquarium (~1h); Wachsfigurenmuseum (~30min) und Riesenrad (88m hoch, 20min volle Drehung mit Extra-Option). Entspannter Spaziergang im Hafenviertel Rio, ideal für Social-Media-Fotos! **Optionale Kosten: (Wachsfigurenmuseum und Riesenrad)**",
-      "ru": "Прогуляйтесь с нами по Олимпийскому бульвару, фото-стоп у Музея Завтрашнего дня, Музея искусства Рио, этнического мурала Корбры в честь Олимпиады-2016 (рекорд Гиннесса) и посетите AquaRio, морской аквариум Рио (~1ч); Музей восковых фигур (~30мин) и Колесо обозрения (88м высота, 20мин полный круг с возможностью доп. круга). Спокойная прогулка по портовой зоне Рио, идеально для соцсетей! **Дополнительные расходы: (Музей восковых фигур и Колесо обозрения)**",
-      "ch": "与我们漫步奥林匹克大道，在明日博物馆、里约艺术博物馆、纪念2016奥运会的科布拉族群壁画（吉尼斯纪录）前拍照停留，并参观AquaRio海洋馆（约1小时）、蜡像博物馆（约30分钟）和摩天轮（88米高，完整旋转20分钟，可加购额外一圈）。在里约港区悠闲漫步，拍出绝美社交媒体照片！**可选付费项目：（蜡像博物馆和摩天轮）**",
-      "jp": "オリンピック大通りを私たちと散策。明日博物館、リオ芸術館、2016年五輪記念コブラのエトニアス壁画（ギネス記録）前で写真ストップ、AquaRio（約1時間）、蝋人形館（約30分）、観覧車（88m高、20分1周、追加周回可）を巡ります。リオ港湾地区のゆったり散歩、SNS映え抜群！**オプション料金：（蝋人形館・観覧車）**",
-      "ar": "تعال امشِ معنا في بوليفار أولمبي، توقف للصور أمام متحف الغد، متحف فنون ريو، جدارية إتنياس كوبرا تكريم الأولمبياد 2016 (رقم قياسي غينيس) وزر AquaRio (~1س)، متحف الشمع (~30د) وعجلة فيريس (88م ارتفاع، 20د دورة كاملة مع خيار دور إضافي). نزهة هادئة في منطقة ميناء ريو، مثالية لصور وسائل التواصل! **تكاليف اختيارية: (متحف الشمع وعجلة فيريس)**",
-      "he": "בואו לטייל איתנו בשדרת האולימפיאדה, עצירת תמונות מול מוזיאון המחר, מוזיאון אמנות ריו, קיר האתניות של קוברה לזכר אולימפיאדת 2016 (שיא גינס) וביקור באקווריו (~שעה), מוזיאון השעווה (~30 דקות) וגלגל גובה (88 מ' גובה, 20 דקות סיבוב מלא עם אופציה לסיבוב נוסף). הליכה נינוחה באזור הנמל של ריו, מושלם לתמונות שאוהבים לייקים ברשתות! **עלויות אופציונליות: (מוזיאון השעווה וגלגל הגובה)**"
+      "pt-BR": "Venha passear conosco pelo Boulevard Olímpico, parando para uma foto em frente ao Museu do Amanhã, ao Museu de Arte do Rio, ao mural Etnias feito por Eduardo Kobra em homenagem às Olimpíadas de 2016 e que está no Livro Guinness. Também visite o AquaRio, o Aquário Marinho do Rio, com uma visita de aproximadamente 1 hora; O Museu de Cera aproximadamente 30 minutos e a Roda-Gigante, que tem 88 metros de altura e uma volta completa de 20 minutos, com a opção de dar mais uma volta. É uma caminhada tranquila na região portuária do Rio, o que resulta em ótimas fotos para receber muitas curtidas nas redes sociais! **Valores opcionais: (Museu de Cera e Roda Gigante)**",
+
+      "en": "Join us for a walk along the Olympic Boulevard, stopping for photos in front of the Museum of Tomorrow, Museum of Art of Rio, the Etnias mural by Eduardo Kobra honoring the 2016 Olympics and listed in Guinness Book. Also visit AquaRio, Rio's Marine Aquarium (~1h visit); Wax Museum (~30 min) and the Ferris Wheel, 88m tall with 20-min full rotation and option for another ride. Leisurely walk in Rio's port area, perfect for amazing social media photos! **Optional fees: (Wax Museum and Ferris Wheel)**",
+
+      "es": "Ven a pasear por el Boulevard Olímpico, parando para fotos frente al Museo del Mañana, Museo de Arte de Río, mural Etnias de Eduardo Kobra por las Olimpiadas 2016 (Libro Guinness). También visita AquaRio, Acuario Marino de Río (~1h); Museo de Cera (~30 min) y Rueda de la Fortuna, 88m altura con vuelta completa de 20 min y opción de otra vuelta. Paseo tranquilo en zona portuaria de Río, perfecto para fotos virales en redes! **Opcional pago: (Museo de Cera y Rueda)**",
+
+      "fr": "Venez découvrir le Boulevard Olympique, avec arrêts photo devant le Musée du Demain, Musée d'Art du Rio, fresque Etnias d'Eduardo Kobra pour les JO 2016 (Livre Guinness). Visitez aussi AquaRio, aquarium marin de Rio (~1h); Musée de Cire (~30 min) et Grande Roue, 88m de haut avec rotation complète 20 min et option seconde montée. Balade tranquille dans le port de Rio, parfaites photos pour les réseaux sociaux! **Frais optionnels: (Musée de Cire et Grande Roue)**",
+
+      "it": "Passeggia con noi lungo il Boulevard Olimpico, fermandoti per foto davanti al Museo del Domani, Museo d'Arte di Rio, murales Etnias di Eduardo Kobra per le Olimpiadi 2016 (Guinness). Visita anche AquaRio, Acquario Marino di Rio (~1h); Museo della Cera (~30 min) e Ruota Panoramica, 88m con giro completo 20 min e opzione secondo giro. Passeggiata tranquilla nella zona portuale di Rio, foto perfette per i social! **Opzionali a pagamento: (Museo Cera e Ruota)**",
+
+      "al": "Schlendere mit uns über den Olympischen Boulevard, Foto-Stopps vor Museum Morgen, Kunstmuseum Rio, Etnias-Wandbild von Eduardo Kobra für Olympia 2016 (Guinness). Besuche AquaRio Meerwasseraquarium (~1h); Wachsfigurenmuseum (~30 min) und Riesenrad, 88m hoch, 20min volle Runde mit Option zweiter Fahrt. Entspannter Spaziergang im Hafenviertel Rio, perfekt für Social-Media-Fotos! **Optional bezahlt: (Wachsfigurenmuseum & Riesenrad)**",
+
+      "ru": "Прогуляйтесь с нами по Олимпийскому бульвару, фото-стопы у Музея Завтрашнего дня, Музея искусства Рио, фрески Этносы Эдуарду Кобры к Олимпиаде-2016 (Книга Гиннесса). Посетите AquaRio, морской аквариум Рио (~1ч); Музей восковых фигур (~30 мин) и Колесо обозрения, 88м высотой, полный круг 20 мин с возможностью второго круга. Спокойная прогулка по портовой зоне Рио, идеальные фото для соцсетей! **Дополнительная плата: (Музей восковых фигур и Колесо)**",
+
+      "ch": "与我们漫步奥运大道，在明日博物馆、里约艺术博物馆、2016奥运致敬的埃杜尔多·科布拉“种族”壁画（吉尼斯纪录）前拍照停留。也参观AquaRio海洋水族馆（约1小时）、蜡像馆（约30分钟）和88米高的摩天轮（完整转圈20分钟，可再转一圈）。里约港区悠闲漫步，完美社交媒体打卡照！**自费项目：（蜡像馆和摩天轮）**",
+
+      "jp": "オリンピック大通りを一緒に散策！明日博物館、リオ芸術博物館、2016五輪記念エドゥアルド・コブラ「民族」壁画（ギネス認定）前で写真タイム。AquaRio海洋水族館（約1時間）、蝋人形館（約30分）、88m観覧車（1周20分、2周目オプション）も訪問。リオ港湾エリアのゆったり散歩、SNS映え抜群写真！**別料金：（蝋人形館・観覧車）**",
+
+      "ar": "انضم إلينا في جولة على بوليفار أولمبي، توقف للصور أمام متحف الغد، متحف فنون الريو، جدارية إتينياس لإدواردو كوبرا تكريم الأولمبياد 2016 (كتاب غينيس). زر أكوا ريو، حوض أسماك بحرية الريو (~1س); متحف الشمع (~30د) وعجلة فيريس 88م ارتفاع مع دورة كاملة 20دقيقة وخيار دور آخر. نزهة هادئة في منطقة ميناء الريو، صور رائعة للسوشيال ميديا! **رسوم اختيارية: (متحف الشمع وعجلة الفيريس)**",
+
+      "he": "בואו לטייל איתנו בבולווארד האולימפי, תמונות מול מוזיאון המחר, מוזיאון אמנות ריו, קיר האתניות של אדוארדו קוברה לכבוד אולימפיאדת 2016 (ספר גינס). בקרו גם באקווריו, אקווריום הים של ריו (~שעה); מוזיאון השעווה (~30 דק') וגלגל ענק בגובה 88 מ' עם סיבוב מלא של 20 דק' ואופציה לסיבוב נוסף. הליכה נינוחה באזור הנמל של ריו, תמונות מושלמות לרשתות החברתיות! **בתשלום נוסף: (מוזיאון השעווה וגלגל הענק)**"
     },
+
     "image": "/images/boulevardOlimpico/boulevardOlimpico1.avif",
-    "images": ["/images/boulevardOlimpico/boulevard2.avif", "/images/boulevardOlimpico/aquario.jpg"],
+    "images": [
+      "/images/boulevardOlimpico/boulevard2.avif",
+      "/images/boulevardOlimpico/boulevard.jpg",
+      "/images/boulevardOlimpico/aquario.jpg",
+      "/images/boulevardOlimpico/rodaGigante.jpg"
+    ],
     "start": {
       "pt-BR": "8 horas",
       "en": "8 hours",
@@ -2508,7 +2514,6 @@
     "image": "/images/florestaTijuca/florestaTijuca.png",
     "images": [
       "/images/florestaTijuca/floresta.jpg",
-      "/images/florestaTijuca/anuncioParque.jpg",
       "/images/florestaTijuca/trilha.jpg",
       "/images/florestaTijuca/cachoeira.jpg",
       "/images/florestaTijuca/casaAntiga.jpg",
@@ -3129,10 +3134,14 @@
     },
     "image": "/images/rioHistorico2/cbb.png",
     "images": [
+      "/images/rioHistorico2/hist2.png",
       "/images/rioHistorico2/cdmetro.png",
       "/images/rioHistorico2/cbb.png",
-      "/images/rioHistorico2/hist1.png",
-      "/images/rioHistorico2/hist2.png"
+      "/images/rioHistorico2/antigaSe.jpg",
+      "/images/rioHistorico2/cinelandia.jpg",
+      "/images/rioHistorico2/museu.png",
+      "/images/rioHistorico2/escada2.jpeg",
+      "/images/rioHistorico2/hist3.png"
     ],
     "duration": {
       "pt-BR": " Duração - 4 a 5 horas",
@@ -3436,25 +3445,37 @@
       "ar": "اكتشف الثقافة الحيوية لريو دي جانيرو في جولة فافيلا روسينيا. تعلم عن الديناميكيات الاجتماعية والثقافية مع مرشد متمرس.",
       "he": "גלו את התרבות התוססת של ריו דה ז'נרו בסיור בפאבלה רוסיניה. למדו על הדינמיקות החברתיות והתרבותיות עם מדריך מנוסה."
     },
+
     "fullDescription": {
-      "pt-BR": "Conheça um lado do Rio de Janeiro que vai além do asfalto com um passeio a pé guiado pelas favelas da cidade. Explore os becos e ruas vibrantes das favelas e obtenha uma compreensão mais profunda das dinâmicas sociais e culturais do Rio de Janeiro. Acompanhado por um guia experiente, você terá a oportunidade de explorar esses locais de maneira segura e informativa. A caminhada pelas Favela da Rocinha oferece uma visão genuína e sem filtros, proporcionando uma conexão mais profunda com a cidade e seus moradores.",
-      "en": "Get to know a side of Rio de Janeiro beyond the asphalt with a guided walking tour through the city's favelas. Explore the vibrant alleys and streets of the favelas and gain a deeper understanding of Rio de Janeiro's social and cultural dynamics. Accompanied by an experienced guide, you'll have the opportunity to explore these places safely and informatively. The walk through Rocinha Favela offers a genuine, unfiltered view, providing a deeper connection with the city and its residents.",
-      "es": "Conoce un lado de Río de Janeiro más allá del asfalto con un paseo a pie guiado por las favelas de la ciudad. Explora los vibrantes callejones y calles de las favelas y obtén una comprensión más profunda de las dinámicas sociales y culturales de Río de Janeiro. Acompañado por un guía experimentado, tendrás la oportunidad de explorar estos lugares de manera segura e informativa. El paseo por Favela da Rocinha ofrece una visión genuina y sin filtros, proporcionando una conexión más profunda con la ciudad y sus habitantes.",
-      "fr": "Découvrez un côté de Rio de Janeiro au-delà de l'asphalte avec une visite guidée à pied dans les favelas de la ville. Explorez les ruelles et rues vibrantes des favelas et obtenez une compréhension plus profonde des dynamiques sociales et culturelles de Rio de Janeiro. Accompagné d'un guide expérimenté, vous aurez l'occasion d'explorer ces lieux de manière sûre et informative. La marche dans la Favela da Rocinha offre une vision authentique et sans filtre, créant une connexion plus profonde avec la ville et ses habitants.",
-      "it": "Conosci un lato di Rio de Janeiro oltre l'asfalto con una passeggiata guidata a piedi nelle favelas della città. Esplora i vicoli e le strade vibranti delle favelas e ottieni una comprensione più profonda delle dinamiche sociali e culturali di Rio de Janeiro. Accompagnato da una guida esperta, avrai l'opportunità di esplorare questi luoghi in modo sicuro e informativo. La passeggiata nella Favela da Rocinha offre una visione autentica e senza filtri, creando una connessione più profonda con la città e i suoi abitanti.",
-      "al": "Erkunde eine Seite Rio de Janeiros jenseits des Asphalts mit geführter Fußwanderung durch die Favelas der Stadt. Entdecke die lebendigen Gassen und Straßen der Favelas und gewinne tieferes Verständnis für die sozialen und kulturellen Dynamiken Rio de Janeiros. Begleitet von erfahrenem Guide erkundest du diese Orte sicher und informativ. Der Spaziergang durch Rocinha-Favela bietet unverfälschten Einblick und tiefere Verbindung zur Stadt und ihren Bewohnern.",
-      "ru": "Познакомьтесь со стороной Рио-де-Жанейро за пределами асфальта с пешей экскурсией по фавелам города. Исследуйте яркие переулки и улицы фавел и получите более глубокое понимание социальных и культурных динамик Рио-де-Жанейро. Под руководством опытного гида вы сможете безопасно и информативно исследовать эти места. Прогулка по Фавеле Рошиньа предлагает подлинный взгляд без фильтров, создавая глубокую связь с городом и его жителями.",
-      "ch": "超越柏油路，步行探索里约贫民窟。穿越活力四射的小巷街道，深入了解里约社会文化动态。经验丰富的导游带领，安全信息丰富的探索之旅。罗西尼亚贫民窟漫步提供真实无滤镜视野，与城市居民建立深层连接。",
-      "jp": "アスファルトを超えたリオを徒歩ガイドツアーで。ファベーラの活気ある路地裏・通りを探検し、社会・文化ダイナミクスを深く理解。経験豊富なガイド同行で安全・情報豊富に。ロシーニャファベーラ散策で本物の視点、街と住民との深い繋がり。",
-      "ar": "تعرف على جانب آخر من ريو دي جانيرو بعيداً عن الأسفلت مع جولة مشي موجهة في فافيلات المدينة. استكشف الأزقة والشوارع الحيوية في الفافيلات واكتسب فهماً أعمق للديناميكيات الاجتماعية والثقافية في ريو دي جانيرو. برفقة مرشد متمرس، ستحصل على فرصة استكشاف هذه الأماكن بأمان ومعلومات. المشي في فافيلا روسينيا يقدم رؤية حقيقية بلا فلاتر، ويوفر اتصالاً أعمق بالمدينة وأهلها.",
-      "he": "הכירו צד אחר של ריו דה ז'נרו מעבר לכביש האספלט בסיור הליכה מודרך בפאבלות העיר. חקרו את הסמטאות והרחובות התוססים של הפאבלות והבינו לעומק את הדינמיקות החברתיות והתרבותיות של ריו דה ז'נרו. בליווי מדריך מנוסה תוכלו לחקור את המקומות האלה בבטחה ובמידע. ההליכה בפאבלה רוסיניה מציעה מבט אותנטי ללא מסננים, ויוצרת חיבור עמוק יותר עם העיר ותושביה."
+      "pt-BR": "Conheça um lado do Rio de Janeiro que vai além do asfalto com um passeio a pé guiado pela Rocinha. Explore os becos e ruas vibrantes da Rocinha e obtenha uma compreensão mais profunda das dinâmicas sociais e culturais do Rio de Janeiro. Acompanhado por um guia experiente, você terá a oportunidade de explorar esses locais de maneira segura e informativa. A caminhada pela Favela da Rocinha oferece uma visão genuína e sem filtros, proporcionando uma conexão mais profunda com a cidade e seus moradores.",
+
+      "en": "Discover a side of Rio de Janeiro that goes beyond the asphalt with a guided walking tour through Rocinha. Explore the vibrant alleys and streets of Rocinha and gain a deeper understanding of Rio de Janeiro's social and cultural dynamics. Accompanied by an experienced guide, you'll have the opportunity to explore these places safely and informatively. The walk through Rocinha favela offers a genuine, unfiltered view, providing a deeper connection with the city and its residents.",
+
+      "es": "Conoce un lado de Río de Janeiro que va más allá del asfalto con un paseo a pie guiado por Rocinha. Explora los vibrantes callejones y calles de Rocinha y obtén una comprensión más profunda de las dinámicas sociales y culturales de Río de Janeiro. Acompañado por un guía experimentado, tendrás la oportunidad de explorar estos lugares de manera segura e informativa. El recorrido por la favela de Rocinha ofrece una visión genuina y sin filtros, proporcionando una conexión más profunda con la ciudad y sus habitantes.",
+
+      "fr": "Découvrez un côté de Rio de Janeiro qui va au-delà du bitume avec une visite guidée à pied dans Rocinha. Explorez les ruelles et rues vibrantes de Rocinha et obtenez une compréhension plus profonde des dynamiques sociales et culturelles de Rio de Janeiro. Accompagné d'un guide expérimenté, vous aurez l'opportunité d'explorer ces lieux de manière sûre et informative. La marche dans la favela de Rocinha offre une vision authentique et sans filtre, créant une connexion plus profonde avec la ville et ses habitants.",
+
+      "it": "Scopri un lato di Rio de Janeiro che va oltre l'asfalto con un tour a piedi guidato nella Rocinha. Esplora i vicoli e le strade vibranti della Rocinha e ottieni una comprensione più profonda delle dinamiche sociali e culturali di Rio de Janeiro. Accompagnato da una guida esperta, avrai l'opportunità di esplorare questi luoghi in modo sicuro e informativo. La passeggiata nella favela di Rocinha offre una visione genuina e senza filtri, creando una connessione più profonda con la città e i suoi abitanti.",
+
+      "al": "Entdecke eine Seite von Rio de Janeiro jenseits des Asphalts mit einer geführten Fußwanderung durch Rocinha. Erkunde die lebendigen Gassen und Straßen von Rocinha und gewinne ein tieferes Verständnis für die sozialen und kulturellen Dynamiken Rio de Janeiros. Begleitet von einem erfahrenen Guide hast du die Gelegenheit, diese Orte sicher und informativ zu erkunden. Der Spaziergang durch die Rocinha-Favela bietet einen authentischen, ungefilterten Blick und schafft eine tiefere Verbindung zur Stadt und ihren Bewohnern.",
+
+      "ru": "Познакомьтесь с стороной Рио-де-Жанейро, которая выходит за рамки асфальта, с пешей экскурсией по Рошинье с гидом. Исследуйте живые переулки и улицы Рошиньи и получите более глубокое понимание социальных и культурных динамик Рио-де-Жанейро. В сопровождении опытного гида у вас будет возможность безопасно и информативно исследовать эти места. Прогулка по фавеле Рошинья предлагает подлинный взгляд без фильтров, создавая более глубокую связь с городом и его жителями.",
+
+      "ch": "通过罗西尼亚的步行导览游，探索超越柏油路面的里约热内卢。探索罗西尼亚充满活力的巷弄和街道，更深入理解里约热内卢的社会文化动态。在经验丰富的导游陪同下，您可以安全且信息丰富地探索这些地方。罗西尼亚贫民窟步行游提供真实无过滤的视野，建立与城市及其居民更深层次的连接。",
+
+      "jp": "ロシニャのガイド付き徒歩ツアーで、アスファルトを超えたリオデジャネイロの一面を発見。ロシニャの活気ある路地と通りを探検し、リオデジャネイロの社会的・文化的ダイナミクスをより深く理解。経験豊富なガイドに同行され、安全かつ情報豊富にこれらの場所を探検できます。ロシニャファヴェーラの散策はフィルターのない本物の視点を提供し、都市とその住民とのより深い繋がりを生み出します。",
+
+      "ar": "تعرف على جانب من الريو دي جانيرو يتجاوز الأسفلت مع جولة مشي موجهة في روشينها. استكشف الأزقة والشوارع النابضة بالحياة في روشينها واكتسب فهمًا أعمق للديناميكيات الاجتماعية والثقافية للريو دي جانيرو. برفقة مرشد متمرس، ستحصل على فرصة لاستكشاف هذه الأماكن بأمان ومعلوماتية. المشي في فافيلا روشينها يقدم رؤية حقيقية وغير مفلترة، مما يوفر اتصالًا أعمق بالمدينة وأهلها.",
+
+      "he": "גלו צד של ריו דה ז'נרו שמעבר לכביש האספלט עם סיור הליכה מודרך ברושיניה. חקרו את הסמטאות והרחובות התוססים של רושיניה וקבלו הבנה מעמיקה יותר של הדינמיקות החברתיות והתרבותיות של ריו דה ז'נרו. בהכוונת מדריך מנוסה, תהיה לכם הזדמנות לחקור את המקומות האלה בבטחה ובאופן מלא מידע. ההליכה בפבלה של רושיניה מציעה מבט אותנטי וללא מסננים, ומאפשרת חיבור עמוק יותר לעיר ותושביה."
     },
-    "image": "/images/rocinha/rocinha1.jpeg",
+
+    "image": "/images/rocinha/rocinha3.jpeg",
     "images": [
       "/images/rocinha/rocinha3.jpeg",
       "/images/rocinha/rocinha2.jpeg",
-      "/images/rocinha/rocinha4.jpeg",
-      "/images/rocinha/rocinha5.jpeg"
+      "/images/rocinha/rocinha5.jpeg",
+      "/images/rocinha/favela.jpg"
     ],
     "duration": {
       "pt-BR": " Duração - 4 a 5 horas",
@@ -3812,8 +3833,7 @@
         "",
         "👨‍💼 **Guia de turismo**",
         "",
-        "👶 **Política de Gratuidade:** Crianças até 2 anos não pagam (no colo).",
-        "",
+
         "↩️ **Política de Cancelamento:** O cancelamento será gratuito se solicitado até 24h antes do passeio. Caso o cancelamento seja solicitado no mesmo dia do passeio, será cobrado o valor referente à 50% do valor total.",
         "",
         "💳 **Taxas Administrativas:** Os pagamentos realizados em cartão de crédito terão um acréscimo de 5% ao valor total.",
@@ -3834,8 +3854,7 @@
         "",
         "👨‍💼 **Tour guide**",
         "",
-        "👶 **Free Policy:** Children up to 2 years old don't pay (on lap)",
-        "",
+
         "↩️ **Cancellation Policy:** Cancellation is free if requested up to 24h before the tour. If requested on the same day, 50% of the total value will be charged.",
         "",
         "💳 **Administrative Fees:** Credit card payments will have a 5% surcharge on the total amount.",
@@ -3856,8 +3875,7 @@
         "",
         "👨‍💼 **Guía turístico**",
         "",
-        "👶 **Política de Gratuito:** Niños hasta 2 años no pagan (en brazos)",
-        "",
+
         "↩️ **Política de Cancelación:** La cancelación es gratuita si se solicita hasta 24h antes del paseo. Si se solicita el mismo día, se cobrará el 50% del valor total.",
         "",
         "💳 **Tarifas Administrativas:** Los pagos con tarjeta de crédito tendrán un recargo del 5% sobre el valor total.",
@@ -3878,8 +3896,7 @@
         "",
         "👨‍💼 **Guide touristique**",
         "",
-        "👶 **Politique de Gratuité:** Enfants jusqu'à 2 ans ne paient pas (sur les genoux)",
-        "",
+
         "↩️ **Politique d'Annulation:** L'annulation est gratuite si demandée jusqu'à 24h avant l'excursion. Si demandée le jour même, 50% du montant total sera facturé.",
         "",
         "💳 **Frais Administratifs:** Les paiements par carte de crédit auront un supplément de 5% sur le montant total.",
@@ -3900,8 +3917,7 @@
         "",
         "👨‍💼 **Guida turistica**",
         "",
-        "👶 **Politica Gratuità:** Bambini fino a 2 anni non pagano (in braccio)",
-        "",
+
         "↩️ **Politica Cancellazione:** La cancellazione è gratuita se richiesta fino a 24h prima del tour. Se richiesta lo stesso giorno, verrà addebitato il 50% dell'importo totale.",
         "",
         "💳 **Commissioni Amministrative:** I pagamenti con carta di credito avranno un'aggiunta del 5% sull'importo totale.",
@@ -3922,8 +3938,7 @@
         "",
         "👨‍💼 **Reiseleiter**",
         "",
-        "👶 **Kostenlose Politik:** Kinder bis 2 Jahre zahlen nicht (auf dem Schoß)",
-        "",
+
         "↩️ **Stornierungsrichtlinie:** Die Stornierung ist kostenlos, wenn sie bis 24h vor der Tour angefordert wird. Bei Anforderung am selben Tag wird 50% des Gesamtbetrags berechnet.",
         "",
         "💳 **Verwaltungsgebühren:** Zahlungen per Kreditkarte haben einen Aufschlag von 5% auf den Gesamtbetrag.",
@@ -3944,8 +3959,7 @@
         "",
         "👨‍💼 **Гид**",
         "",
-        "👶 **Политика бесплатного проезда:** Дети до 2 лет не платят (на руках)",
-        "",
+
         "↩️ **Политика отмены:** Отмена бесплатна при запросе за 24 часа до экскурсии. При отмене в день экскурсии взимается 50% от общей стоимости.",
         "",
         "💳 **Административные сборы:** Оплата кредитной картой облагается дополнительной платой 5% от общей суммы.",
@@ -3966,8 +3980,7 @@
         "",
         "👨‍💼 **旅游导游**",
         "",
-        "👶 **免费政策：**2岁以下儿童免费（需家长怀抱）",
-        "",
+
         "↩️ **取消政策：**提前24小时取消免费；同日取消收取总费用50%。",
         "",
         "💳 **行政费用：**信用卡支付需加收总金额的5%。",
@@ -3988,8 +4001,7 @@
         "",
         "👨‍💼 **ツアーガイド**",
         "",
-        "👶 **無料ポリシー：**2歳までの子供は無料（保護者の膝の上）",
-        "",
+
         "↩️ **キャンセルポリシー：**ツアー24時間前までのキャンセルは無料。当日キャンセルの場合は総額の50%が請求されます。",
         "",
         "💳 **手数料：**クレジットカード払いは総額の5%上乗せされます。",
@@ -4010,8 +4022,7 @@
         "",
         "👨‍💼 **مرشد سياحي**",
         "",
-        "👶 **سياسة الإعفاء: الأطفال حتى 2 سنة لا يدفعون (في حضن الوالدين)",
-        "",
+
         "↩️ **سياسة الإلغاء: الإلغاء مجاني إذا طُلب قبل 24 ساعة من الجولة. في حالة الإلغاء في نفس يوم الجولة، سيتم فرض 50% من المبلغ الإجمالي.",
         "",
         "💳 **الرسوم الإدارية: الدفع ببطاقة الائتمان سيتم إضافة 5% على المبلغ الإجمالي.",
@@ -4032,8 +4043,7 @@
         "",
         "👨‍💼 **מדריך טיולים**",
         "",
-        "👶 **מדיניות חינם: ילדים עד גיל 2 לא משלמים (על הברכיים)",
-        "",
+
         "↩️ **מדיניות ביטול: ביטול חינם אם מבוצע עד 24 שעות לפני הסיור. ביטול באותו יום יחויב ב-50% מערך הסיור הכולל.",
         "",
         "💳 **עמלות מנהליות: תשלומים בכרטיס אשראי יכללו תוספת של 5% לסכום הכולל.",
@@ -4094,8 +4104,9 @@
     },
     "image": "/images/cristoAquarioRoda/cristo.webp",
     "images": [
-      "/images/cristoAquarioRoda/cristoAquarioRoda1.png",
+      "/images/cristoAquarioRoda/hist3.png",
       "/images/cristoAquarioRoda/aquaRio.webp",
+      "/images/cristoAquarioRoda/newCristo.jpeg",
       "images/cristoAquarioRoda/bigWhells.jpg"
     ],
     "duration": {
@@ -4120,8 +4131,7 @@
         "",
         "👨‍💼 **Guia de turismo**",
         "",
-        "👶 **Política de Gratuidade:** Crianças até 2 anos não pagam (no colo).",
-        "",
+
         "↩️ **Política de Cancelamento:** O cancelamento será gratuito se solicitado até 24h antes do passeio. Caso o cancelamento seja solicitado no mesmo dia do passeio, será cobrado o valor referente à 50% do valor total.",
         "",
         "💳 **Taxas Administrativas:** Os pagamentos realizados em cartão de crédito terão um acréscimo de 5% ao valor total.",
@@ -4142,8 +4152,7 @@
         "",
         "👨‍💼 **Tour guide**",
         "",
-        "👶 **Free Policy:** Children up to 2 years old don't pay (on lap)",
-        "",
+
         "↩️ **Cancellation Policy:** Cancellation is free if requested up to 24h before the tour. If requested on the same day, 50% of the total value will be charged.",
         "",
         "💳 **Administrative Fees:** Credit card payments will have a 5% surcharge on the total amount.",
@@ -4164,8 +4173,7 @@
         "",
         "👨‍💼 **Guía turístico**",
         "",
-        "👶 **Política de Gratuito:** Niños hasta 2 años no pagan (en brazos)",
-        "",
+
         "↩️ **Política de Cancelación:** La cancelación es gratuita si se solicita hasta 24h antes del paseo. Si se solicita el mismo día, se cobrará el 50% del valor total.",
         "",
         "💳 **Tarifas Administrativas:** Los pagos con tarjeta de crédito tendrán un recargo del 5% sobre el valor total.",
@@ -4186,8 +4194,7 @@
         "",
         "👨‍💼 **Guide touristique**",
         "",
-        "👶 **Politique de Gratuité:** Enfants jusqu'à 2 ans ne paient pas (sur les genoux)",
-        "",
+
         "↩️ **Politique d'Annulation:** L'annulation est gratuite si demandée jusqu'à 24h avant l'excursion. Si demandée le jour même, 50% du montant total sera facturé.",
         "",
         "💳 **Frais Administratifs:** Les paiements par carte de crédit auront un supplément de 5% sur le montant total.",
@@ -4208,8 +4215,7 @@
         "",
         "👨‍💼 **Guida turistica**",
         "",
-        "👶 **Politica Gratuità:** Bambini fino a 2 anni non pagano (in braccio)",
-        "",
+
         "↩️ **Politica Cancellazione:** La cancellazione è gratuita se richiesta fino a 24h prima del tour. Se richiesta lo stesso giorno, verrà addebitato il 50% dell'importo totale.",
         "",
         "💳 **Commissioni Amministrative:** I pagamenti con carta di credito avranno un'aggiunta del 5% sull'importo totale.",
@@ -4230,8 +4236,7 @@
         "",
         "👨‍💼 **Reiseleiter**",
         "",
-        "👶 **Kostenlose Politik:** Kinder bis 2 Jahre zahlen nicht (auf dem Schoß)",
-        "",
+
         "↩️ **Stornierungsrichtlinie:** Die Stornierung ist kostenlos, wenn sie bis 24h vor der Tour angefordert wird. Bei Anforderung am selben Tag wird 50% des Gesamtbetrags berechnet.",
         "",
         "💳 **Verwaltungsgebühren:** Zahlungen per Kreditkarte haben einen Aufschlag von 5% auf den Gesamtbetrag.",
@@ -4252,8 +4257,7 @@
         "",
         "👨‍💼 **Гид**",
         "",
-        "👶 **Политика бесплатного проезда:** Дети до 2 лет не платят (на руках)",
-        "",
+
         "↩️ **Политика отмены:** Отмена бесплатна при запросе за 24 часа до экскурсии. При отмене в день экскурсии взимается 50% от общей стоимости.",
         "",
         "💳 **Административные сборы:** Оплата кредитной картой облагается дополнительной платой 5% от общей суммы.",
@@ -4274,8 +4278,7 @@
         "",
         "👨‍💼 **旅游导游**",
         "",
-        "👶 **免费政策：**2岁以下儿童免费（需家长怀抱）",
-        "",
+
         "↩️ **取消政策：**提前24小时取消免费；同日取消收取总费用50%。",
         "",
         "💳 **行政费用：**信用卡支付需加收总金额的5%。",
@@ -4296,8 +4299,7 @@
         "",
         "👨‍💼 **ツアーガイド**",
         "",
-        "👶 **無料ポリシー：**2歳までの子供は無料（保護者の膝の上）",
-        "",
+
         "↩️ **キャンセルポリシー：**ツアー24時間前までのキャンセルは無料。当日キャンセルの場合は総額の50%が請求されます。",
         "",
         "💳 **手数料：**クレジットカード払いは総額の5%上乗せされます。",
@@ -4318,8 +4320,7 @@
         "",
         "👨‍💼 **مرشد سياحي**",
         "",
-        "👶 **سياسة الإعفاء: الأطفال حتى 2 سنة لا يدفعون (في حضن الوالدين)",
-        "",
+
         "↩️ **سياسة الإلغاء: الإلغاء مجاني إذا طُلب قبل 24 ساعة من الجولة. في حالة الإلغاء في نفس يوم الجولة، سيتم فرض 50% من المبلغ الإجمالي.",
         "",
         "💳 **الرسوم الإدارية: الدفع ببطاقة الائتمان سيتم إضافة 5% على المبلغ الإجمالي.",
@@ -4340,8 +4341,7 @@
         "",
         "👨‍💼 **מדריך טיולים**",
         "",
-        "👶 **מדיניות חינם: ילדים עד גיל 2 לא משלמים (על הברכיים)",
-        "",
+
         "↩️ **מדיניות ביטול: ביטול חינם אם מבוצע עד 24 שעות לפני הסיור. ביטול באותו יום יחויב ב-50% מערך הסיור הכולל.",
         "",
         "💳 **עמלות מנהליות: תשלומים בכרטיס אשראי יכללו תוספת של 5% לסכום הכולל.",
@@ -4401,7 +4401,12 @@
       "he": "בקרו במשיח הנוצרי האיקוני והתפעלו מהאמנות במדרגות סלארון. עם מדריך מנוסה תקבלו חוויה מלאה ומעשירה במידע. במהלך הסיור תקבלו המלצות מסעדות לארוחת צהריים טעימה ומשתלמת, ליהנות מהטוב ביותר בתרבות המקומית מבלי לבזבז יותר מדי. זה סיור המשלב היסטוריה, טבע ונופים מדהימים, מושלם לחקור את ריו בנוחות ובאופן אישי. אל תפספסו את ההזדמנות לחוות הכל ביום אחד עם הביטחון והנוחות של מדריך מקצועי."
     },
     "image": "/images/seleron/selaron.png",
-    "images": ["/images/seleron/cristo.webp", "/images/seleron/selaron.png","/images/seleron/escada2.jpeg","/images/seleron/escada.jpeg"],
+    "images": [
+      "/images/seleron/cristo.webp",
+      "/images/seleron/escada.jpeg",
+      "/images/seleron/escada2.jpeg",
+      "/images/seleron/newCristo.jpeg"
+    ],
     "duration": {
       "pt-BR": " Duração - 6 horas",
       "en": "Duration - 6 hours",
@@ -4425,8 +4430,7 @@
         "",
         "👨‍💼 **Guia de turismo**",
         "",
-        "👶 **Política de Gratuidade:** Crianças até 2 anos não pagam (no colo).",
-        "",
+
         "↩️ **Política de Cancelamento:** O cancelamento será gratuito se solicitado até 24h antes do passeio. Caso o cancelamento seja solicitado no mesmo dia do passeio, será cobrado o valor referente à 50% do valor total.",
         "",
         "💳 **Taxas Administrativas:** Os pagamentos realizados em cartão de crédito terão um acréscimo de 5% ao valor total.",
@@ -4447,8 +4451,7 @@
         "",
         "👨‍💼 **Tour guide**",
         "",
-        "👶 **Free Policy:** Children up to 2 years old don't pay (on lap)",
-        "",
+
         "↩️ **Cancellation Policy:** Cancellation is free if requested up to 24h before the tour. If requested on the same day, 50% of the total value will be charged.",
         "",
         "💳 **Administrative Fees:** Credit card payments will have a 5% surcharge on the total amount.",
@@ -4469,7 +4472,7 @@
         "",
         "👨‍💼 **Guía turístico**",
         "",
-        "👶 **Política de Gratuito:** Niños hasta 2 años no pagan (en brazos)",
+
         "",
         "↩️ **Política de Cancelación:** La cancelación es gratuita si se solicita hasta 24h antes del paseo. Si se solicita el mismo día, se cobrará el 50% del valor total.",
         "",
@@ -4491,8 +4494,7 @@
         "",
         "👨‍💼 **Guide touristique**",
         "",
-        "👶 **Politique de Gratuité:** Enfants jusqu'à 2 ans ne paient pas (sur les genoux)",
-        "",
+
         "↩️ **Politique d'Annulation:** L'annulation est gratuite si demandée jusqu'à 24h avant l'excursion. Si demandée le jour même, 50% du montant total sera facturé.",
         "",
         "💳 **Frais Administratifs:** Les paiements par carte de crédit auront un supplément de 5% sur le montant total.",
@@ -4513,8 +4515,7 @@
         "",
         "👨‍💼 **Guida turistica**",
         "",
-        "👶 **Politica Gratuità:** Bambini fino a 2 anni non pagano (in braccio)",
-        "",
+
         "↩️ **Politica Cancellazione:** La cancellazione è gratuita se richiesta fino a 24h prima del tour. Se richiesta lo stesso giorno, verrà addebitato il 50% dell'importo totale.",
         "",
         "💳 **Commissioni Amministrative:** I pagamenti con carta di credito avranno un'aggiunta del 5% sull'importo totale.",
@@ -4535,8 +4536,7 @@
         "",
         "👨‍💼 **Reiseleiter**",
         "",
-        "👶 **Kostenlose Politik:** Kinder bis 2 Jahre zahlen nicht (auf dem Schoß)",
-        "",
+
         "↩️ **Stornierungsrichtlinie:** Die Stornierung ist kostenlos, wenn sie bis 24h vor der Tour angefordert wird. Bei Anforderung am selben Tag wird 50% des Gesamtbetrags berechnet.",
         "",
         "💳 **Verwaltungsgebühren:** Zahlungen per Kreditkarte haben einen Aufschlag von 5% auf den Gesamtbetrag.",
@@ -4557,8 +4557,7 @@
         "",
         "👨‍💼 **Гид**",
         "",
-        "👶 **Политика бесплатного проезда:** Дети до 2 лет не платят (на руках)",
-        "",
+
         "↩️ **Политика отмены:** Отмена бесплатна при запросе за 24 часа до экскурсии. При отмене в день экскурсии взимается 50% от общей стоимости.",
         "",
         "💳 **Административные сборы:** Оплата кредитной картой облагается дополнительной платой 5% от общей суммы.",
@@ -4579,8 +4578,7 @@
         "",
         "👨‍💼 **旅游导游**",
         "",
-        "👶 **免费政策：**2岁以下儿童免费（需家长怀抱）",
-        "",
+
         "↩️ **取消政策：**提前24小时取消免费；同日取消收取总费用50%。",
         "",
         "💳 **行政费用：**信用卡支付需加收总金额的5%。",
@@ -4601,8 +4599,7 @@
         "",
         "👨‍💼 **ツアーガイド**",
         "",
-        "👶 **無料ポリシー：**2歳までの子供は無料（保護者の膝の上）",
-        "",
+
         "↩️ **キャンセルポリシー：**ツアー24時間前までのキャンセルは無料。当日キャンセルの場合は総額の50%が請求されます。",
         "",
         "💳 **手数料：**クレジットカード払いは総額の5%上乗せされます。",
@@ -4623,7 +4620,7 @@
         "",
         "👨‍💼 **مرشد سياحي**",
         "",
-        "👶 **سياسة الإعفاء: الأطفال حتى 2 سنة لا يدفعون (في حضن الوالدين)",
+
         "",
         "↩️ **سياسة الإلغاء: الإلغاء مجاني إذا طُلب قبل 24 ساعة من الجولة. في حالة الإلغاء في نفس يوم الجولة، سيتم فرض 50% من المبلغ الإجمالي.",
         "",
@@ -4645,8 +4642,7 @@
         "",
         "👨‍💼 **מדריך טיולים**",
         "",
-        "👶 **מדיניות חינם: ילדים עד גיל 2 לא משלמים (על הברכיים)",
-        "",
+
         "↩️ **מדיניות ביטול: ביטול חינם אם מבוצע עד 24 שעות לפני הסיור. ביטול באותו יום יחויב ב-50% מערך הסיור הכולל.",
         "",
         "💳 **עמלות מנהליות: תשלומים בכרטיס אשראי יכללו תוספת של 5% לסכום הכולל.",
@@ -4667,17 +4663,17 @@
   {
     "id": "arraial-cabo",
     "name": {
-      "pt-BR": "Arraial do Cabo (Outra cidade)",
-      "en": "Arraial do Cabo (Other city)",
-      "es": "Arraial do Cabo (Otra ciudad)",
-      "fr": "Arraial do Cabo (Autre ville)",
-      "it": "Arraial do Cabo (Altra città)",
-      "al": "Arraial do Cabo (Andere Stadt)",
-      "ru": "Arraial do Cabo (Другой город)",
-      "ch": "Arraial do Cabo (其他城市)",
-      "jp": "Arraial do Cabo (他都市)",
-      "ar": "Arraial do Cabo (مدينة أخرى)",
-      "he": "Arraial do Cabo (עיר אחרת)"
+      "pt-BR": "Arraial do Cabo",
+      "en": "Arraial do Cabo",
+      "es": "Arraial do Cabo",
+      "fr": "Arraial do Cabo",
+      "it": "Arraial do Cabo",
+      "al": "Arraial do Cabo",
+      "ru": "Arraial do Cabo",
+      "ch": "Arraial do Cabo",
+      "jp": "Arraial do Cabo",
+      "ar": "Arraial do Cabo",
+      "he": "Arraial do Cabo"
     },
     "shortDescription": {
       "pt-BR": "Passeio de barco com paradas para nadar e mergulhar em 3 praias: Ilha do Farol, Prainhas do Atalaia, Forno. Inclui panorâmicas: Buraco do Meteorito, Gruta Azul, Pedra do Gorila e Fenda de Nossa Senhora da Assunção.",
@@ -5086,7 +5082,7 @@
       "/images/angra/angra1.png",
       "/images/angra/angra2.png",
       "/images/angra/angra3.png",
-      "/images/angra/angra4.png",
+      "/images/angra/angra4.jpg",
       "/images/angra/angra5.png"
     ],
     "attractions": {
@@ -6121,7 +6117,8 @@
     "image": "/images/teresopolis/teresopolis.jpg",
     "images": [
       "/images/teresopolis/teresopolis2.jpg",
-      "/images/teresopolis/teresopolis3.jpeg" ],
+      "/images/teresopolis/teresopolis3.jpeg"
+    ],
     "duration": {
       "pt-BR": " Duração - 15 horas",
       "en": "Duration - 15 hours",
@@ -6430,8 +6427,7 @@
       "/images/niteroi/niteroi2.png",
       "/images/niteroi/niteroi3.png",
       "/images/niteroi/niteroi4.png",
-      "/images/niteroi/niteroi5.png",
-      "/images/niteroi/niteroi6.png"
+      "/images/niteroi/niteroi5.png"
     ],
     "duration": {
       "pt-BR": " Duração - 9 horas",
@@ -6735,8 +6731,8 @@
       "ar": "تعرف على مدينة ريو دي جانيرو من زاوية أخرى في جولة مروحية لما يصل إلى 3 أشخاص. طِر فوق المدينة الرائعة واستمتع بإطلالة مميزة! *جولات تصل إلى 30 دقيقة. **الأسعار تختلف حسب المدة.",
       "he": " הכירו את העיר ריו דה ז'נרו מזווית אחרת בסיור במסוק ל-3 אנשים. חוו את העיר המופלאה מנקודת מבט מיוחדת! *סיורים עד 30 דקות. **המחירים משתנים לפי משך הזמן."
     },
-    "image": "",
-    "images": [],
+    "image": "images/logo.jpg",
+    "images": ["images/logo.jpg"],
     "duration": {
       "pt-BR": "Duração - 30 minutos",
       "en": "Duration - 30 minutes",
@@ -6759,8 +6755,7 @@
         "",
         "👨‍💼 **Guia de turismo**",
         "",
-        "👶 **Política de Gratuidade:** Crianças até 2 anos não pagam (no colo).",
-        "",
+
         "↩️ **Política de Cancelamento:** O cancelamento será gratuito se solicitado até 24h antes do passeio. Caso o cancelamento seja solicitado no mesmo dia do passeio, será cobrado o valor referente à 50% do valor total.",
         "",
         "💳 **Taxas Administrativas:** Os pagamentos realizados em cartão de crédito terão um acréscimo de 5% ao valor total.",
@@ -6778,8 +6773,7 @@
         "",
         "👨‍💼 **Tour guide**",
         "",
-        "👶 **Free Policy:** Children up to 2 years old don't pay (on lap)",
-        "",
+
         "↩️ **Cancellation Policy:** Cancellation is free if requested up to 24h before the tour. If requested on the same day, 50% of the total value will be charged.",
         "",
         "💳 **Administrative Fees:** Credit card payments will have a 5% surcharge on the total amount.",
@@ -6797,8 +6791,7 @@
         "",
         "👨‍💼 **Guía turístico**",
         "",
-        "👶 **Política de Gratuito:** Niños hasta 2 años no pagan (en brazos)",
-        "",
+
         "↩️ **Política de Cancelación:** La cancelación es gratuita si se solicita hasta 24h antes del paseo. Si se solicita el mismo día, se cobrará el 50% del valor total.",
         "",
         "💳 **Tarifas Administrativas:** Los pagos con tarjeta de crédito tendrán un recargo del 5% sobre el valor total.",
@@ -6816,8 +6809,7 @@
         "",
         "👨‍💼 **Guide touristique**",
         "",
-        "👶 **Politique de Gratuité:** Enfants jusqu'à 2 ans ne paient pas (sur les genoux)",
-        "",
+
         "↩️ **Politique d'Annulation:** L'annulation est gratuite si demandée jusqu'à 24h avant l'excursion. Si demandée le jour même, 50% du montant total sera facturé.",
         "",
         "💳 **Frais Administratifs:** Les paiements par carte de crédit auront un supplément de 5% sur le montant total.",
@@ -6835,8 +6827,7 @@
         "",
         "👨‍💼 **Guida turistica**",
         "",
-        "👶 **Politica Gratuità:** Bambini fino a 2 anni non pagano (in braccio)",
-        "",
+
         "↩️ **Politica Cancellazione:** La cancellazione è gratuita se richiesta fino a 24h prima del tour. Se richiesta lo stesso giorno, verrà addebitato il 50% dell'importo totale.",
         "",
         "💳 **Commissioni Amministrative:** I pagamenti con carta di credito avranno un'aggiunta del 5% sull'importo totale.",
@@ -6854,8 +6845,7 @@
         "",
         "👨‍💼 **Reiseleiter**",
         "",
-        "👶 **Kostenlose Politik:** Kinder bis 2 Jahre zahlen nicht (auf dem Schoß)",
-        "",
+
         "↩️ **Stornierungsrichtlinie:** Die Stornierung ist kostenlos, wenn sie bis 24h vor der Tour angefordert wird. Bei Anforderung am selben Tag wird 50% des Gesamtbetrags berechnet.",
         "",
         "💳 **Verwaltungsgebühren:** Zahlungen per Kreditkarte haben einen Aufschlag von 5% auf den Gesamtbetrag.",
@@ -6873,8 +6863,7 @@
         "",
         "👨‍💼 **Гид**",
         "",
-        "👶 **Политика бесплатного проезда:** Дети до 2 лет не платят (на руках)",
-        "",
+
         "↩️ **Политика отмены:** Отмена бесплатна при запросе за 24 часа до экскурсии. При отмене в день экскурсии взимается 50% от общей стоимости.",
         "",
         "💳 **Административные сборы:** Оплата кредитной картой облагается дополнительной платой 5% от общей суммы.",
@@ -6892,8 +6881,7 @@
         "",
         "👨‍💼 **旅游导游**",
         "",
-        "👶 **免费政策：**2岁以下儿童免费（需家长怀抱）",
-        "",
+
         "↩️ **取消政策：**提前24小时取消免费；同日取消收取总费用50%。",
         "",
         "💳 **行政费用：**信用卡支付需加收总金额的5%。",
@@ -6911,8 +6899,7 @@
         "",
         "👨‍💼 **ツアーガイド**",
         "",
-        "👶 **無料ポリシー：**2歳までの子供は無料（保護者の膝の上）",
-        "",
+
         "↩️ **キャンセルポリシー：**ツアー24時間前までのキャンセルは無料。当日キャンセルの場合は総額の50%が請求されます。",
         "",
         "💳 **手数料：**クレジットカード払いは総額の5%上乗せされます。",
@@ -6930,8 +6917,7 @@
         "",
         "👨‍💼 **مرشد سياحي**",
         "",
-        "👶 **سياسة الإعفاء:** الأطفال حتى 2 سنة لا يدفعون (في حضن الوالدين)",
-        "",
+
         "↩️ **سياسة الإلغاء:** الإلغاء مجاني إذا طُلب قبل 24 ساعة من الجولة. في حالة الإلغاء في نفس يوم الجولة، سيتم فرض 50% من المبلغ الإجمالي.",
         "",
         "💳 **الرسوم الإدارية:** الدفع ببطاقة الائتمان سيتم إضافة 5% على المبلغ الإجمالي.",
@@ -6949,8 +6935,7 @@
         "",
         "👨‍💼 **מדריך טיולים**",
         "",
-        "👶 **מדיניות חינם:** ילדים עד גיל 2 לא משלמים (על הברכיים)",
-        "",
+
         "↩️ **מדיניות ביטול:** ביטול חינם אם מבוצע עד 24 שעות לפני הסיور. ביטול באותו יום יחויב ב-50% מערך הסיור הכולל.",
         "",
         "💳 **עמלות מנהליות:** תשלומים בכרטיס אשראי יכללו תוספת של 5% לסכום הכולל.",
@@ -7006,8 +6991,8 @@
       "ar": "اشحذ معنا في خليج غوانابارا وشاهد ريو دي جانيرو من منظور آخر. من مارينا دا غلوريا، نمر قرب مطار سانتوس دومونت، جزيرة فيسكال، تحت جسر ريو-نيتيروي، على طول شاطئ المدينة المجاورة حيث نرى متحف الفن المعاصر. نرى أيضاًパン دي أسوكار، تلة أوركا وشواطئ بوتافوغو وفلامنغو. **المشروبات والوجبات الخفيفة منفصلة.",
       "he": "שוטו איתנו במפרץ גואנברה וראו את ריו דה ז'נרו מזווית אחרת. יציאה ממרינה דה גלוריה, מעבר ליד נמל התעופה סנטוס דומונט, אי פיסקל, מתחת לגשר ריו-ניטרוי, לאורך חופי העיר השכנה שם נראה את מוזיאון האמנות העכשווית. נראה גם אתパン דה אסוקר, גבעת אורקה וחופי בוטפוגו ופלמנגו. **משקאות וחטיפים בנפרד."
     },
-    "image": "",
-    "images": [],
+    "image": "images/logo.jpg",
+    "images": ["images/logo.jpg"],
     "duration": {
       "pt-BR": "Duração - 4h (total, sendo 2h de barco)",
       "en": "Duration - 4h (total, 2h boat)",
@@ -7030,8 +7015,7 @@
         "",
         "👨‍💼 **Guia de turismo**",
         "",
-        "👶 **Política de Gratuidade:** Crianças até 2 anos não pagam (no colo).",
-        "",
+
         "↩️ **Política de Cancelamento:** O cancelamento será gratuito se solicitado até 24h antes do passeio. Caso o cancelamento seja solicitado no mesmo dia do passeio, será cobrado o valor referente à 50% do valor total.",
         "",
         "💳 **Taxas Administrativas:** Os pagamentos realizados em cartão de crédito terão um acréscimo de 5% ao valor total.",
@@ -7049,8 +7033,7 @@
         "",
         "👨‍💼 **Tour guide**",
         "",
-        "👶 **Free Policy:** Children up to 2 years old don't pay (on lap)",
-        "",
+
         "↩️ **Cancellation Policy:** Cancellation is free if requested up to 24h before the tour. If requested on the same day, 50% of the total value will be charged.",
         "",
         "💳 **Administrative Fees:** Credit card payments will have a 5% surcharge on the total amount.",
@@ -7068,8 +7051,7 @@
         "",
         "👨‍💼 **Guía turístico**",
         "",
-        "👶 **Política de Gratuito:** Niños hasta 2 años no pagan (en brazos)",
-        "",
+
         "↩️ **Política de Cancelación:** La cancelación es gratuita si se solicita hasta 24h antes del paseo. Si se solicita el mismo día, se cobrará el 50% del valor total.",
         "",
         "💳 **Tarifas Administrativas:** Los pagos con tarjeta de crédito tendrán un recargo del 5% sobre el valor total.",
@@ -7087,8 +7069,7 @@
         "",
         "👨‍💼 **Guide touristique**",
         "",
-        "👶 **Politique de Gratuité:** Enfants jusqu'à 2 ans ne paient pas (sur les genoux)",
-        "",
+
         "↩️ **Politique d'Annulation:** L'annulation est gratuite si demandée jusqu'à 24h avant l'excursion. Si demandée le jour même, 50% du montant total sera facturé.",
         "",
         "💳 **Frais Administratifs:** Les paiements par carte de crédit auront un supplément de 5% sur le montant total.",
@@ -7106,8 +7087,7 @@
         "",
         "👨‍💼 **Guida turistica**",
         "",
-        "👶 **Politica Gratuità:** Bambini fino a 2 anni non pagano (in braccio)",
-        "",
+
         "↩️ **Politica Cancellazione:** La cancellazione è gratuita se richiesta fino a 24h prima del tour. Se richiesta lo stesso giorno, verrà addebitato il 50% dell'importo totale.",
         "",
         "💳 **Commissioni Amministrative:** I pagamenti con carta di credito avranno un'aggiunta del 5% sull'importo totale.",
@@ -7125,8 +7105,7 @@
         "",
         "👨‍💼 **Reiseleiter**",
         "",
-        "👶 **Kostenlose Politik:** Kinder bis 2 Jahre zahlen nicht (auf dem Schoß)",
-        "",
+
         "↩️ **Stornierungsrichtlinie:** Die Stornierung ist kostenlos, wenn sie bis 24h vor der Tour angefordert wird. Bei Anforderung am selben Tag wird 50% des Gesamtbetrags berechnet.",
         "",
         "💳 **Verwaltungsgebühren:** Zahlungen per Kreditkarte haben einen Aufschlag von 5% auf den Gesamtbetrag.",
@@ -7144,8 +7123,7 @@
         "",
         "👨‍💼 **Гид**",
         "",
-        "👶 **Политика бесплатного проезда:** Дети до 2 лет не платят (на руках)",
-        "",
+
         "↩️ **Политика отмены:** Отмена бесплатна при запросе за 24 часа до экскурсии. При отмене в день экскурсии взимается 50% от общей стоимости.",
         "",
         "💳 **Административные сборы:** Оплата кредитной картой облагается дополнительной платой 5% от общей суммы.",
@@ -7163,8 +7141,7 @@
         "",
         "👨‍💼 **旅游导游**",
         "",
-        "👶 **免费政策：**2岁以下儿童免费（需家长怀抱）",
-        "",
+
         "↩️ **取消政策：**提前24小时取消免费；同日取消收取总费用50%。",
         "",
         "💳 **行政费用：**信用卡支付需加收总金额的5%。",
@@ -7182,8 +7159,7 @@
         "",
         "👨‍💼 **ツアーガイド**",
         "",
-        "👶 **無料ポリシー：**2歳までの子供は無料（保護者の膝の上）",
-        "",
+
         "↩️ **キャンセルポリシー：**ツアー24時間前までのキャンセルは無料。当日キャンセルの場合は総額の50%が請求されます。",
         "",
         "💳 **手数料：**クレジットカード払いは総額の5%上乗せされます。",
@@ -7201,8 +7177,7 @@
         "",
         "👨‍💼 **مرشد سياحي**",
         "",
-        "👶 **سياسة الإعفاء:** الأطفال حتى 2 سنة لا يدفعون (في حضن الوالدين)",
-        "",
+
         "↩️ **سياسة الإلغاء:** الإلغاء مجاني إذا طُلب قبل 24 ساعة من الجولة. في حالة الإلغاء في نفس يوم الجولة، سيتم فرض 50% من المبلغ الإجمالي.",
         "",
         "💳 **الرسوم الإدارية:** الدفع ببطاقة الائتمان سيتم إضافة 5% على المبلغ الإجمالي.",
@@ -7220,8 +7195,7 @@
         "",
         "👨‍💼 **מדריך טיולים**",
         "",
-        "👶 **מדיניות חינם:** ילדים עד גיל 2 לא משלמים (על הברכיים)",
-        "",
+
         "↩️ **מדיניות ביטול:** ביטול חינם אם מבוצע עד 24 שעות לפני הסיור. ביטול באותו יום יחויב ב-50% מערך הסיור הכולל.",
         "",
         "💳 **עמלות מנהליות:** תשלומים בכרטיס אשראי יכללו תוספת של 5% לסכום הכולל.",
@@ -7277,8 +7251,8 @@
       "ar": "اكتشف شاطئ الرئيسيات الكاريوكية ركوب الدراجات معنا في كوباكابانا، ليمه، برايا فيرميلا، بوتافوغو، بحيرة رودريغو دي فريتاس، ليبлон، إيبانيما وأرپوادور. ننهي في كوباكابانا.",
       "he": "גלו את חופי הים הראשיים של ריו ברכיבה על אופניים איתנו: קופקבנה, למה, פראיה ורמליה, בוטפוגו, לגונת רודריגו דה פרייטס, לבלאון, איפנמה וארפואדור. מסיימים בקופקבנה."
     },
-    "image": "",
-    "images": [],
+    "image": "images/logo.jpg",
+    "images": ["images/logo.jpg"],
     "duration": {
       "pt-BR": "Duração - 3h",
       "en": "Duration - 3h",
@@ -7301,8 +7275,7 @@
         "",
         "👨‍💼 **Guia de turismo**",
         "",
-        "👶 **Política de Gratuidade:** Crianças até 2 anos não pagam (no colo).",
-        "",
+
         "↩️ **Política de Cancelamento:** O cancelamento será gratuito se solicitado até 24h antes do passeio. Caso o cancelamento seja solicitado no mesmo dia do passeio, será cobrado o valor referente à 50% do valor total.",
         "",
         "💳 **Taxas Administrativas:** Os pagamentos realizados em cartão de crédito terão um acréscimo de 5% ao valor total.",
@@ -7320,8 +7293,7 @@
         "",
         "👨‍💼 **Tour guide**",
         "",
-        "👶 **Free Policy:** Children up to 2 years old don't pay (on lap)",
-        "",
+
         "↩️ **Cancellation Policy:** Cancellation is free if requested up to 24h before the tour. If requested on the same day, 50% of the total value will be charged.",
         "",
         "💳 **Administrative Fees:** Credit card payments will have a 5% surcharge on the total amount.",
@@ -7339,8 +7311,7 @@
         "",
         "👨‍💼 **Guía turístico**",
         "",
-        "👶 **Política de Gratuito:** Niños hasta 2 años no pagan (en brazos)",
-        "",
+
         "↩️ **Política de Cancelación:** La cancelación es gratuita si se solicita hasta 24h antes del paseo. Si se solicita el mismo día, se cobrará el 50% del valor total.",
         "",
         "💳 **Tarifas Administrativas:** Los pagos con tarjeta de crédito tendrán un recargo del 5% sobre el valor total.",
@@ -7358,8 +7329,7 @@
         "",
         "👨‍💼 **Guide touristique**",
         "",
-        "👶 **Politique de Gratuité:** Enfants jusqu'à 2 ans ne paient pas (sur les genoux)",
-        "",
+
         "↩️ **Politique d'Annulation:** L'annulation est gratuite si demandée jusqu'à 24h avant l'excursion. Si demandée le jour même, 50% du montant total sera facturé.",
         "",
         "💳 **Frais Administratifs:** Les paiements par carte de crédit auront un supplément de 5% sur le montant total.",
@@ -7377,8 +7347,7 @@
         "",
         "👨‍💼 **Guida turistica**",
         "",
-        "👶 **Politica Gratuità:** Bambini fino a 2 anni non pagano (in braccio)",
-        "",
+
         "↩️ **Politica Cancellazione:** La cancellazione è gratuita se richiesta fino a 24h prima del tour. Se richiesta lo stesso giorno, verrà addebitato il 50% dell'importo totale.",
         "",
         "💳 **Commissioni Amministrative:** I pagamenti con carta di credito avranno un'aggiunta del 5% sull'importo totale.",
@@ -7396,8 +7365,7 @@
         "",
         "👨‍💼 **Reiseleiter**",
         "",
-        "👶 **Kostenlose Politik:** Kinder bis 2 Jahre zahlen nicht (auf dem Schoß)",
-        "",
+
         "↩️ **Stornierungsrichtlinie:** Die Stornierung ist kostenlos, wenn sie bis 24h vor der Tour angefordert wird. Bei Anforderung am selben Tag wird 50% des Gesamtbetrags berechnet.",
         "",
         "💳 **Verwaltungsgebühren:** Zahlungen per Kreditkarte haben einen Aufschlag von 5% auf den Gesamtbetrag.",
@@ -7415,8 +7383,7 @@
         "",
         "👨‍💼 **Гид**",
         "",
-        "👶 **Политика бесплатного проезда:** Дети до 2 лет не платят (на руках)",
-        "",
+
         "↩️ **Политика отмены:** Отмена бесплатна при запросе за 24 часа до экскурсии. При отмене в день экскурсии взимается 50% от общей стоимости.",
         "",
         "💳 **Административные сборы:** Оплата кредитной картой облагается дополнительной платой 5% от общей суммы.",
@@ -7434,8 +7401,7 @@
         "",
         "👨‍💼 **旅游导游**",
         "",
-        "👶 **免费政策：**2岁以下儿童免费（需家长怀抱）",
-        "",
+
         "↩️ **取消政策：**提前24小时取消免费；同日取消收取总费用50%。",
         "",
         "💳 **行政费用：**信用卡支付需加收总金额的5%。",
@@ -7453,8 +7419,7 @@
         "",
         "👨‍💼 **ツアーガイド**",
         "",
-        "👶 **無料ポリシー：**2歳までの子供は無料（保護者の膝の上）",
-        "",
+
         "↩️ **キャンセルポリシー：**ツアー24時間前までのキャンセルは無料。当日キャンセルの場合は総額の50%が請求されます。",
         "",
         "💳 **手数料：**クレジットカード払いは総額の5%上乗せされます。",
@@ -7472,8 +7437,7 @@
         "",
         "👨‍💼 **مرشد سياحي**",
         "",
-        "👶 **سياسة الإعفاء:** الأطفال حتى 2 سنة لا يدفعون (في حضن الوالدين)",
-        "",
+
         "↩️ **سياسة الإلغاء:** الإلغاء مجاني إذا طُلب قبل 24 ساعة من الجولة. في حالة الإلغاء في نفس يوم الجولة، سيتم فرض 50% من المبلغ الإجمالي.",
         "",
         "💳 **الرسوم الإدارية:** الدفع ببطاقة الائتمان سيتم إضافة 5% على المبلغ الإجمالي.",
@@ -7491,8 +7455,7 @@
         "",
         "👨‍💼 **מדריך טיולים**",
         "",
-        "👶 **מדיניות חינם:** ילדים עד גיל 2 לא משלמים (על הברכיים)",
-        "",
+
         "↩️ **מדיניות ביטול:** ביטול חינם אם מבוצע עד 24 שעות לפני הסיור. ביטול באותו יום יחויב ב-50% מערך הסיור הכולל.",
         "",
         "💳 **עמלות מנהליות:** תשלומים בכרטיס אשראי יכללו תוספת של 5% לסכום הכולל.",
@@ -7548,8 +7511,8 @@
       "ar": "طِر فوق ريو دي جانيرو بالباراشوت أو الدلتة، وعِش تجربة فريدة لرؤية المدينة الرائعة من الأعلى. يمكنك أيضاً شراء الفيديو المسجل أثناء الطيران لتخليد هذه الذكرى.",
       "he": "עפו מעל ריו דה ז'נרו בגלישת דאון דלתא או פראגליידינג, וחוו חוויה ייחודית של ראיית העיר המופלאה מלמעלה. ניתן גם לרכוש את הסרטון המצולם במהלך הטיסה כדי לשמר את הזיכרון לנצח."
     },
-    "image": "",
-    "images": [],
+    "image": "images/logo.jpg",
+    "images": ["images/logo.jpg"],
     "duration": {
       "pt-BR": "Duração - 2h",
       "en": "Duration - 2h",
@@ -7572,8 +7535,7 @@
         "",
         "👨‍💼 **Guia de turismo**",
         "",
-        "👶 **Política de Gratuidade:** Crianças até 2 anos não pagam (no colo).",
-        "",
+
         "↩️ **Política de Cancelamento:** O cancelamento será gratuito se solicitado até 24h antes do passeio. Caso o cancelamento seja solicitado no mesmo dia do passeio, será cobrado o valor referente à 50% do valor total.",
         "",
         "💳 **Taxas Administrativas:** Os pagamentos realizados em cartão de crédito terão um acréscimo de 5% ao valor total.",
@@ -7591,8 +7553,7 @@
         "",
         "👨‍💼 **Tour guide**",
         "",
-        "👶 **Free Policy:** Children up to 2 years old don't pay (on lap)",
-        "",
+
         "↩️ **Cancellation Policy:** Cancellation is free if requested up to 24h before the tour. If requested on the same day, 50% of the total value will be charged.",
         "",
         "💳 **Administrative Fees:** Credit card payments will have a 5% surcharge on the total amount.",
@@ -7610,8 +7571,7 @@
         "",
         "👨‍💼 **Guía turístico**",
         "",
-        "👶 **Política de Gratuito:** Niños hasta 2 años no pagan (en brazos)",
-        "",
+
         "↩️ **Política de Cancelación:** La cancelación es gratuita si se solicita hasta 24h antes del paseo. Si se solicita el mismo día, se cobrará el 50% del valor total.",
         "",
         "💳 **Tarifas Administrativas:** Los pagos con tarjeta de crédito tendrán un recargo del 5% sobre el valor total.",
@@ -7629,8 +7589,7 @@
         "",
         "👨‍💼 **Guide touristique**",
         "",
-        "👶 **Politique de Gratuité:** Enfants jusqu'à 2 ans ne paient pas (sur les genoux)",
-        "",
+
         "↩️ **Politique d'Annulation:** L'annulation est gratuite si demandée jusqu'à 24h avant l'excursion. Si demandée le jour même, 50% du montant total sera facturé.",
         "",
         "💳 **Frais Administratifs:** Les paiements par carte de crédit auront un supplément de 5% sur le montant total.",
@@ -7648,8 +7607,7 @@
         "",
         "👨‍💼 **Guida turistica**",
         "",
-        "👶 **Politica Gratuità:** Bambini fino a 2 anni non pagano (in braccio)",
-        "",
+
         "↩️ **Politica Cancellazione:** La cancellazione è gratuita se richiesta fino a 24h prima del tour. Se richiesta lo stesso giorno, verrà addebitato il 50% dell'importo totale.",
         "",
         "💳 **Commissioni Amministrative:** I pagamenti con carta di credito avranno un'aggiunta del 5% sull'importo totale.",
@@ -7667,8 +7625,7 @@
         "",
         "👨‍💼 **Reiseleiter**",
         "",
-        "👶 **Kostenlose Politik:** Kinder bis 2 Jahre zahlen nicht (auf dem Schoß)",
-        "",
+
         "↩️ **Stornierungsrichtlinie:** Die Stornierung ist kostenlos, wenn sie bis 24h vor der Tour angefordert wird. Bei Anforderung am selben Tag wird 50% des Gesamtbetrags berechnet.",
         "",
         "💳 **Verwaltungsgebühren:** Zahlungen per Kreditkarte haben einen Aufschlag von 5% auf den Gesamtbetrag.",
@@ -7686,8 +7643,7 @@
         "",
         "👨‍💼 **Гид**",
         "",
-        "👶 **Политика бесплатного проезда:** Дети до 2 лет не платят (на руках)",
-        "",
+
         "↩️ **Политика отмены:** Отмена бесплатна при запросе за 24 часа до экскурсии. При отмене в день экскурсии взимается 50% от общей стоимости.",
         "",
         "💳 **Административные сборы:** Оплата кредитной картой облагается дополнительной платой 5% от общей суммы.",
@@ -7705,8 +7661,7 @@
         "",
         "👨‍💼 **旅游导游**",
         "",
-        "👶 **免费政策：**2岁以下儿童免费（需家长怀抱）",
-        "",
+
         "↩️ **取消政策：**提前24小时取消免费；同日取消收取总费用50%。",
         "",
         "💳 **行政费用：**信用卡支付需加收总金额的5%。",
@@ -7724,8 +7679,7 @@
         "",
         "👨‍💼 **ツアーガイド**",
         "",
-        "👶 **無料ポリシー：**2歳までの子供は無料（保護者の膝の上）",
-        "",
+
         "↩️ **キャンセルポリシー：**ツアー24時間前までのキャンセルは無料。当日キャンセルの場合は総額の50%が請求されます。",
         "",
         "💳 **手数料：**クレジットカード払いは総額の5%上乗せされます。",
@@ -7743,8 +7697,7 @@
         "",
         "👨‍💼 **مرشد سياحي**",
         "",
-        "👶 **سياسة الإعفاء:** الأطفال حتى 2 سنة لا يدفعون (في حضن الوالدين)",
-        "",
+
         "↩️ **سياسة الإلغاء:** الإلغاء مجاني إذا طُلب قبل 24 ساعة من الجولة. في حالة الإلغاء في نفس يوم الجولة، سيتم فرض 50% من المبلغ الإجمالي.",
         "",
         "💳 **الرسوم الإدارية:** الدفع ببطاقة الائتمان سيتم إضافة 5% على المبلغ الإجمالي.",
@@ -7762,8 +7715,7 @@
         "",
         "👨‍💼 **מדריך טיולים**",
         "",
-        "👶 **מדיניות חינם:** ילדים עד גיל 2 לא משלמים (על הברכיים)",
-        "",
+
         "↩️ **מדיניות ביטול:** ביטול חינם אם מבוצע עד 24 שעות לפני הסיור. ביטול באותו יום יחויב ב-50% מערך הסיור הכולל.",
         "",
         "💳 **עמלות מנהליות:** תשלומים בכרטיס אשראי יכללו תוספת של 5% לסכום הכולל.",
@@ -7819,8 +7771,8 @@
       "ar": "شارك في تدريب في ملاعب مدرسة سامبا كاريوكية واستمتع بمعاينة صغيرة لـ'أعظم عرض على الأرض'!",
       "he": "בואו להשתתף בחזרה במגרש של בית ספר סמבה קריוקי ותטעמו קצת מה'מופע הגדול ביותר עלי אדמות'!"
     },
-    "image": "",
-    "images": [],
+    "image": "images/logo.jpg",
+    "images": ["images/logo.jpg"],
     "duration": {
       "pt-BR": "Duração - 6h",
       "en": "Duration - 6h",
@@ -7843,8 +7795,7 @@
         "",
         "👨‍💼 **Guia de turismo**",
         "",
-        "👶 **Política de Gratuidade:** Crianças até 2 anos não pagam (no colo).",
-        "",
+
         "↩️ **Política de Cancelamento:** O cancelamento será gratuito se solicitado até 24h antes do passeio. Caso o cancelamento seja solicitado no mesmo dia do passeio, será cobrado o valor referente à 50% do valor total.",
         "",
         "💳 **Taxas Administrativas:** Os pagamentos realizados em cartão de crédito terão um acréscimo de 5% ao valor total.",
@@ -7860,8 +7811,7 @@
         "",
         "👨‍💼 **Tour guide**",
         "",
-        "👶 **Free Policy:** Children up to 2 years old don't pay (on lap)",
-        "",
+
         "↩️ **Cancellation Policy:** Cancellation is free if requested up to 24h before the tour. If requested on the same day, 50% of the total value will be charged.",
         "",
         "💳 **Administrative Fees:** Credit card payments will have a 5% surcharge on the total amount.",
@@ -7877,8 +7827,7 @@
         "",
         "👨‍💼 **Guía turístico**",
         "",
-        "👶 **Política de Gratuito:** Niños hasta 2 años no pagan (en brazos)",
-        "",
+
         "↩️ **Política de Cancelación:** La cancelación es gratuita si se solicita hasta 24h antes del paseo. Si se solicita el mismo día, se cobrará el 50% del valor total.",
         "",
         "💳 **Tarifas Administrativas:** Los pagos con tarjeta de crédito tendrán un recargo del 5% sobre el valor total.",
@@ -7894,8 +7843,7 @@
         "",
         "👨‍💼 **Guide touristique**",
         "",
-        "👶 **Politique de Gratuité:** Enfants jusqu'à 2 ans ne paient pas (sur les genoux)",
-        "",
+
         "↩️ **Politique d'Annulation:** L'annulation est gratuite si demandée jusqu'à 24h avant l'excursion. Si demandée le jour même, 50% du montant total sera facturé.",
         "",
         "💳 **Frais Administratifs:** Les paiements par carte de crédit auront un supplément de 5% sur le montant total.",
@@ -7911,8 +7859,7 @@
         "",
         "👨‍💼 **Guida turistica**",
         "",
-        "👶 **Politica Gratuità:** Bambini fino a 2 anni non pagano (in braccio)",
-        "",
+
         "↩️ **Politica Cancellazione:** La cancellazione è gratuita se richiesta fino a 24h prima del tour. Se richiesta lo stesso giorno, verrà addebitato il 50% dell'importo totale.",
         "",
         "💳 **Commissioni Amministrative:** I pagamenti con carta di credito avranno un'aggiunta del 5% sull'importo totale.",
@@ -7928,8 +7875,7 @@
         "",
         "👨‍💼 **Reiseleiter**",
         "",
-        "👶 **Kostenlose Politik:** Kinder bis 2 Jahre zahlen nicht (auf dem Schoß)",
-        "",
+
         "↩️ **Stornierungsrichtlinie:** Die Stornierung ist kostenlos, wenn sie bis 24h vor der Tour angefordert wird. Bei Anforderung am selben Tag wird 50% des Gesamtbetrags berechnet.",
         "",
         "💳 **Verwaltungsgebühren:** Zahlungen per Kreditkarte haben einen Aufschlag von 5% auf den Gesamtbetrag.",
@@ -7945,8 +7891,7 @@
         "",
         "👨‍💼 **Гид**",
         "",
-        "👶 **Политика бесплатного проезда:** Дети до 2 лет не платят (на руках)",
-        "",
+
         "↩️ **Политика отмены:** Отмена бесплатна при запросе за 24 часа до экскурсии. При отмене в день экскурсии взимается 50% от общей стоимости.",
         "",
         "💳 **Административные сборы:** Оплата кредитной картой облагается дополнительной платой 5% от общей суммы.",
@@ -7962,8 +7907,7 @@
         "",
         "👨‍💼 **旅游导游**",
         "",
-        "👶 **免费政策：**2岁以下儿童免费（需家长怀抱）",
-        "",
+
         "↩️ **取消政策：**提前24小时取消免费；同日取消收取总费用50%。",
         "",
         "💳 **行政费用：**信用卡支付需加收总金额的5%。",
@@ -7979,8 +7923,7 @@
         "",
         "👨‍💼 **ツアーガイド**",
         "",
-        "👶 **無料ポリシー：**2歳までの子供は無料（保護者の膝の上）",
-        "",
+
         "↩️ **キャンセルポリシー：**ツアー24時間前までのキャンセルは無料。当日キャンセルの場合は総額の50%が請求されます。",
         "",
         "💳 **手数料：**クレジットカード払いは総額の5%上乗せされます。",
@@ -7996,8 +7939,7 @@
         "",
         "👨‍💼 **مرشد سياحي**",
         "",
-        "👶 **سياسة الإعفاء:** الأطفال حتى 2 سنة لا يدفعون (في حضن الوالدين)",
-        "",
+
         "↩️ **سياسة الإلغاء:** الإلغاء مجاني إذا طُلب قبل 24 ساعة من الجولة. في حالة الإلغاء في نفس يوم الجولة، سيتم فرض 50% من المبلغ الإجمالي.",
         "",
         "💳 **الرسوم الإدارية:** الدفع ببطاقة الائتمان سيتم إضافة 5% على المبلغ الإجمالي.",
@@ -8013,8 +7955,7 @@
         "",
         "👨‍💼 **מדריך טיולים**",
         "",
-        "👶 **מדיניות חינם:** ילדים עד גיל 2 לא משלמים (על הברכיים)",
-        "",
+
         "↩️ **מדיניות ביטול:** ביטול חינם אם מבוצע עד 24 שעות לפני הסיור. ביטול באותו יום יחויב ב-50% מערך הסיור הכולל.",
         "",
         "💳 **עמלות מנהליות:** תשלומים בכרטיס אשראי יכללו תוספת של 5% לסכום הכולל.",
@@ -8068,8 +8009,8 @@
       "ar": "اكتشف هذا المعلم المعماري والثقافي الموجود في قلب كوباكابانا وتجاربه في العروض والمأكولات البrazilية الأصيلة. **الأسعار تختلف حسب الباقات.",
       "he": "גלו את האתר הארכיטקטוני והתרבותי הזה, הממוקם בלב קופקבנה עם חוויות מופעים וגסטרונומיה ברזילאית אותנטית. **המחירים משתנים לפי החבילות."
     },
-    "image": "",
-    "images": [],
+    "image": "images/logo.jpg",
+    "images": ["images/logo.jpg"],
     "duration": {
       "pt-BR": "Duração - sob consulta",
       "en": "Duration - on request",
@@ -8092,8 +8033,7 @@
         "",
         "👨‍💼 **Guia de turismo**",
         "",
-        "👶 **Política de Gratuidade:** Crianças até 2 anos não pagam (no colo).",
-        "",
+
         "↩️ **Política de Cancelamento:** O cancelamento será gratuito se solicitado até 24h antes do passeio. Caso o cancelamento seja solicitado no mesmo dia do passeio, será cobrado o valor referente à 50% do valor total.",
         "",
         "💳 **Taxas Administrativas:** Os pagamentos realizados em cartão de crédito terão um acréscimo de 5% ao valor total.",
@@ -8109,8 +8049,7 @@
         "",
         "👨‍💼 **Tour guide**",
         "",
-        "👶 **Free Policy:** Children up to 2 years old don't pay (on lap)",
-        "",
+
         "↩️ **Cancellation Policy:** Cancellation is free if requested up to 24h before the tour. If requested on the same day, 50% of the total value will be charged.",
         "",
         "💳 **Administrative Fees:** Credit card payments will have a 5% surcharge on the total amount.",
@@ -8126,8 +8065,7 @@
         "",
         "👨‍💼 **Guía turístico**",
         "",
-        "👶 **Política de Gratuito:** Niños hasta 2 años no pagan (en brazos)",
-        "",
+
         "↩️ **Política de Cancelación:** La cancelación es gratuita si se solicita hasta 24h antes del paseo. Si se solicita el mismo día, se cobrará el 50% del valor total.",
         "",
         "💳 **Tarifas Administrativas:** Los pagos con tarjeta de crédito tendrán un recargo del 5% sobre el valor total.",
@@ -8143,8 +8081,7 @@
         "",
         "👨‍💼 **Guide touristique**",
         "",
-        "👶 **Politique de Gratuité:** Enfants jusqu'à 2 ans ne paient pas (sur les genoux)",
-        "",
+
         "↩️ **Politique d'Annulation:** L'annulation est gratuite si demandée jusqu'à 24h avant l'excursion. Si demandée le jour même, 50% du montant total sera facturé.",
         "",
         "💳 **Frais Administratifs:** Les paiements par carte de crédit auront un supplément de 5% sur le montant total.",
@@ -8160,8 +8097,7 @@
         "",
         "👨‍💼 **Guida turistica**",
         "",
-        "👶 **Politica Gratuità:** Bambini fino a 2 anni non pagano (in braccio)",
-        "",
+
         "↩️ **Politica Cancellazione:** La cancellazione è gratuita se richiesta fino a 24h prima del tour. Se richiesta lo stesso giorno, verrà addebitato il 50% dell'importo totale.",
         "",
         "💳 **Commissioni Amministrative:** I pagamenti con carta di credito avranno un'aggiunta del 5% sull'importo totale.",
@@ -8177,8 +8113,7 @@
         "",
         "👨‍💼 **Reiseleiter**",
         "",
-        "👶 **Kostenlose Politik:** Kinder bis 2 Jahre zahlen nicht (auf dem Schoß)",
-        "",
+
         "↩️ **Stornierungsrichtlinie:** Die Stornierung ist kostenlos, wenn sie bis 24h vor der Tour angefordert wird. Bei Anforderung am selben Tag wird 50% des Gesamtbetrags berechnet.",
         "",
         "💳 **Verwaltungsgebühren:** Zahlungen per Kreditkarte haben einen Aufschlag von 5% auf den Gesamtbetrag.",
@@ -8194,8 +8129,7 @@
         "",
         "👨‍💼 **Гид**",
         "",
-        "👶 **Политика бесплатного проезда:** Дети до 2 лет не платят (на руках)",
-        "",
+
         "↩️ **Политика отмены:** Отмена бесплатна при запросе за 24 часа до экскурсии. При отмене в день экскурсии взимается 50% от общей стоимости.",
         "",
         "💳 **Административные сборы:** Оплата кредитной картой облагается дополнительной платой 5% от общей суммы.",
@@ -8211,8 +8145,7 @@
         "",
         "👨‍💼 **旅游导游**",
         "",
-        "👶 **免费政策：**2岁以下儿童免费（需家长怀抱）",
-        "",
+
         "↩️ **取消政策：**提前24小时取消免费；同日取消收取总费用50%。",
         "",
         "💳 **行政费用：**信用卡支付需加收总金额的5%。",
@@ -8228,8 +8161,7 @@
         "",
         "👨‍💼 **ツアーガイド**",
         "",
-        "👶 **無料ポリシー：**2歳までの子供は無料（保護者の膝の上）",
-        "",
+
         "↩️ **キャンセルポリシー：**ツアー24時間前までのキャンセルは無料。当日キャンセルの場合は総額の50%が請求されます。",
         "",
         "💳 **手数料：**クレジットカード払いは総額の5%上乗せされます。",
@@ -8245,8 +8177,7 @@
         "",
         "👨‍💼 **مرشد سياحي**",
         "",
-        "👶 **سياسة الإعفاء:** الأطفال حتى 2 سنة لا يدفعون (في حضن الوالدين)",
-        "",
+
         "↩️ **سياسة الإلغاء:** الإلغاء مجاني إذا طُلب قبل 24 ساعة من الجولة. في حالة الإلغاء في نفس يوم الجولة، سيتم فرض 50% من المبلغ الإجمالي.",
         "",
         "💳 **الرسوم الإدارية:** الدفع ببطاقة الائتمان سيتم إضافة 5% على المبلغ الإجمالي.",
@@ -8262,8 +8193,7 @@
         "",
         "👨‍💼 **מדריך טיולים**",
         "",
-        "👶 **מדיניות חינם:** ילדים עד גיל 2 לא משלמים (על הברכיים)",
-        "",
+
         "↩️ **מדיניות ביטול:** ביטול חינם אם מבוצע עד 24 שעות לפני הסיור. ביטול באותו יום יחויב ב-50% מערך הסיור הכולל.",
         "",
         "💳 **עמלות מנהליות:** תשלומים בכרטיס אשראי יכללו תוספת של 5% לסכום הכולל.",
@@ -8317,8 +8247,8 @@
       "ar": "اكتشف حياة ليلية ريو دي جانيرو بزيارة أكثر دور عروض حيوية في البهيميا الكاريوكية، مع الكثير من الموسيقى لكل الأذواق.",
       "he": "גלו את חיי הלילה של ריו דה ז'נרו בביקור בבית ההופעות הכי תוסס של הבוהמה הקריאוקית, עם המון מוזיקה לכל הטעמים."
     },
-    "image": "",
-    "images": [],
+    "image": "images/logo.jpg",
+    "images": ["images/logo.jpg"],
     "duration": {
       "pt-BR": "Duração - sob consulta",
       "en": "Duration - on request",
@@ -8341,7 +8271,7 @@
         "",
         "👨‍💼 **Guia de turismo**",
         "",
-        "👶 **Política de Gratuidade:** Crianças até 2 anos não pagam (no colo).",
+
         "",
         "↩️ **Política de Cancelamento:** O cancelamento será gratuito se solicitado até 24h antes do passeio. Caso o cancelamento seja solicitado no mesmo dia do passeio, será cobrado o valor referente à 50% do valor total.",
         "",
@@ -8358,7 +8288,7 @@
         "",
         "👨‍💼 **Tour guide**",
         "",
-        "👶 **Free Policy:** Children up to 2 years old don't pay (on lap)",
+
         "",
         "↩️ **Cancellation Policy:** Cancellation is free if requested up to 24h before the tour. If requested on the same day, 50% of the total value will be charged.",
         "",
@@ -8374,8 +8304,7 @@
         "🕗 **Hora de inicio:** bajo consulta",
         "",
         "👨‍💼 **Guía turístico**",
-        "",
-        "👶 **Política de Gratuito:** Niños hasta 2 años no pagan (en brazos)",
+
         "",
         "↩️ **Política de Cancelación:** La cancelación es gratuita si se solicita hasta 24h antes del paseo. Si se solicita el mismo día, se cobrará el 50% del valor total.",
         "",
@@ -8392,8 +8321,7 @@
         "",
         "👨‍💼 **Guide touristique**",
         "",
-        "👶 **Politique de Gratuité:** Enfants jusqu'à 2 ans ne paient pas (sur les genoux)",
-        "",
+
         "↩️ **Politique d'Annulation:** L'annulation est gratuite si demandée jusqu'à 24h avant l'excursion. Si demandée le jour même, 50% du montant total sera facturé.",
         "",
         "💳 **Frais Administratifs:** Les paiements par carte de crédit auront un supplément de 5% sur le montant total.",
@@ -8409,8 +8337,7 @@
         "",
         "👨‍💼 **Guida turistica**",
         "",
-        "👶 **Politica Gratuità:** Bambini fino a 2 anni non pagano (in braccio)",
-        "",
+
         "↩️ **Politica Cancellazione:** La cancellazione è gratuita se richiesta fino a 24h prima del tour. Se richiesta lo stesso giorno, verrà addebitato il 50% dell'importo totale.",
         "",
         "💳 **Commissioni Amministrative:** I pagamenti con carta di credito avranno un'aggiunta del 5% sull'importo totale.",
@@ -8426,8 +8353,7 @@
         "",
         "👨‍💼 **Reiseleiter**",
         "",
-        "👶 **Kostenlose Politik:** Kinder bis 2 Jahre zahlen nicht (auf dem Schoß)",
-        "",
+
         "↩️ **Stornierungsrichtlinie:** Die Stornierung ist kostenlos, wenn sie bis 24h vor der Tour angefordert wird. Bei Anforderung am selben Tag wird 50% des Gesamtbetrags berechnet.",
         "",
         "💳 **Verwaltungsgebühren:** Zahlungen per Kreditkarte haben einen Aufschlag von 5% auf den Gesamtbetrag.",
@@ -8443,8 +8369,7 @@
         "",
         "👨‍💼 **Гид**",
         "",
-        "👶 **Политика бесплатного проезда:** Дети до 2 лет не платят (на руках)",
-        "",
+
         "↩️ **Политика отмены:** Отмена бесплатна при запросе за 24 часа до экскурсии. При отмене в день экскурсии взимается 50% от общей стоимости.",
         "",
         "💳 **Административные сборы:** Оплата кредитной картой облагается дополнительной платой 5% от общей суммы.",
@@ -8460,8 +8385,7 @@
         "",
         "👨‍💼 **旅游导游**",
         "",
-        "👶 **免费政策：**2岁以下儿童免费（需家长怀抱）",
-        "",
+
         "↩️ **取消政策：**提前24小时取消免费；同日取消收取总费用50%。",
         "",
         "💳 **行政费用：**信用卡支付需加收总金额的5%。",
@@ -8477,8 +8401,7 @@
         "",
         "👨‍💼 **ツアーガイド**",
         "",
-        "👶 **無料ポリシー：**2歳までの子供は無料（保護者の膝の上）",
-        "",
+
         "↩️ **キャンセルポリシー：**ツアー24時間前までのキャンセルは無料。当日キャンセルの場合は総額の50%が請求されます。",
         "",
         "💳 **手数料：**クレジットカード払いは総額の5%上乗せされます。",
@@ -8494,8 +8417,7 @@
         "",
         "👨‍💼 **مرشد سياحي**",
         "",
-        "👶 **سياسة الإعفاء:** الأطفال حتى 2 سنة لا يدفعون (في حضن الوالدين)",
-        "",
+
         "↩️ **سياسة الإلغاء:** الإلغاء مجاني إذا طُلب قبل 24 ساعة من الجولة. في حالة الإلغاء في نفس يوم الجولة، سيتم فرض 50% من المبلغ الإجمالي.",
         "",
         "💳 **الرسوم الإدارية:** الدفع ببطاقة الائتمان سيتم إضافة 5% على المبلغ الإجمالي.",
@@ -8511,8 +8433,7 @@
         "",
         "👨‍💼 **מדריך טיולים**",
         "",
-        "👶 **מדיניות חינם:** ילדים עד גיל 2 לא משלמים (על הברכיים)",
-        "",
+
         "↩️ **מדיניות ביטול:** ביטול חינם אם מבוצע עד 24 שעות לפני הסיור. ביטול באותו יום יחויב ב-50% מערך הסיור הכולל.",
         "",
         "💳 **עמלות מנהליות:** תשלומים בכרטיס אשראי יכללו תוספת של 5% לסכום הכולל.",
@@ -8566,8 +8487,8 @@
       "ar": "شاهد مباراة كرة قدم في أحد الملاعب الكاريوكية واعشَق العاطفة الوطنية مباشرة من المدرجات!",
       "he": "צפו במשחק כדורגל באחד מאצטדיון קריאוקי וחוו את התשוקה הלאומית ישירות מהיציע!"
     },
-    "image": "",
-    "images": [],
+    "image": "images/logo.jpg",
+    "images": ["images/logo.jpg"],
     "duration": {
       "pt-BR": "Duração - 4h",
       "en": "Duration - 4h",
@@ -8590,8 +8511,7 @@
         "",
         "👨‍💼 **Guia de turismo**",
         "",
-        "👶 **Política de Gratuidade:** Crianças até 2 anos não pagam (no colo).",
-        "",
+
         "↩️ **Política de Cancelamento:** O cancelamento será gratuito se solicitado até 24h antes do passeio. Caso o cancelamento seja solicitado no mesmo dia do passeio, será cobrado o valor referente à 50% do valor total.",
         "",
         "💳 **Taxas Administrativas:** Os pagamentos realizados em cartão de crédito terão um acréscimo de 5% ao valor total.",
@@ -8609,8 +8529,7 @@
         "",
         "👨‍💼 **Tour guide**",
         "",
-        "👶 **Free Policy:** Children up to 2 years old don't pay (on lap)",
-        "",
+
         "↩️ **Cancellation Policy:** Cancellation is free if requested up to 24h before the tour. If requested on the same day, 50% of the total value will be charged.",
         "",
         "💳 **Administrative Fees:** Credit card payments will have a 5% surcharge on the total amount.",
@@ -8628,8 +8547,7 @@
         "",
         "👨‍💼 **Guía turístico**",
         "",
-        "👶 **Política de Gratuito:** Niños hasta 2 años no pagan (en brazos)",
-        "",
+
         "↩️ **Política de Cancelación:** La cancelación es gratuita si se solicita hasta 24h antes del paseo. Si se solicita el mismo día, se cobrará el 50% del valor total.",
         "",
         "💳 **Tarifas Administrativas:** Los pagos con tarjeta de crédito tendrán un recargo del 5% sobre el valor total.",
@@ -8647,8 +8565,7 @@
         "",
         "👨‍💼 **Guide touristique**",
         "",
-        "👶 **Politique de Gratuité:** Enfants jusqu'à 2 ans ne paient pas (sur les genoux)",
-        "",
+
         "↩️ **Politique d'Annulation:** L'annulation est gratuite si demandée jusqu'à 24h avant l'excursion. Si demandée le jour même, 50% du montant total sera facturé.",
         "",
         "💳 **Frais Administratifs:** Les paiements par carte de crédit auront un supplément de 5% sur le montant total.",
@@ -8666,8 +8583,7 @@
         "",
         "👨‍💼 **Guida turistica**",
         "",
-        "👶 **Politica Gratuità:** Bambini fino a 2 anni non pagano (in braccio)",
-        "",
+
         "↩️ **Politica Cancellazione:** La cancellazione è gratuita se richiesta fino a 24h prima del tour. Se richiesta lo stesso giorno, verrà addebitato il 50% dell'importo totale.",
         "",
         "💳 **Commissioni Amministrative:** I pagamenti con carta di credito avranno un'aggiunta del 5% sull'importo totale.",
@@ -8685,8 +8601,7 @@
         "",
         "👨‍💼 **Reiseleiter**",
         "",
-        "👶 **Kostenlose Politik:** Kinder bis 2 Jahre zahlen nicht (auf dem Schoß)",
-        "",
+
         "↩️ **Stornierungsrichtlinie:** Die Stornierung ist kostenlos, wenn sie bis 24h vor der Tour angefordert wird. Bei Anforderung am selben Tag wird 50% des Gesamtbetrags berechnet.",
         "",
         "💳 **Verwaltungsgebühren:** Zahlungen per Kreditkarte haben einen Aufschlag von 5% auf den Gesamtbetrag.",
@@ -8704,8 +8619,7 @@
         "",
         "👨‍💼 **Гид**",
         "",
-        "👶 **Политика бесплатного проезда:** Дети до 2 лет не платят (на руках)",
-        "",
+
         "↩️ **Политика отмены:** Отмена бесплатна при запросе за 24 часа до экскурсии. При отмене в день экскурсии взимается 50% от общей стоимости.",
         "",
         "💳 **Административные сборы:** Оплата кредитной картой облагается дополнительной платой 5% от общей суммы.",
@@ -8723,8 +8637,7 @@
         "",
         "👨‍💼 **旅游导游**",
         "",
-        "👶 **免费政策：**2岁以下儿童免费（需家长怀抱）",
-        "",
+
         "↩️ **取消政策：**提前24小时取消免费；同日取消收取总费用50%。",
         "",
         "💳 **行政费用：**信用卡支付需加收总金额的5%。",
@@ -8742,8 +8655,7 @@
         "",
         "👨‍💼 **ツアーガイド**",
         "",
-        "👶 **無料ポリシー：**2歳までの子供は無料（保護者の膝の上）",
-        "",
+
         "↩️ **キャンセルポリシー：**ツアー24時間前までのキャンセルは無料。当日キャンセルの場合は総額の50%が請求されます。",
         "",
         "💳 **手数料：**クレジットカード払いは総額の5%上乗せされます。",
@@ -8761,8 +8673,7 @@
         "",
         "👨‍💼 **مرشد سياحي**",
         "",
-        "👶 **سياسة الإعفاء:** الأطفال حتى 2 سنة لا يدفعون (في حضن الوالدين)",
-        "",
+
         "↩️ **سياسة الإلغاء:** الإلغاء مجاني إذا طُلب قبل 24 ساعة من الجولة. في حالة الإلغاء في نفس يوم الجولة، سيتم فرض 50% من المبلغ الإجمالي.",
         "",
         "💳 **الرسوم الإدارية:** الدفع ببطاقة الائتمان سيتم إضافة 5% على المبلغ الإجمالي.",
@@ -8780,8 +8691,7 @@
         "",
         "👨‍💼 **מדריך טיולים**",
         "",
-        "👶 **מדיניות חינם:** ילדים עד גיל 2 לא משלמים (על הברכיים)",
-        "",
+
         "↩️ **מדיניות ביטול:** ביטול חינם אם מבוצע עד 24 שעות לפני הסיור. ביטול באותו יום יחויב ב-50% מערך הסיור הכולל.",
         "",
         "💳 **עמלות מנהליות:** תשלומים בכרטיס אשראי יכללו תוספת של 5% לסכום הכולל.",
