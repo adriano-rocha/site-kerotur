@@ -61,7 +61,7 @@ function TourCard({ tour, onClick }: TourCardProps) {
           className="w-full bg-green-500 text-white font-bold py-3 rounded-lg text-center cursor-pointer"
           onClick={(e) => {
             e.stopPropagation() // Impede abrir modal
-            window.open('https://wa.me/5521982251450?text=Reservei+o+passeio+Um+Dia+no+Rio', '_blank')
+            window.open('https://wa.me/5521982251450?text=Olá+!+Quero+fazer+uma+reserva', '_blank')
           }}
         >
           Reserve agora

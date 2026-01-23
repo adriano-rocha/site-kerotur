@@ -4705,8 +4705,7 @@
     "images": [
       "/images/arraial/entrada.avif",
       "/images/arraial/arraial3.jpg",
-      "/images/arraial/arraial2.jpg",
-      "/images/arraial/arraial4.jfif"
+      "/images/arraial/arraial2.jpg"
     ],
     "duration": {
       "pt-BR": " Duração - 12 horas",
@@ -5806,9 +5805,8 @@
     },
     "image": "/images/petropolis/cidadePetr.webp",
     "images": [
-      "/images/petropolis/vpalacio.jpg",
+      "/images/petropolis/palacio.jpg",
       "/images/petropolis/cristal.jpg",
-      "/images/petropolis/petr1.png,",
       "/images/petropolis/petr1.webp",
       "/images/petropolis/petr3.jpg"
     ],
@@ -8521,8 +8519,7 @@
         "📅 **A realização do tour está sujeita a um número mínimo de participantes e as vagas são limitadas. Entre em contato para consultar a disponibilidade.**",
         "",
         "*Cada atrativo e/ou experiência tem suas próprias regras, que podem ser diferentes das praticadas pela Kerotur.",
-        "",
-        "⚠️Recomendável levar uma garrafa de água, protetor solar e repelente."
+        ""
       ],
       "en": [
         "🕗 **Start time:** on request",
@@ -8539,8 +8536,7 @@
         "📅 **Tour operation is subject to minimum number of participants and spots are limited. Contact us to check availability.**",
         "",
         "*Each attraction and/or experience has its own rules, which may differ from those practiced by Kerotur.",
-        "",
-        "⚠️It is recommended to bring a water bottle, sunscreen, and insect repellent."
+        ""
       ],
       "es": [
         "🕗 **Hora de inicio:** bajo consulta",
@@ -8557,8 +8553,7 @@
         "📅 **La realización del tour está sujeta a un número mínimo de participantes y las plazas son limitadas. Contáctenos para consultar disponibilidad.**",
         "",
         "*Cada atracción y/o experiencia tiene sus propias reglas, que pueden ser diferentes a las practicadas por Kerotur.",
-        "",
-        "⚠️Se recomienda traer botella de agua, bloqueador solar y repelente de insectos."
+        ""
       ],
       "fr": [
         "🕗 **Heure de début:** sur consultation",
@@ -8575,8 +8570,7 @@
         "📅 **La réalisation du tour est soumise à un nombre minimum de participants et les places sont limitées. Contactez-nous pour vérifier la disponibilité.**",
         "",
         "*Chaque attraction et/or expérience a ses propres règles, qui peuvent différer de celles pratiquées par Kerotur.",
-        "",
-        "⚠️Il est recommandé d'apporter une bouteille d'eau, de la crème solaire et un répulsif anti-insectes."
+        ""
       ],
       "it": [
         "🕗 **Ora di inizio:** su richiesta",
@@ -8593,8 +8587,7 @@
         "📅 **L'effettuazione del tour è soggetta a un numero minimo di partecipanti e i posti sono limitati. Contattaci per verificare la disponibilità.**",
         "",
         "*Ogni attrazione e/o esperienza ha le proprie regole, che possono differire da quelle praticate da Kerotur.",
-        "",
-        "⚠️Si consiglia di portare con sé una bottiglia d'acqua, una crema solare e un repellente per insetti."
+        ""
       ],
       "al": [
         "🕗 **Startzeit:** auf Anfrage",
@@ -8611,8 +8604,7 @@
         "📅 **Die Durchführung der Tour hängt von der Mindestanzahl von Teilnehmern ab und die Plätze sind begrenzt. Kontaktieren Sie uns für die Verfügbarkeit.**",
         "",
         "*Jede Attraktion und/oder Erfahrung hat ihre eigenen Regeln, die sich von denen der Kerotur unterscheiden können.",
-        "",
-        "⚠️Es wird empfohlen, eine Wasserflasche, Sonnenschutzmittel und Insektenschutzmittel mitzubringen."
+        ""
       ],
       "ru": [
         "🕗 **Начало:** по запросу",
@@ -8629,8 +8621,7 @@
         "📅 **Проведение тура зависит от минимального количества участников, места ограничены. Свяжитесь с нами для проверки доступности.**",
         "",
         "*Каждое место посещения и/или опыт имеет свои собственные правила, которые могут отличаться от правил Kerotur.",
-        "",
-        "⚠️Рекомендуется взять с собой бутылку воды, солнцезащитный крем и средство от насекомых."
+        ""
       ],
       "ch": [
         "🕗 **开始时间：** 咨询",
@@ -8647,8 +8638,7 @@
         "📅 **旅游活动需达到最低参与人数要求，名额有限。请联系查询可用性。**",
         "",
         "*每个景点和/或体验均有其自身规则，可能与Kerotur的规则有所不同。",
-        "",
-        "⚠️建议携带水瓶、防晒霜和驱蚊剂。"
+        ""
       ],
       "jp": [
         "🕗 **開始時間:** 要確認",
@@ -8665,8 +8655,7 @@
         "📅 **ツアー実施は最低参加人数が必要で、席数に限りがあります。空き状況はご連絡ください。**",
         "",
         "*各アトラクションおよび/または体験には独自のルールがあり、Keroturのルールと異なる場合があります。",
-        "",
-        "⚠️水筒、日焼け止め、虫除けをご持参いただくことをお勧めします。"
+        ""
       ],
       "ar": [
         "🕗 **وقت البدء:** حسب الطلب",
@@ -8683,8 +8672,7 @@
         "📅 **إجراء الجولة مشروط بعدد أدنى من المشاركين والمقاعد محدودة. اتصل بنا للاستفسار عن التوافر.**",
         "",
         "*كل معلم سياحي و/أو تجربة لها قواعدها الخاصة، والتي قد تختلف عن قواعد Kerotur.",
-        "",
-        "⚠️ يُنصح بإحضار زجاجة ماء، وواقي من الشمس، وطارد للحشرات."
+        ""
       ],
       "he": [
         "🕗 **שעת התחלה:** לפי הזמנה",
@@ -8701,8 +8689,7 @@
         "📅 **קיום הסיור תלוי במספר מינימלי של משתתפים והמקומות מוגבלים. צרו קשר לבדיקת זמינות.**",
         "",
         "*כל אטרקציה ו/או חוויה כפופה לכללים משלה שעשויים להיות שונים מכללי Kerotur.",
-        "",
-        "⚠️מומלץ להביא בקבוק מים, קרם הגנה ודוחה חרקים."
+        ""
       ]
     }
   }
