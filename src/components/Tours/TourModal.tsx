@@ -28,9 +28,8 @@ function TourModal({ tour, onClose }: TourModalProps): JSX.Element {
   const { i18n } = useTranslation();
   const currentLang = i18n.language ?? "pt-BR";
   const getText = (map?: { [key: string]: string }) =>
-    map ? map[currentLang] ?? map["pt-BR"] ?? "" : "";
+    map ? (map[currentLang] ?? map["pt-BR"] ?? "") : "";
 
-  // Estado do carrossel
   const images = tour.images || [tour.image];
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
@@ -43,10 +42,9 @@ function TourModal({ tour, onClose }: TourModalProps): JSX.Element {
   }, [images.length]);
 
   const WHATSAPP_LINK = `https://wa.me/5521982251450?text=${encodeURIComponent(
-    `Olá! Gostaria de mais informações sobre o passeio: ${getText(tour.name)}`
+    `Olá! Gostaria de mais informações sobre o passeio: ${getText(tour.name)}`,
   )}`;
 
-  // Bloquear scroll do body
   useEffect(() => {
     const originalOverflow = document.body.style.overflow;
     document.body.style.overflow = "hidden";
@@ -55,7 +53,6 @@ function TourModal({ tour, onClose }: TourModalProps): JSX.Element {
     };
   }, []);
 
-  // Fechar com ESC
   useEffect(() => {
     const handleEsc = (e: KeyboardEvent) => {
       if (e.key === "Escape") onClose();
@@ -64,7 +61,6 @@ function TourModal({ tour, onClose }: TourModalProps): JSX.Element {
     return () => window.removeEventListener("keydown", handleEsc);
   }, [onClose]);
 
-  // Formatar descrição
   const fullDesc =
     getText(tour.fullDescription) || getText(tour.shortDescription);
   const paragraphs = fullDesc.split("\n").filter((p) => p.trim());
@@ -79,7 +75,6 @@ function TourModal({ tour, onClose }: TourModalProps): JSX.Element {
         style={{ isolation: "isolate" }}
         onClick={(e) => e.stopPropagation()}
       >
-        {/* Botão X no canto superior */}
         <button
           onClick={onClose}
           className="sticky top-4 right-4 ml-auto mr-4 bg-green-500 text-white rounded-full p-3 shadow-2xl z-999 flex items-center justify-center border-2 border-white cursor-pointer"
@@ -105,7 +100,6 @@ function TourModal({ tour, onClose }: TourModalProps): JSX.Element {
           </svg>
         </button>
 
-        {/* Carrossel de Imagens */}
         <div className="relative w-full h-96 md:h-[500px] overflow-hidden bg-linear-to-br from-gray-900 to-black/20">
           <img
             src={images[currentImageIndex]}
@@ -117,15 +111,13 @@ function TourModal({ tour, onClose }: TourModalProps): JSX.Element {
             }}
           />
 
-          {/* Overlay */}
           <div className="absolute inset-0 bg-linear-to-t from-black/40 via-transparent to-transparent" />
 
-          {/* Setas de navegação — apenas navegação manual */}
           {images.length > 1 && (
             <>
               <button
                 onClick={prevImage}
-                className="absolute left-6 top-1/2 -translate-y-1/2 bg-white/95 hover:bg-white text-gray-800 rounded-full p-3 transition-all duration-300 shadow-2xl hover:shadow-white/50 hover:scale-110 z-20 border border-white/30"
+                className="absolute left-1 bottom-1 bg-white/95 hover:bg-white text-gray-800 rounded-full p-3 transition-all duration-300 shadow-2xl hover:shadow-white/50 hover:scale-110 z-20 border border-white/30"
                 aria-label="Imagem anterior"
               >
                 <ChevronLeft className="w-7 h-7" />
@@ -133,7 +125,7 @@ function TourModal({ tour, onClose }: TourModalProps): JSX.Element {
 
               <button
                 onClick={nextImage}
-                className="absolute right-6 top-1/2 -translate-y-1/2 bg-white/95 hover:bg-white text-gray-800 rounded-full p-3 transition-all duration-300 shadow-2xl hover:shadow-white/50 hover:scale-110 z-20 border border-white/30"
+                className="absolute right-1 bottom-1 bg-white/95 hover:bg-white text-gray-800 rounded-full p-3 transition-all duration-300 shadow-2xl hover:shadow-white/50 hover:scale-110 z-20 border border-white/30"
                 aria-label="Próxima imagem"
               >
                 <ChevronRight className="w-7 h-7" />
@@ -142,7 +134,6 @@ function TourModal({ tour, onClose }: TourModalProps): JSX.Element {
           )}
         </div>
 
-        {/* Conteúdo */}
         <div className="p-8 md:p-12">
           <div className="flex items-start gap-4 mb-8">
             <MapPin className="w-10 h-10 text-[#FF8C00] shrink-0 mt-1 bg-linear-to-br from-orange-100 to-orange-200 p-2 rounded-2xl shadow-lg" />
