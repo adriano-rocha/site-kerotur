@@ -19,7 +19,7 @@ type TourSectionRef = {
 
 function HomePage() {
   useSEO({
-    title: "Passeios no Rio de Janeiro",
+    title: "Kerotur Turismo e Eventos®",
     description: "Conheça os melhores passeios no Rio de Janeiro, outras cidades e experiências exclusivas com a Kerotur Turismo.",
   });  
 
