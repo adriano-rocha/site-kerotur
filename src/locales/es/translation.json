@@ -1,10 +1,7 @@
 {
   "header": {
     "home": "Casa",
-    "aboutUs": "Sobre Nosotros",
-    "mission": "Misión",
-    "vision": "Visión",
-    "values": "Valores",
+    "aboutUs": "Quienes somos",
     "tours": "Tours",
     "partners": "Socios",
     "contact": "Contacto"
@@ -38,8 +35,8 @@
     "title": "Nuestros Tours",
     "subtitle": "¡Explora la belleza natural y la increíble cultura de Río de Janeiro! Kerotur también ofrece otros destinos en Brasil y el mundo.",
     "tour": {
-    "tramTicket": "entrada al Tranvía"
-  },
+      "tramTicket": "entrada al Tranvía"
+    },
     "card": {
       "from": "Desde",
       "group": "Grupo",
@@ -136,7 +133,29 @@
     "paymentNote": "* Las tarjetas y enlaces de pago tienen tasas administrativas",
     "copyright": "Todos los derechos reservados.",
     "cnpj": "RFC: 48.285.913/0001-28",
-    "developedBy": "Desarrollado por"
+    "developedBy": "Desarrollado por",
+    "cancellationPolicy": "Política de Cancelación"
+  },
+  "cancellation": {
+    "title": "Política de Cancelación",
+    "subtitle": "Cancelaciones:",
+    "items": [
+      "De acuerdo con la DELIBERACIÓN NORMATIVA N° 161, DE 09.08.85 de EMBRATUR, se retendrá el 10% del valor del viaje para cancelaciones solicitadas con más de 30 días antes del inicio de la excursión.",
+      "Se retendrá el 20% del valor del viaje para cancelaciones entre 30 y 21 días antes del inicio de la excursión.",
+      "Se retendrá el 60% del valor del viaje para cancelaciones entre 20 y 7 días antes del inicio de la excursión.",
+      "A 6 días antes del inicio de la excursión no habrá reembolso del valor pagado, independientemente del motivo de la cancelación o desistimiento.",
+      "Para la realización de los servicios se requieren días completos libres, excluyendo los días de llegada y regreso.",
+      "No nos responsabilizamos por la pérdida de servicios debido a reservas hechas para los mismos días de llegada y regreso.",
+      "Cualquier cambio en la información proporcionada por el pasajero debe ser comunicado a la agencia con al menos 24 horas de antelación a la ejecución de los servicios.",
+      "Los servicios, itinerarios, fechas y valores están sujetos a cambios sin previo aviso.",
+      "En caso de no presentarse, abandono o desistimiento, el cliente pierde el derecho a cualquier reembolso o compensación."
+    ]
+  },
+  "cookieBanner": {
+    "message": "Usamos cookies para mejorar su experiencia en nuestro sitio web.",
+    "linkText": "Saber más",
+    "accept": "Aceptar",
+    "reject": "Rechazar"
   },
   "whatsapp": {
     "message": "¡Hola! Me gustaría más información sobre los tours.",

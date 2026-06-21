@@ -1,6 +1,6 @@
 import { type JSX, useEffect, useState, useCallback } from "react";
 import { useTranslation } from "react-i18next";
-import { ChevronLeft, ChevronRight, MapPin, Play, Pause } from "lucide-react";
+import { ChevronLeft, ChevronRight, MapPin } from "lucide-react";
 
 interface TourModalProps {
   tour: {
@@ -33,9 +33,7 @@ function TourModal({ tour, onClose }: TourModalProps): JSX.Element {
   // Estado do carrossel
   const images = tour.images || [tour.image];
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
-  const [isPlaying, setIsPlaying] = useState(true);
 
-  // ✅ FUNÇÕES MEMOIZADAS - Corrige ESLint e performance
   const nextImage = useCallback(() => {
     setCurrentImageIndex((prev) => (prev + 1) % images.length);
   }, [images.length]);
@@ -43,31 +41,6 @@ function TourModal({ tour, onClose }: TourModalProps): JSX.Element {
   const prevImage = useCallback(() => {
     setCurrentImageIndex((prev) => (prev - 1 + images.length) % images.length);
   }, [images.length]);
-
-  // ✅ AUTO PLAY CORRIGIDO - ESLint feliz
-  useEffect(() => {
-    if (!isPlaying || images.length <= 1) return;
-
-    const interval = setInterval(nextImage, 5000);
-    return () => clearInterval(interval);
-  }, [isPlaying, nextImage]);
-
-  // ✅ PAUSE HOVER CORRIGIDO - Mais estável
-  useEffect(() => {
-    const modalContent = document.querySelector(".tour-modal-content");
-    if (!modalContent) return;
-
-    const handleMouseEnter = () => setIsPlaying(false);
-    const handleMouseLeave = () => setIsPlaying(true);
-
-    modalContent.addEventListener("mouseenter", handleMouseEnter);
-    modalContent.addEventListener("mouseleave", handleMouseLeave);
-
-    return () => {
-      modalContent.removeEventListener("mouseenter", handleMouseEnter);
-      modalContent.removeEventListener("mouseleave", handleMouseLeave);
-    };
-  }, [isPlaying]);
 
   const WHATSAPP_LINK = `https://wa.me/5521982251450?text=${encodeURIComponent(
     `Olá! Gostaria de mais informações sobre o passeio: ${getText(tour.name)}`
@@ -108,33 +81,32 @@ function TourModal({ tour, onClose }: TourModalProps): JSX.Element {
       >
         {/* Botão X no canto superior */}
         <button
-  onClick={onClose}
-  className="sticky top-4 right-4 ml-auto mr-4 bg-green-500 text-white rounded-full p-3 shadow-2xl z-[999] flex items-center justify-center border-2 border-white cursor-pointer"
-  style={{
-    isolation: 'isolate',
-    backdropFilter: 'none !important',
-    WebkitBackdropFilter: 'none !important'
-  }}
-  aria-label="Fechar"
->
-  <svg
-    className="w-5 h-5"
-    fill="none"
-    stroke="currentColor"
-    viewBox="0 0 24 24"
-  >
-    <path
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M6 18L18 6M6 6l12 12"
-    />
-  </svg>
-</button>
-
+          onClick={onClose}
+          className="sticky top-4 right-4 ml-auto mr-4 bg-green-500 text-white rounded-full p-3 shadow-2xl z-999 flex items-center justify-center border-2 border-white cursor-pointer"
+          style={{
+            isolation: "isolate",
+            backdropFilter: "none !important",
+            WebkitBackdropFilter: "none !important",
+          }}
+          aria-label="Fechar"
+        >
+          <svg
+            className="w-5 h-5"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M6 18L18 6M6 6l12 12"
+            />
+          </svg>
+        </button>
 
         {/* Carrossel de Imagens */}
-        <div className="relative w-full h-96 md:h-[500px] overflow-hidden bg-gradient-to-br from-gray-900 to-black/20">
+        <div className="relative w-full h-96 md:h-[500px] overflow-hidden bg-linear-to-br from-gray-900 to-black/20">
           <img
             src={images[currentImageIndex]}
             alt={`${getText(tour.name)} - ${currentImageIndex + 1}`}
@@ -146,9 +118,9 @@ function TourModal({ tour, onClose }: TourModalProps): JSX.Element {
           />
 
           {/* Overlay */}
-          <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
+          <div className="absolute inset-0 bg-linear-to-t from-black/40 via-transparent to-transparent" />
 
-          {/* Controles */}
+          {/* Setas de navegação — apenas navegação manual */}
           {images.length > 1 && (
             <>
               <button
@@ -166,41 +138,6 @@ function TourModal({ tour, onClose }: TourModalProps): JSX.Element {
               >
                 <ChevronRight className="w-7 h-7" />
               </button>
-
-              {/* Dots + Play/Pause */}
-              <div className="absolute bottom-6 left-1/2 -translate-x-1/2 flex items-center gap-3 bg-white/95 px-6 py-3 rounded-2xl shadow-2xl border border-white/50 z-20">
-                <div className="flex gap-2">
-                  {images.map((_, index) => (
-                    <button
-                      key={index}
-                      onClick={() => setCurrentImageIndex(index)}
-                      className={`w-3 h-3 rounded-full transition-all duration-300 ${
-                        index === currentImageIndex
-                          ? "bg-[#0008B] w-8 shadow-lg"
-                          : "bg-gray-400 hover:bg-gray-500 hover:w-4"
-                      }`}
-                      aria-label={`Ir para imagem ${index + 1}`}
-                    />
-                  ))}
-                </div>
-
-                <button
-                  onClick={() => setIsPlaying(!isPlaying)}
-                  className="p-2 hover:bg-gray-200 rounded-xl transition-all duration-200 hover:scale-110"
-                  title={isPlaying ? "Pausar" : "Reproduzir"}
-                >
-                  {isPlaying ? (
-                    <Pause className="w-5 h-5 text-gray-700" />
-                  ) : (
-                    <Play className="w-5 h-5 text-gray-700" />
-                  )}
-                </button>
-              </div>
-
-              {/* Contador */}
-              <div className="absolute top-6 left-6 bg-black/70 text-white px-4 py-2 rounded-full text-sm font-bold shadow-xl z-20">
-                {currentImageIndex + 1} / {images.length}
-              </div>
             </>
           )}
         </div>
@@ -208,7 +145,7 @@ function TourModal({ tour, onClose }: TourModalProps): JSX.Element {
         {/* Conteúdo */}
         <div className="p-8 md:p-12">
           <div className="flex items-start gap-4 mb-8">
-            <MapPin className="w-10 h-10 text-[#FF8C00] flex-shrink-0 mt-1 bg-gradient-to-br from-orange-100 to-orange-200 p-2 rounded-2xl shadow-lg" />
+            <MapPin className="w-10 h-10 text-[#FF8C00] shrink-0 mt-1 bg-linear-to-br from-orange-100 to-orange-200 p-2 rounded-2xl shadow-lg" />
             <div>
               <h1 className="text-3xl md:text-4xl font-black text-[#00ffff] leading-tight">
                 {getText(tour.name)}
@@ -243,7 +180,7 @@ function TourModal({ tour, onClose }: TourModalProps): JSX.Element {
           </div>
 
           {tour.included && tour.included[currentLang]?.length > 0 && (
-            <div className="mb-12 bg-gradient-to-r from-emerald-50 to-teal-50 p-8 rounded-3xl border-2 border-emerald-100 shadow-xl">
+            <div className="mb-12 bg-linear-to-r from-emerald-50 to-teal-50 p-8 rounded-3xl border-2 border-emerald-100 shadow-xl">
               <h3 className="text-2xl font-bold text-emerald-800 mb-6 flex items-center gap-3">
                 <svg
                   className="w-8 h-8 p-2 bg-emerald-500 rounded-2xl text-white shadow-lg"
@@ -266,7 +203,7 @@ function TourModal({ tour, onClose }: TourModalProps): JSX.Element {
                       key={index}
                       className="flex items-start gap-3 p-4 bg-white/50 rounded-2xl hover:bg-white transition-all duration-200 hover:shadow-md hover:-translate-y-1"
                     >
-                      <span className="text-emerald-500 text-xl font-bold mt-0.5 flex-shrink-0">
+                      <span className="text-emerald-500 text-xl font-bold mt-0.5 shrink-0">
                         ✓
                       </span>
                       <span className="text-gray-800 leading-relaxed">
@@ -278,12 +215,12 @@ function TourModal({ tour, onClose }: TourModalProps): JSX.Element {
             </div>
           )}
 
-          <div className="bg-gradient-to-r from-indigo-50 via-purple-50 to-pink-50 p-8 rounded-3xl mb-12 shadow-2xl border border-indigo-200/50">
+          <div className="bg-linear-to-r from-indigo-50 via-purple-50 to-pink-50 p-8 rounded-3xl mb-12 shadow-2xl border border-indigo-200/50">
             <h3 className="text-xl font-bold text-gray-800 mb-6 text-center">
               💰 Valor do Passeio
             </h3>
             <div className="flex flex-col lg:flex-row justify-between items-center gap-8 text-center lg:text-left">
-              <div className="flex-1">
+              <div className="flex-1 flex flex-col items-center">
                 <p className="text-sm text-gray-600 mb-2 uppercase tracking-wider font-medium"></p>
                 <p className="text-3xl lg:text-4xl font-black text-[#0008B] drop-shadow-lg">
                   {tour.price.individual || tour.price.value || "R$ 0"}
@@ -295,12 +232,12 @@ function TourModal({ tour, onClose }: TourModalProps): JSX.Element {
             </div>
           </div>
 
-          <div className="flex flex-col lg:flex-row gap-4 pt-8 border-t-4 border-[#0008B]/20 bg-gradient-to-r from-gray-50 to-transparent rounded-b-3xl">
+          <div className="flex flex-col lg:flex-row gap-4 pt-8 border-t-4 border-[#0008B]/20 bg-linear-to-r from-gray-50 to-transparent rounded-b-3xl items-center justify-center">
             <a
               href={WHATSAPP_LINK}
               target="_blank"
               rel="noopener noreferrer"
-              className="group bg-gradient-to-r from-green-500 to-green-600 text-white font-black py-9 px-12 rounded-2xl transition-all duration-500 shadow-2xl cursor-pointer flex items-center justify-center gap-4 text-base relative overflow-hidden hover:brightness-110"
+              className="group bg-linear-to-r from-green-500 to-green-600 text-white font-black py-9 px-12 rounded-2xl transition-all duration-500 shadow-2xl cursor-pointer flex items-center justify-center gap-4 text-base relative overflow-hidden hover:brightness-110"
             >
               <svg
                 className="w-12 h-12 group-hover:scale-110 transition-transform duration-300"
@@ -312,26 +249,6 @@ function TourModal({ tour, onClose }: TourModalProps): JSX.Element {
               <span className="text-lg">Reserve agora</span>
               <div className="absolute inset-0 bg-green-400/30 -skew-x-12" />
             </a>
-            
-            {/* Botão de fechar com X */}
-            <button
-              onClick={onClose}
-              className="lg:flex-none w-12 h-12 flex items-center justify-center rounded-full shadow-2
-              xl z-[9999] border-4 border-white cursor-pointer relative"
-              style={{
-                backgroundColor: "#25D366", 
-                color: "white",
-                fontWeight: "bold",
-                fontSize: "1.25rem",
-                isolation: "isolate",
-                backdropFilter: "none",
-                WebkitBackdropFilter: "none",
-                filter: "none",
-              }}
-              aria-label="Fechar"
-            >
-              ×
-            </button>
           </div>
         </div>
       </div>

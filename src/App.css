@@ -47,6 +47,11 @@ h3 {
 }
 
 /* ===== ANIMAÇÕES GERAIS ===== */
+@keyframes slide {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -108,6 +113,7 @@ header button:hover:not(:disabled) {
   backdrop-filter: blur(20px);
   border-radius: 1rem;
 }
+
 
 .tour-card:hover {
   transform: translateY(-12px) scale(1.02);

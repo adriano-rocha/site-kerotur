@@ -78,12 +78,22 @@ function Contact() {
       <div className="container mx-auto px-4">
         {/* Título */}
         <div className="text-center mb-12">
-          <h2
-            className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-white bg-[#FF8C00] px-8 py-4 rounded-2xl inline-block shadow-lg"
-            data-aos="fade-down"
-          >
-            {t("contact.title")}
-          </h2>
+          <a
+  href={WHATSAPP_LINK}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="text-3xl md:text-4xl lg:text-4xl font-bold mb-4 text-white bg-green-500 hover:bg-green-600 px-8 py-4 rounded-2xl inline-block shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 hover:scale-105 flex items-center gap-3 group"
+  data-aos="fade-down"
+>
+  <div className=" p-2 rounded-xl group-hover:rotate-12 transition-transform duration-300">
+    
+  </div>
+  <span>{t("contact.title")}</span>
+  <svg className="w-6 h-6 ml-2 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+    <path strokeLinecap="round" strokeLinejoin="round" />
+  </svg>
+</a>
+
 
           <p
             className="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto"

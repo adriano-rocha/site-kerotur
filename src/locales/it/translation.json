@@ -2,9 +2,6 @@
   "header": {
     "home": "Casa",
     "aboutUs": "Chi Siamo",
-    "mission": "Missione",
-    "vision": "Visione",
-    "values": "Valori",
     "tours": "Tour",
     "partners": "Partner",
     "contact": "Contatti"
@@ -133,7 +130,29 @@
     "paymentNote": "* Carte e link di pagamento hanno commissioni amministrative",
     "copyright": "Tutti i diritti riservati.",
     "cnpj": "P.IVA: 48.285.913/0001-28",
-    "developedBy": "Sviluppato da"
+    "developedBy": "Sviluppato da",
+    "cancellationPolicy": "Politique d'Annulation"
+  },
+  "cancellation": {
+    "title": "Politica di cancellazione",
+    "subtitle": "Cancellazioni:",
+    "items": [
+      "In conformità alla Delibera Normativa n. 161 del 09/08/85 di EMBRATUR, è prevista una trattenuta del 10% sul valore del viaggio per cancellazioni richieste più di 30 giorni prima dell'inizio dell'escursione.",
+      "È prevista una trattenuta del 20% sul valore del viaggio per cancellazioni richieste tra 30 e 21 giorni prima dell'inizio dell'escursione.",
+      "È prevista una trattenuta del 60% sul valore del viaggio per cancellazioni richieste tra 20 e 7 giorni prima dell'inizio dell'escursione.",
+      "A 6 giorni dall'inizio dell'escursione non sarà effettuato alcun rimborso, indipendentemente dal motivo della cancellazione o del recesso.",
+      "Per l'esecuzione dei servizi sono necessari giorni interi liberi, esclusi i giorni di arrivo e di ritorno.",
+      "Non siamo responsabili della perdita dei servizi a causa di prenotazioni effettuate per gli stessi giorni di arrivo e di ritorno.",
+      "Qualsiasi modifica delle informazioni fornite dal passeggero deve essere comunicata all'agenzia almeno 24 ore prima dell'esecuzione dei servizi.",
+      "I servizi, gli itinerari, le date e i prezzi sono soggetti a modifiche senza preavviso.",
+      "In caso di mancata presentazione, abbandono o rinuncia, il cliente perde il diritto a qualsiasi rimborso o compensazione."
+    ]
+  },
+  "cookieBanner": {
+    "message": "Utilizziamo i cookie per migliorare la tua esperienza sul nostro sito.",
+    "linkText": "Scopri di più",
+    "accept": "Accetta",
+    "reject": "Rifiuta"
   },
   "whatsapp": {
     "message": "Ciao! Vorrei maggiori informazioni sui tour.",

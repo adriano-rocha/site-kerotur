@@ -1,7 +1,7 @@
 {
   "header": {
     "home": "Heim",
-    "aboutUs": "Über Uns",
+    "aboutUs": "Wer wir sind",
     "tours": "Touren",
     "partners": "Partner",
     "contact": "Kontakt"
@@ -117,10 +117,32 @@
     "paymentNote": "* Karten und Zahlungslinks haben Verwaltungsgebühren",
     "copyright": "Alle Rechte vorbehalten.",
     "cnpj": "Steuernummer: 48.285.913/0001-28",
-    "developedBy": "Entwickelt von"
+    "developedBy": "Entwickelt von",
+    "cancellationPolicy": "Stornierungsbedingungen"
+  },
+  "cancellation": {
+    "title": "Stornierungsrichtlinie",
+    "subtitle": "Stornierungen:",
+    "items": [
+      "Gemäß der Normativ-Entscheidung Nr. 161 vom 09.08.85 der EMBRATUR werden bei Stornierungen, die mehr als 30 Tage vor Beginn der Exkursion beantragt werden, 10% des Reisewerts einbehalten.",
+      "Bei Stornierungen zwischen 30 und 21 Tagen vor Beginn der Exkursion werden 20% des Reisewerts einbehalten.",
+      "Bei Stornierungen zwischen 20 und 7 Tagen vor Beginn der Exkursion werden 60% des Reisewerts einbehalten.",
+      "Ab 6 Tagen vor Beginn der Exkursion erfolgt keine Rückerstattung des gezahlten Betrags, unabhängig vom Grund der Stornierung oder des Rücktritts.",
+      "Für die Durchführung der Leistungen sind volle freie Tage erforderlich, ausgenommen An- und Abreisetage.",
+      "Wir übernehmen keine Verantwortung für den Verlust von Leistungen aufgrund von Buchungen an denselben An- und Abreisetagen.",
+      "Änderungen der vom Passagier bereitgestellten Informationen müssen der Agentur mindestens 24 Stunden vor der Durchführung der Leistungen mitgeteilt werden.",
+      "Leistungen, Routen, Daten und Preise können ohne vorherige Ankündigung geändert werden.",
+      "Bei Nichterscheinen, Abbruch oder Rücktritt verliert der Kunde das Recht auf jegliche Rückerstattung oder Entschädigung."
+    ]
+  },
+  "cookieBanner": {
+    "message": "Wir verwenden Cookies, um Ihr Erlebnis auf unserer Website zu verbessern.",
+    "linkText": "Mehr erfahren",
+    "accept": "Akzeptieren",
+    "reject": "Ablehnen"
   },
   "whatsapp": {
     "message": "Hallo! Ich hätte gerne mehr Informationen zu den Touren.",
     "tooltip": "Kontaktieren Sie uns per WhatsApp."
   }
-  }
+}

@@ -1,10 +1,7 @@
 {
   "header": {
     "home": "Accueil",
-    "aboutUs": "À Propos",
-    "mission": "Mission",
-    "vision": "Vision",
-    "values": "Valeurs",
+    "aboutUs": "Qui nous sommes",
     "tours": "Circuits",
     "partners": "Partenaires",
     "contact": "Contact"
@@ -133,7 +130,29 @@
     "paymentNote": "* Les cartes et liens de paiement ont des frais administratifs",
     "copyright": "Tous droits réservés.",
     "cnpj": "SIRET: 48.285.913/0001-28",
-    "developedBy": "Développé par"
+    "developedBy": "Développé par",
+    "cancellationPolicy": "Politique d'Annulation"
+  },
+  "cancellation": {
+    "title": "Politique d'annulation",
+    "subtitle": "Annulations :",
+    "items": [
+      "Conformément à la Résolution Normative n° 161 du 09/08/85 de l'EMBRATUR, une retenue de 10% sur la valeur du voyage s'applique pour une annulation demandée plus de 30 jours avant le début de l'excursion.",
+      "Une retenue de 20% sur la valeur du voyage s'applique pour une annulation demandée entre 30 et 21 jours avant le début de l'excursion.",
+      "Une retenue de 60% sur la valeur du voyage s'applique pour une annulation demandée entre 20 et 7 jours avant le début de l'excursion.",
+      "À partir de 6 jours avant le début de l'excursion, aucun remboursement ne sera effectué, quelle que soit la raison de l'annulation ou du désistement.",
+      "Pour la réalisation des services, des journées entières libres sont nécessaires, en excluant les jours d'arrivée et de retour.",
+      "Nous ne sommes pas responsables de la perte de services due à des réservations effectuées pour les mêmes jours d'arrivée et de retour.",
+      "Toute modification des informations fournies par le passager doit être communiquée à l'agence au moins 24 heures avant l'exécution des services.",
+      "Les services, itinéraires, dates et tarifs sont susceptibles d'être modifiés sans préavis.",
+      "En cas de non-présentation, d'abandon ou de désistement, le client perd le droit à tout remboursement ou compensation."
+    ]
+  },
+  "cookieBanner": {
+    "message": "Nous utilisons des cookies pour améliorer votre expérience sur notre site.",
+    "linkText": "En savoir plus",
+    "accept": "Accepter",
+    "reject": "Refuser"
   },
   "whatsapp": {
     "message": "Bonjour ! Je souhaiterais obtenir plus d'informations sur les visites.",

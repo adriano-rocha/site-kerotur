@@ -35,7 +35,7 @@ function TourCard({ tour, onClick }: TourCardProps) {
             e.currentTarget.src = '/images/tours/default-tour.jpg'
           }}
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+        <div className="absolute inset-0 bg-linear-to-t from-black/60 to-transparent"></div>
         <h3 className="absolute bottom-4 left-4 text-xl font-bold text-white pr-4">
           {tour.name[currentLang] || tour.name['pt-BR']}
         </h3>

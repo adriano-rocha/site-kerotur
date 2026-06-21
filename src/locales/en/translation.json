@@ -1,10 +1,7 @@
 {
   "header": {
     "home": "Home",
-    "aboutUs": "About Us",
-    "mission": "Mission",
-    "vision": "Vision",
-    "values": "Values",
+    "aboutUs": "Who we are",
     "tours": "Tours",
     "partners": "Partners",
     "contact": "Contact"
@@ -38,8 +35,8 @@
     "title": "Our Tours",
     "subtitle": "Explore the natural beauty and incredible cultures of Rio de Janeiro! Kerotur also offers other destinations in Brazil and around the world.",
     "tour": {
-    "tramTicket": "entrada al Tranvía"
-  },
+      "tramTicket": "entrada al Tranvía"
+    },
     "card": {
       "from": "From",
       "group": "Group",
@@ -137,7 +134,29 @@
     "paymentNote": "* Cards and payment links have administrative fees",
     "copyright": "All rights reserved.",
     "cnpj": "Tax ID: 48.285.913/0001-28",
-    "developedBy": "Developed by"
+    "developedBy": "Developed by",
+    "cancellationPolicy": "Cancellation Policy"
+  },
+  "cancellation": {
+    "title": "Cancellation Policy",
+    "subtitle": "Cancellations:",
+    "items": [
+      "According to EMBRATUR Normative Resolution No. 161, dated 09/08/85, a 10% retention applies for cancellations requested more than 30 days before the start of the excursion.",
+      "A 20% retention applies for cancellations requested between 30 and 21 days before the start of the excursion.",
+      "A 60% retention applies for cancellations requested between 20 and 7 days before the start of the excursion.",
+      "Within 6 days before the start of the excursion, no refund will be issued, regardless of the reason for cancellation or withdrawal.",
+      "To provide the services, full free days are required, excluding the arrival and return days.",
+      "We are not responsible for loss of services due to reservations made for the same arrival and return dates.",
+      "Any changes in the information provided by the passenger must be communicated to the agency at least 24 hours before the services are carried out.",
+      "Services, itineraries, dates, and prices are subject to change without prior notice.",
+      "In cases of no-show, abandonment, or withdrawal, the client loses the right to any refund or compensation."
+    ]
+  },
+  "cookieBanner": {
+    "message": "We use cookies to improve your experience on our website.",
+    "linkText": "Learn more",
+    "accept": "Accept",
+    "reject": "Reject"
   },
   "whatsapp": {
     "message": "Hello! I would like more information about the tours.",

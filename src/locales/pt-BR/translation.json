@@ -1,10 +1,7 @@
 {
   "header": {
     "home": "Início",
-    "aboutUs": "Sobre Nós",
-    "mission": "Missão",
-    "vision": "Visão",
-    "values": "Valores",
+    "aboutUs": "Quem somos",   
     "tours": "Passeios",
     "partners": "Parceiros",
     "contact": "Contato"
@@ -21,7 +18,7 @@
   },
   "vision": {
     "title": "Visão",
-    "text": "Ser uma agencia de turismo reconhecida mundialmente, que proporciona os melhores roteiros turísticos em todos os segmentos que atende."
+    "text": "Ser uma agência de turismo reconhecida mundialmente, que proporciona os melhores roteiros turísticos em todos os segmentos que atende."
   },
   "values": {
     "title": "Valores",
@@ -136,7 +133,29 @@
     "paymentNote": "* Cartões e links de pagamento possuem taxas administrativas",
     "copyright": "Todos os direitos reservados.",
     "cnpj": "CNPJ: 48.285.913/0001-28",
-    "developedBy": "Desenvolvido por"
+    "developedBy": "Desenvolvido por",
+    "cancellationPolicy": "Política de Cancelamento"
+  },
+  "cancellation": {
+    "title": "Política de Cancelamento",
+    "subtitle": "Cancelamentos:",
+    "items": [
+      "De acordo com a DELIBERAÇÃO NORMATIVA N° 161, DE 09.08.85 da EMBRATUR, retenção de 10% sobre o valor da viagem para cancelamento solicitado a mais de 30 dias antes do início da excursão.",
+      "Retenção de 20% sobre o valor da viagem para cancelamento entre 30 e 21 dias antes do início da excursão.",
+      "Retenção de 60% sobre o valor da viagem para cancelamento entre 20 e 7 dias antes do início da excursão.",
+      "6 dias antes do início da excursão não haverá restituição de valor pago, independente do motivo pelo qual venha ocorrer a desistência ou cancelamento.",
+      "Para a realização dos serviços são necessários dias inteiros livres, fora os dias de chegada e de retorno.",
+      "Não nos responsabilizamos por perda dos serviços em função de reservas feitas para os mesmos dias de chegada e de retorno.",
+      "Quaisquer alterações nas informações prestadas pelo passageiro devem ser comunicadas à agência até 24 horas de antecedência à execução dos serviços.",
+      "Serviços, roteiros, datas e valores estão sujeitos a alterações sem prévio aviso.",
+      "Em casos de no-show, abandono ou desistência, o cliente perde o direito a qualquer reembolso ou compensação."
+    ]
+  },
+  "cookieBanner": {
+    "message": "Usamos cookies para melhorar sua experiência em nosso site.",
+    "linkText": "Saiba mais",
+    "accept": "Aceitar",
+    "reject": "Rejeitar"
   },
   "whatsapp": {
     "message": "Olá! Gostaria de mais informações sobre os passeios.",
