@@ -32,24 +32,30 @@
     "paragraph3": "Ya sea para turistas brasileños o extranjeros, Kerotur es más que una agencia: somos ese puente que faltaba para que salgas de la rutina, hagas nuevas amistades y colecciones momentos increíbles, inolvidables y formidables."
   },
   "tours": {
-    "title": "Nuestros Tours",
-    "subtitle": "¡Explora la belleza natural y la increíble cultura de Río de Janeiro! Kerotur también ofrece otros destinos en Brasil y el mundo.",
+    "title": "Nuestros Paseos",
+    "subtitle": "¡Explora la belleza natural y las culturas increíbles de Río de Janeiro! Kerotur también ofrece otros destinos en Brasil y en el mundo.",
+    "rioSection": "Paseos en la Ciudad de Río de Janeiro",
+    "otherCitiesSection": "Paseos en Otras Ciudades",
+    "experiencesSection": "Otras Experiencias",
+    "priceOnRequest": "Bajo consulta",
     "tour": {
       "tramTicket": "entrada al Tranvía"
     },
     "card": {
       "from": "Desde",
       "group": "Grupo",
-      "reserve": "Reservar Ahora"
+      "reserve": "Reservar ahora"
     },
     "modal": {
-      "about": "Sobre el Tour",
+      "about": "Sobre el Paseo",
       "attractions": "Atracciones",
-      "included": "Incluido",
+      "included": "Información",
       "duration": "Duración",
       "priceIndividual": "Precio Individual",
-      "priceGroup": "Precio Grupo",
-      "reserve": "Reservar Ahora"
+      "priceGroup": "Precio de Grupo",
+      "priceTitle": "Valor del Paseo",
+      "perPerson": "por persona",
+      "reserve": "Reservar ahora"
     }
   },
   "partners": {

@@ -32,21 +32,30 @@
     "paragraph3": "Que ce soit pour les touristes brésiliens ou étrangers, Kerotur est plus qu'une agence: nous sommes ce pont qui manquait pour sortir de votre routine, se faire de nouveaux amis et collectionner des moments incroyables, inoubliables et formidables."
   },
   "tours": {
-    "title": "Nos Circuits",
-    "subtitle": "Explorez la beauté naturelle et les cultures incroyables de Rio de Janeiro ! Kerotur propose également d'autres destinations au Brésil et dans le monde entier.",
+    "title": "Nos Excursions",
+    "subtitle": "Explorez la beauté naturelle et les cultures incroyables de Rio de Janeiro ! Kerotur propose également d'autres destinations au Brésil et dans le monde.",
+    "rioSection": "Excursions dans la Ville de Rio de Janeiro",
+    "otherCitiesSection": "Excursions dans d'Autres Villes",
+    "experiencesSection": "Autres Expériences",
+    "priceOnRequest": "Sur demande",
+    "tour": {
+      "tramTicket": "billet du Tramway"
+    },
     "card": {
       "from": "À partir de",
       "group": "Groupe",
-      "reserve": "Réserver Maintenant"
+      "reserve": "Réserver maintenant"
     },
     "modal": {
-      "about": "À Propos du Circuit",
+      "about": "À propos de l'Excursion",
       "attractions": "Attractions",
-      "included": "Inclus",
+      "included": "Informations",
       "duration": "Durée",
       "priceIndividual": "Prix Individuel",
-      "priceGroup": "Prix Groupe",
-      "reserve": "Réserver Maintenant"
+      "priceGroup": "Prix de Groupe",
+      "priceTitle": "Prix de l'Excursion",
+      "perPerson": "par personne",
+      "reserve": "Réserver maintenant"
     }
   },
   "partners": {

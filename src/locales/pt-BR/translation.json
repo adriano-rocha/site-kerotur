@@ -1,7 +1,7 @@
 {
   "header": {
     "home": "Início",
-    "aboutUs": "Quem somos",   
+    "aboutUs": "Quem somos",
     "tours": "Passeios",
     "partners": "Parceiros",
     "contact": "Contato"
@@ -33,23 +33,29 @@
   },
   "tours": {
     "title": "Nossos Passeios",
-    "subtitle": "Explore as belezas naturais e as culturas mais incríveis do Rio de Janeiro! A Kerotur também tem outros destinos no Brasil e no mundo.",
-     "tour": {
-    "tramTicket": "ingresso do Bonde"
-     },
+    "subtitle": "Explore a beleza natural e as culturas incríveis do Rio de Janeiro! A Kerotur também oferece outros destinos no Brasil e no mundo.",
+    "rioSection": "Passeios na Cidade do Rio de Janeiro",
+    "otherCitiesSection": "Passeios em Outras Cidades",
+    "experiencesSection": "Outras Experiências",
+    "priceOnRequest": "Sob consulta",
+    "tour": {
+      "tramTicket": "entrada para o bondinho"
+    },
     "card": {
       "from": "A partir de",
       "group": "Grupo",
-      "reserve": "Faça sua reserva"
+      "reserve": "Reservar agora"
     },
     "modal": {
       "about": "Sobre o Passeio",
       "attractions": "Atrações",
-      "included": "Inclusos",
+      "included": "Informações",
       "duration": "Duração",
       "priceIndividual": "Preço Individual",
-      "priceGroup": "Preço Grupo",
-      "reserve": "Faça sua reserva"
+      "priceGroup": "Preço de Grupo",
+      "priceTitle": "Valor do Passeio",
+      "perPerson": "por pessoa",
+      "reserve": "Reservar agora"
     }
   },
   "partners": {

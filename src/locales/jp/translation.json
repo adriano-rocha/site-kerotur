@@ -31,23 +31,32 @@
     "paragraph3": "ブラジル人観光客でも外国人観光客でも、Keroturは単なる旅行代理店以上のものです。私たちは、あなたが日常から抜け出し、新しい友達を作り、信じられない、忘れられない、素晴らしい瞬間を集めるために欠けていた橋です。"
   },
   "tours": {
-    "title": "私たちのツアー",
-    "subtitle": "リオデジャネイロの自然の美しさと素晴らしい文化を探索しましょう！ケロトゥールは、ブラジル国内および世界各地への旅行も提供しています。",
-    "card": {
-      "from": "から",
-      "group": "グループ",
-      "reserve": "今すぐ予約"
-    },
-    "modal": {
-      "about": "ツアーについて",
-      "attractions": "アトラクション",
-      "included": "含まれるもの",
-      "duration": "期間",
-      "priceIndividual": "個人価格",
-      "priceGroup": "グループ価格",
-      "reserve": "今すぐ予約"
-    }
+  "title": "私たちのツアー",
+  "subtitle": "リオデジャネイロの自然の美しさと素晴らしい文化を探検しましょう！Kerotur はブラジルや世界の他の目的地のツアーも提供しています。",
+  "rioSection": "リオデジャネイロ市内のツアー",
+  "otherCitiesSection": "他の都市のツアー",
+  "experiencesSection": "その他のアクティビティ",
+  "priceOnRequest": "お問い合わせください",
+  "tour": {
+    "tramTicket": "トラム乗車券"
   },
+  "card": {
+    "from": "から",
+    "group": "グループ",
+    "reserve": "今すぐ予約"
+  },
+  "modal": {
+    "about": "ツアーについて",
+    "attractions": "観光スポット",
+    "included": "情報",
+    "duration": "所要時間",
+    "priceIndividual": "個人価格",
+    "priceGroup": "グループ価格",
+    "priceTitle": "ツアー料金",
+    "perPerson": "1人あたり",
+    "reserve": "今すぐ予約"
+  }
+},
   "partners": {
     "title": "私たちのパートナー",
     "subtitle": "私たちは忘れられない体験を保証するために最高の人たちと協力します。",

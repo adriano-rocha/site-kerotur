@@ -30,24 +30,33 @@
     "paragraph2": "在这里,每条路线都是独一无二的,经过精心规划。每一站都有历史、故事和好奇心,产生知识。既然知识不占空间,就用新的回忆填满你的行李吧!",
     "paragraph3": "无论是对巴西游客还是外国游客,Kerotur不仅仅是一家旅行社:我们是您摆脱日常生活、结交新朋友和收集令人难以置信、难忘和非凡时刻所缺少的桥梁。"
   },
-  "tours": {
-    "title": "我们的旅游",
-    "subtitle": "探索里约热内卢的自然美景和令人惊叹的文化！Kerotur 还提供巴西及世界各地的其他旅游目的地。",
-    "card": {
-      "from": "起价",
-      "group": "团体",
-      "reserve": "立即预订"
-    },
-    "modal": {
-      "about": "关于旅游",
-      "attractions": "景点",
-      "included": "包含",
-      "duration": "持续时间",
-      "priceIndividual": "个人价格",
-      "priceGroup": "团体价格",
-      "reserve": "立即预订"
-    }
+ "tours": {
+  "title": "我们的行程",
+  "subtitle": "探索里约热内卢的自然美景和令人惊叹的文化！Kerotur 还提供巴西及世界其他目的地的行程。",
+  "rioSection": "里约热内卢市内行程",
+  "otherCitiesSection": "其他城市行程",
+  "experiencesSection": "其他体验",
+  "priceOnRequest": "价格面议",
+  "tour": {
+    "tramTicket": "缆车票"
   },
+  "card": {
+    "from": "起价",
+    "group": "团体",
+    "reserve": "立即预订"
+  },
+  "modal": {
+    "about": "行程介绍",
+    "attractions": "景点",
+    "included": "信息",
+    "duration": "时长",
+    "priceIndividual": "单人价格",
+    "priceGroup": "团体价格",
+    "priceTitle": "行程价格",
+    "perPerson": "每人",
+    "reserve": "立即预订"
+  }
+},
   "partners": {
     "title": "我们的合作伙伴",
     "subtitle": "我们与业内顶尖人士合作，以确保您拥有难忘的体验。",

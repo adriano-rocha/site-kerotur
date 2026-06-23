@@ -12,6 +12,18 @@
     "whatsappButton": "Kontaktieren Sie uns",
     "learnMoreButton": "Mehr erfahren"
   },
+  "mission": {
+  "title": "Mission",
+  "text": "Die besten touristischen Routen zu entwickeln, anzubieten und jedem Kunden bereitzustellen, um unglaubliche, unvergessliche und außergewöhnliche Erlebnisse zu schaffen."
+},
+"vision": {
+  "title": "Vision",
+  "text": "Eine weltweit anerkannte Tourismusagentur zu sein, die in allen von ihr bedienten Segmenten die besten touristischen Routen anbietet."
+},
+"values": {
+  "title": "Werte",
+  "text": "Exzellenz und mehr als Zufriedenheit im Service, auf eine fröhliche, unterhaltsame und entspannte Weise."
+},
   "about": {
     "title": "Über Uns",
     "paragraph1": "Kerotur entstand aus dem Wunsch, Freude, Spaß, Kultur, Unterhaltung und Abenteuer zu denjenigen zu bringen, die die Schönheiten und den Charme unserer Reiseziele auf leichte, sichere und unterhaltsame Weise entdecken möchten. Wir sind eine Agentur, die leidenschaftlich daran arbeitet, einzigartige Erlebnisse auf unseren Touren zu schaffen!",
@@ -19,23 +31,32 @@
     "paragraph3": "Ob für brasilianische oder ausländische Touristen, Kerotur ist mehr als eine Agentur: Wir sind die fehlende Brücke, um aus Ihrer Routine auszubrechen, neue Freunde zu finden und unglaubliche, unvergessliche und großartige Momente zu sammeln."
   },
   "tours": {
-    "title": "Wer wir sind",
-    "subtitle": "Entdecken Sie die natürliche Schönheit und die faszinierende Kultur von Rio de Janeiro! Kerutour bietet auch andere Reiseziele in Brasilien und weltweit an.",
-    "card": {
-      "from": "Aus",
-      "group": "Gruppe",
-      "reserve": "Machen Sie Ihre Reservierung"
-    },
-    "modal": {
-      "about": "Über die Tour",
-      "attractions": "Attraktionen",
-      "included": "Sogar",
-      "duration": "Dauer",
-      "priceIndividual": "Individueller Preis",
-      "priceGroup": "Gruppenpreis",
-      "reserve": "Machen Sie Ihre Reservierung"
-    }
+  "title": "Unsere Touren",
+  "subtitle": "Entdecken Sie die natürliche Schönheit und die unglaublichen Kulturen von Rio de Janeiro! Kerotur bietet auch andere Reiseziele in Brasilien und der Welt an.",
+  "rioSection": "Touren in der Stadt Rio de Janeiro",
+  "otherCitiesSection": "Touren in Anderen Städten",
+  "experiencesSection": "Andere Erlebnisse",
+  "priceOnRequest": "Auf Anfrage",
+  "tour": {
+    "tramTicket": "Straßenbahnticket"
   },
+  "card": {
+    "from": "Ab",
+    "group": "Gruppe",
+    "reserve": "Jetzt buchen"
+  },
+  "modal": {
+    "about": "Über die Tour",
+    "attractions": "Attraktionen",
+    "included": "Informationen",
+    "duration": "Dauer",
+    "priceIndividual": "Einzelpreis",
+    "priceGroup": "Gruppenpreis",
+    "priceTitle": "Tourpreis",
+    "perPerson": "pro Person",
+    "reserve": "Jetzt buchen"
+  }
+},
   "partners": {
     "title": "Unsere Partner",
     "subtitle": "Wir arbeiten mit den Besten zusammen, um ein unvergessliches Erlebnis zu garantieren.",

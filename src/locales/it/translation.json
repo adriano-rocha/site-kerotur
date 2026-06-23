@@ -32,23 +32,32 @@
     "paragraph3": "Che si tratti di turisti brasiliani o stranieri, Kerotur è più di un'agenzia: siamo quel ponte mancante per uscire dalla routine, fare nuove amicizie e collezionare momenti incredibili, indimenticabili e formidabili."
   },
   "tours": {
-    "title": "I Nostri Tour",
-    "subtitle": "Esplora le bellezze naturali e le incredibili culture di Rio de Janeiro! Kerotur offre anche altre destinazioni in Brasile e nel mondo.",
-    "card": {
-      "from": "Da",
-      "group": "Gruppo",
-      "reserve": "Prenota Ora"
-    },
-    "modal": {
-      "about": "Sul Tour",
-      "attractions": "Attrazioni",
-      "included": "Incluso",
-      "duration": "Durata",
-      "priceIndividual": "Prezzo Individuale",
-      "priceGroup": "Prezzo Gruppo",
-      "reserve": "Prenota Ora"
-    }
+  "title": "I Nostri Tour",
+  "subtitle": "Esplora la bellezza naturale e le incredibili culture di Rio de Janeiro! Kerotur offre anche altre destinazioni in Brasile e nel mondo.",
+  "rioSection": "Tour nella Città di Rio de Janeiro",
+  "otherCitiesSection": "Tour in Altre Città",
+  "experiencesSection": "Altre Esperienze",
+  "priceOnRequest": "Su richiesta",
+  "tour": {
+    "tramTicket": "biglietto del Tram"
   },
+  "card": {
+    "from": "A partire da",
+    "group": "Gruppo",
+    "reserve": "Prenota ora"
+  },
+  "modal": {
+    "about": "Informazioni sul Tour",
+    "attractions": "Attrazioni",
+    "included": "Informazioni",
+    "duration": "Durata",
+    "priceIndividual": "Prezzo Individuale",
+    "priceGroup": "Prezzo di Gruppo",
+    "priceTitle": "Prezzo del Tour",
+    "perPerson": "a persona",
+    "reserve": "Prenota ora"
+  }
+},
   "partners": {
     "title": "I Nostri Partner",
     "subtitle": "Collaboriamo con i migliori per garantirvi un'esperienza indimenticabile.",

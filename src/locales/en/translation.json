@@ -24,7 +24,6 @@
     "title": "Values",
     "text": "Excellence and more than satisfaction in service, in a cheerful, fun and relaxed way."
   },
-
   "about": {
     "title": "Who we are",
     "paragraph1": "Kerotur was born from the desire to bring joy, fun, culture, entertainment and adventure to those who want to discover the beauty and charms of our destinations in a light, safe and fun way. We are an agency passionate about creating unique experiences on our tours!",
@@ -34,22 +33,28 @@
   "tours": {
     "title": "Our Tours",
     "subtitle": "Explore the natural beauty and incredible cultures of Rio de Janeiro! Kerotur also offers other destinations in Brazil and around the world.",
+    "rioSection": "Tours in Rio de Janeiro City",
+    "otherCitiesSection": "Tours in Other Cities",
+    "experiencesSection": "Other Experiences",
+    "priceOnRequest": "Price on request",
     "tour": {
-      "tramTicket": "entrada al Tranvía"
+      "tramTicket": "Tram ticket"
     },
     "card": {
       "from": "From",
       "group": "Group",
-      "reserve": "Book Now"
+      "reserve": "Book now"
     },
     "modal": {
       "about": "About the Tour",
       "attractions": "Attractions",
-      "included": "Included",
+      "included": "Information",
       "duration": "Duration",
       "priceIndividual": "Individual Price",
       "priceGroup": "Group Price",
-      "reserve": "Book Now"
+      "priceTitle": "Tour Price",
+      "perPerson": "per person",
+      "reserve": "Book now"
     }
   },
   "partners": {

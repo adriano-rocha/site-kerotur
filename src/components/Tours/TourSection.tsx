@@ -288,21 +288,21 @@ const TourSection = forwardRef<TourSectionRef, object>((_, ref) => {
         </p>
      
         <CarouselBlock
-          title="Passeios na cidade do Rio de Janeiro"
+          title={t("tours.rioSection")}
           tours={toursRio}
           onSelectTour={setSelectedTour}
           formatTourForCard={formatTourForCard}
         />
        
         <CarouselBlock
-          title="Passeios feitos em outras cidades"
+          title={t("tours.otherCitiesSection")}
           tours={toursOutrasCidades}
           onSelectTour={setSelectedTour}
           formatTourForCard={formatTourForCard}
         />
        
         <CarouselBlock
-          title="Outras Experiências"
+          title={t("tours.experiencesSection")}
           tours={toursOutrasExperiencias}
           onSelectTour={setSelectedTour}
           formatTourForCard={formatTourForCard}
