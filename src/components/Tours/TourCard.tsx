@@ -9,6 +9,7 @@ interface TourCardProps {
     price: {
       value: string;
       perPerson: boolean;
+      fromText?: boolean;
     };
     buttonText: { [key: string]: string };
   };
@@ -47,6 +48,7 @@ function TourCard({ tour, onClick }: TourCardProps) {
         <div className="flex items-center justify-between mb-4">
           <div>
             <p className="text-xl font-bold text-[#00008B]">
+              {tour.price.fromText && `${t("tours.card.from")} `}
               {tour.price.value === "sob consulta"
                 ? t("tours.priceOnRequest")
                 : tour.price.value}
@@ -57,7 +59,7 @@ function TourCard({ tour, onClick }: TourCardProps) {
         <div
           className="w-full bg-green-500 text-white font-bold py-3 rounded-lg text-center cursor-pointer"
           onClick={(e) => {
-            e.stopPropagation(); // Impede abrir modal
+            e.stopPropagation();
             window.open(
               "https://wa.me/5521982251450?text=Olá+!+Quero+fazer+uma+reserva",
               "_blank",

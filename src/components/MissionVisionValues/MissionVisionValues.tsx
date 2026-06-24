@@ -1,18 +1,19 @@
 import { useTranslation } from "react-i18next";
 import { useState } from "react";
-import { useSEO } from "../../hooks/useSEO"; 
+import { useSEO } from "../../hooks/useSEO";
 import { Target, Eye, Star } from "lucide-react";
 
 const cards = [
   { key: "mission", Icon: Target },
-  { key: "vision",  Icon: Eye },
-  { key: "values",  Icon: Star },
+  { key: "vision", Icon: Eye },
+  { key: "values", Icon: Star },
 ];
 
 function MissionVisionValues() {
-    useSEO({
+  useSEO({
     title: "Missão, Visão e Valores",
-    description: "Conheça a missão, visão e valores da Kerotur Turismo e Eventos.",
+    description:
+      "Conheça a missão, visão e valores da Kerotur Turismo e Eventos.",
   });
 
   const { t } = useTranslation();
@@ -25,13 +26,12 @@ function MissionVisionValues() {
   return (
     <section className="py-20" style={{ backgroundColor: "#00008B" }}>
       <div className="container mx-auto px-8">
-
         {/* ── Desktop ── */}
-        <div className="hidden md:grid grid-cols-3 gap-30 max-w-5xl mx-auto">
+        <div className="hidden md:grid grid-cols-3 gap-8 max-w-5xl mx-auto items-stretch">
           {cards.map(({ key, Icon }) => (
             <div
               key={key}
-              className="rounded-2xl p-10 text-center flex flex-col items-center justify-center shadow-xl border-t-4"
+              className="rounded-2xl p-10 text-center flex flex-col items-center justify-start shadow-xl border-t-4"
               style={{
                 backgroundColor: "#00CED1",
                 borderTopColor: "#FFA500",
@@ -86,7 +86,7 @@ function MissionVisionValues() {
               {cards.map(({ key, Icon }) => (
                 <div
                   key={key}
-                  className="min-w-full rounded-2xl p-10 text-center flex flex-col items-center justify-center border-t-4"
+                  className="min-w-full rounded-2xl p-10 text-center flex flex-col items-center justify-start border-t-4"
                   style={{
                     backgroundColor: "#00CED1",
                     borderTopColor: "#FFA500",
@@ -167,7 +167,6 @@ function MissionVisionValues() {
             ))}
           </div>
         </div>
-
       </div>
     </section>
   );

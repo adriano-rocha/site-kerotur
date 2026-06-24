@@ -22,6 +22,7 @@ interface Tour {
     group?: string;
     value?: string;
     perPerson?: boolean;
+    fromText?: boolean;
   };
   included?: { [key: string]: string[] | undefined };
   buttonText?: { [key: string]: string };
@@ -30,16 +31,16 @@ export interface TourSectionRef {
   openTourById: (tourId: string) => void;
 }
 
-const toursData = (Array.isArray(toursDataImport)
-  ? toursDataImport
-  : [toursDataImport]) as Tour[];
+const toursData = (
+  Array.isArray(toursDataImport) ? toursDataImport : [toursDataImport]
+) as Tour[];
 
 const toursRio = toursData.filter((t) => t.category === "rio");
 const toursOutrasCidades = toursData.filter(
-  (t) => t.category === "outras-cidades"
+  (t) => t.category === "outras-cidades",
 );
 const toursOutrasExperiencias = toursData.filter(
-  (t) => t.category === "outras-experiencias"
+  (t) => t.category === "outras-experiencias",
 );
 
 interface CarouselBlockProps {
@@ -51,7 +52,7 @@ interface CarouselBlockProps {
     name: { [key: string]: string };
     shortDescription: { [key: string]: string };
     image: string;
-    price: { value: string; perPerson: boolean };
+    price: { value: string; perPerson: boolean; fromText?: boolean };
     buttonText: { [key: string]: string };
   };
 }
@@ -65,40 +66,52 @@ function CarouselBlock({
   // Carrossel Desktop
   const [emblaRefDesktop, emblaApiDesktop] = useEmblaCarousel(
     { loop: true, align: "start", slidesToScroll: 3 },
-    [Autoplay({ delay: 5000, stopOnInteraction: false, stopOnMouseEnter: true })]
+    [
+      Autoplay({
+        delay: 5000,
+        stopOnInteraction: false,
+        stopOnMouseEnter: true,
+      }),
+    ],
   );
- 
+
   const [emblaRefMobile, emblaApiMobile] = useEmblaCarousel(
     { loop: true, align: "start", slidesToScroll: 1 },
-    [Autoplay({ delay: 4000, stopOnInteraction: false, stopOnMouseEnter: false })]
+    [
+      Autoplay({
+        delay: 4000,
+        stopOnInteraction: false,
+        stopOnMouseEnter: false,
+      }),
+    ],
   );
 
   const scrollPrevDesktop = useCallback(
     () => emblaApiDesktop?.scrollPrev(),
-    [emblaApiDesktop]
+    [emblaApiDesktop],
   );
   const scrollNextDesktop = useCallback(
     () => emblaApiDesktop?.scrollNext(),
-    [emblaApiDesktop]
+    [emblaApiDesktop],
   );
   const scrollPrevMobile = useCallback(
     () => emblaApiMobile?.scrollPrev(),
-    [emblaApiMobile]
+    [emblaApiMobile],
   );
   const scrollNextMobile = useCallback(
     () => emblaApiMobile?.scrollNext(),
-    [emblaApiMobile]
+    [emblaApiMobile],
   );
 
   return (
-    <div className="mb-20">     
+    <div className="mb-20">
       <h3
         className="text-2xl md:text-3xl font-bold mb-8 text-[#00008B] border-l-4 border-[#00ffff] pl-4"
         data-aos="fade-right"
       >
         {title}
       </h3>
-    
+
       <div
         className="hidden md:block relative"
         data-aos="zoom-in"
@@ -148,11 +161,11 @@ function CarouselBlock({
                 aria-label={`Ir para grupo ${index + 1}`}
                 type="button"
               />
-            )
+            ),
           )}
         </div>
       </div>
-      
+
       <div
         className="md:hidden relative"
         data-aos="zoom-in"
@@ -223,6 +236,7 @@ const TourSection = forwardRef<TourSectionRef, object>((_, ref) => {
       value: tour.price.individual || tour.price.value || "Consulte",
       perPerson:
         tour.price.perPerson !== undefined ? tour.price.perPerson : true,
+      fromText: tour.price.fromText || false,
     },
     buttonText: tour.buttonText || { "pt-BR": "Reserve agora" },
   });
@@ -230,7 +244,7 @@ const TourSection = forwardRef<TourSectionRef, object>((_, ref) => {
   const formatTourForModal = (tour: Tour) => {
     const included = tour.included || { "pt-BR": [] };
     const normalizedIncluded: { [key: string]: string[] } = Object.fromEntries(
-      Object.entries(included).map(([lang, list]) => [lang, list || []])
+      Object.entries(included).map(([lang, list]) => [lang, list || []]),
     );
 
     return {
@@ -248,6 +262,7 @@ const TourSection = forwardRef<TourSectionRef, object>((_, ref) => {
           tour.price.perPerson !== undefined ? tour.price.perPerson : true,
         individual: tour.price.individual || tour.price.value || "Consulte",
         group: tour.price.group || "Consulte",
+        fromText: tour.price.fromText || false,
       },
       included: normalizedIncluded,
       buttonText: tour.buttonText || { "pt-BR": "Reserve agora" },
@@ -272,7 +287,6 @@ const TourSection = forwardRef<TourSectionRef, object>((_, ref) => {
   return (
     <section id="passeios" className="py-16 md:py-24 bg-gray-50">
       <div className="container mx-auto px-4">
-        {/* Título principal da seção */}
         <h2
           className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-center text-[#ff8C00]"
           data-aos="fade-down"
@@ -286,21 +300,21 @@ const TourSection = forwardRef<TourSectionRef, object>((_, ref) => {
         >
           {t("tours.subtitle")}
         </p>
-     
+
         <CarouselBlock
           title={t("tours.rioSection")}
           tours={toursRio}
           onSelectTour={setSelectedTour}
           formatTourForCard={formatTourForCard}
         />
-       
+
         <CarouselBlock
           title={t("tours.otherCitiesSection")}
           tours={toursOutrasCidades}
           onSelectTour={setSelectedTour}
           formatTourForCard={formatTourForCard}
         />
-       
+
         <CarouselBlock
           title={t("tours.experiencesSection")}
           tours={toursOutrasExperiencias}

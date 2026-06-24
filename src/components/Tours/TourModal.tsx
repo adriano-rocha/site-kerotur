@@ -17,6 +17,7 @@ interface TourModalProps {
       perPerson: boolean;
       individual?: string;
       group?: string;
+      fromText?: boolean;
     };
     included?: { [key: string]: string[] };
     buttonText: { [key: string]: string };
@@ -61,7 +62,8 @@ function TourModal({ tour, onClose }: TourModalProps): JSX.Element {
     return () => window.removeEventListener("keydown", handleEsc);
   }, [onClose]);
 
-  const fullDesc = getText(tour.fullDescription) || getText(tour.shortDescription);
+  const fullDesc =
+    getText(tour.fullDescription) || getText(tour.shortDescription);
   const paragraphs = fullDesc.split("\n").filter((p) => p.trim());
 
   return (
@@ -216,6 +218,7 @@ function TourModal({ tour, onClose }: TourModalProps): JSX.Element {
               <div className="flex-1 flex flex-col items-center">
                 <p className="text-sm text-gray-600 mb-2 uppercase tracking-wider font-medium"></p>
                 <p className="text-3xl lg:text-4xl font-black text-[#0008B] drop-shadow-lg">
+                  {tour.price.fromText && `${t("tours.card.from")} `}
                   {tour.price.individual === "sob consulta"
                     ? t("tours.priceOnRequest")
                     : tour.price.individual || tour.price.value || "R$ 0"}
